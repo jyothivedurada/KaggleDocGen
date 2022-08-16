@@ -171,19 +171,22 @@ def remove_section_from_begining(text):
     
 # Method to get the header text as documentation from markdown cell
 def get_header_as_doc(documentation_lines):
-    first_line = ""
+    first_line, index_of_first_line = "", 0
     for line in documentation_lines:
         if len(line.strip()) != 0:
             first_line = line.strip()
             break
+        index_of_first_line += 1
 
+    # Consider header only if it's of >= 3 length
     if len(first_line) != 0 and first_line[0] == '#':
         regex_result = re.search(r'(#)\1{0,}', first_line)
-        line = line[regex_result.end():].strip()
+        line = first_line[regex_result.end():].strip()
         if(len(line.split(" ")) >= 3):
             return [line]
         else:
-            return documentation_lines
+            # Remove header
+            return documentation_lines[index_of_first_line+1:]
     else:
         return documentation_lines
 

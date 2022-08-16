@@ -45,23 +45,26 @@ def extract_code_doc_from_notebook(filename, file_as_json, raw_dataset):
 
 # Clean code(remove "\n", "\r", magic, comments from code) and extract the inline comments
 def preprocess_code(code_lines):
-    comments,cleaned_code = [],[]
+    comments, cleaned_code = [],[]
 
     # As sometimes the "code" is a single string and sometimes it's list
     if(isinstance(code_lines, list)):
         code_lines = "".join(code_lines)
 
     # Remove multiline comment(It can handle only one multiline comment per code-cell)
-    code_lines = code_lines.replace('\'\'\'', "\"\"\"")
-    indexes_for_multiline_comments = [i for i in range(len(code_lines)) if code_lines.startswith("\"\"\"", i)]
-    if(len(indexes_for_multiline_comments) >= 2):
-        comments.append((code_lines[indexes_for_multiline_comments[0] + 3:indexes_for_multiline_comments[1]]).strip())
-        code_lines = code_lines[:indexes_for_multiline_comments[0]] + code_lines[indexes_for_multiline_comments[1] + 3:]
+    while(True):
+        code_lines = code_lines.replace('\'\'\'', "\"\"\"")
+        indexes_for_multiline_comments = [i for i in range(len(code_lines)) if code_lines.startswith("\"\"\"", i)]
+        if(len(indexes_for_multiline_comments) >= 2):
+            comments.append((code_lines[indexes_for_multiline_comments[0] + 3:indexes_for_multiline_comments[1]]).strip())
+            code_lines = code_lines[:indexes_for_multiline_comments[0]] + code_lines[indexes_for_multiline_comments[1] + 3:]
+        else:
+            break
     code_lines = code_lines.split("\n")
     
     for i in range(0, len(code_lines), 1):
         code_lines[i] = code_lines[i].replace("\n", '').replace("\r", '')
-        if(code_lines[i].strip().startswith("%")):
+        if(code_lines[i].strip().startswith(("%", "!"))):
             pass
         elif(code_lines[i].strip().startswith("#")):
             code_lines[i] = code_lines[i].replace("#", '').strip()
@@ -175,7 +178,6 @@ def get_header_as_doc(documentation_lines):
             break
     if first_line[0] == '#':
         regex_result = re.search(r'(#)\1{0,}', first_line)
-        print(regex_result)
         line = line[regex_result.end():].strip()
         if(len(line.split(" ")) >= 3):
             return [line]
@@ -222,7 +224,7 @@ def clean_documentation_until_change(documentation_lines):
     return empty_removed
 
 # Code to pre-process the documentation
-def preprocess_documentation(documentation_lines, comment):
+def preprocess_documentation(documentation_lines):
 
     # As sometimes the "code" is a single string and sometimes it's list
     if(isinstance(documentation_lines, str)):
@@ -240,62 +242,117 @@ def preprocess_documentation(documentation_lines, comment):
     # Summarize document/comment of longer length than 13
     summarized_document = ""
     documentation = (" ".join(documentation_lines)).strip()
-    if(len(documentation) == 0):
-        comment = clean_documentation_until_change(comment)
-        comment = ". ".join(comment)
-        documentation = comment
-        if(len(comment.split(" ")) <= 13):
-            summarized_document = comment
-        else:
-            summarized_document = summarize_document(comment)
-    elif(len(documentation.split(" ")) > 13):
-        summarized_document = summarize_document(documentation)
+    if(len(documentation.split(" ")) > 13):
+        summarized_document = summarize_document(documentation).strip()
     else:
         summarized_document = documentation
 
     return original_document, documentation, summarized_document
 
-def extract_tokens_from_code(code_lines):
-    code_as_string = " ".join(code_lines)
-    tokenized_code = tokenize(BytesIO(code_as_string.encode('utf-8')).readline)
-    code_tokens = []
-    unnecessary_tokens = ["\n", "", "utf-8"]
-    try:
-        for _, tokval, _, _, _ in tokenized_code:
-            if tokval not in unnecessary_tokens:
-                code_tokens.append(tokval)
-    except:
-        return []
+# Take out code and comment pairs
+def get_code_comment_pairs(code_lines):
+    multiline_comments = []
 
-    important_tokens = []
-    for token in code_tokens:
-        if(len(token) > 2):
-            important_tokens.append(token)
-    return important_tokens
+    # As sometimes the "code" is a single string and sometimes it's list
+    if(isinstance(code_lines, list)):
+        code_lines = "".join(code_lines)
+
+    # Remove multiline comments
+    while(True):
+        code_lines = code_lines.replace('\'\'\'', "\"\"\"")
+        indexes_for_multiline_comments = [i for i in range(len(code_lines)) if code_lines.startswith("\"\"\"", i)]
+        if(len(indexes_for_multiline_comments) >= 2):
+            multiline_comments.append((code_lines[indexes_for_multiline_comments[0] + 3:indexes_for_multiline_comments[1]]).strip())
+            code_lines = code_lines[:indexes_for_multiline_comments[0]] + code_lines[indexes_for_multiline_comments[1] + 3:]
+        else:
+            break
+    code_lines = code_lines.split("\n")
+    
+    # Label "code" and "comment" lines
+    processed_code_lines = []
+    for i in range(0, len(code_lines), 1):
+        code_lines[i] = code_lines[i].replace("\n", '').replace("\r", '')
+        if(code_lines[i].strip().startswith(("%", "!"))):
+            pass
+        elif(code_lines[i].strip().startswith("#")):
+            comment = code_lines[i].replace("#", '').strip()
+            processed_code_lines.append("comment:" + comment)
+        elif("#" in code_lines[i]):
+            index = code_lines[i].find("#")
+            #comments.append(code_lines[i][index+1:].strip())
+            processed_code_lines.append("code:" + code_lines[i][:index])
+        elif(len(code_lines[i].strip()) != 0):
+            processed_code_lines.append("code:" + code_lines[i])
+            
+    # Collect code-comment pairs
+    code_comment_pairs = dict({})
+    pair_number = 0
+    for i in range(len(processed_code_lines)):
+        if(processed_code_lines[i].startswith("comment")):
+            pair_number += 1
+            code_comment_pairs[pair_number] = dict({})
+            code_comment_pairs[pair_number]["comment"] = processed_code_lines[i][8:].strip()
+            code_comment_pairs[pair_number]["code"] = []
+        else:
+            code_comment_pairs[pair_number]["code"].append(processed_code_lines[i][5:])
+
+    return code_comment_pairs
 
 # Apply all the cleaning/preprocessing steps over code/documentation
 def data_cleaning(raw_dataset):
-    pair_number = 1
+    processesd_dataset = dict({})
     print("\nCleaning code-doc pairs....")
     for filename in tqdm.tqdm(raw_dataset):
-        #print("\nProcessing file: {}".format(filename))
+        pair_number = 1
+        processesd_dataset[filename] = dict({})
         for pair in raw_dataset[filename]:
-
-            # Clean the code and extract comments
-            comment, cleaned_code = preprocess_code(raw_dataset[filename][pair]["code"])
-            raw_dataset[filename][pair]["code"] = cleaned_code
-            raw_dataset[filename][pair]["comment"] = comment
-
+            
             # Clean the documentation
-            original_documentation, cleaned_documentation, processed_documentation = preprocess_documentation(raw_dataset[filename][pair]["documentation"], \
-                                                                                       raw_dataset[filename][pair]["comment"])
-            raw_dataset[filename][pair]["documentation"] = original_documentation
-            raw_dataset[filename][pair]["cleaned_documentation"] = cleaned_documentation
-            raw_dataset[filename][pair]["processed_documentation"] = processed_documentation
+            original_documentation, cleaned_documentation, processed_documentation = preprocess_documentation(raw_dataset[filename][pair]["documentation"])
 
-            #print("\npair {} processed".format(pair_number))
-            pair_number += 1
-    return raw_dataset
+            # If documnentation from markdown is proper, use that
+            # Otherwise extract code-comment pairs
+            if(len(processed_documentation) != 0):
+                
+                # Clean the code and extract comments
+                comment, cleaned_code = preprocess_code(raw_dataset[filename][pair]["code"])
+                
+                # Add to the dataset
+                pair_name = "pair-" + str(pair_number)
+                processesd_dataset[filename][pair_name] = dict({})
+                processesd_dataset[filename][pair_name]["code"] = cleaned_code
+                processesd_dataset[filename][pair_name]["comment"] = comment
+                processesd_dataset[filename][pair_name]["documentation"] = original_documentation
+                processesd_dataset[filename][pair_name]["cleaned_documentation"] = cleaned_documentation
+                processesd_dataset[filename][pair_name]["processed_documentation"] = processed_documentation
+                pair_number += 1
+            else:
+                
+                # Get code-comment pairs
+                code_comment_pairs = get_code_comment_pairs(raw_dataset[filename][pair]["code"])
+                for i in range(1, len(code_comment_pairs) + 1, 1):
+                    original_documentation = code_comment_pairs[i]["comment"]
+                    
+                    # Clean the comment
+                    cleaned_documentation = "".join(clean_documentation_until_change([code_comment_pairs[i]["comment"]]))
+                    
+                    # Summarize comment if needed
+                    if(len(cleaned_documentation.split(" ")) <= 13):
+                        processed_documentation = cleaned_documentation
+                    else:
+                        processed_documentation = summarize_document(cleaned_documentation)
+                        
+                    # Add to the dataset
+                    pair_name = "pair-" + str(pair_number)
+                    processesd_dataset[filename][pair_name] = dict({})
+                    processesd_dataset[filename][pair_name]["code"] = code_comment_pairs[i]["code"]
+                    processesd_dataset[filename][pair_name]["comment"] = original_documentation
+                    processesd_dataset[filename][pair_name]["documentation"] = original_documentation
+                    processesd_dataset[filename][pair_name]["cleaned_documentation"] = cleaned_documentation
+                    processesd_dataset[filename][pair_name]["processed_documentation"] = processed_documentation
+                    pair_number += 1
+                    
+    return processesd_dataset
 
 # Count total number of pairs in the dataset
 def count_pairs(raw_dataset):
