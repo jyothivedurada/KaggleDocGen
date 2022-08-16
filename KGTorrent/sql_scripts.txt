@@ -1,0 +1,60 @@
+show databases;
+
+use kgtorrent_default_2;
+
+show tables;
+
+select count(distinct Id) from Competitions;
+
+SELECT DATA_TYPE,column_name FROM INFORMATION_SCHEMA.COLUMNS 
+  WHERE table_name = 'Competitions';
+
+SELECT CONCAT(u.UserName, '_', k.CurrentUrlSlug, '.ipynb') FilteredNotebookNames
+FROM ((kernels k JOIN users u ON k.AuthorUserId = u.Id)
+    JOIN kernelversions kv ON k.CurrentKernelVersionId = kv.Id)
+    JOIN kernellanguages kl ON kv.ScriptLanguageId = kl.Id
+WHERE kl.name LIKE 'IPython Notebook HTML'
+    AND k.Id >= 100
+INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/notebooks_with_atleast_100_upvotes.csv'
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n';
+
+SELECT CONCAT(u.UserName, '_', k.CurrentUrlSlug, '.ipynb') FilteredNotebookNames
+FROM ((((kernels k JOIN users u ON k.AuthorUserId = u.Id)
+    JOIN kernelversions kv ON k.CurrentKernelVersionId = kv.Id)
+    JOIN kernellanguages kl ON kv.ScriptLanguageId = kl.Id)
+    JOIN kernelversioncompetitionsources kvcs ON kv.Id = kvcs.KernelVersionId)
+    JOIN competitions com ON kvcs.SourceCompetitionId = com.Id
+WHERE kl.name LIKE 'IPython Notebook HTML'
+    AND k.TotalVotes >= 1000
+    AND com.Id <> ''
+    AND com.Id <> ' '
+    AND com.Id REGEXP '^[0-9]+$'
+INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/notebooks_with_atleast_1000_upvotes_2.csv'
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n';
+
+SELECT com.Id
+FROM ((((kernels k JOIN users u ON k.AuthorUserId = u.Id)
+    JOIN kernelversions kv ON k.CurrentKernelVersionId = kv.Id)
+    JOIN kernellanguages kl ON kv.ScriptLanguageId = kl.Id)
+    JOIN kernelversioncompetitionsources kvcs ON kv.Id = kvcs.KernelVersionId)
+    JOIN competitions com ON kvcs.SourceCompetitionId = com.Id
+WHERE kl.name LIKE 'IPython Notebook HTML'
+      AND k.CurrentUrlSlug = 'introduction-to-cnn-keras-0-997-top-6';
+
+SELECT CONCAT(u.UserName, '_', k.CurrentUrlSlug, '.ipynb') FilteredNotebookNames
+FROM ((((kernels k JOIN users u ON k.AuthorUserId = u.Id)
+    JOIN kernelversions kv ON k.CurrentKernelVersionId = kv.Id)
+    JOIN kernellanguages kl ON kv.ScriptLanguageId = kl.Id)
+    JOIN kernelversioncompetitionsources kvcs ON kv.Id = kvcs.KernelVersionId)
+    JOIN competitions com ON kvcs.SourceCompetitionId = com.Id
+WHERE kl.name LIKE 'IPython Notebook HTML'
+    AND k.Medal >=1
+    AND k.TotalVotes >= 10
+    AND com.Id <> ''
+    AND com.Id <> ' '
+    AND com.Id REGEXP '^[0-9]+$'
+INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/competition_notebooks_with_atleast_1_medal_and_10_votes.csv'
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n';
