@@ -43,7 +43,7 @@ from transformers import (WEIGHTS_NAME, AdamW, get_linear_schedule_with_warmup,
 logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt = '%m/%d/%Y %H:%M:%S',
                     level = logging.INFO,
-                    filename = "/raid/cs21mtech12001/Research/CodeBERT/Repository/UniXcoder/downstream-tasks/code-summarization/logs/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/same_code_length/unixcoder_testing_2.logs",
+                    filename = "/raid/cs21mtech12001/Research/CodeBERT/Repository/UniXcoder/downstream-tasks/code-summarization/logs/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/all_constraints/todo-18/unixcoder_testing_1.logs",
                     filemode = "w")
 logger = logging.getLogger(__name__)
 
@@ -203,7 +203,7 @@ def main():
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',level=logging.INFO )
     # set device
-    os.environ["CUDA_VISIBLE_DEVICES"] = "0,7"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     args.n_gpu = torch.cuda.device_count()
     args.device = device
@@ -387,6 +387,7 @@ def main():
                 else:
                     patience +=1
                     if patience == 10:
+                        logger.info("Stopping the training as model has not improved in last 10 epochs")
                         break
     if args.do_test:
         checkpoint_prefix = 'checkpoint-best-bleu/pytorch_model.bin'

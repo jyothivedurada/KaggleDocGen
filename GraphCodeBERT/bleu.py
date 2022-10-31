@@ -20,7 +20,6 @@ The reason for breaking the BLEU computation into three phases cook_refs(), cook
 import sys, math, re, xml.sax.saxutils
 import subprocess
 import os
-import pandas as pd
 
 # Added to bypass NIST-style pre-processing of hyp and ref files -- wade
 nonorm = 0
@@ -154,13 +153,29 @@ def bleu(refs,  candidate, ground=0, smooth=1):
 def splitPuncts(line):
   return ' '.join(re.findall(r"[\w]+|[^\s\w]", line))
 
-def computeMaps(gt_text, pred_text):
-    predictionMap = {}
-    goldMap = {}
-    rid = 1
-    predictionMap[rid] = [splitPuncts(pred_text.strip().lower())]
-    goldMap[rid] = [splitPuncts(gt_text.strip().lower())]
-    return (goldMap, predictionMap)
+def computeMaps(predictions, goldfile):
+  predictionMap = {}
+  goldMap = {}
+  gf = open(goldfile, 'r')
+
+  for row in predictions:
+    cols = row.strip().split('\t')
+    if len(cols) == 1:
+      (rid, pred) = (cols[0], '') 
+    else:
+      (rid, pred) = (cols[0], cols[1]) 
+    predictionMap[rid] = [splitPuncts(pred.strip().lower())]
+
+  for row in gf:
+    (rid, pred) = row.split('\t') 
+    if rid in predictionMap: # Only insert if the id exists for the method
+      if rid not in goldMap:
+        goldMap[rid] = []
+      goldMap[rid].append(splitPuncts(pred.strip().lower()))
+
+  sys.stderr.write('Total: ' + str(len(goldMap)) + '\n')
+  return (goldMap, predictionMap)
+
 
 #m1 is the reference map
 #m2 is the prediction map
@@ -175,15 +190,11 @@ def bleuFromMaps(m1, m2):
       num += 1
   return [s * 100.0 / num for s in score]
 
-def BleuScoreBetween2Texts(gt_text, pred_text):
-  (goldMap, predictionMap) = computeMaps(gt_text, pred_text) 
-  return round(bleuFromMaps(goldMap, predictionMap)[0],2)
-
 if __name__ == '__main__':
-  predictions_file = pd.read_csv("/home/cs19btech11056/cs21mtech12001-Tamal/Scripts/ground_truth_and_predicted_texts.csv", sep = "\t")
-  gt_txt, pred_txt = predictions_file.iloc[0]['Datapoint'], predictions_file.iloc[0]['CASE 7']
-  print("\nGT text: ", gt_txt)
-  print("\nPred text: ", pred_txt)
-  (goldMap, predictionMap) = computeMaps(gt_txt, pred_txt) 
-  print("\nSmoothed BLUE-4 Score: ", round(bleuFromMaps(goldMap, predictionMap)[0],2))
+  reference_file = sys.argv[1]
+  predictions = []
+  for row in sys.stdin:
+    predictions.append(row)
+  (goldMap, predictionMap) = computeMaps(predictions, reference_file) 
+  print (bleuFromMaps(goldMap, predictionMap)[0])
 
