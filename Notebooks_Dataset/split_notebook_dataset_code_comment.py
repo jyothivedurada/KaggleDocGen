@@ -33,7 +33,7 @@ def tokenize_code(code_lines):
     try:
         for _, tokval, _, _, _ in tokenized_code:
             if tokval not in unnecessary_tokens:
-                #if(len(tokval) > 1 and (tokval.isalpha() or tokval.islower() or tokval.isupper() or english_check.match(tokval))):
+                #if(len(tokval) > 1 and (tokval.islower() or tokval.isupper() or english_check.match(tokval))):
                     code_tokens.append(tokval)
     except:
         return []
@@ -45,19 +45,19 @@ def change_the_format(notebook, notebook_name):
         datapoint = {}
         datapoint["notebook"] = notebook_name
         datapoint["code"] = notebook[pair]["code"]
-        datapoint["code_tokens"] = tokenize_code(notebook[pair]["code"])
+        datapoint["code_comment_tokens"] = notebook[pair]["code_comment"]
         datapoint["docstring"] = get_first_sentance(notebook[pair]["processed_documentation"].strip())
         datapoint["docstring_tokens"] = word_tokenize(datapoint["docstring"])
-        if len(datapoint["docstring"].strip()) != 0 and len(datapoint["code_tokens"]) != 0:
+        if len(datapoint["docstring"].strip()) != 0 and len(" ".join(datapoint["code"]).strip()) != 0:
             
             # Condition to ensure code and documentation quality
-            if (len(datapoint["docstring_tokens"]) >= 3 and len(datapoint["docstring_tokens"]) <= 13) and (len(notebook[pair]["code"]) >= 3 and len(datapoint["code_tokens"]) < 100):
+            if (len(datapoint["docstring_tokens"]) >= 3 and len(datapoint["docstring_tokens"]) <= 13) and (len(notebook[pair]["code"]) >= 3 and len(tokenize_code(datapoint["code"])) < 100):
                 if "".join(re.split(' |,|\.', datapoint["docstring"])).isalpha():
                     dataset_as_list.append(datapoint)
     return dataset_as_list
 
 def main():
-    dataset_file = open(f"/home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset/processed_data/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/code-with-sm-only/dataset.json", "r") 
+    dataset_file = open(f"/home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset/processed_data/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/code-with-comment/dataset.json", "r") 
     file_as_json = json.loads(dataset_file.read())
     number_of_notebooks = len(file_as_json)
     train_split, test_split, valid_split = int(number_of_notebooks * 0.8), int(number_of_notebooks * 0.1), int(number_of_notebooks * 0.1)
@@ -74,7 +74,7 @@ def main():
         counter += 1
     print("Train dataset size: {}, test dataset size: {} and valid dataset size: {}".format(len(train_dataset), len(test_dataset), len(valid_dataset)))
 
-    dataset_folder = "/home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset/splitted_data/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/english-code-tokens-with-sm"
+    dataset_folder = "/home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset/splitted_data/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/code-with-comment"
     with open(f"{dataset_folder}/train_dataset.json", 'w') as f:
         for item in train_dataset:
             f.write(json.dumps(item) + "\n")

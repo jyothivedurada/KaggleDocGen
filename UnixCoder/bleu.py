@@ -153,25 +153,21 @@ def bleu(refs,  candidate, ground=0, smooth=1):
 def splitPuncts(line):
   return ' '.join(re.findall(r"[\w]+|[^\s\w]", line))
 
-def computeMaps(predictionsfile, goldfile, predictions_delim = "\t", gold_delim = "\t"):
+def computeMaps(predictions, goldfile):
   predictionMap = {}
   goldMap = {}
   gf = open(goldfile, 'r')
-  pf = open(predictionsfile, 'r')
 
-  for row in pf:
-    cols = row.strip().split(predictions_delim)
+  for row in predictions:
+    cols = row.strip().split('\t')
     if len(cols) == 1:
       (rid, pred) = (cols[0], '') 
     else:
-      try:
-        (rid, pred) = (cols[0], cols[1][:cols[1].index('</s>') + 4])
-      except:
-        (rid, pred) = (cols[0], cols[1])
+      (rid, pred) = (cols[0], cols[1]) 
     predictionMap[rid] = [splitPuncts(pred.strip().lower())]
 
   for row in gf:
-    (rid, pred) = (row.split(gold_delim)[0][:-1], " ".join(row.split(gold_delim)[1:])) 
+    (rid, pred) = row.split('\t') 
     if rid in predictionMap: # Only insert if the id exists for the method
       if rid not in goldMap:
         goldMap[rid] = []
@@ -195,8 +191,10 @@ def bleuFromMaps(m1, m2):
   return [s * 100.0 / num for s in score]
 
 if __name__ == '__main__':
-  reference_file = '/home/cs19btech11056/cs21mtech12001-Tamal/HAConvGNN/repository/final_data/coms.test'
-  predictions_file = '/home/cs19btech11056/cs21mtech12001-Tamal/HAConvGNN/repository/modelout/predictions/predict_notebook.txt'
-  (goldMap, predictionMap) = computeMaps(predictions_file, reference_file, predictions_delim = '\t', gold_delim = " ") 
-  print("Smoothed BLUE-4 Score: ", round(bleuFromMaps(goldMap, predictionMap)[0],2))
+  reference_file = sys.argv[1]
+  predictions = []
+  for row in sys.stdin:
+    predictions.append(row)
+  (goldMap, predictionMap) = computeMaps(predictions, reference_file) 
+  print (bleuFromMaps(goldMap, predictionMap)[0])
 
