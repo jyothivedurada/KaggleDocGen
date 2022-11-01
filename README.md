@@ -1,2 +1,3 @@
-# KaggleDocGen
-Documentation generation for Kaggle notebooks
+# Cell2Doc - Machine Learning Pipeline for Generating Documentation in Computational Notebooks
+
+
