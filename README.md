@@ -14,7 +14,7 @@ Raw notebooks, processed data with the pre-processing scripts are avaiable in th
 
 "notebooks_to_dataset"(v3 is the latest) converts raw notebooks to code-documentation pairs and stores in "processed_data" folder. "split_notebook_dataset" script divides the processed data in train/test/validation split.
 
-Depending on the preprocessing logic, notebooks_to_dataset and split_notebook_dataset needs to be modified.
+Depending on the preprocessing logic, "notebooks_to_dataset" and "split_notebook_dataset" scripts needs to be modified.
 
 ## Training and Testing of Code Documentation Model(CDM)
 
