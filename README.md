@@ -2,7 +2,11 @@
 
 ## Data Collection
 
-We have used the Notebooks having atleast "10 upvotes" or "1 madel" which we considered as well-documented notebooks. These critetia resulted into 5430 notebooks. The SQL queries are present in the sql_scripts.txt file.
+We have collected the notebooks having atleast "10 upvotes" or "1 madel" which we considered as well-documented notebooks from KGTorrent(https://arxiv.org/abs/2103.10558). These critetia resulted into 5430 notebooks. The SQL queries are present in the sql_scripts.txt file.
+
+KGTorrent Repository: https://github.com/collab-uniba/KGTorrent
+KGTorrent Documentation: https://collab-uniba.github.io/KGTorrent/docs_build/html/index.html
+KGTorrent Corpus: https://zenodo.org/record/4468523#.Y2LYG3ZBy3A
 
 ## Notebooks Dataset
 
