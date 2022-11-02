@@ -18,6 +18,14 @@ Depending on the preprocessing logic, notebooks_to_dataset and split_notebook_da
 
 ## Training and Testing of Code Documentation Model(CDM)
 
+CDM can ideally be any model that can perform code documnetation. For our study, we have tested with CodeBERT(https://aclanthology.org/2020.findings-emnlp.139/), GraphCodeBERT(https://openreview.net/pdf?id=jLoC4ez43PZ) and UnixCoder(https://aclanthology.org/2022.acl-long.499.pdf).
+
+All the models are implemented and tested in similar fashion. "fine_tuning_script.sh" is reponsible for fine-tuning, please change the dataset file(train and validation split) and output folder locations in the script before running. Like that, "testing_script.sh" is responsible for testing the fine-tuned models.
+
+CodeBERT Implementation: /home/cs19btech11056/cs21mtech12001-Tamal/CodeXGLUE/repository/Code-Text/code-to-text/code
+<br/>GraphCodeBERT Implementation: /raid/cs21mtech12001/Research/CodeBERT/Repository/GraphCodeBERT/code-summarization
+<br/>UnixCoder Implementation: /raid/cs21mtech12001/Research/CodeBERT/Repository/UniXcoder/downstream-tasks/code-summarization
+
 ## Different Input Representations for CDM and Their Testing
 
 ## Code Segmenation Dataset
