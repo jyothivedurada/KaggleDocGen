@@ -19,3 +19,5 @@ Depending on the preprocessing logic, notebooks_to_dataset and split_notebook_da
 ## Combining CDM with CSM
 
 ## Other Scripts
+
+## Cell2Doc paper specific details
