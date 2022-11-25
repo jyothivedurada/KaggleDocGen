@@ -30,6 +30,8 @@ UnixCoder Implementation: /raid/cs21mtech12001/Research/CodeBERT/Repository/UniX
 
 ## Different Input Representations for CDM and Their Testing
 
+We use the follwing 5 different input representations which are tested using CodeBERT, GraphCodeBERT and UnixCoder. The only difference is in the dataset creations; trainining and testing of the model remains same(ECSM in GraphCodeBERT and Code + Comment setup need small changes in training/testing script).
+
 ## Code Segmenation Dataset
 
 ## Training and Testing of Code Segmentation Model(CSM)
