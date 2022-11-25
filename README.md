@@ -35,39 +35,39 @@ We use the follwing 5 different input representations which are tested using Cod
 To apply the dataset related changes, use "notebooks_to_dataset" and "split_notebook_dataset" scripts.
 
 Processed Data Folder: /home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset/processed_data/
-Splitted Data Folder: /home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset/splitted_data/
+<br/>Splitted Data Folder: /home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset/splitted_data/
 
 ### Code - Markdown(CM)
 
 Here the code is cleaned as usual. The basic cleaning is done for markdown texts and those are not summarized. The restrictions like only taking first sentence, no punctuation etc. that can reduce the length, we haven't applied to show th effect of raw markdown text.
 
 Processed Data: <processed data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/without_summarization/code-with-usm-only
-Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/without_summarization/code-with-usm-only-2
-CodeBERT Results: <CodeXglue folder>/output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/without_summarization/code-with-usm-only-2
+<br/>Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/without_summarization/code-with-usm-only-2
+<br/>CodeBERT Results: <CodeXglue folder>/output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/without_summarization/code-with-usm-only-2
 
 ### Code - Summarized Markdown(CSM)
 
 Here the code is cleaned as usual. All the cleaning steps are applied for markdown texts which are also summarized.
 
 Processed Data: <processed data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/code-with-sm-only
-Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/code-with-sm-only
-CodeBERT Results: <CodeXglue folder>output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/code-with-sm-only
+<br/>Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/code-with-sm-only
+<br/>CodeBERT Results: <CodeXglue folder>output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/code-with-sm-only
 
 ### English Code tokens - Summarized Markdown(ECSM)
 
 Similar to CSM where in place of complete code, only english like code tokens are used as input to the model.
 
 Processed Data: Can use the data from "code-with-sm-only" folder, from which english code tokens are extracted using "split_notebook_dataset" script
-Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/english-code-tokens-with-sm
-CodeBERT Results: <CodeXglue folder>/output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/english-code-tokens-with-sm
+<br/>Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/english-code-tokens-with-sm
+<br/>CodeBERT Results: <CodeXglue folder>/output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/english-code-tokens-with-sm
 
 ### Split Code - Summarized Comment and Markdown(SCSCM)
 
 Here summarized comment and markdowns are considered as seperate datapoints and so each code-markdown pair can produce more than one datapoints. For code-comment pairs, the immediate code after comment(till next comment) is considered.
 
 Processed Data: <processed data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/todo-18
-Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/all_constraints/todo-18
-CodeBERT Results: <CodeXglue folder>/output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/all_constraints/todo-18
+<br/>Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/all_constraints/todo-18
+<br/>CodeBERT Results: <CodeXglue folder>/output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/all_constraints/todo-18
 
 NOTE: Check in similar file paths for the results using GraphCodeBERT and UnixCoder. 
 
