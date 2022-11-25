@@ -36,6 +36,7 @@ To apply the dataset related changes, use "notebooks_to_dataset" and "split_note
 
 Processed Data Folder: /home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset/processed_data/
 <br/>Splitted Data Folder: /home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset/splitted_data/
+<br/>CodeBERT Output Folder: /home/cs19btech11056/cs21mtech12001-Tamal/CodeXGLUE/output/
 
 ### Code - Markdown(CM)
 
@@ -69,7 +70,8 @@ Processed Data: <processed data folder>/competition_notebooks_with_atleast_1_med
 <br/>Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/all_constraints/todo-18
 <br/>CodeBERT Results: <CodeXglue folder>/output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/all_constraints/todo-18
 
-NOTE: Check in similar file paths for the results using GraphCodeBERT and UnixCoder. 
+NOTE 1: Check in similar file paths for the results using GraphCodeBERT and UnixCoder. 
+<br/>NOTE 2: For more details, check "Different Models" sheet in "results_and_analysis_on_notebooks_dataset.xlsx"
 
 ## Code Segmenation Dataset
 
