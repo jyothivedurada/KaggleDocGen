@@ -16,7 +16,7 @@ Raw notebooks, processed data with the pre-processing scripts are avaiable in th
 
 Depending on the preprocessing logic, "notebooks_to_dataset" and "split_notebook_dataset" scripts needs to be modified.
 
-## Training and Testing of Code Documentation Model(CDM)
+## Code Documentation Model(CDM)
 
 CDM can ideally be any model that can perform code documnetation. For our study, we have tested with CodeBERT(https://aclanthology.org/2020.findings-emnlp.139/), GraphCodeBERT(https://openreview.net/pdf?id=jLoC4ez43PZ) and UnixCoder(https://aclanthology.org/2022.acl-long.499.pdf).
 
@@ -78,10 +78,15 @@ NOTE 1: Check in similar file paths for the results using GraphCodeBERT and Unix
 Code segmentation dataset is mined from the same notebook corpus that is used for documentation. We consider that control structures in AST and comments in the code define the boundary of logical contexts. So we create +ve and -ve examples on the basis of these two constraints. The script "prepare_dataset.py" is responsible for creating the dataset and "split_dataset.py" is responsible to get the train/test/validation splits.
 
 Dataset folder: 
-<br/>Processed Data: <processed data folder>/
-<br/>Splitted Data: <splitted data folder>/
+<br/>Processed Data: 
+<br/>Splitted Data: 
 
 ## Code Segmentation Model(CSM)
+  
+Code Segmentation Model(CSM) is a binary classification model which is a finetuned on CodeBERT using the code segmentation dataset. In terms of finetuning and testing the CSM, it is similar to CDM.
+  
+Model folder: 
+<br/>Saved checkpoint: 
 
 ## Combining CDM with CSM
 
