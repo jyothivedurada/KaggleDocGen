@@ -89,7 +89,16 @@ Model folder:
 <br/>Saved checkpoint: 
 
 ## Combining CDM with CSM
+  
+"inference.py" script is reponsible to combine CSM and CDM to generate documentation for single code-snippet. It first uses CSM to get the individual code contexts and then generate documentation for each context using CDM (CodeBERT, UnixCoder or GraphCodeBERT).
+  
+### To use CodeBERT and UnixCoder
+  
+Inference script: 
+  
+### To use GraphCodeBERT
+  
+Inference script:
 
 ## Other Scripts
 
-## Cell2Doc paper specific details
