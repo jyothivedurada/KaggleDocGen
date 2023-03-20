@@ -77,28 +77,34 @@ NOTE 1: Check in similar file paths for the results using GraphCodeBERT and Unix
   
 Code segmentation dataset is mined from the same notebook corpus that is used for documentation. We consider that control structures in AST and comments in the code define the boundary of logical contexts. So we create +ve and -ve examples on the basis of these two constraints. The script "prepare_dataset.py" is responsible for creating the dataset and "split_dataset.py" is responsible to get the train/test/validation splits.
 
-Dataset folder: 
-<br/>Processed Data: 
-<br/>Splitted Data: 
+Dataset folder: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/dataset
+<br/>Processed Data: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/dataset/processed_data/by-ast-and-comments/positives-first
+<br/>Splitted Data: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/dataset/splitted_data/by-ast-and-comments/positives-first
 
 ## Code Segmentation Model(CSM)
   
 Code Segmentation Model(CSM) is a binary classification model which is a finetuned on CodeBERT using the code segmentation dataset. In terms of finetuning and testing the CSM, it is similar to CDM.
   
-Model folder: 
-<br/>Saved checkpoint: 
+Model folder: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/model
+<br/>Saved checkpoint: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/saved_models/by-ast-and-comments/positives-first
 
-## Combining CDM with CSM
+## Combining CSM and CDM
   
 "inference.py" script is reponsible to combine CSM and CDM to generate documentation for single code-snippet. It first uses CSM to get the individual code contexts and then generate documentation for each context using CDM (CodeBERT, UnixCoder or GraphCodeBERT).
   
-### To use CodeBERT and UnixCoder
+### To use CodeBERT and UnixCoder in CDM
   
-Inference script: 
+Inference folder: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/inference
   
-### To use GraphCodeBERT
+### To use GraphCodeBERT in CDM
   
-Inference script:
+Inference folder: /raid/cs21mtech12001/Research/Scripts/split_model/inference
 
-## Other Scripts
+## Other Scripts (under "Scripts" folder)
+  
+CalculateBleuRougeBertBleurtScore.py - It is used to get different metrics(BLEU, ROUGE, BertScore and BLEURT) results for common datapoints for different experiments/models.
+Compare5Models.py - Calculate and report scores for all models together.
+Compare5ModelsByDataset.py - For a given dataset, this script test all the models and report the scores.
+ResultsOf5Models.py - This script collect generated documentations for all models and common datapoints and save those to a CSV file to compare.
+table_creation_scripts - These scripts are used to generate tables used in Cell2Doc paper.
 
