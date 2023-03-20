@@ -103,8 +103,8 @@ Inference folder: /raid/cs21mtech12001/Research/Scripts/split_model/inference
 ## Other Scripts (under "Scripts" folder)
   
 CalculateBleuRougeBertBleurtScore.py - It is used to get different metrics(BLEU, ROUGE, BertScore and BLEURT) results for common datapoints for different experiments/models.
-Compare5Models.py - Calculate and report scores for all models together.
-Compare5ModelsByDataset.py - For a given dataset, this script test all the models and report the scores.
-ResultsOf5Models.py - This script collect generated documentations for all models and common datapoints and save those to a CSV file to compare.
-table_creation_scripts - These scripts are used to generate tables used in Cell2Doc paper.
+<br/>Compare5Models.py - Calculate and report scores for all models together.
+<br/>Compare5ModelsByDataset.py - For a given dataset, this script test all the models and report the scores.
+<br/>ResultsOf5Models.py - This script collect generated documentations for all models and common datapoints and save those to a CSV file to compare.
+<br/>table_creation_scripts - These scripts are used to generate tables used in Cell2Doc paper.
 
