@@ -74,8 +74,14 @@ NOTE 1: Check in similar file paths for the results using GraphCodeBERT and Unix
 <br/>NOTE 2: For more details, check "Different Models" sheet in "results_and_analysis_on_notebooks_dataset.xlsx"
 
 ## Code Segmenation Dataset
+  
+Code segmentation dataset is mined from the same notebook corpus that is used for documentation. We consider that control structures in AST and comments in the code define the boundary of logical contexts. So we create +ve and -ve examples on the basis of these two constraints. The script "prepare_dataset.py" is responsible for creating the dataset and "split_dataset.py" is responsible to get the train/test/validation splits.
 
-## Training and Testing of Code Segmentation Model(CSM)
+Dataset folder: 
+<br/>Processed Data: <processed data folder>/
+<br/>Splitted Data: <splitted data folder>/
+
+## Code Segmentation Model(CSM)
 
 ## Combining CDM with CSM
 
