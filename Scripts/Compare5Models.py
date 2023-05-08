@@ -157,12 +157,64 @@ pred_file_location_13 = "/home/cs19btech11056/cs21mtech12001-Tamal/GraphCodeBERT
 pred_file_13 = open(pred_file_location_13, "r").readlines()
 ref_file_13 = open(ref_file_location_13, "r").readlines()
 
+# For split code - cleaned and summarized markdown and comments - CodeT5
+ref_file_location_14 = "/home/cs19btech11056/cs21mtech12001-Tamal/CodeT5/Predictions/SCSCM(todo-18)/test_best-bleu.gold"
+pred_file_location_14 = "/home/cs19btech11056/cs21mtech12001-Tamal/CodeT5/Predictions/SCSCM(todo-18)/test_best-bleu.output"
+pred_file_14 = open(pred_file_location_14, "r").readlines()
+ref_file_14 = open(ref_file_location_14, "r").readlines()
+
+# For only code - cleaned markdown - CodeT5
+ref_file_location_15 = "/home/cs19btech11056/cs21mtech12001-Tamal/CodeT5/Predictions/CM/test_best-bleu.gold"
+pred_file_location_15 = "/home/cs19btech11056/cs21mtech12001-Tamal/CodeT5/Predictions/CM/test_best-bleu.output"
+pred_file_15 = open(pred_file_location_15, "r").readlines()
+ref_file_15 = open(ref_file_location_15, "r").readlines()
+
+# For only code - cleaned and summarized markdown - CodeT5
+ref_file_location_16 = "/home/cs19btech11056/cs21mtech12001-Tamal/CodeT5/Predictions/CSM/test_best-bleu.gold"
+pred_file_location_16 = "/home/cs19btech11056/cs21mtech12001-Tamal/CodeT5/Predictions/CSM/test_best-bleu.output"
+pred_file_16 = open(pred_file_location_16, "r").readlines()
+ref_file_16 = open(ref_file_location_16, "r").readlines()
+
+# For english code tokens - cleaned and summarized markdown - CodeT5
+ref_file_location_17 = "/home/cs19btech11056/cs21mtech12001-Tamal/CodeT5/Predictions/ECSM/test_best-bleu.gold"
+pred_file_location_17 = "/home/cs19btech11056/cs21mtech12001-Tamal/CodeT5/Predictions/ECSM/test_best-bleu.output"
+pred_file_17 = open(pred_file_location_17, "r").readlines()
+ref_file_17 = open(ref_file_location_17, "r").readlines()
+
+# For split code - cleaned and summarized markdown and comments - PLBART
+ref_file_location_18 = "/home/cs19btech11056/cs21mtech12001-Tamal/PLBART/Predictions/SCSCM(todo-18)/test_best-bleu.gold"
+pred_file_location_18 = "/home/cs19btech11056/cs21mtech12001-Tamal/PLBART/Predictions/SCSCM(todo-18)/test_best-bleu.output"
+pred_file_18 = open(pred_file_location_18, "r").readlines()
+ref_file_18 = open(ref_file_location_18, "r").readlines()
+
+# For only code - cleaned markdown - PLBART
+ref_file_location_19 = "/home/cs19btech11056/cs21mtech12001-Tamal/PLBART/Predictions/CM/test_best-bleu.gold"
+pred_file_location_19 = "/home/cs19btech11056/cs21mtech12001-Tamal/PLBART/Predictions/CM/test_best-bleu.output"
+pred_file_19 = open(pred_file_location_19, "r").readlines()
+ref_file_19 = open(ref_file_location_19, "r").readlines()
+
+# For only code - cleaned and summarized markdown - PLBART
+ref_file_location_20 = "/home/cs19btech11056/cs21mtech12001-Tamal/PLBART/Predictions/CSM/test_best-bleu.gold"
+pred_file_location_20 = "/home/cs19btech11056/cs21mtech12001-Tamal/PLBART/Predictions/CSM/test_best-bleu.output"
+pred_file_20 = open(pred_file_location_20, "r").readlines()
+ref_file_20 = open(ref_file_location_20, "r").readlines()
+
+# For english code tokens - cleaned and summarized markdown - PLBART
+ref_file_location_21 = "/home/cs19btech11056/cs21mtech12001-Tamal/PLBART/Predictions/ECSM/test_best-bleu.gold"
+pred_file_location_21 = "/home/cs19btech11056/cs21mtech12001-Tamal/PLBART/Predictions/ECSM/test_best-bleu.output"
+pred_file_21 = open(pred_file_location_21, "r").readlines()
+ref_file_21 = open(ref_file_location_21, "r").readlines()
+
 pred_files = [pred_file_1, pred_file_2, pred_file_3, pred_file_4, pred_file_5, 
               pred_file_6, pred_file_7, pred_file_8, pred_file_9,
-              pred_file_10, pred_file_11, pred_file_12, pred_file_13]
+              pred_file_10, pred_file_11, pred_file_12, pred_file_13,
+              pred_file_14, pred_file_15, pred_file_16, pred_file_17,
+              pred_file_18, pred_file_19, pred_file_20, pred_file_21]
 ref_files = [ref_file_1, ref_file_2, ref_file_3, ref_file_4, ref_file_5, 
              ref_file_6, ref_file_7, ref_file_8, ref_file_9,
-             ref_file_10, ref_file_11, ref_file_12, ref_file_13]
+             ref_file_10, ref_file_11, ref_file_12, ref_file_13,
+             ref_file_14, ref_file_15, ref_file_16, ref_file_17,
+             ref_file_18, ref_file_19, ref_file_20, ref_file_21]
 model_descriptions = ["For only code - cleaned markdown",
                       "For only code - cleaned and summarized markdown",
                       "For english code tokens - cleaned and summarized markdown",
@@ -175,15 +227,23 @@ model_descriptions = ["For only code - cleaned markdown",
                       "For split code - cleaned and summarized markdown and comments - GraphCodeBERT",
                       "For only code - cleaned markdown - GraphCodeBERT",
                       "For only code - cleaned and summarized markdown - GraphCodeBERT",
-                      "For english code tokens - cleaned and summarized markdown - GraphCodeBERT"]
+                      "For english code tokens - cleaned and summarized markdown - GraphCodeBERT",
+                      "For split code - cleaned and summarized markdown and comments - CodeT5",
+                      "For only code - cleaned markdown - CodeT5",
+                      "For only code - cleaned and summarized markdown - CodeT5",
+                      "For english code tokens - cleaned and summarized markdown - CodeT5",
+                      "For split code - cleaned and summarized markdown and comments - PLBART",
+                      "For only code - cleaned markdown - PLBART",
+                      "For only code - cleaned and summarized markdown - PLBART",
+                      "For english code tokens - cleaned and summarized markdown - PLBART"]
 
 for i in range(len(model_descriptions)):
-    if i != 12:
+    if i not in [17, 18, 19, 20]:
         continue
     print("\nModel/Representation: ", model_descriptions[i])
     CalculateROUGEScore.RougeScoreBetween2Files(pred_files[i], ref_files[i])
     CalculateBLEUScore3.BleuScoreBetween2Files(pred_files[i], ref_files[i])
     CalculateBERTscoreBetweenFiles(pred_files[i], ref_files[i])
-    CalculateBLEURTscoreBetweenFiles(pred_files[i], ref_files[i])
+    # CalculateBLEURTscoreBetweenFiles(pred_files[i], ref_files[i])
 
 
