@@ -1,0 +1,19 @@
+[0] Best ppl changed into 2.3226
+[0] Best bleu+em changed into 8.77 (bleu: 8.77, em: 1.32)
+[1] Best ppl changed into 2.2685
+[1] Best bleu+em changed into 9.45 (bleu: 9.45, em: 1.44)
+[2] Best bleu+em changed into 9.70 (bleu: 9.70, em: 1.76)
+[3] Best bleu+em changed into 10.46 (bleu: 10.46, em: 2.45)
+[4] Best bleu+em changed into 10.77 (bleu: 10.77, em: 3.08)
+[5] Best bleu+em changed into 11.11 (bleu: 11.11, em: 3.33)
+[6] Best bleu+em changed into 11.76 (bleu: 11.76, em: 3.52)
+[7] Best bleu+em changed into 11.85 (bleu: 11.85, em: 4.27)
+[8] Best bleu+em changed into 12.11 (bleu: 12.11, em: 4.71)
+[9] Best bleu+em changed into 12.37 (bleu: 12.37, em: 4.65)
+[10] Best bleu+em changed into 12.62 (bleu: 12.62, em: 5.27)
+[11] Best bleu+em (12.62) does not drop changed for 1 epochs, cur bleu+em: 12.24 (bleu: 12.24, em: 5.08)
+[12] Best bleu+em (12.62) does not drop changed for 2 epochs, cur bleu+em: 12.41 (bleu: 12.41, em: 4.58)
+[13] Best bleu+em (12.62) does not drop changed for 3 epochs, cur bleu+em: 12.57 (bleu: 12.57, em: 5.27)
+[13] Early stop as not_bleu_em_inc_cnt=3, and not_loss_dec_cnt=12
+[best-bleu] bleu-4: 12.50, em: 4.2287, codebleu: 0.0000
+Finish and take 12m

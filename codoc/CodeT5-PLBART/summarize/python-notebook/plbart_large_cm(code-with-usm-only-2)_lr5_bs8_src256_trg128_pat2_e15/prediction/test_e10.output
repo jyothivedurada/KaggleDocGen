@@ -1,0 +1,1593 @@
+510	Digging into the Images When we get to running a pipeline , we will want to pull the scans out in the correct order . So here 's a function to return the nth image . In the unit test , I added a histogram of the values in the image .
+1491	Normality and Unclear Abnormality Sample Patient 6 - Normal Patient Patient 13 - Unclear Abnormality Sample Patient
+363	There are no duplicate clicks with different target values in train or test set . Let 's dig into this .
+1075	Now let 's split the data into train and test .
+1462	Saving the weights of the yolov3 model To save the weights , you can do this
+1548	Two embedding matrices have been used . Glove , and paragram . The mean of the two is used as the final embedding matrix
+1556	Finally plotting the word clouds via the following few lines ( unhide to see the code
+698	Households without headball
+188	The number of products of the brand
+1036	Inference and Submission
+883	What is Correlation Heatmap
+831	Dimension Reduction ( PCA
+407	Now that we have our first example of what we are going to do , we can proceed to the next step and take a look at the images . We can use stage_2 ( ) or stage_2_cv2 ( ) to do this . Note that the number of images returned by stage_2 is different than the number of images returned by stage_1_cv2 ( ) .
+1192	Looking at the data
+1194	Spliting the data
+1591	Let 's news aggreagte in the training data
+976	DICOM tags are useful for processing DICOM tags . Let 's create a function to extract a DICOM tag from a dicom object .
+90	Loading the Data
+1089	In this challenge , Santander invites Kagglers to help them identify which customers will make a specific transaction in the future , irrespective of the amount of money transacted . The data provided for this competition has the same structure as the real data they have available to solve this problem . The data is anonimyzed , each row containing 200 numerical values identified just with a number . row는 200개의 서로 컬럼을 가지고 있습니다 . In the following we will explore the data , prepare it for a model , train and
+878	To search for hypers , we create a new column called 'set ' . We will use the random search and bayesian method to search for hypers .
+1260	Calculate F1 on validation set
+1288	We can see that spearman correlation is significantly higher than 0 . Also , spearman correlation is much higher than 0 .
+1011	To Pad the images and labels , we need to have them all in the same shape . Here 's how to do it
+1287	This is a collection of scripts which can be useful for this and next competitions , as I think . There are polynomials in the form of x1 , x2 , ... , xn , x1 , y2 , ... , xn1 , yn2 , ... , x1 , yn3 , .... , x1 , yn4 , ..... , xn5 , yn5 , ..... , xn6 , yn4 , yn5 , ..... , xt
+1330	Examine the Missing Values
+853	Fitting and Evaluating the Model
+690	Let 's extract the patient data and study instanceUID from DICOM files .
+717	Correlation
+303	Light GBM ) の学習
+440	We can see that some of the meter categories are strongly correlated with the others . Consequently , some of the meter categories are highly correlated with the others . Let 's plot the distribution of the meter reading for each weekday
+1363	Numeric Features
+12	Load and Preprocessing Steps
+562	Let 's get the masks for an image . The masks are stored in the masks column of the dataframe .
+142	Find continuous features in all_categories
+818	Build and Submit
+1116	Leak Data loading and concat
+448	Let 's apply log transformation to the features and check the distribution after applying log tranformation .
+1528	DBNO - Number of times DBNO is present
+626	Let 's take a look at the sum of bookings for the month
+480	LightGBM
+1152	Importing Libraries and Loading Dataset
+485	How to Compute the Vocabulary and TfidfVectorizer
+37	Let 's now look at the distributions of various `` features
+167	IP - IP address
+608	We will use a maximum number of features and a maximum text length of 400 . We will use these values for our feature engineering
+423	Let 's take a look at the confusion matrix
+1164	The class counts are stored in a dictionary , with the key being the attribute name and the value being the count . The value being the count associated with the attribute name .
+1425	Time Series Visualisation
+894	There are some interesting features as well as the fact that NAME_CONTRACT_STATUS is Approved or Canceled
+1012	Padding and resizing all images at once .
+881	Plotting number of estimators vs learning rate
+514	Cropping the Images Using the crop lists from above , getting a set of cropped images for a given threat zone is also straight forward . The same note applies here as in the 4x4 visualization above , I used a cv2.resize to get around a size constraint ( see above ) , therefore the images are quite blurry at this resolution . If you do not face this size constraint , drop the resize . Note that the blurriness only applies the unit test and visualization . The data returned by this function is at full resolution .
+497	Bureau_balance
+902	Let 's calculate the correlation between the target and all of the features and see if we can find any pattern in the correlation matrix .
+333	Train XGBoost model
+997	Load and look at site
+1297	Let 's plot now the distribution of data per diagnosis .
+293	For commit_num , let 's try with commit_num = 32 ,Dropout_model = 0.24 ,FVC_weight = 0.14 , GaussianNoise_stddev = 0.2 , lb_score = -6.8106 Let 's try with commit_num = 22 ,Dropout_model = 0.24 , GaussianNoise_stddev = 0.14 ,
+1198	Scaling the train and test sets to ensure that the train and test sets are the same
+689	Let 's extract the meta datas from the DICOM files
+731	Random Forest
+484	Now that we have our tokenizer , let 's run the vectorizer on the text and see what our results . We 'll use the toarray method of our tokenizer .
+618	Model ( KNN Regressor
+954	Let 's use ` train_ids ` and ` test_ids ` for training .
+706	Looking closer at the histograms , there are some columns with a correlation above 0.95 and some columns with a correlation above 0.45 . We want to drop those columns so that the logistic regression will converge better and more stable . We do n't care much about the correlation values , and all of them will be identical .
+72	We have reduced the number of missing values in the training and testing data . Now we have reduced the number of missing values in the training and testing data .
+1456	This notebook is an attempt at reproducing with Python what [ Michael Lopez did in R ] ( Some of the code is borrowed or modified from [ Rob Mula 's ] ( and [ SRK 's ] ( great notebooks . I 've included the test data collected via this simple notebook One initial but tricky issue when working with the data is that sometimes the data is not similar to the training data , and other times it is different from the training data . The fix is as follows
+13	In this competition , we need a maximum number of features and a total number of samples in the train and test set . We will use a maximal number of features and an average of the number of samples in the test set .
+40	Light GBM Features
+1455	Convert to submission format
+1056	We split the training and testing sets with KNN . The number of k-nearest classes is set to 9 .
+910	Những biến mục tiêu và biến mục tiêu và biến mục tiêu .
+691	The next step is to process the boxes and scores . We 'll first clip outliers and then select a bounding box .
+521	Sorter : evaluate_threshold ` function evaluates the threshold for each classifier and saves the result in the ` clf_threshold ` variable . In the above plot , the value of ` clf_threshold ` greater than the threshold . In the next plot , the values of ` clf_threshold ` are clipped at 1 .
+1262	Importing libraries and data
+1268	Loading images & their associated labels
+830	Blending
+7	Let 's see the feature_1 values distribution
+1484	Lung Nodules and Masses
+1472	Plate groups by sirna
+488	Example : The quick brown foxed over the lazy dog .
+88	Aaaaanddddd Wallah ! This is my first Notebook I am submitting here on this platform . If you like the notebook please upvote
+1481	Making predictions on test set
+869	The rest of the features is not important , but we can observe that a large number of missing values in the training set is less than the number of missing values in the test set . Let 's take a look at a few features that are in the train set .
+1452	Calculate extra data
+797	Load libraries and read in data
+112	Compile and fit model
+1219	Define learning rate and optimizer
+479	Submission
+1344	OK , that 's a fairly high correlation . Let 's see how data is distributed by the target .
+161	Let 's see what are the files we have to work with
+268	Univariate Voting Regressor
+483	Now that we have our text matrix , let 's transform it into vectorized form . To do this , we need to convert it into tensors . To do this , we have to convert it into tensors . This is the code to do the vectorization .
+1413	Data generator
+470	Not looking to seriously compete in this competition so figured I 'd at least share the small experiments I was toying with .
+68	There 's a lot of data that we do n't have in the training data , and even if we know how many cities there are in the training set , we can only assume that the total number of cities is the same . This data is independent of the number of cities that are in the training set . For the purpose of this notebook , we do n't care about the number of cities in the training set , because this data is for a very short time , so we do n't care about the number of cities that areprime
+1251	Timing the mask cells
+1018	Load the data
+1477	A utility function to set the random state for reproducibility .
+1387	Numeric Features
+482	Loading Necessary Libraries
+61	Time Series Prophet Forecasting
+710	warnings : Number of Warnings per Sentiment Feature
+212	Loading Data
+884	What is Correlation Heatmap
+576	Plotting the number of deaths for each country
+1502	LOAD PROCESSED TRAINING DATA FROM DISK
+1024	Instancing the tokenizer from DistilBERT model and then applying WordPeice Tokenizer
+798	Create the model
+47	Ohh my gosh ! ! One more thing we can do is to plot the log of 1 + train_df.target values . This will give us a pretty decent sense of the data .
+323	We will split the train and validation data into train and val folders . We will define the paths to the train and validation folders and specify the number of steps and how many batches we will use for training .
+152	Create a CatBoostClassifier
+126	The images are of different Units . Let 's take a look at the images . Hounsfield Units ( HU
+772	Prediction of Weather Features
+1273	Oversampled Training Dataset
+709	Let 's combine the heads and have a look at the sum of the walls and the roof .
+813	Here is a comparison of the ROC AUC and Iteration
+457	Most commmon IntersectionID 's
+1111	To win in kaggle competition , how to evaluate your model is important . What kind of cross validation strategy is suitable for this competition ? This is time series data , so it is better to consider time-splitting . However this notebook is for simple tutorial , so I will proceed with KFold splitting without shuffling , so that at least near-term data is not included in validation .
+583	Let 's group the USA cases by the day of the week and the number of days until that day .
+143	Fixing random state
+679	Due to Kaggle 's disk space restrictions , we will only extract a few images to classify here . Keep in mind that the pretrained models take almost 650 MB disk space .
+283	For commit_num , dropout_model , FVC_weight , and lb_score
+1066	Now we will split our data to train and validation data , so as to train and validate our model before submitting it to the competition . We will define a BATCH_SIZE of 8 , to make the model 32x8 .
+1229	We use BernoulliNB model for classification
+721	Education distribution by Target
+720	Dimension reduction .
+473	Loading the data
+1395	For numeric features
+252	Italy
+1396	Let 's have a look at the Percentage of Target for numeric features .
+896	Below is a function for plotting the most recent values for x and y .
+868	I have also taken a look at correlations that can be found in the dataset . I have also taken a look at the distribution of the variables
+1401	Let 's have a look at the Percentage of Target for numeric features .
+10	Impute any values will significantly affect the RMSE score for test set . So Imputations have been excluded
+1509	Add leak to test
+687	Before we analyze the data , let 's see what we 're dealing with . First , let 's try to figure out what we 're dealing with . We 're not going to be using the full dataset , but that 's what we 'll be using for this competition .
+561	TcGA-G9-6362-01Z-00-DX
+655	SAVE DATASET TO DISK
+67	This notebook is an attempt at reproducing with Python what [ Michael Lopez did in R ] ( Some of the code is borrowed or modified from [ Rob Mula 's ] ( and [ SRK 's ] ( great notebooks . I 've included the test data collected via this simple notebook One initial but tricky issue when working with neural networks is that sometimes the edges of the grid are not connected to the real world ( e.g . the left and right edges of the grid are not connected to the real world ( e.g . the grid is
+1323	Let 's create some new features based on area1 and area2 .
+433	Top 20 tags
+1071	We start with a simple ARC solver . It gets the input and output objects for each task . It then runs the ARC on the input and outputs the output objects for each task .
+963	Plot the dependence of returns
+555	scale real features
+1077	Permutation Reduction
+941	Load and Read DataSet
+310	There are no missing values in ` train_labels.csv ` . Let 's try to fix some of the missing values in ` train_labels.csv ` .
+676	Learned how to import trackml from
+403	Find the indices for where the earthquakes occur
+271	For commit_num , dropout_model , FVC_weight , and lb_score
+1062	Concatenate the submission dataframes with test dataframes and null submission df
+795	Before training the model , we must be careful of two points if we make a prediction for both of the training and validation sets . To do so , we need to calculate the number of estimators that are performing on the training and validation set . We can do this by subtracting the number of estimators from the number of training and validation sets , which is the number of training and validation sets .
+919	Splitting the masks into training and validation sets
+1449	ip
+183	Now let 's have a look at the data
+986	Transformations and Label Encoding
+715	Not very easy to see , but we can see that there are some peaks at the beginning and then some peaks at the end . It looks like there are some peaks at the beginning but then we see that there are some peaks at the beginning or end of the sequence . Let 's have a closer look at what 's going on . In the next plot , we see that there are some peaks at the beginning and then some peaks at the end . We can see that there are some peaks at the beginning but no such thing as well . If we were to
+232	For commit_num , ` dropout_model ` , ` hidden_dim_first ` , ` hidden_dim_second ` , ` lb_score ` .
+493	How to Use Advanced Feature Importance
+1561	Putting all the preprocessing steps together
+752	Limitting the number of estimators
+1249	To avoid overfitting , we can batch_cutmix ( ) function . It allows us to run the code 100 times with the same number of images .
+1150	Reading test data
+806	Hyperopt 提供记录结果的工具,但是我们自己记录,可以方便实时监控
+412	At this point , we can see that there are some images without a particular depth . I 'm not sure if this will be particularly useful but it 's definitly worth a try .
+1590	Transformations with CountVectorizer
+317	Apply model to test set and output predictions
+1553	A new competition ! This year , we have worked to set this up as a code competition and collected a new set of test images . Have you ever gone through your vacation photos and asked yourself : What was the name of that place I visited in 5 years ago ? or Who created this monument I saw in France & LDA , that 's fun to look at . Finnally , you 're golden , you 're golden , you 're golden , you 're golden , you 're ready to go
+1276	Baseline model
+213	Markov Model based features Exploration - EDA ( EDA
+918	Let 's have a look at the data
+749	We will split the training data into train and validation sets . We will use LGBM to make our predictions .
+447	EDA & Feature Engineering
+854	Let 's prepare some random parameters
+1105	Fast data loading
+1489	Increased Vascular Markings + Enlarged Heart
+1508	Select some features ( threshold is not optimized
+802	boosting_type为subsample
+211	Coronavirus disease ( COVID-19 ) is an infectious disease caused by a newly discovered coronavirus . Most people infected with the COVID-19 virus . Older people , and those with underlying medical problems like cardiovascular disease , diabetes , chronic respiratory disease , and cancer are more likely to develop serious illness . The best way to prevent and slow down transmission is be well informed
+1537	There are three types of card_id : Cardinality : anonymized card_id : anonymized card_id : anonymized card_count : anonymized card_count : anonymized card_count : anonymized card_count : anonymized card_count : anonymized card_count : anonymized card_count : anonymized card_count : anonymized card_count : anonymized card_count : anonymized card_count : anonymized card_count : anonymized
+454	Before we go any further , we need to deal with pesky categorical variables . A machine learning model unfortunately can not deal with categorical variables ( except for some models such as [ LightGBM ] ( Encoding Variables ) . Therefore , we have to find a way to encode ( represent ) these variables as numbers before handing them off to the model . There are two main ways to carry out this process You can see [ this Label encoding assigns each value to a different integer . There are three main ways to carry out this process You can see [ this Label encoding assigns each value to a different integer
+1101	Fast data loading
+1366	Numeric Features
+810	Trials Data
+601	Plot of public/private scores
+670	Categories of items < 10 \u20BD ( Top
+1589	num_cols = [ 'volume ' , 'close ' , ' open ' , ' returnsPrevCloseRaw1' , 'returnsPrevCloseMktres1' , 'returnsPrevCloseMktres10' , 'returnsPrevCloseRaw10' , 'returnsPrevCloseMktres10' , 'returnsPrevCloseRaw1' , 'returnsPrevCloseMktres10' , 'returnsPrevCloseMktres10' , 'returnsOpenRaw1' , 'returnsCloseMktres
+1234	Let 's try Logistic Regression for two outcomes
+356	SelectFromModel
+148	Load One Hot Encoding
+468	Part 0 : Import libraries
+901	Adding variables to Bureau_Agg
+1124	The addr will be either a 6-hour or anan value .
+1360	Numeric Features
+1573	Lagged Predictions
+861	Let 's start training the lgb model on the train set .
+1004	Load and Preprocessing Steps to create the eval dataframe Back to Table of Contents ] ( toc
+730	And now we can apply the pipeline on train and test sets .
+35	Load packages and data
+659	Target Variable Correlations
+1384	Let 's have a look at the numeric features
+832	PCA of Prediction
+247	Ensembles are ensembles . Let 's average all the ensembles to get the final score .
+1400	Let 's plot the numeric features [ 49 ] .
+1483	Sample 2 - Lung Opacity
+439	ELECTRICITY OF FEMALE PATIENTS
+1005	Define the Model
+1388	Let 's have a look at the numeric features
+764	Fare - EDA
+168	Let 's have a look at IPs that are ready to download and which are needed to download an app . Minimum number of clicks needed to download an app
+1168	This Notebook is an attempt at reproducing with Python what [ Michael Lopez did in R ] ( Some of the code is borrowed or modified from [ Rob Mula 's ] ( and [ SRK 's ] ( great notebooks . I 've included the test data collected via this simple notebook One initial but tricky issue when working with Word2Vec is that sometimes words that are semantically similar to each other are n't really similar to each other , but instead they are semantically similar to each other . The first thing we saw is that sometimes words that are similar to each other are
+1460	Here I would like to predict the ` selected_text ` in the test set .
+1200	Create the X and Y datasets
+396	There are missing values in the test_metadata file . Let 's see how many missing values we have in the test_split .
+702	tipovivi
+1184	Trying Triplet Loss image.png ] ( attachment : image.png Inspired by
+895	Let 's train a Random Forest model using Late Payment Features
+1340	How many missing values have been filled for each object
+550	No of Stores Vs Log Error
+1143	There are a lot of columns with only one value , and we only have a few observations . In the next section , we will have a look at which values we can expect to be in our training set . For this , we will only take the first 5 rows .
+1503	SAVE DATASET TO DISK
+1335	Loading & Feature Engineering
+774	What is Correlation with Fare Amount
+1119	As we can see , the number of exhaled is less than the total number of animals . Let 's examine the sex of the animals
+101	There are only a few rows of the data . The column ` id ` is only present in the training data , and in the validation data , there are only a few rows .
+605	Fixing public samples
+240	For commit_num , ` dropout_model ` , ` hidden_dim_first ` , ` hidden_dim_second ` , ` lb_score ` , ` time_to_failure ` , ` duration ` , ` x_ { ij } ` , ` y_ { ij } ` , ` x_ { ij } ` , ` y_ { ij } ` , ` x_ { ij } ` , ` y_ { ij } ` , ` x_ { ij } ` , ` y_ {
+1359	Numeric Features
+816	Let 's load and drop some features .
+1546	SAVE DATASET TO DISK
+1034	Running the model on a sample submission
+76	Model
+971	We can see that the validation set is completely after the training set , but we can see on the leftmost image , that the validation set is completely after the training set , which is completely after the training set . This means that the auc on the leftmost image is more concentrated than the auc on the rightmost image . This means that the auc on the leftmost image is more concentrated than the auc on the rightmost image . This means that the auc on the leftmost image is more concentrated than the
+532	Day Of The Week
+170	DL by click ratio
+1499	Understanding the Distribution of the Created Column
+1072	Trying Triplet Loss image.png ] ( attachment : image.png Inspired by
+937	Make a Baseline model
+1385	Numeric Features
+1162	The number of unique values per class is easy to get . But what about the number of unique values per class . Let 's try that
+1442	There are a lot of samples from the training data . It would be interesting to see if these samples are in the same order .
+1438	OSIC Pulmonary Fibrosis Progression analysis OSIC Pulmonary Fibrosis Progression analysis OSIC Pulmonary Fibrosis Progression analysis OSIC Pulmonary Fibrosis Progression Analysis OSIC Pulmonary Fibrosis Progression Analysis OSIC Pulmonary Fibrosis Progression OSIC Pulmonary Fibrosis Progression OSIC Pulmonary Fibrosis Progression
+1337	How many missing values have been filled for each object
+959	Loading Data
+1103	Some features introduced in by @ ryches Features that are likely predictive Weather time of day holiday weekend cloud_coverage + lags dew_temperature + lags precip_depth + lags sea_level_pressure + lags wind_direction + lags wind_speed + lags Train max , mean , min , std of the specific building historically However we should be careful of putting time feature , since we have only 1 year data in training , including ` date ` makes overfiting to training data . How about ` month `
+763	As this dataset is huge reading all data would require a lot of memory . Therefore I read a limited number of rows while exploring the data . When my exploration code ( e.g . this notebook ) is ready I re-run the notebook while reading more rows .
+332	Random Forest
+598	Gini on Perfect Submission
+281	If commit number is less than the number of commits in the train set , then the score wo n't improve . commit_num = 16 ; CommitDropout_Model = 0.25 ; Commit_FVC_weight = 0.2 ; Commit_LB_score = -6.8093 ; Commit_FVC_weight = 0.2 ; Commit_LB_score = 6 .
+244	For commit_num = 25 , dropout_model = 0.36 , hidden_dim_first = 128 , hidden_dim_second = 244 , lb_score = 0.25846 For commit_num = 25 , dropout_model = 0.36 , hidden_dim_first = 128 , hidden_dim_second = 244 , lb_score = 0.25846 .
+79	Submittion
+612	Parameters for Neural Network
+308	Word Cloud
+1180	Looking at the data
+1517	So , for each target , we can see joint plots of the mean and standard deviation of the values
+1296	Plot the Losses of the model over the training and validation sets
+609	Create embedding for our network
+222	For commit_num = 3 git commit_num = 5 dropout_model = 64 commits_df.loc [ n , 'hidden_dim_first ' , 'hidden_dim_second ' , 'hidden_dim_third ' ] = 128 commit_df.loc [ n , 'LB_score ' , '0.5 ' ] = 0.25880 commit_num = 5 commit_num = 7 commit_num = 8 commit_num = 384 commit_df.loc [ n , 'LB_score ' , '0.5 ' ] = 0.25880
+339	Univariate Voting Regressor
+1247	Sales by Department and by Weekly Sales
+1165	TPU Strategy and other configs
+874	WARNING ! ! This notebook is still under development . Stay tuned .
+1586	Let 's remove data before 2012 ( optional
+1450	Distribution of is_attributed & device
+133	For the tranformer , the word index and the embedding index for the tranformer . We do n't use these indices for training the model . Instead , we use the word index for training the model .
+1562	Here we have utilised some subtle concepts from Object-Oriented Programming ( OOP ) . We have essentially inherited and subclassed the CountVectorizer class and overwritten the build_analyzer method by implementing the lemmatizer for each list in the raw text matrix .
+355	From the above plots , it seems that the feature ` epsilon ` is not linearly correlated with the target variable ( target_fe ) . Let 's try to use all the available features for training the model .
+811	Evaluate Bayesian and Random Search Tune
+73	Modeling with Fastai Library
+1293	Let 's import standard tools and Light GBM .
+962	SHAP Interactions
+108	TPU or GPU detection
+844	Load and Prepare the Data
+381	Model Architecture
+99	Import
+1149	day by day
+1245	Let 's plot the number of sales per day for each store .
+1444	This is a work in progress . We are going to do the same thing for the test set . We are going to use pandas 's load_chunk method to load the data in chunks of 6GB as suggested by the multiprocessing library . We are going to use this method to load the data in chunks of 6GB as suggested by the multiprocessing library .
+354	Features correlation matrix
+228	For commit_num , ` dropout_model ` , ` hidden_dim_first ` , ` hidden_dim_second ` , ` lb_score ` .
+287	Start with commit_num ,Dropout_model ,FVC_weight ,LB_score
+664	One-Hot Encoding
+134	Reducing the memory usage
+569	Now we need to create our training and validation generators . We can do it using the ` get_preprocessing ` function from the ` resnet34 ` library .
+557	Explore the shape of the images
+1298	One-hot encoding
+85	The first thing we can do is to see how much of a year a patient has in the past few days . From that , we need to figure out the maximum and minimum age for a given comment . I do n't know the best way to do this but based on the information provided by the patients , I 'll calculate the age in years
+455	Test prediction
+944	load mapping dictionaries
+1115	Fast data loading
+174	The download rate evolution over the day
+226	For commit_num = 7 - > commit_num = 9 - > commit_num = 7 - > commit_num = 9 - > commit_num = 7 - > commit_num = 7 - > commit_num = 7 - > commit_num = 9 - > commit_num = 7 - > commit_num = 7 - > commit_num = 7 - > commit_num = 7 - > commit_num = 8 - > commit_num = 9 - > commit_num = 7 - > commit_num = 8 - >
+663	From the above plot we can see that day and month are cyclic variables . And day and month are continuous variables .
+972	Let 's take a look at the DICOM files . They contain a lot of metadata ( such as the pixel size , so how long one pixel is in every dimension in the real world ) . We 'll use pydicom to read and process the DICOM files .
+32	Load the train and test data
+217	Importing necessary libraries
+1248	Plotting Sales by Holiday
+1175	Number of Links and Diographs
+1106	Leak Data loading and concat
+597	Perfect Submission
+177	The shape of the image
+23	Tf-IdfVectorizer is the name of the tokenizer used to split the question and answer . Tf-IdfVectorizer is the name of the tokenizer used to split the question and answer . It is then interpreted as a sequence of words .
+264	acc_model
+994	take a look of DICOM files
+358	SLATMD [ Almost completely repeated ] [ Removed
+947	Listing input files
+39	Let 's now add some non-image features . We can start with sex , and one-hot encode it .
+1434	Define the X_train and X_test for training and testing
+877	Now , let 's create a new column called 'set ' and append the scores and opt to the dataframe .
+1261	FLAGS.do_predict = True enables training of the model on the test set .
+1446	Let 's load some data .
+652	Filter outliers
+667	Train model and predict on test
+636	ConfirmedCases by Population and Land Area
+1482	Let 's apply the class transformation to the parsed image .
+724	Rearrange is a parameter that indicates the range of data that will be used to split a variable into two groups : train and test . train is the first group , while test is the second group .
+615	It seems that there are no missing values in the dataframe . Let 's check if there are missing values in the dataframe .
+276	For commit_num = 5 , Dropout_model = 0.36 , FVC_weight = 0.2 , LB_score = 6.8089 commit_num = 5 , Dropout_model = 0.36 , FVC_weight = 0.2 , LB_score = -6.8089
+1318	For the feats
+633	Understanding the Data
+708	The heads have their closest correlation to the target . Some of them are 'epared ' , 'epared2' , 'epared3' , and 'obscene ' . We can see that some of them are 'obscene ' , and some are 'obscene ' . Let 's plot some of the heads .
+898	Running DFS on Test Set
+845	Baseline LightGBM
+1370	Let 's have a look at the numeric features
+638	First let 's open the csv . One thing we need to make sure when splitting a dataset is to split by channel rather than by pixel . Otherwise you run the risk of having some data leakage .
+1552	Heatmap with target 's correlation
+674	We have a list of all the image labels . Let 's load all the images and then concatenate them .
+1256	Creating Training Set
+116	The price is important to understand as well the distribution of the whole data .
+1171	Tops the sentences which begin with `` lower '' becomes lower words . We will do this by converting the total [ i ] to word lists . For each sentence , we will remove all non-letters and punctuation .
+1132	V320" and V321 respectively
+352	EDA and Feature Engineering
+1453	TrackML-Validation-data-for-ml-pandas-df/df_train_v1 , df_test_v1 , df_train_v1 , df_test_v2 , ...
+904	One-hot encode Categorical data
+862	Baseline Model
+176	We have a dataframe with memory usage before optimization and after optimization . Let us see the dataframe size after optimization .
+1572	Looking at the day of the week , we 'll have a look at the number of visits per day . We 'll pull out the number of visits per month and day .
+977	Let 's have a look at the seriesUIDs in the first patient .
+908	Feature Engineering - Bureau Balance counts by loan
+1153	We can see that the standard deviation is not constant and the mean of the series is non-zero . The mean of the series is non-zero , which indicates that the series is not stationary . The mean of the series is non-zero , which indicates that the series is stationary . We will compute the mean of the series per store_df .
+151	Split train and validation sets
+1270	Loading the training set
+570	ACKNOWLEDGEMENT
+157	This version is a bit slow - do n't worry .
+1156	First , we 'll simplify the datasets to remove the columns we woud be using and convert the seedings to the needed format ( stripping the regional abbreviation in front of the seed ) .
+767	ECDF : EDA and Feature Engineering . EDA and Feature Engineering .
+900	Before aligning the features , we need to make sure that the same order of the features is the same in both training and test sets . We can do it using ` fastai2 ` 's ` align ( ) ` method .
+716	Most correlated variables ( positively correlated variables
+1567	Process the training , testing and 'other ' datasets , and then move on to the datasets provided for training .
+1314	Replace 'yes ' , 'no ' values with 1 , 2 and 3 .
+192	We see a similar distribution for words .
+238	For commit_num , ` dropout_model ` , ` hidden_dim_first ` , ` hidden_dim_second ` , ` lb_score ` , ` time_to_failure ` , ` duration ` , ` x_ { ij } ` , ` y_ { ij } ` , ` x_ { ij } ` , ` y_ { ij } ` , ` x_ { ij } ` , ` y_ { ij } ` , ` x_ { ij } ` , ` y_ {
+123	Pulmonary Condition Progression by Sex
+842	Create a new train and test . This new train and test data will be used for training .
+692	Combinations of TTA
+1271	Get the training dataset as a numpy array
+376	acc_model
+98	Here I 'm going to do the same thing for the test set . I initially tried to just use the class column as a feature but it did n't seem to work . So I 'm going to do the same thing for the train set .
+885	How do modern military molecules look like
+864	Grouping the data by type To group by type , let 's take a look at the first 10 groupings .
+1331	New category and youtube
+464	Load the data
+660	Day Distribution
+243	For commit_num , ` dropout_model ` , ` hidden_dim_first ` , ` hidden_dim_second ` , ` lb_score ` , ` time_to_failure ` , ` duration ` , ` x_ { commit } ` , ` y_ { commit } ` , ` w_ { commit } ` , ` x_ { commit } ` , ` y_ { commit } ` , ` n_ { commit } ` , ` n_ { commit_num ` in ` commits_df ` .
+839	Cash information is aggreagted by the following columns : CASH_ID_PREV_CURR SK_ID_CURR
+1524	It is very important to keep the same order of ids as in the sample submission The competition metric relies only on the order of recods ignoring IDs .
+18	Load and view data
+78	Unfreeze the model and use the ` lr_find ` method to find the optimal learning rate .
+1535	I 'm going to make a function that can calculate the distance matrix for the specific image i.e . $ \sum_ { i=1 } ^ { -x
+1566	It turned out that there is a time difference between the two models . We will use this time to calculate the final predictions .
+341	I define the IoU function . This is a wrapper for the calculation of IoU .
+785	Interestingly , ` pickup_Elapsed ` and ` pickup_Year ` have similar interpretations .
+1264	Training the BERT model
+173	The number of clicks over the day
+107	Example : before.pbz sets.pbz
+969	Load and view data
+559	Look at the masks
+1154	Convert ` train_end_date ` to ` trend ` by ` ds
+646	It seems that there are overlapping labels . Let 's try to split the labels into 5 separate labels .
+1007	Train all layers
+384	The filter is the filter which is highpass filter is the filter which is highpass and lowpass filter is the filter which is highpass .
+1362	Numeric Features
+600	Let 's split the dataset in a way that we can compare the gini of our model with the submission from the competition . First we split the dataset into a training set and a validation set . We then use the gini function to compare the gini of our model with the submission from the competition .
+204	EfficientNet Implementation
+973	First of all , we will try to extract the patient name from the dicom file . Here , we will extract the domain name from the dicom file .
+1092	Let 's have a look at the feature importance for each feature .
+1231	And lastly , let 's cross-validate the two models and save the predictions
+833	Now we can do the aggregation for each parent_var and df_agg .
+1368	Let 's have a look at the Percent of Target for numeric features .
+1426	Exploring the Statistics Go to TOC
+1414	B.4 Missing Data We have collected several assumptions and decisions . So far we did not have to change a single feature or value to arrive at these . Let us now execute our decisions and assumptions for correcting , creating , and completing goals . Correcting by dropping features Correcting by fill features
+641	Assuming that you have already finished your feature engineering and you have two dataset train_clean.csv test_clean.csv The flows of this pipline is as follows Training a model using a training set without outliers . ( we get : Model Training a model to classify outliers . ( we get : Model Using Model_2 Training a model to predict whether an card_id in test set is an outliers . ( we get : Outlier_Likelyhood Split the card_id from Outlier_Likelyhood with top 10 % ( or some other ratio ) score
+52	The above histogram is not very interpretable , let 's try using log transformation to see if it 's useful for our predictions
+1003	For training , before training , let 's create a directory where the training images and test images will be saved . If you do n't have the directory , you can create it .
+1035	Load the data
+340	Model Architecture
+1500	Importing all libraries
+160	Let 's plot a histogram of isFraud vs non-Fraud .
+672	The log ( price ) shows a strong positive correlation between parent category and child category . The variation in the price is larger when compared to the mean of the parent categories .
+1065	Predicting on test set
+693	fivethirtyeight patch.edgecolor
+1571	Time Series - Average
+1355	Numeric Features
+1207	Image of investment , owner of investment and product category
+506	Let 's see the distribution of signal 1 values in the target 1 sample .
+1170	Saving the Sentences
+707	Distribution of area1 to area
+97	Load test data
+441	Meter Reading
+739	Submittion
+637	Lag features
+21	Let 's see how the muggy-smalt-axolotl-pembus counts vary with the data
+466	Look at the Images
+269	Model Architecture
+1511	Create video of 1 patient
+777	Linear Model
+836	Processing the data and creating new features based on the installments
+631	Sum of U-s in products
+1110	Some features introduced in by @ ryches Features that are likely predictive Weather time of day holiday weekend cloud_coverage + lags dew_temperature + lags precip_depth + lags sea_level_pressure + lags wind_direction + lags wind_speed + lags Train max , mean , min , std of the specific building historically However we should be careful of putting time feature , since we have only 1 year data in training , including ` date ` makes overfiting to training data . How about ` month `
+1266	Define the Optimizer
+266	ExtraTreesRegressor
+1138	We can see that some of the images are either on or off . We will tag them as jpg .
+1052	Load the U-Net model trained in the previous kernel .
+825	We can see that there are too many features which we do n't need . So we will drop those features from the training and testing datasets .
+1485	Sample Patient 1 - Lung Opacity sample Patient 2 - Lung Nodules and Masses
+1313	Examine Missing Values
+880	Score as Function of Learning Rate and Estimators
+565	Making predictions
+925	Income bins are created independently for each AMT_INCOME_TOTAL , and the AMT_INCOME_TOTAL is created independently for each AMT_INCOME_TOTAL in the application dataset . The following chart shows the distribution of the target values in the bins .
+1099	Please consider upvoting this kernel if you find it helpful in any way . And do n't hog any more .
+58	Load and Exploration
+336	BaggingRegressor
+1541	Create a copy of the feature matrix , and drop the target column .
+277	For commit_num = 6 , Dropout_model = 0 , FVC_weight = 0.15 , LB_score = -6.8100 commit_num = 5 , Dropout_model = 1 , FVC_weight = 0.15 , LB_score = -6.8100
+4	Load train and test data
+81	Mix Let 's see if the Mix tag is present or not .
+263	Create Training and Validation Sets
+673	In the above plot we can see that the coefficient ( CV ) has different prices for different categories ( category_name ) . Let 's try to understand the coefficients for different categories ( category_name ) .
+651	Let 's apply the cate0 feature to the data only .
+135	We are going to use the following features Covid19 Global Forecasting ( Week
+400	The data is now available in the Kaggle competition .
+933	Spliting the training and testing sets
+575	Let 's group the data in a way that we can compare the confirmed and deaths for a COVID
+262	Random Forest
+114	Wo n't be confused by the data provided . Wo n't be confused by the data provided . Let 's create some new columns on the price and calendar dataframe .
+300	Set xgboost parameters
+1228	Run the cross_validate_sklearn method to validate the outputs of the Logistic Regression model .
+719	Correlations of the variables
+1030	Create a submission file
+198	Fasta text graph
+627	Let 's see the distribution of bookings and years over
+28	Let 's plot now the train counts and the target .
+1137	Model Formation
+1097	In the first step , we need to concatenate the train and test datasets into a one-hot format . This is the code to do this .
+504	Next , we will determine the paths to the training and test datasets . We will use the ` metadata_train.csv ` and a ` train.parquet . parquet ` file to store the metadata .
+291	For commit_num = 20 , Dropout_model = 0.38 , FVC_weight = 0.2 , GaussianNoise_stddev = 0.15 , lb_score = -6.8092 commit_num = 20 , Dropout_model = 0.38 , FVC_weight = 0.2 , GaussianNoise_stddev = 1 .
+1096	SN_filter = 1 & SN_filter
+512	Spreading the Spectrum From the histogram , you can see that most pixels are found between a value of 0 and about 25 . The entire range of grayscale values in the scan is less than ~125 . You can also see a fair amount of ghosting or noise around the core image . Maybe the millimeter wave technology scatters some noise ? Not sure ... Anyway , if someone knows what this is caused by , drop a note in the comments . In the following function , I first threshold the background . I 've played quite a
+1176	We can see that there are duplicate links in our training dataset . There are no duplicate links in the test dataset either .
+1418	This notebook implements Elo ratings for NCAA regular-season games using the same formula as FiveThirtyEight 's NBA Elo ratings . My resources for this were The last link above is for 538 's NFL Elos ( not NBA ) , but it was useful for a code example of the approach . The idea here is to get another feature to be plugged in ( alongside seeds , etc . ) when predicting tournament games .
+1501	Ensure determinism in the results
+1429	United States COVID-19 Prediction
+1380	Numeric Features
+1488	Sample Patient 6 - Normal , Lung Nodules and Masses
+345	Predicting on test set
+121	Heatmap for categorical features
+771	What is the Fare amount by Number of passengers
+1405	Volume
+1334	Dropping Id 's from train and test dataframes .
+1020	Converting data into Tensordata for TPU processing .
+1316	Build continuous features list
+330	SGD Regressor
+1307	A single decision tree did not perform so badly . You can read more about the gini impurity metric [ here Now , let 's bag a collection of trees to create a random forest .
+787	What is the Average Fare amount by Day of the week
+1379	Numeric Features
+677	Understanding the Drift
+996	Preparing the submission
+815	boosting_type
+44	Embedding with tf-idf
+535	Mel-Frequency Cepstral Coefficients ( MFCCs
+584	Population of the world
+284	For commit_num , commit_num , Dropout_model , FVC_weight , and lb_score
+558	Now let 's take a look at the masks csv file , and read their summary information
+956	Display of Validation Index
+734	Create the MLP Classifier
+529	Run the model
+1479	Tabular Model
+184	Top 10 categories
+193	Shortest and longest coms length
+1148	Loading the data
+1046	Load Model into TPU
+1376	Let 's look at the histograms for the numeric features
+960	Let 's split the test data split into public and private sets
+1015	Adding more modes to the training set
+595	Let 's top 20 common words in neutral train set .
+487	Now let 's do the text to word conversion . In the keras library we can use the text_to_word_sequence method .
+274	For commit_num , dropout_model , FVC_weight , and lb_score
+1094	SNR Calculation
+554	factorize
+1475	Original code ( caffe Paper
+938	Light GBM ) の学習
+886	Variable Types
+807	For recording of hyperparameters , iteration and runtime , you can also create a CSV of the test parameters .
+231	For commit_num , ` dropout_model ` , ` hidden_dim_first ` , ` hidden_dim_second ` , ` lb_score ` , ` time_to_failure ` , ` duration ` , ` x_ { commit } ` , ` y_ { commit } ` , ` w_ { commit } ` , ` x_ { commit_num ` , ` y_ { commit } ` , ` x_ { commit_num ` , ` y_ { commit
+804	Optimizing the hyperparameters Back to Table of Contents ] ( toc
+821	Load and Explore
+1577	The main idea is to separate Churn and MMSNO columns . This way , a model can be trained and used on both train and test data .
+295	Average prediction
+129	Memory usage Let 's check the memory usage of our dataframe .
+1215	Inference
+462	MinMax Scaling the lat and long columns
+1394	For numeric features
+1516	Now that we have extracted the 'v2a11' and 'v2a14' features , let 's plot them to see what we see
+661	nominal and un nominal variables
+970	load mapping dictionaries
+1000	TPU Strategy and other configs
+999	What is the competition level CV Score : 0 . What is the user level CV score : 0 . What is the ratio of user level predictions to the session level AUC score : 0 . The ratio is close to the total AUC score : 0 . Since the AUC score is 0 . The AUC score is 0 . AUC score is 0 . Since the AUC score is 0 . The AUC score is 0 . AUC score is 0 .
+1346	Ohh my gosh ! ! This time , the data is split by ` TARGET
+903	What are the target correlations Let 's see if there are any correlations that are similar to the target .
+1032	Now that we have the decoded image , let 's decode it and print the results
+741	drop features which have a high correlation ...
+1223	Encode Categorical Features
+793	Let 's see the distribution of validation Fares
+366	Step 3 : Histogram Calculation
+128	To perform histogram analysis , consider a segmented data set . When you apply histogram analysis , be careful not to overfit . Instead , apply histogram analysis to reduce the dimensionality of the data . Apply histogram analysis to reduce the dimensionality of the data . Apply histogram analysis to reduce the dimensionality of the data .
+25	It 's time for making a submission .
+1058	This does n't seem very useful . Let 's plot the kNN logloss on longitude and latitude .
+1255	I 'd like to experiment with the BERT model and DISTILBERT model .
+1361	Numeric Features
+1202	We calculate the inverse transform for the test data and then train the model with the test data .
+33	Limit the amount of features
+327	Linear Regression
+939	Make the submission
+199	We can use ` neato ` to render the image .
+1212	Make a Baseline model
+1246	Plotting Sales by Store and Weekly Sales
+111	Splitting the data into train and test
+648	Train the Model
+1417	Start inference process Back to Table of Contents ] ( toc
+387	Now , for each item in the TRAIN_DB , we need to know the number of images and associated categories . We can do this by looking at the image counts per item and then looking at the category counts for each item .
+922	Keypoints Visualization
+604	Let 's make a submission with a random public and private score
+968	Curve for Cases
+1470	Traditional CNN
+498	Group by ( t1 , t2 ) ` - > ` ( t1 , t2 ) ` - > ` ( t1 , t2 ) ` - > ` ( a , b , c ) - > ` ( a , b , c ) - > ` ( a , b , d ) - > ` ( a , b , c ) - > ` ( a , b , d ) - > ` ( a , b , c ) - > ` ( a , b , d ) - >
+946	adapted from
+966	Growth Rate Anomalies in China/o Hubei , rest of China/o Hubei
+1173	Undersampling can be defined as adding more features . Undersampling can be a good choice when you have a ton of data -think millions of rows . Useful links
+417	Now we read the metadata and create the features that we want to pass to the cluster . To do this we need to split the signal ids into the principal components and then we construct the features that we want to pass to the cluster . As we have got signal ids that are in the same order , we need to do the splitting in the parallel fashion .
+489	Tokenization
+1254	Importing libraries and data
+1243	In the chart below , the store types are grouped by store type , and the variation in the size indicates the store type is grouped by store type .
+325	Few Preprocessings
+988	A plot is taken from this [ kernel ] ( by @ xhlulu . To see the effects of the visualizations , let 's start with the Display class .
+1529	headshotKills
+790	Linear Regression
+1190	md_learning_rate : md_learning_rate ( val = 0 or 1 , val = 5 , val = 8 , val = 10 , val = 5 , val =
+978	To view the output area , we can create a private variable that will set the _should_scroll flag to false . In the above code , I will set the _should_scroll to false .
+666	One-hot encode the full dataset
+1188	Creating the submission
+1169	Look at the distribution of data
+1390	Let 's plot only the numeric features .
+383	Set some hyperparameters and others global parameters .
+1435	uq_app_count ` and ` uq_os_per_ip ` and ` cumcount_ip_app ` and ` cumcount_ip_app ` are the important features . uq_channels_per_app ` and ` uq_device_per_app ` are the important features . Let 's combine these with our other features .
+1519	How about t-SNE visualization in 3 dimensions
+91	Gene Frequency Plot
+100	For a single data point , we want to generate a random sample of real and imaginary parts of the data . For this example , we randomly generate a random sample of real and imaginary part .
+62	In the above histogram , we can see that Blue : Frauds , Orange : Non-Fraud
+57	There 's anomalies that seem to be correlated with the mean squared error . That 's great , right ? Well , perhaps not ... Possibly the most important idea in machine learning is that of having a running average of the outputs ( as expected ) . Let 's do that ...
+814	Boosting Type
+740	Another Submission File
+359	How does this work
+727	Adding the aggregated features
+24	Building a Bag of Words
+564	Submit
+829	Create Training and Test Sets
+602	Distribution of Public-Private difference
+265	BaggingRegressor
+809	Running the optimizer
+875	Print the hyperparameters As you can see , we have added new hyperparameters to the notebook . How to improve the performance of this notebook Let 's take a look at the hyperparameters generated by the model .
+1474	As we can see that there are plate groups that match the exp_to_group [ 1,2,3,4,5,6,7,8,9 ] . I 'd like to select those groups based on the index of the experiment in the test set .
+1550	OSIC Pulmonary Fibrosis Progression Humidity Humidity Hours of Sunlight Wind Speed
+859	Boosting Type for Random Search
+260	SGD Regressor
+1437	Next , I 'd like to create a new variable ` click_time ` and ` next_click ` such that the value of ` next_click_time ` is the same as the value of ` ip_app ` , while the values of ` next_click ` are different .
+1448	Turning Time Series
+953	Initialize the data
+1040	Load and preprocess data
+230	For commit_num , dropout_model , hidden_dim_first , hidden_dim_second , LB score
+589	Based on the predictions from the training set , we have to plot whether or not the model has to be run or not . This is dependent on the number of entries in the train and test set .
+1083	Predictions on Test Set
+69	I do n't know the distance between the tour and the pen , but it seems reasonable enough . Let 's do that .
+298	Prepare Training Data
+982	Visualize Mismatches
+929	Word2Vec is an efficient solution to these problems . Word2Vec is an efficient solution when we have a large number of data points to work with . Word2Vec is an efficient solution when we have a large number of data points to work with . Word2Vec is an efficient solution when we have a large number of data points to work with . Word2Vec is an efficient solution when we have a large number of data points to work with.word2vec is an efficient solution when we have a large number of data points to work with the data .
+518	Note that the cross-validation score is a bit different from the one we are using , so we are using a different cross-validation score . You can read more about the base estimator in [ Universal Language Model Fine-tuning for Text Classification ] ( by Jeremy Howard and Sebastian .
+796	The Submission File is created , when all predictions are ready .
+374	Train XGBoost model
+928	Average , and 90th percentile of comment length
+1306	Setting up the training and validation sets
+756	We 've our image ready , let 's create an array of bounding boxes for all the wheat heads in the above image and the array of labels ( we 've only 2 class here : wheat head and background ) . As all bounding boxes are of same class , labels array will contain only 1 's .
+475	Submission
+981	There are two major formats of bounding boxes pascal_v , which is [ x , y , x_min , y_min , x_max , y_max COCO , which is [ x , y , x_min , y_min , x_max , y_max COCO , which is [ x , y , x_min , y_min , x_max , y_max COCO , which is [ x , y , width , height
+1391	Let 's have a look at the numeric features for each value
+305	Training the Model
+1019	Load Train , Validation and Test Data
+1506	The method for training is borrowed from
+1301	Load test data
+353	An ` EntitySet ` is a collection of entities and the relationships between them . They are useful for preparing raw , structured datasets for feature engineering . While many functions in Featuretools take ` [ x ] ` as an input , it is recommended to create an ` EntitySet ` , so that you can more easily manipulate your data as needed .
+989	vtkNamedColors creates a vtkNamedColors object with the colors we want to use in our rendering
+1458	Feature Engineering : Feature_Engineering
+665	Handle missing values
+1178	DICOM ( Digital Imaging and COmmunications in Medicine ) is the de-facto standard that establishes rules that allow medical images ( X-Ray , MRI , CT ) and associated information to be exchanged between imaging equipment from different vendors , computers , and hospitals . The DICOM format provides a suitable means that meets health information exchange ( HIE ) standards for transmission of health related data among facilities and HL7 standards which is the messaging standard that enables clinical applications to exchange data . image image
+280	For commit_num = 15 , Dropout_model = 0.32 , FVC_weight = 0.2 , lb_score = -6.8092 commit_num = commit_num + 1 , Dropout_model = 0.32 , FVC_weight = 0.2 , lb_score = -6.8092
+1522	Instead of 0.5 , one can adjust the values of the threshold for each class individually . However , it should be done for each model individually .
+1121	The DC graph shows the distribution of the outcome type against the animal type . This graph enables us to glance at the distribution of the outcome types and animals that are neutered and neutered .
+773	Manhattan - Minkowski distance
+934	As we can see that the accuracy is superior to 1 . Let 's use our model to make predictions
+876	Random Search and Bayesian Optimization Results
+1235	Let 's create a dataframe with the predicted values for the LGBM and the original dataframe .
+368	Linear Regression
+189	The price of items with a price of 0 .
+1305	Casting the categorical variables to category
+1526	winPlacePerc
+1445	Let 's define the type of each variable . ip :uint32 , 'is_attributed ' :uint8 .
+1348	Merging Applicant 's data
+350	Coronavirus disease ( COVID-19 ) is an infectious disease caused by a newly discovered coronavirus . Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment . The next step is to take a look at the data . We will use the featuretools package to perform this task .
+1411	One-hot encoding can be one-hot encoding any number of columns . One-hot encoding can be one-hot encoding any number of columns . When a column is one-hot , it is treated as a one-hot encoding .
+769	Zoom on the map from NYC
+985	Now , let 's create some new features based on the traning amount
+422	Is there any relation between the two classes Lets see Random Forest Classifier
+871	Let 's inspect the features created by featuretools to see if they were the same in the top 100 categories .
+429	Step Distribution H1 & H2
+346	Make a dataframe to submit our predictions
+733	Step 1 : Import Library
+1382	Numeric Features
+156	To finish our task , let 's call the ` clearoutput ` function and wait for it to finish . In the ` wait ` function , we will call this function with the ` wait ` argument , which will wait for the output to complete . In the ` clearoutput ` function , we will call this function with the ` wait ` argument which will wait for the output to complete .
+388	Now , for each item in the test_db , we can easily see the count of each image . Be careful using this value for each item_id , as this will leak information from the test set .
+1533	We can also see the distribution of winPlacePerc ( or , more specifically , winPlacePerc
+617	Here is how I set the parameters for the Random Forest to work . The parameters are the same for both the training and the test set .
+588	In the next section we will run the differential optimization algorithm on the SIR . This specific strategy involves populations of the formulas for each of the parameters , and then averaging the results of all of those populations to get the final solution . Note that the differentialevolution of the solution depends on the bounds of the search results . In the next section we will use the bounds of the search results to populate the search results .
+125	This patient has already been anonymized , let 's grab their DICOM and take a look at their images .
+822	Feature Engineering ( Bureau
+866	Running DFS with default settings
+1515	Most Household Types are not Vulnerable , Moderate Poverty , Extereme Poverty
+418	How do the feature engineering compare to the target
+155	To finish our task , let 's call the ` clearoutput ` function and wait for it to finish . In the ` wait ` function , we will call this function with the ` wait ` argument , which will wait for the output to complete . In the ` clearoutput ` function , we will call this function with the ` wait ` argument which will wait for the output to complete .
+197	We can use ` neato ` to render the image .
+1399	Let 's have a look at the numeric features . I 'll plot a category percentile for the numeric features .
+272	For commit_num = 4 , Dropout_model = 0.36 , FVC_weight = 0.25 , LB_score = -6.8105 Let 's consider other commit_num = 1 .
+1081	Displaying Blurry Images
+382	Part 0 : Import libraries and read databases
+865	Running the Pipeline
+827	Almost I do n't know the upper and lower bound for all features . The higher the ` class_weight ` , the higher the ` learning rate ` .
+1447	Replace category variables
+696	We can see that ` dependency ` , ` edjefa ` and ` edjefe ` are all of the unique values ( ` yes ` and ` no ` ) . Let 's fix that ..
+645	There are no missing values in the training set and the test set does n't have these values . Let 's see the difference between the number of unique labels and the number of non-null labels .
+967	Growth Curve
+122	Sex - Pulmonary Condition Progression by Sex
+245	What if theLB_score is high ...
+697	We note that there are not all equal households where the family members do not all have the same target . We will do this by noticing that the households where the family members do not all have the same target .
+1045	As we can see that the input shape is ( 300 , 300 , 3 ) . This is because , after training , the validation shape is ( 300 , 300 , 1 ) . Let 's check this .
+1118	To win in kaggle competition , how to evaluate your model is important . What kind of cross validation strategy is suitable for this competition ? This is time series data , so it is better to consider time-splitting . However this notebook is for simple tutorial , so I will proceed with KFold splitting without shuffling , so that at least near-term data is not included in validation .
+607	Load and Preprocessing Steps
+227	For commit_num , ` dropout_model ` , ` hidden_dim_first ` , ` hidden_dim_second ` , ` lb_score ` . ` commit_num ` has 8 unique values . ` commit_num ` has 10 unique values ; ` hidden_dim_first ` , ` hidden_dim_second ` , and ` lb_score ` have values .
+349	Controlling the generator
+567	Let 's load the data without the drift
+1347	Non-LIVINGAREA_MODE - multi features
+520	CalibratedClassifier
+249	Implementing the SIR model
+458	Make a new columns -- > Intersection ID + City name
+629	Let 's do the same for date aggreagte
+3	Data Collection I start Collection Data by the training and testing datasets into Pandas DataFrames . Go to top ] ( top
+1409	As there are missing values we have to convert them into numbers . We can do it with the [ missingno ] ( package .
+755	There are two major formats of bounding boxes pascal_voc , which is [ x_min , y_min , x_max , y_max COCO , which is [ x_min , y_min , width , height We 'll see how to perform image augmentations for both the formats . Let 's first start preparing the image for training .
+566	The test path and the list of filenames in the test directory .
+1386	Let 's have a look at the numeric features
+890	loan/- 1 . Bureau Balance over Time
+386	Build the model
+1555	Distribution of all the words in the train set
+616	SVR
+1098	We solve many of the tasks within the training set using our Neural Cellular Automata model ! I did test on the validation set as well , and it correctly solved 17 of the tasks . There are a number of ways this model could be improved . Please let me know if you 'd be interested in collaboration Solved Tasks
+1278	Data Preparation
+207	Create train/valid matrices
+390	How many categories are there
+450	Differences over the air temperature
+571	Let 's have a look at the cleaned Covid
+45	Let 's see the distribution of the target values
+1564	components_ [ 0 , 1 , 2 , 3 , 4 , five ] - > Topic Distributions - > [ 1 , 2 , 3 , 4 , 5 ] - > [ 0 , 1 , 2 , 3 , 5 ] - > [ 1 , 2 , 3 , 4 , 6 ] - > [ 0 , 2 , 3 , 5 ] - > [ 1 , 2 , 3 , 4 , 6 ] - > [ 0 , 2 , 3 , 5 ] - > [ 1 , 2 , 3 ,
+1087	Dealing with DICOM
+619	This function is to perform linear regression on the test and prediction sets . The results are then given to the public leaderboard .
+109	Data augmentation
+1428	From the above table we can observe that there are no null values for the 'Province/State ' and 'Confirmed ' variables . From the above table we can observe that there are null values in the 'Date ' column . From the above table we can observe that the 'Province/State ' , 'Confirmed ' and 'Deaths ' variables have null values . From the above table we can observe that there are no null values in the 'Date ' column . From the above table we can observe that there are no null values
+22	Let 's split the train data into train and validation sets . The ` target ` is our target variable .
+437	Importing the Libraries
+522	Report for LogReg and SGD
+328	SVR
+593	We can see that there are some positive tweets in the train set . Also , we can see that there are some negative tweets in the train set .
+1354	Numeric Features
+1496	To evaluate the program , you need to pass an array of images to the function . As shown above , the function can only work with one image at a time . So we 'll return an array of all images that are found in the input_image list .
+1440	Let 's load some data .
+1397	Let 's have a look at the numeric features
+1006	Training for one epoch
+154	SAVE MODEL
+210	And last but not least , let 's see how the feature scores look like .
+1267	The results.txt file contains all the training data in the training set . This file contains all the training data in the testing set . The training data is saved in the `` results.txt '' file . This file is saved in the `` private_test.csv '' file .
+63	Below I will explore the combinations of card1 , card2 , card3 , card4 , card5 , 'addr1' , 'addr2' , 'dist1' , 'R_emaildomain ' , 'TransactionDTDay
+931	Applying CRF seems to have smoothed model output .
+428	By using the CatBoostRegressor we can get an idea of what our training and validation sets do . Let 's run the model for GPU ( without overfitting ) and observe the results .
+1091	We define the model parameters .
+71	As the organizer has already mentioned that the future dates will be future days . Let 's parse our dates
+77	Training the Model
+543	calendar.csv - contains information about the dates on which the products are sold . calendar.csv - Contains the dates on which the products are sold . sales.csv - Contains the daily unit sales data per product and store \ [ d_1 - d_1913\ ] ( or \ [ d_1 - d_1 - d_1885 \ ] ( or \ [ d_1 - d_1 - d_1 - d_1 - d_1 - d_1 - d_1 - d_1 - d_1 - d_1 - d_1 - d_1 - d_1 - d_1 - d_1 - d
+84	Most animals are mixed up in the sample . Some animals are mixed up in the sample , others do n't .
+351	Loading Data
+130	Here we will try to clean our data as much as possible , to map as much words to embeddings .
+515	Normalize and Zero Center With the data cropped , we can normalize and zero center . Note that more work needs to be done to normalize the data .
+965	Shap importance
+850	Grid search gives best results on training and validation sets . In the training set , we have to predict at least 10 % of the time for each iteration . For the test set , we have to predict 10 % of the time for each iteration . We then submit the results for each iteration .
+699	Now , let 's compare the members households where the family members do not all have the same target .
+1469	To be able to view the sales across all stores , we can melt the sales dataframe .
+537	What is Pitches and Mel-Frequency Cepstral Coefficients ( Pitch Estimation of Pitches or Mel-Frequency Cepstral Coefficients ( Mel-Frequency Cepstral Coefficients ( Mel-Frequency Cepstral Coefficients ( Mel-Frequency Cepstral Coefficients ( Cepstral Coefficients ( Cepstral Coefficients ( Cepstral Coefficients ( Cepstral Coefficients ( Cepstral-
+653	We now see what happens if we use this model on a sample of data . Let 's see what happens if we use the same data for training and validation
+48	Target log-target
+431	Remove duplicate entries
+915	Top 100 Features created from the bureau data
+216	From the above plots , it seems that the feature ` epsilon ` is not linearly correlated with the target variable ( target_fe ) . Let 's try to use all the available features for training the model .
+1282	Looking at the actual data , we see that the model has clearly overfit . In the training set , the model has clearly overfit . Now , the actual data , and the forecasts , are ready for plotting . We are going to make this into a function that we can call when we have the actual data , and when we have the forecasts data , we are going to plot the actual data against the forecasts data . The actual data may or may not coincide with the forecasting data , so we will use this function to make our predictions and actual data .
+304	Build Model
+746	Now write the submission file .
+1412	Taking the log transform to visualise the distribution of target values
+640	Now we will set a random permutation of the predicted set and use Quadratic Weighted Kappa to calculate the accuracy . Note that the weights are quadratic . This will lead to a better accuracy on the validation set .
+778	Let 's see how often the model misclassifies a baseline .
+1557	The concept of tokenization is the act of taking a sequence of characters ( think of Python strings ) in a given document and dicing it up into its individual constituent pieces , which are the eponymous `` tokens '' of this method . One can think of them as singular words in a sentence . One can think of them as singular words in a sentence . One can think of them as singular words in a sentence . One can think of them as singular words in a sentence . One can think of them as singular words in a sentence which are
+949	merchant_card_id_cat merchant_card_id_num merchant_card_id_cat merchant_card_id_num ( merchant_card_id
+788	Split data into train and validation sets
+186	Let 's extract the categories from the category name
+768	Let 's remove the outliers and see the distribution of new locations . First let 's remove the pickup and dropoff coordinates . In this example , the distance between pickup and dropoff is 0 .
+1565	Augmentations and Functions of Mel-Frequency Cepstral Coefficients Hilbert transform ] ( http : /en.wikipedia.org/wiki/Hilbert_transform Neural Networks ] ( http : /en.wikipedia.org/wiki/Neural Networks ] ( http : /en.wikipedia.org/wiki/Neural Networks ] ( http : /en.wikipedia.org/wiki/Neural Networks ] ( http : /en.wikipedia.org/wiki/Trees
+906	Generating the sequences from bureau_balance_count to bureau_by_loan
+1272	Number of Repetitions for each class
+1512	Plot 3JHC mol feature engineering
+1139	Now the augmentation is performed on the training images . Let 's look at some augmented images .
+103	Scoring Absolute Deviation
+166	How many different values we have in our data
+257	Linear Regression
+688	Here we convert image_id to filepath . If there is no image with that image we will fall back to DNE .
+980	Let 's extract the DICOM from the DICOM files .
+738	Run the model Back to Table of Contents ] ( toc
+509	Zone 1 ? Really Looking at this distribution I 'm left to wonder whether the stage 2 data might be substantially different , and certainly one might think real world data would be different . Zone 1 , the right arm , seems unlikely to be the population 's most likely zone to hide contraband . To begin with , you would have to put your contraband in place with your left hand . So unless most airline passengers that carry contraband , I am guessing that the real world ( and perhaps stage 2 ) will look different . Its just a guess of course ... Anyway ,
+402	Let 's validate the test files . This verifies that they all contain 150,000 samples as expected .
+905	One-hot encoding As described in this [ discussion ] ( and [ here ] ( ( and [ here ] ( ) , this encoding converts each group variable into a categorical . The resulting categorical variable is a combination of count and norm .
+273	For commit_num = 6 , Dropout_model = 0.36 , FVC_weight = 0.35 , LB_score = 6.8158
+846	Define the objective function
+1294	Let 's convert the images . DICOM images can be saved as .dcm , .png files or .dcmx .
+838	There 's a lot to examine here , and certainly many parameters to change this . There 's a lot to change this . There 's a lot to change this . I 'll deal with this one at a time .
+762	Submission ( Part I
+658	Let 's have a look at the correlation of each object .
+205	OneHot Encoding
+434	We will split the data on train and test sets .
+306	Loading Tokenizer
+1432	Diffs and H1s
+282	For commit_num , the number of commits ( commit_num , dropout_model , FVC_weight , and lb_score
+302	Create out of fold feature
+729	Compute Weighted Pinball
+1279	There are missing values in the train and test data . Check the number of records and nulls
+695	There are a lot of columns that contain only integer values . In this section , we will see how many unique values we have in each column .
+164	MinMax + Median Stacking
+138	Month temperatures
+124	Importing modules and read databases
+594	negative_top
+923	Now that we have our children , let 's see the distribution of CNT_CHILDREN .
+1068	Text and Seq of Words
+547	Bedroom Count Vs Log Error
+83	The number of neutered animals varies between the test and the train set . The number of neutered animals varies between the test and the train set .
+591	Word Cloud
+501	Heatmap with correlated features
+147	In order to make the optimizer converge faster and closest to the global minimum of the loss function , i used annealing method of the learning rate ( LR ) . The LR is the step by which the optimizer walks through the 'loss landscape ' . The higher LR , the bigger are the steps and the quicker is the convergence . However the sampling is very poor with an high LR and the optimizer could probably fall into a local minima . Its better to have a decreasing learning rate during the training to decrease the loss function
+860	Let 's load and drop some features .
+1569	id_error_3 , id_error_5 , id_error_6 , id_error_7 , id_error_8 , ...
+1283	Read data from folder and create a data frame with all the data in a single dataframe .
+140	Encoding for continuous features
+1441	Number of lines in train.csv
+1345	Ohh my gosh ! we have split by target so let 's try using KDE for this .
+726	Dimension reduction .
+421	Let 's have a look at the confusion matrix .
+179	Now , it 's time to analyze the data . To do so , we need to identify the distinct components that are distinct from each other . To do this , we need to identify the distinct components that are distinct from each other . To do this , we will have to identify the distinct components that are distinct from each other . We will then form this as a numpy array .
+1085	Mel-Frequency Cepstral Coefficient
+1182	Spliting the data
+1525	Loading packages and data
+492	Visualization - visible
+221	For commit_num = 2 - > commit_num = 4 - > commit_num = 7 - > commit_num = 8 - > commit_num = 9 - > commit_num = 16 - > commit_num = 32 - > commit_num = 64 - > commit_num = 8192 - > commit_num = 8192 - > commit_num = 64 - > commit_num = 8192 - > commit_num = 8 - > commit_num = 16 - > commit_num = 32 - > commit_num = 64 - >
+1174	Adding PAD ` to each sequence
+546	Pearson correlation is the correlation between two parcels . Pearson correlation is the correlation between two parcels , which is the same in all years . Here Pearson correlation is the correlation between two parcels ' building years .
+808	Running the optimizer
+1542	Both datasets contain a time-to-failure ( between the start and end of a period ) and a acoustic data . Let 's take a look at the acoustic data for the first 150,000 patients in the training set .
+613	Cross-Entropy Loss vs Epochs
+556	Join full_text and text features
+1082	Let 's convert the labels to 0 or 1 and export for submission .
+1321	Let 's combine all the features and use them in a new column ( new_col_name ) .
+1187	Preparing the test data
+1315	Replace 'yes ' , 'no ' values with 1 , 2 and 3 .
+849	Let 's see if there are any values between 0.005 and 0.05 .
+858	altair
+86	We can see that there are outliers , young , young adult , and old animals in a group . Let 's create a column for the Age Category .
+955	Create train-validation split and visualize coverage
+542	Submission Scores Public LB score : ` -6 . Private LB score : ` -6 . Private LB score : ` -6 . Private LB score : ` -6 . Private LB score : ` -6 . Internal result : ` -6 . Internal result : ` -6 . Internal result : ` -6 . Internal result : ` -6 . Internal result : ` -6 . Internal result : ` -6 .
+1028	First , we train in the subset of taining set , which is completely in English .
+430	Categorical Encoding
+194	Descriptions length VS price
+754	Non-Limited Tree
+1191	Train and Validation
+784	Let 's see the minimum amount of data for test set .
+241	For commit_num , ` dropout_model ` , ` hidden_dim_first ` , ` hidden_dim_second ` , ` lb_score ` , ` time_to_failure ` , ` duration ` , ` x_ { y } ` , ` y_ { t } ` , ` x_ { t+1 } ` , ` y_ { t+1 } ` , ` x_ { t+2 } ` , ` y_ { t+2 } ` and ` x_ {
+1128	Let 's go deeper
+1218	Define Callbacks
+158	UpVote if this was helpful
+385	To run the parallel part , we need to create a multiprocessing object that will run all of the processes in the multiprocessing library . To do this , we need to create a multiprocessing object that will run all of the processes in the multiprocessing library . This is equivelant to run all of the processes in the multiprocessing library .
+761	As this is a multi class classification problem . Lets try Random Forest Classifier algorithm .
+459	Extracting informations from street features
+694	Next we need to change the number of columns in train and test . This way we can easily see the distribution of column values in our training and test data . Next we need to load the data into memory . This is as simple as calling ` pd.DataFrame.from_dicoms ` ( ) ` . This is the code to use
+855	So far we are doing exactly the same thing as the baseline model . Let 's see what our model looks like .
+1342	How many missing values have been filled for each object
+1520	NumtaDB Classification Report
+1160	Create a mapping from category_id to a binary class
+654	Random Forest
+361	Ok , let 's define the baseline using only 10 points ( y ) and see what happens if we use all 10 points for training our model . Well , that 's not our goal in this competition . So , we 're going to make a series of 10 points ( sample_wts ) in the correct order . Let 's do that . We 'll use 10 points for training , and 10 points for testing .
+117	Xmas_date and state_group
+1505	Two embedding matrices have been used . Glove , and paragram . The mean of the two is used as the final embedding matrix
+446	Meter reading ` - ` primary_use ` - ` usage_date ` - ` date ` - ` month ` - ` day ` - ` month ` - ` year ` - ` month ` - ` day ` - ` week ` - ` month ` - ` year ` - ` month ` - ` day ` - ` week ` - ` month ` - ` day ` - ` week ` - ` month ` - ` day ` - ` weekday ` - ` year ` - ` month ` - `
+120	FVC Difference
+1041	Oops ! We now have a table of all the trials . We will use this table to generate our predictions and submit the results .
+888	Working with Day Outliers
+1014	As we can see , over 11 million rows , from 17,000 unique installation ids . However , most of those ids are null values . We will thus remove those ids from our data .
+863	Set and Target Variables
+337	ExtraTreesRegressor
+1144	Converting Card Id 's to category type
+178	Thresholding is a very popular segmentation technique that has been used for separating an object considered as a foreground from its background . Otsu thresholding techniques are used for separating an object considered as a foreground from its background . Otsu thresholding techniques are used for separating an object considered as a foreground from its background . Otsu thresholding techniques are used for separating an object considered as a foreground from its background . Otsu thresholding techniques are used for separating an object considered as a foreground from its background . Otsu thresholding techniques can be seen [ here
+1155	Our plan is to use the tournament seeds as a predictor of tournament performance . We will train a logistic regressor on the difference in seeding between the two teams playing , and have the result of the game as the desired output This is inspired by [ last years competition ] [ 1 ] , where [ Jared Cross made a model just based on the team seeds ] [ 2 ] .
+748	Trials JSON File
+1560	Vectorizing Raw Text
+150	Create Testing Generator
+781	NOW AFTER SEEING THE DISTRIBUTION OF VARIOUS DISCRETE AS WELL AS CONTINUOUS VARIABLES WE CAN SEE THE INTERRELATION
+357	Looks like we have already seen the [ evaluation metric ] ( and [ AUC ] ( distributions , as well as the [ AUC ] ( metric . Now , we will make our synthetic predictions using the synthetic data , and we will use them to make our predictions . First , we will import the synthetic data that is going to be used in our model . I would highly recommend the [ synthetic data that is useful for this competition ] ( by [ Marco ] ( in the comments section .
+572	let 's see the first and last days of the COVID
+6	Check for Class Imbalance
+2	Create a Fully connected model
+1070	How can we identify these objects using ARC
+843	The idea is to transform the features ( features ) and their importances into a new dataframe . In this way , we can keep track of all the features , and also track the feature importance .
+1498	This section will help us to debug the model .
+1252	Encoding for train/test
+684	All zero features
+1424	Now , let 's look at the predictions for each country . US , United Kingdom , Russia , New Zealand
+377	BaggingRegressor
+993	Makes a file and saves it to ` filepath ` .
+465	For the historical season , you can also look at the detailed results of the season ( as well as the MNCAATourney and MRegularSeasonDetailedResults ) of the training data .
+531	Hour Of The Day
+872	Remove Low Information Features
+494	Build the Model
+299	Light GBM ) の学習
+153	Making the Submission File
+786	What is the Average Fare amount by Hour of Day
+794	Tune the fare amount
+1350	B.4 Missing Data We have collected several assumptions and decisions . So far we did not have to change a single feature or value to arrive at these . Let us now execute our decisions and assumptions for correcting , creating , and completing goals . Correcting by dropping features Correcting by fill features
+1549	The method for training is borrowed from
+1186	Preparing the data
+1163	Create a new label , that is not in the training set but not in the test set . This way , the attribute_id and attribute_name are not in the test set .
+805	Hyperopt 提供了记录,可以方便实时监控
+737	Here we will use the ExtraTrees classifier we defined earlier to make our predictions easier to begin .
+1109	Fast data loading
+53	The distribution of the nonzero values in the training set is skewed . Let 's use the distribution of the nonzero values in the training set .
+1375	Numeric Features
+747	For recording our result of hyperopt
+362	Ok , let 's see the output
+1341	How many missing values have been filled for each object
+1080	Blurating the images
+1043	Inference and Submission
+461	One hot encoding
+549	Room Count Vs Log Error
+1026	Converting data into Tensordata for TPU processing .
+1558	To filter out stop words from our corpus , we can use the nltk library to remove stop words from a list of words .
+548	Bathroom Count Vs Log Error
+1145	Now that we have our mask , let 's open it . We can use fastai.util.open_mask_rle to do this . We 'll be using the fastai library .
+31	Checking for K-means Clustering
+983	To run the prepareSample method , you can pass the ` sample_submission ` to the parallel processing of the test data . The ` proc_mode ` argument can be set to 'resize ' , or 'overwrite ' , depending on your preferences .
+1303	There are a number of columns ( test_num_cols ) and a number of missing values in the test set . test_num_cols Do not include any columns that are missing in the training set . test_null_num_cols Do not include any columns that are missing in the training set .
+80	Get sex , neutered , female , unknown
+541	Mask R-CNN
+319	Create the filename
+1146	Visualization of masks in fastai
+469	Observation From the above plot we can see that a simple linear regression model with very miniscule hyperparamater tuning results in significantly satisfactory results . We will use this model to make predictions on the test set .
+416	The Sales evolution is the measure that the sales of a unit is more or less constant than the total sales of the units sold in 2017 . Unit Sales is the measure that the sales of a given state is more or less constant than the total sales of the units sold in 2017 . Unit Sales is the measure that the sales of a given state is more or less constant than the total sales of the units sold in 2017 . I am not sure if this information is important but it 's worth a try .
+1507	Add train leak
+563	Andrew Masks Over Image
+1263	I 'd like to experiment with the BERT model and DISTILBERT model .
+812	Now we prepare the scores . This is the process of preparing the scores .
+105	The pickle files can be pickled with the pyzimuth library . Since we 're using pyzimuth , we want to load the data as-is and then save it as-is . For that , we will use the pyzimuth library . Since we 're using pyzimuth , we will use the pyzimuth library . Since we 're using pyzimuth , I will use the pyzimuth to load the data as-is .
+840	Let 's read the credit data and make some adjustments . credit_card_balance.csv
+1113	A one idea how we can use LV usefull is blending . We probably can find best blending method without LB probing and it 's means we can save our submission .
+110	By looking above graph we can say that Learning Rate changes continuously in Time Based Approach of Schedulling Learning Rate
+1151	Let 's plot now the distribution of var_91 through the train and test set .
+1494	Lift function ( lifted function
+587	Looking at the target country , let 's calculate the infected individuals and deaths per day of the year .
+568	Given the open channels , we want to select the top 15 features that are similar to the open channels used in the previous section . To do this , we first threshold the number of open channels that are present . We then select the top 15 features that are similar to the open channels used in the previous section .
+1326	Binary AND Categorical Features
+1286	We will split the data into train and validation folds .
+182	To be able to feed the mask into the MaskEncoder , we need to encode them into RLE . This is the code to use for MaskEncoder .
+405	Now that we have our first image , let 's see how it looks in the form of a 2D image
+218	Dropout Model
+887	Ordinal app types
+912	above_threshold_vars generate a list of all the above threshold variables and then remove them from the above_threshold_vars dictionary .
+294	One of the most important features was theLB score . Let 's do that . First , let 's find out what the optimalLB score is for each commit .
+1241	Now , let 's have a look at the data
+1292	The FVC of the Patients is the sum of the FVC of all the Patients over the week . The FVC can be derived from the FVC of the Patients across the Weeks , which is the same as the FVC of the Patients over the Weeks . Note that the FVC of the Patients across the Weeks is different from the one which derived from the FVC of the Patients under the Weeks . The FVC for the Patients across the Weeks is the sum of the FVC of the Patients across the Weeks .
+1179	Process to get the test data
+753	This is ancient of GraphViz . We 'll use this technique for training our model , and then again for validation . GraphViz provides a graph-based approach to the problem . GraphViz provides a variety of out-of-the-box method that can be used for training the model . GraphViz provides a variety of out-of-the-box method that can be used for training the model . GraphViz provides a variety of out-of-the-box method that can be used for training the model . GraphViz provides a
+611	Loading word embeddings
+89	Let 's create a tokenizer object for cleaning the comments .
+136	Checking for Unique Values
+681	Let 's start with the data
+1459	Below we will query for positive and negative tweets from the train and test set .
+632	Interestingly , the value of ` log1p_Demanda_equil_sum ` is different between the two distributions . The log1p_Demanda_equil_sum ` is a sum of ` log1p_Demanda_equil_sum ` . Let 's see the distribution of ` log1p_Demanda_equil_sum ` .
+1013	Applying the convolutional filter
+936	Using Selected Aggregates
+551	Now , let 's create a Gaussian target noise class that can be used with any classifier we want to use . The code below will create a Gaussian target noise class that can be used with any classifier you want to use .
+331	Code in
+1381	Let 's have a look at the Percentage of Target for numeric features
+372	Code in
+516	Most of the data is missing from the adwordsClickInfo object . So we need to deal with missing values in the ` trafficSource.adwordsClickInfo.page ` , 'trafficSource.isTrueDirect ` , 'totals.bounces ` and ` trafficSource.adwordsClickInfo.isVideoAd ` .
+921	Create train and validation splits
+948	There are no missing values or missing values for the merchant amount . Let 's now look at the missing values in the train , test and merchant data .
+879	Zoom of Function of Reg Lambda and Alpha
+1583	Let 's process the data and append it to the ` lidar_data
+275	For commit_num , dropout_model , FVC_weight , and lb_score
+1051	Looking at the above pivot dataframe , we can see that there are some columns that contain ` Label ` , ` filename ` and ` type ` . Let 's pull those out .
+889	Bureau Credit Application and Credit End Date Columns
+1527	Let 's see the distribution of assists
+538	Distribution of bathrooms and interest_level
+1538	Running DFS with SK_ID_PREV
+1310	Load libraries and read in data
+1167	Load Model into TPU
+1570	Import libs and load data
+1576	Autonomous Driving
+1050	Let 's see if the sample images are in the training set .
+70	Optimized kernel
+891	Running DFS with cumulative sum as a function of time
+1419	Provice/State Cleaning up the data
+1523	Similar to validation , additional adjustment may be done based on public LB probing results ( to predict approximately the same fraction of images of a particular class
+255	Andorra
+234	For commit_num = 15 - > commit_num = 19 - > commit_num = 32 - > commit_num = 248 - > commit_num = 384 - > commit_num = 64 - > commit_num = 8192 - > commit_num = 8192 - > commit_num = 8192 The hidden_dim_first = 128 - > commit_num = 248 - > commit_num = 384 - > commit_num = 729 - > commit_num = 848 - >
+187	Let 's plot the prices of the first level categories .
+1300	Examine the distribution of the int8 columns and the int16 columns
+9	Imputations and Data Transformation
+149	Prepare Testing Data
+258	SVR
+1312	aug_train_df_2 ,aug_test_df_2 ,aug_submission.csv
+1027	Model initialization and fitting
+1033	Examine the output file and check the shape , type of image_out
+307	Prepare Dropout and Lattice
+585	Let 's group the citals by day S0 / target_population I0 / target_population , R0 / target_population , E0 / target_population , I0 / target_population , D0 / target_population
+17	Loading the Data
+578	Italy
+892	Let 's see the distribution of Trends in Credit Sum
+1328	Let 's calculate the predictions for the test set and save the predictions .
+229	For commit_num , ` dropout_model ` , ` hidden_dim_first ` , ` hidden_dim_second ` , ` lb_score ` .
+162	Pushout + Median Stacking
+49	Let 's list all the columns which are not in constant_train and test_df .
+397	In-Train and In-Test Dataset
+201	Please note that when you apply this , to save the new spacing ! Due to rounding this may be slightly off from the desired spacing ( above script picks the best possible spacing with rounding ) . Let 's resample our patient 's pixels to an isomorphic resolution of 1 by 1 by 1 mm .
+15	Padding sequences
+60	Here I am going to explore the existstrun graph and create a list of the existstrun triples of the graph . We will use the sum of the connected components to create a list of the existstrun triples .
+30	Submission
+992	To show the region of interest , use the ` vtk_show ` method . This will open a new window and display the image .
+1209	card_id : Card identifier month_lag : month lag to reference date purchase_date : Purchase date authorized_flag : Y ' if approved , 'N ' if denied category_3 : anonymized category installments : number of installments of purchase category_1 : anonymized category merchant_category_id : Merchant category identifier ( anonymized subsector_id : Merchant category group identifier ( anonymized merchant_id : Merchant identifier ( anonymized purchase_amount : Normalized purchase amount city_id : City identifier ( anonymized
+1259	VALIDATION
+1042	Pickle of best model ( best_hp.pickle
+1008	Reducing Images
+979	Get the patients
+1574	Time Series Analysis
+1060	Making predictions on test set
+1206	The above plot shows that the number of rooms has a high correlation with price_doc . Let 's see how the price changes with the number of rooms .
+1356	Let 's have a look at the histogram of values in a numeric feature
+1076	CNN
+1009	Let 's setting the hyperparameters and others global parameters .
+75	Create a DataBunch
+163	MinMax + Mean Stacking
+926	Word embeddings algorithms are awesome ! They accepts text corpus as an input and outputs a vector representation for each word . Word2Vec , proposed by Mikolov et al . in 2013 , is one of the pioneering Word2Vec algorithm . So , in a nutshell , we can turn each word in the comment_text column into a point in high dimensional vector space . We will use MLPClassifier to make our MLP classifier work .
+1592	Remove columns of type ` object ` .
+474	Here I try various methods of parameter tuning . Important notice : running this takes a lot of time , so I 'll run some of these methods and print the result .
+590	Feature Selecion Methods In machine learning and statistics , feature selection , also known as variable selection , attribute selection or variable subset selection , is the process of selecting a subset of relevant features ( variables , predictors ) for use in model construction . Feature selection techniques are used for several reasons simplification of models to make them easier to interpret by researchers/users , shorter training times , to avoid the curse of dimensionality , enhanced generalization by reducing overfitting ( formally , reduction of variance
+519	Let 's cross-validation the logreg and therfc scores .
+789	As can be seen , the number of passengers is lower than the total number of passengers . This makes sense because the number of passengers is lower than the number of passengers itself .
+46	Target variable : log1+Target
+1332	New Category
+1373	Numeric Features
+1063	Number of masked vs unmasked samples
+426	CatBoostRegressor
+1486	Sample Patient 4 - Ground-Glass Opacities Sample Patient 5 - Consolidation
+1285	Lets define the squared of each element in our list
+1467	Plotting sales over the 3 states
+1117	Some features introduced in by @ ryches Features that are likely predictive Weather time of day holiday weekend cloud_coverage + lags dew_temperature + lags precip_depth + lags sea_level_pressure + lags wind_direction + lags wind_speed + lags Train max , mean , min , std of the specific building historically However we should be careful of putting time feature , since we have only 1 year data in training , including ` date ` makes overfiting to training data . How about ` month `
+380	Univariate Voting Regressor
+1265	A list of all trainable variables that are present in the BERT model .
+1284	Let 's see which score we got for a given holiday and yearly . On the other hand , the validation score for a given holiday is the same as the validation score for that holiday . I do n't know the best score for a given holiday or yearly . It 's important to have a close relationship between the validation and the training set . First , let 's plot the validation score for each model .
+312	Next , set the paths to the train and validation folders and specify the number of steps and how many batches we want to use . In this example , I will use 10 batches for training and 10 for validation .
+1141	Efficient Detection
+1107	Some features introduced in by @ ryches Features that are likely predictive Weather time of day holiday weekend cloud_coverage + lags dew_temperature + lags precip_depth + lags sea_level_pressure + lags wind_direction + lags wind_speed + lags Train max , mean , min , std of the specific building historically However we should be careful of putting time feature , since we have only 1 year data in training , including ` date ` makes overfiting to training data . How about ` month `
+1427	Now , let 's see if the COVID-19 model was able to predict the COVID
+338	AdaBoost
+0	Target variable
+1308	Data Preprocessing
+118	Let 's see the number of data points in our training and test set .
+1136	Data Preprocessing
+463	Modelling updates
+1547	Lets take a look at the first few lines of the GloVe Wiki
+1536	Since there are lot of NaN 's in previous days , I will replace them as 365243 , 365244 , 365243 , ... , 6243 .
+1398	Let 's have a look at the numeric features
+261	Code in
+370	Linear SVR
+285	For commit_num , if commit_num is less than the number of entries in commits_df , then the value of commit_num must be greater than or equal to the number of entries in commit_df . If commit_num is equal to the number of entries in commit_df , then the value of commit_num must be greater than the number of entries in commit_df . If commit_num is equal to the number of entries in commit_df , then the value of commit_num must be greater than the number of entries in
+1240	Let 's create new features based on the date .
+1196	Number of annotators and comment texts
+897	Running DFS
+647	Loading previous model ( sucessful run , or stored model ( my_iou_metric
+309	Let 's see the number of images in train and test folders .
+1322	Let 's create some new features based on the abastaguadentro , abastaguafuera and abastaguano
+11	Detect and Correct Outliers
+1369	Let 's have a look at the numeric features . I 'll plot a category percentile for each feature .
+643	using outliers column as labels instead of label column
+1067	Splitting the Dataset
+1053	Create test generator
+399	These are the needed library imports for problem setup . Many of these libraries request a citation when used in an academic paper . Numpy Pandas The Pandas Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras Dataframe The Keras DataFrame In our case , we wanted to signalize the time at which the data was collected . signalize the time at which the data was collected . signalize the
+1213	I think the way we perform split is important . Just performing random split may n't make sense for two reasons
+411	Let 's create a mask for training and a mask for test . We will use the same mask for both train and test .
+424	Let 's have a look at the confusion matrix .
+500	Below is the correlation heatmap of all the features .
+857	Apply the cell-wise hyperparameters to the random grid
+1585	Importing the twosigmanews package
+911	Below is a list of all the above threshold variables that are above the threshold . In this case , the above threshold is 0.8 . Below is a list of all the above threshold variables that are above the threshold .
+1420	Time Series Analysis
+1466	Dependencies
+683	All Features with 0 values
+165	Creating a dataframe from csv files
+1357	Numeric Features
+1205	modes by own , by invest
+335	acc_model
+55	Find the Percentile of the Zero values
+219	For commit_num , dropout_model , hidden_dim_first , hidden_dim_second , lb_score
+513	Masking the Region of Interest Using the slice lists from above , getting a set of masked images for a given threat zone is straight forward . The same note applies here as in the 4x4 visualization above , I used a cv2.resize to get around a size constraint ( see above ) , therefore the images are quite blurry at this resolution . Note that the blurriness only applies to the unit test . The data returned by this function is at full resolution .
+847	Boosting and Subsample Ratio
+834	Feature EngineeringSK_ID_CURR
+435	Tf-Idf vectorizer is used to limit the number of unique values that are present in the train and test sets .
+1587	Highest volume
+1226	I convert the prediction to rank and the scale to 0 or 1 .
+642	filtering out out outliers
+1443	Ratio of Clicks
+782	Ensemble by Random Forest
+1289	Now let 's prepare the data and train the model . We can do this by specifying parameters , the number of estimators , and the number of splits we want to use . In this example , we will use 200 estimators for training and 100 for test .
+410	As we see , there are duplicates among is_train and test_duplicated_masks . There are no duplicate masks in the training set .
+1073	Start Diving into it
+279	For commit_num , dropout_model , FVC_weight , and lb_score
+127	The lung volume is defined as the total number of pixels in a segment is equal to the total number of pixels . The lung volume is defined as the total number of pixels in a segment .
+1543	The autocorrelation is the result of the least-square method applied to the input signal . It is the result of the least-square method applied to the input signal .
+1349	Let 's have a look at the overdue cases for each card_id . A B C D E and F are over-due cases .
+296	Final Data Preparation
+1433	Not looking to seriously compete in this competition so figured I 'd at least share the small experiments I was toying with . This kernel serves as a starter to look at how to handle the various numerical and categorical variables in a NN with Keras .
+1242	The store types are in the range of 20-40 , and the order of the store types is in the range of 20-40 . As we can see , the store types are in the range of 20-40 . This suggests that we might have a lot of data in this range . Let 's first have a look at the store types .
+1172	Let 's have a look at the number of unique and unk tokens
+82	Explore the Distribution of Age and SmokingStatus
+321	Now , before we do any feature engineering , we will take a look at the binary target values in our dataset . To do this , we will take a random number of rows and sort them in the order they were taken . This way , for each binary target , we will have the same set of rows but with the same number of columns . We will use the first 101 rows to represent the binary target values .
+545	Correlations of the top 20 features
+1069	Let 's see what 's the LB score for this competition .
+682	Examine the shape of train and test
+1277	Looks like a few features seem to hold all the weight ! You might think to yourself that this is trivial to start with . Let 's do that .
+1074	Set up training and submit
+491	Compile the model
+246	In this [ new competition ] ( we are helping to fight against the worldwide pandemic COVID-19 . mRNA vaccines are the fastest vaccine candidates to treat COVID-19 but they currently facing several limitations . In particular , it is a challenge to design stable messenger RNA molecules . Typical vaccines are packaged in syringes and shipped under refrigeration around the world , but that is not possible for mRNA . Researches have noticed that RNA molecules tend to spont
+1457	Ensure determinism in the results
+452	Wind Speed
+1203	Ahora que tenemos , vamos aproximar com sucesso as séries temporais iniciais , capturando a sazonalidade diária , a tendência geral de queda at noon .
+1025	Load Train , Validation and Test Data
+239	For commit_num = 20 , ` commit_num ` = 24 , ` dropout_model ` = 0.36 , ` hidden_dim_first ` = 128 , ` hidden_dim_second ` = 248 , ` lb_score ` = 0.1868 commit_num = 20 , ` commit_num ` = 24 , ` dropout_model ` = 0.36 , ` hidden_dim_first ` = 64 , ` hidden_dim_second ` = 248 , ` lb_score ` = 0.1868
+314	Ekush Classification Report
+603	Let 's plot the distributions of public-private absolute difference
+1216	Define dataset and model
+1422	Train the model without China
+574	Changing the Covid country from Mainland to China
+975	To take a look at these DICOM images , let 's first take a look at one of the DICOM images . We 'll use the ` pixel_array ` attribute of the DICOM image .
+391	Explore the distribution of category levels
+1189	square of full and sub_full
+486	Now let 's see what we got
+907	Bureau balance by loan balance by client
+824	Looking at the histogram of absolute values of the target variable , we see that 90 % of the values appear in the lower half of the histogram . This implies that 90 % of the values in the target column are correlated with the values in the lower half of the histogram . Is there any difference between these values Let 's have a look at the correlation matrix
+856	For recording of hyperparameters and iteration , you can create a file called `` hyperparameters '' and write it out in a csv file .
+779	We can now make our predictions on the test set .
+579	Let 's order the cases by day
+1095	SN_filter
+313	Making the Submission
+478	Loading data
+5	Histogram of Target values
+1291	Let 's encode the date as a number .
+1320	Expand on some of the variables
+1319	For the features ` epared1 ` and ` epared2 ` and ` epared3 ` .
+1317	For family size features : ' adult ' , 'hogar_count ' , 'hogar_total ' , 'r4h1 ' , 'r4m1 ' , 'r4t3 ' , 'hhsize
+991	Cylinder Actor
+1463	For the purpose of this notebook I 'm going to load the data from ` X ` and ` Y ` and save it as ` xy_int.csv ` . This is a convenient way to load the data and keep the rest of the files inside the ` cities.csv ` .
+675	What is the coefficient of variation ( CV ) for prices in different image categories . Let 's look at the coefficients for variation ( CV ) for different image categories .
+662	From the above sorted series , ` map_ord1 ` and ` map_ord2 ` are the ordinal directions of the series . ` Map_ord1 ` and ` Map_ord2 ` are the ordinal directions of the series . ` Map_ord1 ` and ` Map_ord2 ` are the ordinal directions of the series . ` Map_ord1 ` and ` Map_ord2 ` are the ordinal directions of the series . ` Map_ord1 ` and ` Map_ord2 ` are the ordinal directions of the series .
+1183	Data generator
+1408	A few things stand out . We do not need to worry about missing values . We do not need to worry about missing values . We do not need to worry about missing values .
+419	Decision Tree Classifier
+1521	Evaluate the score with using 4-fold TTA model
+208	Another fairly popular option is MinMaxScaler , which brings all the points within a predetermined interval ( typically ( 0 , 1 ) ) . This option brings all the points in a single dataframe .
+237	For commit_num , ` dropout_model ` , ` hidden_dim_first ` , ` hidden_dim_second ` , ` lb_score ` , ` time_to_failure ` , ` duration ` , ` x_ { commit } ` , ` y_ { commit } ` , ` w_ { commit } ` , ` x_ { commit } ` , ` y_ { commit } ` , ` x_ { commit } ` , ` y_ { commit } ` , ` n_ {
+1504	LOAD DATASET FROM DISK
+1539	Label encoding categorical features in the dataframe input_df
+1439	Now lets load the training data and look at the data
+253	Germany
+96	Load Train Data
+214	An ` EntitySet ` is a collection of entities and the relationships between them . They are useful for preparing raw , structured datasets for feature engineering . While many functions in Featuretools take ` [ x ] ` as an input , it is recommended to create an ` EntitySet ` , so that you can more easily manipulate your data as needed .
+1185	Load and view data
+573	Let 's create a new column called 'active ' . We will use the COVID created above .
+745	Confidence by Fold and Target
+1421	World COVID-19 Prediction with China Data
+722	escolari/age
+1393	Let 's have a look at the numeric features
+1108	To win in kaggle competition , how to evaluate your model is important . What kind of cross validation strategy is suitable for this competition ? This is time series data , so it is better to consider time-splitting . However this notebook is for simple tutorial , so I will proceed with KFold splitting without shuffling , so that at least near-term data is not included in validation .
+278	For commit_num , commit_num , Dropout_model , FVC_weight , and lb_score
+630	Here we can see the weekly trends are highly correlated with the weekly seasonality . The weekly seasonality is similar to the daily seasonality . The trend is similar to the weekly seasonality .
+113	calendar.csv - 제품이 판매 포함되어 있음 . sales_train_validation.csv - 제품과 판매 포함되어 있음 . [ d_1 - d sample_submission.csv - submission 형식 포함되어 있음 . [ d_1 - d
+236	For commit_num = 17 - > commit_num = 21 - > commit_num = 64 - > commit_num = 248 - > commit_num = 240 - > commit_num = 8192 - > commit_num = 8192 - > commit_num = 8192 There are a few parameters that I can see ( commit_num , dropout_model , hidden_dim_first , hidden_dim_second , ... ) - > commit_num = 64 - > commit_num = 248 - > commit_num = 8192 - >
+65	Now we need to sort the train data .
+916	Part_1 : Exploratory Data Analysis ( EDA
+220	For commit_num , dropout_model , hidden_dim_first , hidden_dim_second , lb_score
+1530	let 's see the distribution of killPlace
+1221	More is coming Soon
+823	One hot encoding
+1059	As the data is ready for training , let 's define a function to load images and then validate the images .
+873	One Hot Encoding ( One Hot Encoding is known as One Hot Encoding ( One Hot Encoding is known as One Hot Encoding ( One Hot Encoding is known as One-Hot Encoding but it is not the same as one-hot encoding . So we will use one-hot encoding for each set .
+34	Confusion Matrix
+917	Cash Balance
+250	As you see , the process is really fast . An example of some of the lag/trend columns for Spain
+712	Note that Bonus variable depends only on refrig , computer , and television . In turn , Bonus is biased towards the target .
+1324	Create 'new_inst_level ' and 'inst_level9 ' features
+19	Histogram of Target values
+503	Distribution of AAMT_ANNUITY , 'AMT_CREDIT ' , 'AMT_GOODS_PRICE ' , 'HOUR_APPR_START ' in application_train
+324	Instead of implementing Quadratic Weighted Kappa from scratch we can also get the metric ( kappa ) from scikit-learn . The only thing we need to specify is that the weights are quadratic .
+54	Let 's look at the distribution of nonzero values in the test set .
+685	The distribution of the target transaction values
+610	ResUNet TensorFlow Implementation
+1125	The addr will be either a 16x128 or a 65.0 value for the addr .
+950	Cardinality of new merchant category int features and numerical features
+1584	Prepare the data
+1353	Now that we have a look at the data , let 's do some feature engineering and some basic feature engineering . These include : ProductName , EngineVersion , AppVersion , AvSigVersion , PlatformRoleName , Census_OSVersion , Census_OSArchitecture , Census_OSInstallTypeName , Census_OSGenuineStateName , Census_GenuineChannelName , and Census_FlightRing
+927	Based on the work set out by Roberto , I 've created a scikit-learn transformer class that can be used to remove columns that are significantly different from the others . This class is based on a standard scikit-learn transformer and also uses the statsmodel library for calculating the VIF number . Information on scikit-learn transformers can be found [ here ] ( whilst the docs for the statsmodel function can be found [ here
+1029	Now that we have pretty much saturated the learning potential of the model on english only data , we train it one more epoch on the validation set , which is significantly smaller but contains a mixture of diffferent languages .
+622	We see that accuracy is superior to 3 . And accuracy is superior to 2 . What is the accuracy of these 2 models Let us see if our model performs any better than the previous one .
+819	Let 's cross-validation score on the full dataset and the number of estimators ( auc-mean , auc-stdv ) .
+1140	Load image
+987	Here we load the patients and then iterate through the patients and gather their data . For each patient we store the data in a list , then iterate through the patients and process the data using the vtkdicom image reader .
+1518	Standarization
+364	Type 1 - Noise
+1461	In the test data set neutral as the target ( ` selected_text ` ) is neutral . We remove the neutral label from the dataframe .
+1269	Define the model
+1224	Since 'ps_calc ' features do not show any have zero relationship with other features
+852	Fit the gridsearch method
+735	Linear Discriminant Analysis
+714	Corr = ( x , y ) - > ( x , y , 1,2 ) , - > ( x , y , 1,3,4,5,6,7 ) , - > ( x , y , 1,2,4,5,6,7,8,9 ) , + > ( x , y , 1,2,4,5,6,7 ) , + > ( x , y , 1,2,4,5,6,7 ) , + > ( x , y , 1,2,4,5,6,7 ) , + > ( x , y , 1, 2,4,5,6,7 ) , - > (
+267	AdaBoost
+998	The data for site 4 is the same as the one found in the training set . The data for site 5 is the same as the one found in the testing set . The data for site 4 is the same as the one found in the training set . As you can see , the data for site 4 is a little bit shorter .
+505	Exploratory Data Analysis ( target
+375	Create Training and Validation Sets
+379	AdaBoost
+180	Now that we have identified the components , we can proceed to the next step : process the data and identify the components that are distinct from the others . First of all , let 's identify the components that are distinct from the others . We will use the ndimage.label ( ) function to do this . After we find the components , we will use the ndimage.label ( ) function to convert the label into a numpy array .
+560	Bring all the bounding boxes in a dataframe
+254	Albania
+507	We can reduce the target0sample data for all series in our dataset using ` reduce_sample ` . This will reduce the target0sample data for all series in our dataset .
+1161	var_81 - var_108 - var
+420	Let 's take a look at the confusion matrix
+1338	How many missing values have been filled for each object
+1476	How does our days distributed like ? Lets apply @ ghostski for visualization .
+1088	Run the video tensors x1 , x2 , x3 , x4 , x5 , x_6 , x_7 , x_8 , x_9 , x_10 , x_1 , x_2 , x_3 , x_4 , x_5 , x_6 , x_7 , x_8 , x_10 , x_1 , x_2 , x3 , x4 , x_5 , x_6 , x_7 , x
+286	For commit_num = 15 , Dropout_model = 0.38 , FVC_weight = 0.19 , LB_score = -6.8093 commit_num = 20 , Dropout_model = 0.38 , FVC_weight = 0.19 , LB_score = -6.8093
+1127	Hour Distribution of the PdDistrict
+732	Let 's see the feature importances by the model .
+425	To work with the GPU we need to convert the pixel values from float16 to float32 . To do this we need to convert the pixel values to int16 and then clip the 0 , 1 and 2 pixels .
+943	Credits & aggs
+791	The model did n't converge , so we will take a look at the feature importances .
+1230	And lastly , let 's cross-validate the two models and save the predictions
+1238	Create a submission
+1222	If we look at the data , we can see that ps_ind2_cat ps_ind4_cat ps_car_01_cat ps_car_11_cat ps_car_08_cat ps_car_06 , ps_car_07 , ps_car_08 , ps_car_13 , 'ps_car_15 , 'ps_car_15 , 'ps_car_15 , 'ps_car_15 , 'ps_car_15 , 'ps_car_15 , 'ps_car_15 , 'ps_car_15 , 'ps_car_15 , 'ps_car
+1204	Run the multi-layer
+87	Another Way for OSIC Melanoma Classification
+119	expected FVC
+582	Let 's group the Iran by the month and day of the week
+552	Combining Augmentations
+826	SK_ID_CURR ` and ` TARGET ` are nominal features .
+415	Testing with X_test
+1343	Why do we have such a large number of missing values
+344	Train and validation loss
+1048	Let 's build and save the new files .
+1325	From the above plot we can see that there are some columns with only one value . Let 's investigate these
+146	See sample image
+1142	The training is a bit slow - do n't worry .
+443	UNDERSTANDING TARGET FEATURE meter_reading
+1389	Let 's have a look at the numeric features
+801	boosting_type为起设定
+1336	I will use a random color generator to generate a different color for our plots .
+704	Is there any relation between id_ , hh_ordered , hh_cont , sqr_sum
+1084	TFAKE model initialization
+577	The above dataframe is not like USA . So we will convert it into China .
+200	Let 's take a look at one of the patients .
+736	KNN with 20 nearest neighbors
+392	Confusion about level
+16	Use the trained and test sets to generate predictions for the training set .
+1473	Now we 're ready to create our baseline model . Note that the weights are based on the 'mean pooling ' of the output layer . For our example , we will use the BatchNormalization and the Dropout Layer .
+289	For commit_num , the number of commit ( commit_num , dropout_model , FVC_weight , and lb_score
+1064	As the data is ready for training , let 's define a function to load images and then validate the images .
+290	For commit_num , ` Commit_weight ` , ` Dropout_model ` , ` FVC_weight ` and ` lb_score ` . ` Commit_num ` is ` 19 ` . ` Dropout_model ` is ` 0.38 ` . It is obvious that ` Commit_num ` is ` 28 ` . Let 's check it .
+751	UMAP - UMAP - Principal Component Analysis SNE - T-SNE decomposition .
+185	Before we do any feature engineering , we need to take a look at the distribution of price of each category . To do so , we can first calculate the mean price for each category .
+820	This dataset contains anonymized set of variables that describe different Mercedes cars . The ground truth is labeled ' y ' and represents the time ( in seconds ) that the car took to pass testing . Let us first import the necessary modules .
+367	In this section we will try to convert an image to an ` numpy ` array . If that does n't work we will return an ` np.ndarray ` instead .
+159	The data comes from two separate sites Hot Pepper Gourmet ( hpg ) : similar to youtube videos , here users can search restaurants and also make a reservation online AirREGI / Restaurant Board ( air ) : similar to Square , a reservation control and cash register system
+1122	Charts and cool stuff
+1157	Now we 'll create a dataframe that summarizes wins & losses along with their corresponding seed differences . This is the meat of what we 'll be creating our model on .
+196	Fasta text graph
+1423	And now let 's see the predictions by Province
+495	Load and Read DataSet
+436	Training and Prediting with SGDClassifier
+467	To measure the time taken , we need a timer . If you do n't have a timer , you can cancel the timer .
+43	As we can see , the distribution of question_asker_intent_understanding is non-uniform . As the distribution is right skewed , we will see some interesting pattern .
+59	Create key for 'D1 ' feature
+1588	Defining unknown assets
+837	SK_ID_PREV SK_ID_CURR SK_ID_IN installments
+1126	Zoom on the basis of Category
+1227	Setting the x_train and y_train and x_test
+1193	Next , we need to preprocess the image . As we know , converting a 3D image into a 2D one is as easy as resizing the image .
+202	Pretty cool , no Anyway , when you want to use this mask , remember to first apply a dilation morphological operation on it ( i.e . with a circular kernel ) . This expands the mask in all directions . The air + structures in the lung alone will not contain all nodules , in particular it will miss those that are stuck to the side of the lung , where they often appear ! So expand the mask a little This segmentation may fail for some edge cases . It relies on the fact that the air outside the patient is not connected to the air in the lungs
+329	Linear SVR
+1275	agregating previous applications and installments
+995	Making a Submission
+371	SGD Regressor
+625	Toxic and Non-Toxic Comment Transactions are the most important features in this competition . The objective of this competition is to identify the sets of important features that can be used for classification . There are a number of features that can be used for this competition : 4 , 5 , 7 , 11 , 12 and maybe 9 . Let 's ignore these features for now .
+1329	Load libraries
+1208	feature_3 has 1 when feautre_1 high than
+743	We can see that the number of features is non-uniform and that the macro F1 is non-uniform and has a high correlation with the number of targets . This is because , when the macro F1 is non-uniform , there is a high correlation between the number of targets and the number of macro targets . This also means that the number of targets is non-uniform , while the number of macro targets is non-uniform . Consequently , the number of features in a cell is non-uniform .
+1495	As we can see , the program ` program_desc ` is actually a string with the description of the program . program_desc is a string with the description of the program , in this case , a program instance . program_desc is a list of all the program descriptions . program_desc is a list of all the program descriptions .
+203	As a final preprocessing step , it is advisory to zero center your data so that your mean value is 0 . To do this you simply subtract the mean pixel value from all pixels . To determine this mean you simply average all images in the whole dataset . If that sounds like a lot of work , we found this to be around 0.25 in the LUNA16 competition . Warning : Do not zero center with the mean per image ( like is done in some kernels on here ) . The CT scanners are calibrated to return accurate HU measurements . There is no such thing as an image
+1236	Light GBM
+828	There are several columns with zero values in the dataset . We will drop all the columns except for the training set .
+757	Loading and basic exploring
+41	Importing the data
+1510	Create a video
+1114	Find Best Weight
+870	Feature Importance
+776	Split data into train and validation sets
+1416	Remove unwanted columns Back To Table of Contents ] ( top_section
+1299	Try to fill missing values with 1.0 . If that does n't work then we will fill all numerical columns with -1.0 .
+395	Now , we will split the id column into train and val columns . For this we will split the id into train and val columns .
+958	Generate submission.csv file
+1133	id_31's contains 'android browser ' , ` id_33 ` contains 'Generic/Android
+311	How many samples do we have in our data
+657	Loading the Data
+224	For commit_num = 7 , dropout_model = 0.36 , hidden_dim_first = 128 , hidden_dim_second = 192 , lb_score = 0.25877 For commit_num = 5 , dropout_model = 0.36 , hidden_dim_first = 128 , hidden_dim_second = 192 , lb_score = 0.25877 .
+29	Let 's get the AUC of the train set and see how much Gini is present in the train set .
+288	There are commit numbers ( commit_num , ... , commit_num , ... , commit_num , ... , Commit_num , ... , Commit_num , ... , Commit_num_1 , Commit_num , ... , Commit_num_1 , Commit_num_1 , ... , Commit_num_1 , ... , Commit_num_1 , ... , Commit_num_1 , ... , Commit_num_1 , ... , Commit_num_1 , ... , Commit_num_1 , ... , Commit_num_1 , ... , Commit_num_1 , ... , Commit_num_1 , ... , Commit_num_1 ,
+1545	We can see that there are some differences between the train and test data . Now we will load the train and test data
+326	Now that we have the dataset we can start the classification process . First , we need to split the dataset into the training set and the testing set . I filled the missing values of the 'toxic ' and 'severe_toxic ' column with the 'padded ' values .
+169	Quantiles of DL by IP
+172	We see that there are some time series that are not in the allowed range . It seems that these are the time series that are not in the allowed range . We will try to quantiles of the not-attributed time series and see if we can find any trends that improve the score .
+347	Now you can output predictions for each patient as well as the final predictions for all patients . Averaged models submission
+508	Next I collect the constants . You 'll need to replace the various file name reference constants with a path to your corresponding folder structure .
+711	Target vs Warning Variable
+171	Plot by click ratio
+882	Plotting number of estimators vs learning rate
+650	Let 's see how many missing values we have in each column . If we have a lot of missing values in a column we may consider dropping it from the analysis .
+528	Time for Modelling LGBM Let 's try with Lightgbm and see the accuracy .
+1575	For a given time series , we need to split it into a training and a testing set . We will use the times_series_means [ 'date ' , 'Visits ' ] format .
+496	In order to reduce the memory footprint of our models , we need to type all numerical features as categorical . In order to do this , we need to reduce the memory footprint by selecting only the categorical features .
+527	In order to understand better the distribution of the target variable , we need to think about the different types of target variable . We start with the basic types of target : int8 . We then create a dictionary with the following variables
+409	As we see , there are duplicates among is_train and not_train . We will drop them for further analysis .
+27	Data Collection I start Collection Data by the training and testing datasets into Pandas DataFrames . Go to top ] ( top
+644	It seems that some of the images are of type ` str ` . Let 's split the label into a list of length 5 labels .
+1402	Load libraries
+718	Diff Common features
+432	tag_to_count Let 's visualize the word clouds from the frequencies
+614	Loading the Data
+453	year_built year_built ` - Year buildings year_built ` - This year buildings are the same for train and test .
+456	preview of Train and Test Data
+817	To win in kaggle competition , we need to specify some hyper parameters . In this case , we can specify the number of estimators and the number of folds we want to use . In the full dataset , the cross validation score is ~0.85 .
+1130	From the above plot we can see that diff_V109_V316_V4V5 ` and ` diff_V109_V316_V4V5 ` are not present either in train or in test . We can easily drop those features from both the datasets .
+270	Set Dropout Model
+369	SVR
+990	Cylinder Actor
+723	Let 's create a new feature called `` age '' . We will use the techniques described above , and create the new feature `` tech '' .
+800	log 均匀分布
+1378	We have onlynumeric features . Let 's plot the distribution of target for numeric features .
+342	Taking just the train and test files
+404	Let 's see what are the files we have to train
+502	Feature Engineering and Feature Engineering
+1023	Now that we have pretty much saturated the learning potential of the model on english only data , we train it one more epoch on the validation set , which is significantly smaller but contains a mixture of diffferent languages and languages .
+106	Now , before matrix is loaded .
+1451	Houns is converted to Ratio by the hour of the week . Houns is converted to Ratio by the hour of the week .
+1038	Build the model
+1497	less than product less than
+835	Previous Variable - AMT_ANNUITY - AMT_CREDIT - AMT_application
+1258	Training the BERT model
+1211	card_id : Card identifier month_lag : month lag to reference date purchase_date : Purchase date authorized_flag : Y ' if approved , 'N ' if denied category_3 : anonymized category installments : number of installments of purchase category_1 : anonymized category merchant_id : Merchant identifier ( anonymized merchant_id : Merchant identifier ( anonymized purchase_amount : Normalized purchase amount city_id : City identifier ( anonymized state_id : State identifier ( anonymized
+539	The distribution of bedrooms is highly imbalanced . bedrooms are mostly used in the organizations .
+1406	DEALING WITH THE FOLLOWING FEATURES
+1367	Numeric Features
+974	If we look at the keywords in our dictionary , we can see that the keyword is inevitable format , which is a little disappointing . Let 's see what happens if we look at the keywords inevitable format .
+251	Let 's try to see results when training with a single country Spain
+1037	Train History
+451	Dew Temperature
+1195	What are the most common annotation records in the toxicity_annotators list
+1010	Save model and weights
+1410	I like to have a look at these features , but I can see that these are not linearly correlated . I 'm not sure if these will be particularly useful for a classification problem , but it 's definitly worth a try . These features are ps_reg_01 , ps_reg_02 , ps_reg_03 , ps_car_12 , ps_car_13 , ps_car_15 , ps_car_14 , ps_car_15 . I 'll use the ps_ind_01 to ps_ind_03 , ps_ind_04 , ps_ind
+1559	Lemmatization to the rescue
+297	Load libraries and data
+1487	Normal , and Pleural Effusion
+703	In case we have a lot of missing values , let 's fill them up with 0 's .
+1102	Leak Data loading and concat
+1253	cod_provite
+1582	Below we load the sample_data.json into a json object
+1544	Let us learn on a example
+320	Let 's create a binary target variable to represent if the value is 0 or 1 .
+1112	Leak Validation for public kernels ( not used leak data
+1055	Load the data
+1514	Let 's look at the Palities
+1210	merchant_id : Unique Merchant ID : null merchant_group_id : anonymized merchant identifier ( anonymized subsector_id : anonymized numerical_1 : anonymized measure numerical_2 : anonymized measure category_1 : anonymized category most_recent_sales_range : Range of revenue ( monetary units ) in last active month -- > A > B > C > D > E most_recent_purchases_range : Range of quantity of transactions in last active month -- > A > B
+139	Split 'ord
+315	The segmentation will take a lot of RAM , especially if we are using Kaggle . The RAM is only used for loading the dataset . We do n't use this data for training our model . Instead , we will use the data from Kaggle 's [ base_dir ] ( directory for training .
+490	A Fully connected model
+401	The goal of this kernel is to establish a baseline and explain everything step by step so anyone can get started . Code to read in and process the data is below .
+137	The values of all columns are the same ! This means that all the values in all column ( column ) are the same .
+1233	Fit a Random Forest Classifier
+1431	Gender , Hospital_death ,bmi
+540	Clusters of bedrooms and bathrooms with price
+1464	Read order file
+942	Bureau_balance Feature aggregator
+1493	I feel this kernal was inevitable , so I decided to help everyone out by creating the dataset of all the tasks . I have not read anywhere that we could not use this data for this competition , but use this data at your own risk .
+51	Let 's take a look at the distribution of data in the train set . What is the distribution of data in the train set
+398	Designed and run in a Python 3 Anaconda environment on a Windows 10 computer .
+477	Build and re-install LightGBM with GPU support
+20	Let 's see the distributions of muggy-smalt-axolotl-pembus
+533	Hour of the Day
+1225	Since 'ps_calc ' features do not show any have zero relationship with other features
+181	There are cells with intensity values between -10 and above . Let 's find the indices of cells with intensity values around these values and add them to the mask .
+1090	From the above plot we can see that most of the records ( 141 ) are missing in the training set , but we also see that most of the records ( 142 ) are missing in the validation set . Let 's proceed as if we can reduce the validation set .
+472	Let 's split train data into training and validation sets .
+1532	Let 's see how closely related each place to the winPlacePerc .
+445	Meter Reading
+1468	Let 's plot now the sales by store_id .
+141	Split the data into train and test
+639	Run Landmark - 2020 submit
+1490	Normality and Unclear Abnormality Sample Patient 6 - Normal Patient Patient 12 - Unclear Abnormality Sample Patient 63 - Normal
+1039	For each sample , we take the predicted tensors of shape ( 107 , 5 ) or ( 130 , 5 ) , and convert them to the long format ( i.e . $ 629 \times 107 , 5 ) .
+175	Creating a dataframe from csv files
+620	This function is to perform linear algebra on the test set . The formula for the Lasso is given below .
+1079	In this section , we will make a prediction for the 8 most important images in the training set . To do this , we need to preprocess the image before we feed it to the model . For this example , we will use the [ preprocessing step ] ( shared by [ Alex Shonenkov
+961	Months of the patients
+8	Loading the Data
+1374	Numeric Features
+742	To learn about bagging in random forests , let 's start with our RFECV estimator . We 'll use a random forest here , but you can add other tuning options as well .
+1001	Load Model into TPU
+899	Remove Low Information Features
+1197	Furthur 's distance to mys
+1049	And Then I 'll just resize all images to the same size . Be careful using this size as it will have increased .
+624	Inference and Submission
+42	If we know how to calculate Spearman 's correlation we can get an approximation to the standardized Spearman 's correlation . The formula for Spearman 's correlation is Spearman 's coefficient . The formula for Spearman 's correlation is given in Equation 2 .
+1579	Plot the evaluation metrics over epochs
+1534	Sieve of Eratosthenes
+945	extract different column types
+914	I recommend initially setting MAX_ROUNDS fairly high and using OPTIMIZE_ROUNDS to get an idea of the appropriate number of rounds ( which , in my judgment , should be close to the maximum value of the optimized tree_count among all folds , maybe even a bit higher if your model is adequately regularized ... or maybe not : it 's also a good idea to uncomment verbose=True sometimes and look at the pattern of validation scores ( which , in my judgment , would be
+1274	FEATURE 2 - NUMBER OF PAST LOANS PER CUSTOMER
+1239	structure of train and test data
+1078	Data Augmentation using albu
+525	Mean Squared Error
+1540	Missing data
+259	Linear SVR
+1436	Minute Distribution
+750	The Poverty Confusion Matrix
+1016	Simple XGBoost
+190	Does shipping depend on price
+920	Loading the best weights
+621	Ridge Regression
+1044	For each sample , we take the predicted tensors of shape ( 107 , 5 ) or ( 130 , 5 ) , and convert them to the long format ( i.e . $ 629 \times 107 , 5 ) .
+1364	Numeric Features
+334	Create Training and Validation Sets
+56	Let 's see the distribution of the training data .
+1131	Label encode all categorical features ( this will replace categorical variables with numbers ) .
+1054	filtered_sub_df ` contains all of the images with at least one mask . ` null_sub_df ` contains all the images with exactly 4 missing masks .
+534	Now let 's see the number of orders per user .
+1327	Load the data
+74	Utils For reproducibility purposes , let 's seed everything .
+195	However , this does not provide a great point of comparison with other features . In order to properly contrast T-SNE with PCA , we instead use a dimensionality-reduction technique called t-SNE , which will also serve to better illuminate the success of the classification process .
+700	Lets check the missing values in each file .
+1237	Let 's try to predict using Logistic Regression
+744	F1 metric
+635	As we can see that the missing values are Lat and Long . Let 's transpose the df so that we can see the missing values in the other columns .
+301	dense features & category features
+348	Generator
+235	For commit_num = 20 , dropout_model = 0.36 , hidden_dim_first = 128 , hidden_dim_second = 248 , lb_score = 0.25891 For commit_num = 20 , dropout_model = 0.36 , hidden_dim_first = 128 , hidden_dim_second = 248 .
+1100	We see that the model does n't learn if the output shape is same as the input shape . Hence , the model does n't learn if the shapes are the same .
+449	We can see that the building_id is correlated with the year_built variable . Also , the building_id is correlated with the year_built variable .
+1415	Visualization of the variables
+394	Categories count vs image count
+26	Let 's look at the most important features from the light gbm model .
+365	Here we will take a look at one of the training dataset
+444	HIGHEST READINGS ARE MALES
+1358	Numeric Features
+536	This is a wrapper for librosa.onset.onset_strength . When librosa.onset.strength is zero , then librosa.onset.onset_strength will return zero . Instead , librosa.onset.onset_strength will return the onset strength .
+1104	To win in kaggle competition , how to evaluate your model is important . What kind of cross validation strategy is suitable for this competition ? This is time series data , so it is better to consider time-splitting . However this notebook is for simple tutorial , so I will proceed with KFold splitting without shuffling , so that at least near-term data is not included in validation .
+1407	Get the Training and Test Data
+460	turn direction The cardinal directions can be expressed using the equation : $ \frac { \theta } { \pi Where $ \theta $ is the angle between the direction we want to encode and the north compass direction , measured clockwise . This is an important feature , as shown by janlauge here We can fill in this with the equation : $ \frac { \theta } { \pi Where $ \theta $ is the angle between the direction we want to encode and the north compass direction , measured clockwise . This is an important feature , as shown by janlauge
+206	Part 0 : Import libraries and read databases
+964	Plot the dependence plot
+1281	Helper function for data generator
+1159	Make Predictions
+144	Dimensions of the Categorical Dataset
+759	Fix -inf , +inf and NaN
+1158	Train Logistic Regression
+606	Importing Libraries and Loading Dataset
+1166	Load the data and create a submission
+322	Train and Validation
+93	Dropping Gene and Varation
+233	For commit_num , ` dropout_model ` , ` hidden_dim_first ` , ` hidden_dim_second ` , ` lb_score ` . ` commit_num ` is ` 14 ` , ` dropout_model ` is ` 63 ` , ` hidden_dim_third ` is ` 248 ` . So , ` commit_num ` is ` 18 ` , ` hidden_dim_first ` is ` 128 ` , and ` hidden_dim_second ` is
+913	Remove Correlation
+316	Here we create our GAN generator objects and then we create our ` DataLoader ` .
+592	Data Visualization ( Implementing the word clouds
+581	Let 's group the spain cases by day
+95	Over the whole corpus
+145	Prepare Traning Data
+378	ExtraTreesRegressor
+526	Adding a Constant
+481	Baseline LightGBM
+442	MONDAYS BASEDING CHANGES BASED ON BUILDING TYPE
+1392	Numeric Features
+1339	How many missing values have been filled for each object
+1214	CNN Model
+775	Linear Regression
+389	The item is nothing but a string representing the image . A string is passed to the ` decode_images ( ) ` function . The function returns an array with the image names in the category_id .
+1199	Now , let 's create our ` dataX ` and ` dataY ` . We will use the ` create_dataset ` function from the ` dataset argument .
+1057	Neural Network
+1181	Next , we need to preprocess the image . As we know , converting a 3D image into a 2D one is as easy as resizing the image .
+1031	Drawing the bounding boxes from the output
+36	Read OOF and Submission File
+1061	filtered_sub_df ` contains all of the images with at least one mask . ` null_sub_df ` contains all the images with exactly 4 missing masks .
+1217	Create Training and Validation Sets
+64	t-SNE ( t-distributed Stochastic Neighbor Embedding
+1290	Now , we train the XGBoost model and calculate the error on the test set . We can use [ sklearn.metrics.mean_squared_error ] ( to see how it works .
+427	Credits and Warnings
+499	How many buildings are there
+1351	Census_InternalBatteryType and Census_InternalBatteryType
+1383	Numeric Features
+1	Here we can see the roc_auc_score , which is a wrapper for the roc_auc_score function . roc_auc_score is a wrapper for the roc_auc_score function . It is a wrapper for the roc_auc_score function . Let 's copy and paste the code from the roc_auc_score function .
+1177	take a look of .dcm extension
+1554	Import train and test csv data
+783	The Model is Random Forest Model . Let 's predict the Fare amount of passengers in the test set .
+952	First Month Data Preparation
+131	I could see that some special characters ( symbols , emojis , and other graphic characters ( symbols , emojis ) are used as special characters in the text . Let 's deal with these special characters in the text .
+318	Let 's prepare our submission .
+92	We also have a look at the frequency of entries of a class . We see that there are differences in the frequency of entries compared to the frequency of classes .
+586	Has_to_run_sir & has_to_run_seir & has_to_run_qube
+1365	Numeric Features
+725	For level 0 , we need to create a new column out of the original .
+686	Let 's see the image with 9000052667981386 .
+669	Finding Most common ingredients
+705	heads of household
+930	Build MLP Classifier
+1295	Note that the validation accuracy on fine tuning by unfreezing the last block of the VGG16 model has increased to about 81 % ; almost by 3 % as compared to the case when we run a classifier over the training set .
+1478	Preprocessing
+1201	Run the model
+634	Load and Explore
+1309	Load the pre trained model
+1492	To understand why abstract reasoning is critical for general intelligence , consider Archimedes ’ famous “ Eureka ! ” moment : by noticing that the volume of an object is equivalent to the volume of water that the object displaces , and vice-versa . The ability to relate two abstract concepts also allowed Albert Einstein to formulate the basics of the theory of relativity as he reasoned that an equivalence relation exists between an observer falling in uniform acceleration and an observer
+1120	Now , let 's map the animals back to the actual male or female animal . We can do this by converting the animals.map ( ) function to the equivalent Python dictionary .
+909	Reading test data
+132	Now we need to clean up the text with all the processing functions applied earlier . These steps are pretty self explanatory .
+1002	I 'm only interested in face detection , so I 'm only interested in face detection for those who want to learn .
+1578	Precision and Recall
+1531	Let 's plot the distribution of kills
+256	There are several columns with missing values . Let 's drop those columns .
+38	Let 's take a look at a few images .
+766	ecdf 均值平均到的还是amount和其衍生出来的mean , sd , x , y
+1513	Convert categorical features to numerical
+957	Test Predictions
+1333	Concatenate both dataframes before we split them into one dataframe
+935	Using Selected Data
+1220	Predict for test
+599	Gini on random submission ( target
+984	Import
+623	Checking for Inaccuracies
+1480	Now , we calculate the Quadratic Weighted Kappa from the training set and the test set . We then fit the model and generate predictions for the QWK .
+360	Let 's prepare our model . Run model We define the folds for cross-validation .
+1021	Load model into the TFAKE_MODEL
+668	Top Labels
+553	Let 's load the data
+373	Random Forest
+104	A frame with no information could be used to detect face in a particular frame . The usual approaches are to detect face in every frame . Let 's try to detect face in every frame .
+14	Tokenization
+530	Loading & Feature Selection
+841	Feature Engineering - Credit Info
+1086	Best Submission
+511	Rescaling the Image Most image preprocessing functions want the image as grayscale . So here 's a function that rescales to the normal grayscale range .
+517	Since the target column is categorical , we need to transform the column values . The easiest way to do this is to transform the column values into 0s and then replace the missing values with the log1p value .
+1471	This notebook uses display_aspect_ratio metadata field as a great fake video predictor .
+1250	We have a batch_mixup function that we will use to combine the train and test data into one mini batch .
+524	Precision and Recall
+1047	Folders to store the images in folder ` train ` and ` test ` . The images are stored in the folder ` train ` and the test ` folder .
+115	Wow , many columns are missing values , let 's see how many unique values we have per store and item_id .
+66	Data Preparation For modeling we have to fill missing values with 0 's . The reason for filling missing values with 0 's is that typically classifiers are more sensitive to detecting the majority class and less sensitive to the minority class . Usually , data with missing values will be ignored by the model . Let 's check the data for modeling .
+1244	Plotting Sales by Type
+1093	We can see that for every variable , the value of that variable is similar to the value of the other variable . Let 's plot the shapings of all 10 variables .
+848	Building and Training Parameters
+1551	melting the values
+1580	I formulate this task as an extractive question answering problem , such as SQuAD . Given a question and context , the model is trained to find the answer spans in the context . Therefore , I use sentiment as question , text as context , selected_text as answer . Question : sentiment Context : text Answer : selected_text
+1123	Converting the datetime field to match localized date and time
+1568	Thanks to this [ discussion ] ( we are aware that some of the columns are of type ` int ` and some are of type ` float ` . Let 's convert them to pandas dataframes and check the shape .
+803	Make a new data frame
+713	Calculate heads per capita
+799	Baseline Model ( AUC
+343	Lets take a look at our data
+1371	Numeric Features
+671	It is very important to know which items are expensive ( price > 1M \u20BD Top 10 items
+414	Step 3 : Histogram Calculation
+1581	Autonomous Vicles
+867	Running the dfs method
+765	Fare amount
+406	Flipping with opencv
+893	Hmm . Most of the engineered features are 'Approved ' , 'Refused ' , 'Canceled ' . Let 's look at some of the interesting features and their relations with the target entity 'app_train ' .
+1404	MacD & Close
+523	To answer this question : What is the threshold for a given function call Let 's threshold the number of decision functions that are > = 2 .
+292	One of the most important features in our data are commit_num ,Dropout_model ,FVC_weight ,GaussianNoise_stddev , and lb_score . Let 's check these out .
+1135	Charts and cool stuff
+1147	Number of masks per image
+649	Applying CRF seems to have smoothed model output .
+678	We can see that there are pairs of particle id , vx , vz , 'px ' , 'py ' , 'pz ' , 'nhits ' , 'particle_id ' , 'vx ' , 'vz ' , 'px ' , 'py ' , 'pz ' , 'nhits
+780	Training and Eval
+471	We will now merge the data with the identity dataset .
+215	Features correlation matrix
+248	Importing necessary libraries
+1311	Lets load the test and train sets
+393	Now let 's decode train.bson and plot bar chart
+242	For commit_num , ` commit_num ` - ` 27 ` , ` dropout_model ` - ` 0.36 ` , ` hidden_dim_first ` - ` 64 ` , ` hidden_dim_second ` - ` 108 ` , ` lb_score ` - ` 0.25963 ` - ` 0 ` . commit_num ` - ` 23 ` , ` hidden_dim_first ` - ` 64 ` , ` hidden_dim_second ` - ` 108 ` , and ` lb_score ` - `
+209	Submissions are evaluated on the log loss . Let 's have a look at the coefficients of the linreg
+1377	Numeric Features
+413	Data Genotic submission
+770	Absolute Distance
+628	Let 's plot now the cumulative bookings over the years .
+656	Simple Imputer
+408	For visualization , I am going to use [ image_dataset_viz
+1465	There are a few columns with missing values , let 's order them by VisitStartTime .
+1352	Census_IsFlightingInternal ` and ` Census_InternalBatteryType ` have null values . So we will drop them .
+1403	MA , and MAE
+951	Let 's join the new merchant_card_id_cat and new_merchant_card_id_num .
+792	Pickup Date , Fare amount , and color
+1372	Let 's have a look at the numeric features
+1134	Efficientnet
+701	From the above bar plot we can observe that most of the values are less than 0.1 . From the above bar plot all the values are greater than 0.1 . From the above bar plot we can observe that most of the values are less than 0.1 . However , most of the values are less than 0.1 . Let 's plot the value counts for each column .
+438	preview of building data and weather train data
+94	Summary of Word Features
+1017	Plotting some random images to check how cleaning works
+225	For commit_num = 6 , dropout_model = 0.36 , hidden_dim_first = 128 , hidden_dim_second = 224 , score = 0.25868 . commit_num = 5 , dropout_model = 0.36 , hidden_dim_first = 128 , hidden_dim_second = 64 , score = 0.25868 . commit_num = 7 , dropout_model = 0.36 , hidden_dim_third = 128 , score = 0.25868 .
+760	We are going to use the lb_dist from the sklearn library . Let 's have a look at the distribution of the data .
+1302	Missing Values In the test set , all missing values will be replaced by the column 's mean value . We do this by removing all nans that are present in the training set .
+1454	Finally , let 's do the clustering . You can use ` score_event_fast ` to do this .
+596	Class Distribution
+758	groups Each group_id is a unique recording session and has only one surface type
+1563	Corpus - Document - Word : Topic Generation In LDA , the modelling process revolves around three things : the text corpus , its collection of documents , D and the words W in the documents . Therefore the algorithm attempts to uncover K topics from this corpus via the following way ( illustrated by the diagram Three_Level Bayesian Model Model each topic , $ \kappa $ via a Dirichlet prior distribution given by $ \kappa $ via a multinomial distribution
+680	applications resnet50 - xception_v3 - inception_v4 - inception_v5 - inception_v6 - inception_v7 - inception_v8 - inception_v9 - inception_v3 - inception_v3 - inception_v4 - inception_v5 - inception_v3 - inception_v4 - inception_v5 - inception_v6 - inception_v7 - >
+1129	UpVote if this was helpful
+728	Education by Target and Female Head of Household
+580	China Cases by day
+223	Dropout Model : `` ` ( commit_num = 4 , dropout_model = 6 , hidden_dim_first = 384 , hidden_dim_second = 128 , lb_score = 0.25989
+1232	And lastly , let 's cross-validate the two models and predictions
+476	We will now merge the data with the identity dataset .
+1257	Get the ` validation_dataset ` and ` test_dataset
+544	Let see what type of data is present in the data set .
+1304	Missing Values
+191	There are some items with no description . Let 's try to fix them .
+851	Let 's have a look at param_grid
+102	For a single time series , we generate a fake path and a fake one-hot encoding .
+1430	Importing the necessary Packages
+932	Run the salt_parser.compute_coverage ( ) function
+924	What are the target values present in the application dataset How many values do the target values appear in the application dataset
+1022	First , we train in the subset of taining set , which is completely in English .
+50	Let 's see now the distribution of the train data .
+940	Create a list of aggs1 , aggs2 , and aggs_num_basic
+1280	Let 's do some breakdown topic engineering

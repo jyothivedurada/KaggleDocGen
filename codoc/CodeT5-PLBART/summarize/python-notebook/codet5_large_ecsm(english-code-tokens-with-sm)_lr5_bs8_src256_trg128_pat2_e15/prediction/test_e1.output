@@ -1,0 +1,885 @@
+670	Importing the data
+143	Confusion Matrix Plot
+388	Exploratory Data Analysis
+512	Create a feature vector for each review
+682	Evaluation , prediction , and analysis
+487	Exploratory Data Analysis
+733	Predict for the validation set
+589	Build the model
+394	Visualize the number of hits in each particle
+312	Build the neural network
+583	Load the data
+283	Exploratory Data Analysis
+265	Reducing the sample data
+146	Load the test data
+366	Exploratory Data Analysis
+134	Exploratory Data Analysis
+712	Series to Supervised Data
+679	Compute the rolling mean per store
+827	Exploratory Data Analysis
+267	Convert to grayscale
+631	Reducing train and validation set
+318	Define the loss functions
+254	Exploratory Data Analysis
+302	Load the data
+171	Random Forest and SelectFromModel
+158	Fitting the model
+617	Import tensorflow and sklearn
+647	Load the data
+594	Load the data
+757	Applying Label Encoder to test data
+466	Exploratory Data Analysis
+59	Exploratory Data Analysis
+865	Create a feature matrix
+429	Split into train and validation set
+377	Create a test set
+50	Cleaning special characters
+356	Exploratory Data Analysis
+652	Load the feather data
+806	Exploratory Data Analysis
+799	Exploratory Data Analysis
+720	Load the data
+846	Load the embeddings
+8	Load the data
+519	Load the credit card balance data
+38	Exploratory Data Analysis
+202	Random Forest Classifier
+628	Submit to Kaggle
+313	Training the model
+194	Compute the histogram of the images
+879	Evaluation , prediction , and analysis
+694	Exploratory Data Analysis
+397	Distribution of maximum values in train and test set
+667	Create a GeoDataFrame
+692	Preparing the data for training and testing
+695	Here are some examples of the links in the dataset
+821	Importing the sol file
+289	Correlation between bedrooms and bathrooms
+323	Exploratory Data Analysis
+574	Exploratory Data Analysis
+393	Exploratory Data Analysis
+425	Exploratory Data Analysis
+279	Distribution of Best Selling Products
+456	Aggregating the grandchild variables
+665	Exploratory Data Analysis
+531	Exploratory Data Analysis
+57	Feature engineering for categorical data
+618	Split data into train and test sets
+646	Load the feather data
+864	Create a relationship for each type
+342	Build the neural network
+263	Load Train Data
+199	Evaluation , prediction , and analysis
+808	Exploratory Data Analysis
+322	Brazil cases by day
+97	Exploratory Data Analysis
+412	Exploratory Data Analysis
+637	Exploratory Data Analysis
+373	Check for missing values
+807	Exploratory Data Analysis
+437	Train and evaluate the model
+303	Now lets factorize the categorical features
+398	Visualize the test data
+418	Use Random Forest Classifier
+691	Importing the data
+288	Exploratory Data Analysis
+814	Extract extra features from test set
+730	Pretrained BERT model
+622	Display the blurry samples
+173	Evaluation , prediction , and analysis
+465	Importing the altair
+581	Predict and Submit
+367	Compute the Kappa for each prediction
+205	Transforming the data
+520	Exploratory Data Analysis
+704	Preparing the data
+187	Here are some examples of the similar cars
+63	Visualize Test Data
+386	Exploratory Data Analysis
+794	Evaluation , prediction , and analysis
+795	Importing the data
+599	Create a folder
+857	Exploratory Data Analysis
+135	Exploratory Data Analysis
+242	Importing the data
+384	Exploratory Data Analysis
+311	Visualize the image with a bitwise and
+380	Importing the data
+420	Random Forest Classifier
+623	Submit to Kaggle
+260	Correlation between features
+228	Predict on test data
+334	Exploratory Data Analysis
+568	Get the original fake paths
+452	Prepare the data for the model
+321	Looking at the cases of each country
+678	Exploratory Data Analysis
+126	Confusion Matrix Plot
+640	Load the feather data
+763	Convert test data to integer columns
+169	Exploratory Data Analysis
+737	Pretrained BERT model
+573	Save the model
+256	Exploratory Data Analysis
+180	Linear SVR model
+414	Exploratory Data Analysis
+460	Exploratory Data Analysis
+266	Exploratory Data Analysis
+873	Importing the data
+461	Load credit card balance data
+93	Price vs Brand Name
+168	Importing the data
+535	Exploratory Data Analysis
+854	Predict with Keras
+502	Exploratory Data Analysis
+681	Merge seed and win and loss seeds
+707	Split data into train and test sets
+48	Exploratory Data Analysis
+853	Load the features
+654	Add lag feature
+308	Exploratory Data Analysis
+216	One Vs Rest Classifier
+882	Create Lidar Data
+782	Examine the data
+421	Exploratory Data Analysis
+633	Exploratory Data Analysis
+593	Exploratory Data Analysis
+72	Exploratory Data Analysis
+193	Visualize the test data
+156	Submit to Kaggle
+296	Bedroom Count Vs Log Error
+381	Exploratory Data Analysis
+298	Room Count Vs Log Error
+185	Preprocess Train Masks
+739	Train the model
+551	Exploratory Data Analysis
+446	Training the model
+480	Prepare the data for training and testing
+53	Load the data
+247	Extract features from text
+877	Load the data
+592	Load the data
+488	Correlation between target and target variable
+400	Convert id to filepath
+98	Exploratory Data Analysis
+162	Exploratory Data Analysis
+797	Preprocess the data
+55	Split the dataset into train and validation sets
+117	Setting up some functions
+99	Word Cloud for each item
+150	Split into train and test set
+132	Train and Prediction
+127	Feature engineering
+482	Exploratory Data Analysis
+379	Preprocessing and Classify
+107	Load the data
+575	Resizing the Images
+21	Evaluation , prediction , and analysis
+83	Load the data
+210	Split the data into train and val
+138	Split into train and test sets
+770	Create new features
+387	Exploratory Data Analysis
+262	Exploratory Data Analysis
+627	Train and Predict
+433	Analyzing Fare Amount
+301	Augmentation with GaussianTargetNoise
+649	Add lag feature
+368	Exploratory Data Analysis
+459	Exploratory Data Analysis
+235	Exploratory Data Analysis
+65	Cat Boost Classifier
+790	Get the mask type
+49	Count the words in each sentence
+209	Preprocess the data
+307	Exploratory Data Analysis
+645	Leak Score for Site 0
+411	Sinusoidal Data Analysis
+541	Exploratory Data Analysis
+383	Exploratory Data Analysis
+680	Prophet for yearly seasonality
+538	Exploratory Data Analysis
+505	Split into train and validation sets
+875	All words in the text
+702	Process Test Data
+170	Training the model
+189	Prepare the data and test directories
+324	Now we have a look at the cases for each day
+776	Binary Feature Engineering
+708	Create a dataset
+40	Exploratory Data Analysis
+351	Aggregate the bookings by date
+525	Load the data
+336	Load train and test data
+625	Create a TFAutoModel
+369	Remove outliers and target
+785	Missing No
+125	Exploratory Data Analysis
+447	Bayes and CV
+82	Calculate the number of clicks for each ip and app
+699	Create Data Generator
+650	Create Train and Validation
+427	Calculate the Haversine Distance
+820	Exploratory Data Analysis
+108	Load the data
+331	Visualize Word Clouds
+139	Create the data directories
+402	Process the results
+274	Load the data
+493	Check for missing values
+43	Exploratory Data Analysis
+385	Logistic Regression
+6	Exploratory Data Analysis
+416	Load the data
+28	Build the model
+641	Load the data
+227	Preprocessing with Label Encoder
+542	Exploratory Data Analysis
+577	Compute game time and event count
+772	Create new features
+834	Exploratory Data Analysis
+596	Save the best models
+64	Split into train and validation sets
+662	Calculate Leak Score
+734	Predict on test set
+372	Convert to RLE
+501	Load the data
+41	Fitting the model
+61	Load test data
+0	Extract meta data from DICOM files
+19	Exploratory Data Analysis
+634	Exploratory Data Analysis
+549	Predict for best alpha
+225	Distribution of square feet
+603	Calculate Focal Loss
+123	Fitting the model
+876	Vectorize the text
+284	Exploratory Data Analysis
+518	Load the data
+817	Build a list of start and end position candidates
+237	Importing the data
+261	Merge train and test set
+305	AUC and PDA
+643	Add lag feature
+77	Exploratory Data Analysis
+878	Exploratory Data Analysis
+340	Define the Embedding Classifier
+350	Preprocess the test data
+434	Split into train and validation set
+486	Create a feature matrix
+840	Is a solution of the task
+467	Visualize the best random hyperparameters
+426	Zoom to NYC
+553	Create a random sample
+333	Find the most common positive words in the selected text
+744	Create a function to get the number of repeats for each class
+213	Importing the data
+204	Evaluation , prediction , and analysis
+823	Exploratory Data Analysis
+12	Identity Hate and AUC curve
+741	Data Augmentation Layer
+543	Exploratory Data Analysis
+31	Importing the graph
+479	Exploratory Data Analysis
+7	Exploratory Data Analysis
+607	Exploratory Data Analysis
+443	Visualize Random Parameters and Best Random Parameters
+15	Exploratory Data Analysis
+718	Define the neural network
+417	Random Forest Classifier
+432	Analyzing Fare Amount
+860	Exploratory Data Analysis
+90	Exploratory Data Analysis
+457	Merge Bureau Data
+240	Importing the data
+39	Exploratory Data Analysis
+232	Exploratory Data Analysis
+810	Now lets see how many events are left
+268	Evaluation of the threshold
+842	Set some random seeds
+214	Word Cloud for each tag
+409	Exploratory Data Analysis
+825	LightGBM and XGBoost
+560	Exploratory Data Analysis
+26	Load pneumonia locations
+764	Loading the data
+871	Acoustic and Time to Failure
+716	Prepare the data for the model
+346	Split into Train and Test
+104	Exploratory Data Analysis
+547	Check the number of mismatched images
+666	Exploratory Data Analysis
+94	Exploratory Data Analysis
+119	Exploratory Data Analysis
+462	Evaluation , prediction , and analysis
+32	Now lets see how it works
+206	Convert Tensor to Image
+809	Exploratory Data Analysis
+406	Check for missing values
+792	Missing data in train set
+672	Build a basic model
+345	Exploratory Data Analysis
+747	Custom LR scheduler
+788	Calculate the Gini score
+428	Exploratory Data Analysis
+557	Importing the data
+419	Random Forest Classifier
+454	Aggregating the categorical variables
+229	Importing the data
+455	Aggregating the data
+571	Define the densenet weights
+523	Cleaning the data
+371	Load the previous trained model
+701	Exploratory Data Analysis
+773	Create a new column name
+293	Training the XGBoost Model
+499	Check for missing values
+113	Exploratory Data Analysis
+524	Split into train and validation sets
+657	Calculate the score for each class
+751	Generate date features
+697	Exploratory Data Analysis
+602	Resizing the training and test sets
+332	Preprocess the data
+710	Apply model to test data
+148	Submit to Kaggle
+867	Check missing data
+109	Exploratory Data Analysis
+280	Top Reordered Products
+777	Load the data
+620	Predict for each class
+752	Correlation between macro features
+515	Convert to RLE
+275	Order of Hour of the Day
+278	Exploratory Data Analysis
+91	Exploratory Data Analysis
+47	Exploratory Data Analysis
+489	Aggregating numeric variables
+330	Importing the data
+558	Check for missing data
+103	Get the couples of the structure
+56	Exploratory Data Analysis
+253	Load the data
+570	Load the data
+609	Define the loss function
+92	Price of Cat1
+721	Evaluation , prediction , and analysis
+408	Exploratory Data Analysis
+567	Building the model
+375	Exploratory Data Analysis
+338	Importing the data
+588	Training and Validation
+642	Set the localtime for each site
+201	Confusion Matrix
+883	Exploratory Data Analysis
+391	Exploratory Data Analysis
+453	Aggregating numeric variables
+611	Load the test data
+490	Count Categorical Columns
+178	Exploratory Data Analysis
+186	Here are some examples of the similar cars
+142	ROC AUC
+509	Load the data
+845	Load the data
+771	Create new features
+508	Exploratory Data Analysis
+726	Age vs Target
+20	Exploratory Data Analysis
+269	Preprocess the data
+238	Importing the data
+478	Create a random subset of the data
+676	Now lets see what the data looks like
+217	Importing the data
+13	Extract embeddings from train text
+100	Exploratory Data Analysis
+709	Create a look back dataset
+500	Aggregate the client variables
+458	Load previous application data
+152	Create train and validation directories
+791	Visualize the coverage of each class
+742	Load the training data
+758	Merge the test and train data
+870	Exploratory Data Analysis
+219	Exploratory Data Analysis
+626	Cleaning up the data
+306	Exploratory Data Analysis
+802	Exploratory Data Analysis
+847	Analyzing the data
+81	Now we have a look at the last clicks for each ip
+149	Binary Target
+252	Recurrent Neural Network
+874	Load the data
+35	Exploratory Data Analysis
+257	Group by and Count
+858	Predict and Submit to Kaggle
+590	Run the detector on a sample image
+605	Predict on test set
+491	Exploratory Data Analysis
+175	Check the number of duplicates in the target set
+233	Encoding the data
+831	Set up the random seed
+236	Exploratory Data Analysis
+829	Exploratory Data Analysis
+819	Preparing the test data
+250	Training the Model
+815	Precision and Recall
+862	Exploratory Data Analysis
+200	Confusion Matrix
+354	Exploratory Data Analysis
+410	Exploratory Data Analysis
+144	Classify the predictions
+476	Plot the best scores for each iteration
+37	Detect face in this frame
+585	Create TFAutoModel
+114	Training the model
+17	Exploratory Data Analysis
+872	Save the data
+587	Load the data
+624	Load the test data
+157	Linear SVR model
+527	Load the data
+722	Batch Cut Mix
+621	Preprocess and Blur Images
+696	Examine DICOM data
+714	Transforming the test data
+255	Check for missing values
+352	Exploratory Data Analysis
+271	Exploratory Data Analysis
+166	Analyzing the data
+630	Extract video features from train set
+768	Replace NaNs in train and test set
+774	Create a new column
+270	XGBoost Classifier
+276	Exploratory Data Analysis
+52	Fitting the model
+608	Predict and Submit to Kaggle
+424	Distribution of Fare Amount
+60	Exploratory Data Analysis
+42	Load the data
+803	Exploratory Data Analysis
+415	Exploratory Data Analysis
+362	Preparing data for training
+673	Create a dense added model
+816	Now lets see the score of each event
+565	TPU or GPU detection
+735	Pretrained Bert Model
+357	Exploratory Data Analysis
+198	Find the best number of clusters
+155	Preprocess the data
+668	Evaluation , prediction , and analysis
+203	Confusion Matrix
+474	Extract target variable from train and test
+746	Oversample the training set
+766	Exploratory Data Analysis
+370	Exploratory Data Analysis
+514	Predict on the test set
+578	Create a title mode
+69	Exploratory Data Analysis
+435	Feature Engineering
+562	Exploratory Data Analysis
+724	Batch Grid Mask
+601	Build a new dataframe
+389	Load the training and test data
+154	Exploratory Data Analysis
+141	Exploratory Data Analysis
+852	Create a video
+105	Load a scan
+66	Evaluation , prediction , and analysis
+422	Cleaning the data
+291	Exploratory Data Analysis
+863	Now we define the parameters we want to use
+151	Split data into training and validation set
+813	Calculate Extra Data
+161	Build the model
+843	Load the data
+230	Exploratory Data Analysis
+866	Process the data
+121	Exploratory Data Analysis
+86	Exploratory Data Analysis
+74	Exploratory Data Analysis
+600	Convert to RGB
+222	Meter reading by month
+475	Create a list of random scores
+68	Clear the output
+811	Merging device features
+844	Save the data
+703	Process Patient Images
+70	Exploratory Data Analysis
+686	Exploratory Data Analysis
+231	Exploratory Data Analysis
+765	Check for missing values
+176	Create a test image
+89	Analyzing the images
+116	Make a final ensemble
+687	Exploratory Data Analysis
+555	Preparing the data
+441	Create a subsample
+497	Exploratory Data Analysis
+184	Exploratory Data Analysis
+783	Missing data in train set
+246	Using TfidfVectorizer
+326	Looking at the cases by day
+145	Cleaning up the data
+106	Plotting the marching cubes
+837	Importing the data
+273	Training the model
+723	Performing a batch mixup
+638	Exploratory Data Analysis
+732	Training the validation set
+839	Function to evaluate the image
+337	Submit to Kaggle
+824	Drop useless features
+760	Split data into train and validation set
+115	Converting commits to numeric
+841	Build the model
+183	Exploratory Data Analysis
+130	Exploratory Data Analysis
+84	Converting to uint
+552	Exploratory Data Analysis
+753	Data Preprocessing with sklearn
+378	Random Forest Regression
+780	Exploratory Data Analysis
+128	Confusion Matrix Plot
+413	Exploratory Data Analysis
+534	Number of months in train and test set
+659	Leak Data Analysis
+223	Meter reading by month
+407	Households without head
+881	Load the data
+359	Exploratory Data Analysis
+675	Get the graph of the molecule
+473	Remove low information features
+160	Get the shape of the data
+729	Create an iterator for the data
+745	Create a training dataset
+27	Importing the cities
+23	Transformations for the image
+748	Print the results of the model
+11	Evaluation , prediction , and analysis
+34	Exploratory Data Analysis
+740	Looking at the files in the directory
+884	Exploratory Data Analysis
+717	Exploratory Data Analysis
+131	Prepare the data for the model
+95	Price of Zero
+669	Preprocess the data
+319	Define the FocalLoss class
+470	Preparing the data
+507	Exploratory Data Analysis
+174	Now lets see what we have done
+483	Exploratory Data Analysis
+598	Building the model
+789	Exploratory Data Analysis
+644	Create Train and Validation
+71	Load the data
+496	Aggregating the categorical variables
+471	Create a feature matrix
+396	Exploratory Data Analysis
+849	Load train leak data
+656	Load the leak data
+632	Exploratory Data Analysis
+317	Correlations between features
+244	Split into Train and Test
+348	Perform PCA Accuracies
+309	Exploratory Data Analysis
+264	Extract target data from train set
+779	Check for missing values
+179	Exploratory Data Analysis
+444	Visualize the best bayes parameters
+287	Distribution of interest level over time
+327	Load the data
+399	Split data into train and test set
+762	Exploratory Data Analysis
+120	Generating the World Population
+606	Interest level based on geography
+689	TPU or GPU detection
+177	Exploratory Data Analysis
+182	Build the fields
+749	Random Forest Classifier
+636	Exploratory Data Analysis
+292	Calculate the maximum probability for each bird
+329	Check if we have to plot the infection peak
+76	Exploratory Data Analysis
+684	Preparing the data
+358	Load train and test data
+159	Load train and test data
+796	Load the data
+469	Load the data
+793	Exploratory Data Analysis
+33	Evaluation , prediction , and analysis
+664	Hour of the year
+140	Preparing the data
+800	Looking at the time series of each country
+353	Exploratory Data Analysis
+67	Save the model
+663	Importing the data
+16	Preparing the training data
+495	Aggregating numeric variables
+713	Split data into train and test
+18	Load the data
+784	Now lets see the mean values of each type
+320	Exploratory Data Analysis
+218	Exploratory Data Analysis
+239	Merge train and test data
+181	Fitting the model
+856	Dark Grid Visualization
+405	Exploratory Data Analysis
+25	Create submission file
+339	Load the data
+658	Load the feather data
+528	Exploratory Data Analysis
+614	Cohen Kappa Score
+736	Pretrained Bert Model
+325	Reorder the cases by day
+361	Exploratory Data Analysis
+818	Preprocessing the data
+559	Cleaning the data
+540	Exploratory Data Analysis
+45	Evaluation , prediction , and analysis
+498	Convert types and memory usage
+511	Text to Words
+188	Exploratory Data Analysis
+530	Converting timestamps to datetime objects
+835	Exploratory Data Analysis
+451	Correlation between features
+838	Define the function to be lifted
+472	Load the features
+738	Create a list of decay variables
+869	Training and Prediction
+344	Converting the initial datatypes
+830	Merging the sales by state and category
+282	Exploratory Data Analysis
+241	Merge train and test data
+880	Plot of model loss and validation loss
+136	Exploratory Data Analysis
+195	Analyzing the test data
+316	Exploratory Data Analysis
+517	Run the LGBM model
+539	Exploratory Data Analysis
+30	Exploratory Data Analysis
+566	Decoding the image
+671	Binary Focal Loss
+54	Preprocessing the features
+468	Exploratory Data Analysis
+439	Distribution of the number of leaves
+153	Preparing the data
+801	Exploratory Data Analysis
+516	Predict for validation and testing
+564	Calculate the padding width
+438	Evaluation , prediction , and analysis
+651	Leak Score for Site 0
+449	Merge Bureau features
+868	Extract features from train and test set
+294	Distribution of Dependent Variable
+693	Cleaning the data
+258	Exploratory Data Analysis
+719	Load test data
+767	Exploratory Data Analysis
+211	Evaluation , prediction , and analysis
+639	Exploratory Data Analysis
+804	Exploratory Data Analysis
+24	Exploratory Data Analysis
+548	Building the model
+249	Preprocessing with Keras
+29	Load text data
+648	Set the localtime for each site
+73	Is distributed
+725	Exploratory Data Analysis
+163	Predict on test set
+759	Convert DCM to PNG
+859	Importing the data
+243	Training the model
+297	Bathroom Count Vs Log Error
+655	Create Train and Validation
+328	Check if we have to run the sir and seird
+781	Exploratory Data Analysis
+504	Load the model
+492	Bureau balance by client
+822	Exploratory Data Analysis
+315	Submit to Kaggle
+731	Train the model
+711	Preparing the data for the model
+10	Feature engineering
+848	Find the best thresshold
+248	Preprocessing with Keras
+728	Pretrained Bert Model
+778	Load embeddings from file
+118	Preprocessing and Preprocessing Data
+688	Create folds for each class
+208	Training the model
+5	Exploratory Data Analysis
+586	Create a fast tokenizer
+580	Exploratory Data Analysis
+786	Exploratory Data Analysis
+629	Importing the data
+477	Visualize the optimal hyperparameters
+226	Converting date features to uint8
+750	Breakdown Topic
+613	Load the data
+88	Encoding with RLE
+698	Exploratory Data Analysis
+234	Analyzing the directions
+191	Exploratory Data Analysis
+582	Load the data
+705	Split the data into train and test sets
+78	Exploratory Data Analysis
+190	Load the training data
+521	Merge breed features
+481	Load the data
+133	Visualize Word Clouds
+101	Coms Length and Price
+341	Define the size of the kernel
+685	Exploratory Data Analysis
+812	Channel feature engineering
+46	Preprocessing and Prediction
+612	Compute the test text and questions
+3	Check for missing values
+382	Exploratory Data Analysis
+122	Linear SVR model
+310	Exploratory Data Analysis
+769	Create new features
+440	Setting up the hyperparameters
+87	Exploratory Data Analysis
+343	Check missing values
+299	No of Storeys Vs Log Error
+392	Pair plot of hits and volume id
+616	Now we can plot the result of each fold
+129	Loading the data
+423	Create Submission File
+775	Exploratory Data Analysis
+855	Importing the data
+281	Top Reordered Products
+706	Find the best confidence values
+798	Exploratory Data Analysis
+653	Set the localtime for each site
+450	Exploratory Data Analysis
+245	Vectorize the data
+80	Is distributed mean
+404	Load the data
+677	Exploratory Data Analysis
+503	Split into training and validation masks
+403	Combinations of TTA
+556	Preparing the test data
+463	Training and Prediction
+347	Evaluation , prediction , and analysis
+220	Visualize Mean Energy Consumption by Day
+700	Load the data
+212	Exploratory Data Analysis
+537	Exploratory Data Analysis
+754	XGBoost Feature Importance
+545	Exploratory Data Analysis
+464	Lets see the number of words in the dataset
+196	Number of items per month
+544	Exploratory Data Analysis
+431	Fit and evaluate the model
+51	Clean up the text
+604	Create a test generator
+506	Exploratory Data Analysis
+715	Exploratory Data Analysis
+743	Number of repetitions for each class
+727	Exploratory Data Analysis
+510	Exploratory Data Analysis
+595	Save the trial state as csv
+861	Exploratory Data Analysis
+569	Create a fake directory
+572	Training the model
+610	Split into train and validation set
+14	Exploratory Data Analysis
+374	Exploratory Data Analysis
+591	Submit to Kaggle
+2	Exploratory Data Analysis
+36	Clipping the data
+110	Preprocess the data
+1	Get the test transforms
+576	Build the model
+761	Exploratory Data Analysis
+79	Check for missing values
+124	Converting the data to numeric
+9	Exploratory Data Analysis
+363	Exploratory Data Analysis
+494	Load the test data
+147	Predict on test set
+277	Exploratory Data Analysis
+285	Exploratory Data Analysis
+22	Set some random seeds
+532	Looking at train and whole test sets
+197	Distribution of Silhouette
+690	Build the model
+259	Exploratory Data Analysis
+442	Load train and test data
+192	Load the data
+335	Top most common words in selected text
+165	Submit to Kaggle
+448	Importing the data
+850	Load test leak data
+215	Create TfidfVectorizer
+674	Exploratory Data Analysis
+436	Predict for the validation set
+390	Merging the prices of each image
+484	Exploratory Data Analysis
+111	Feature score by preprocessing
+554	Submit to Kaggle
+251	Convolutional Neural Network
+395	Classify the image
+833	Exploratory Data Analysis
+112	Importing the data
+207	Define the neural network
+355	Sum of products by short name
+58	Exploratory Data Analysis
+290	Setting the Target and PP
+579	Simple XGBoost Classifier
+295	Number of stories in each year
+563	Submit to Kaggle
+584	Training and Validation
+755	Split into train and test sets
+4	Exploratory Data Analysis
+44	Unique Items and Cat IDs
+360	Exploratory Data Analysis
+546	Custom LR scheduler
+832	Load the data
+550	Visualize the batch of predictions
+561	Add a cylinder to the scene
+851	Create a list of images for each patient
+224	Exploratory Data Analysis
+304	Text feature engineering
+597	Decoding the image
+314	Create a list of test audio files
+445	Load the data
+365	Exploratory Data Analysis
+619	Display the effect of the augmentation
+364	Forecast for each country
+533	Test public and test private
+683	Clipping the predictions
+660	Add lag feature
+85	Exploratory Data Analysis
+615	Exploratory Data Analysis
+300	Gaussian Target Noise
+529	Encode the test predictions
+805	Stratify the data
+172	Load the data
+102	Exploratory Data Analysis
+221	HIGHEST DURING OF THE DAY
+401	Exploratory Data Analysis
+164	Make predictions for the test set
+349	Feature Accuracies
+635	Exploratory Data Analysis
+430	Fitting the learning rate
+828	Hobbies and foods
+485	Exploratory Data Analysis
+137	Exploratory Data Analysis
+513	Train the model
+836	Exploratory Data Analysis
+522	extract different column types
+787	One hot encode the features
+62	Create a generator for the test set
+376	Exploratory Data Analysis
+75	Exploratory Data Analysis
+661	Create Train and Validation
+96	Exploratory Data Analysis
+286	Exploratory Data Analysis
+272	Convert list to ordered dict
+167	Analyzing the generator
+826	Feature Importances by Random Forest
+536	Importance of Shap
+756	Predict on test set
+526	Load train and test data

@@ -1,0 +1,675 @@
+0	Import the necessary libraries
+1	Training Features and Testing Features
+2	Distribution of AMT INCOME
+3	Distribution of log
+4	Distribution of CreDIT
+5	Type of Lo
+6	Accompanying Persons
+7	Age of customer
+8	Merging Bureau Data
+9	Check if two columns are unique
+10	Preprocessing for Polynomial Features
+11	Scaling the data
+12	Linear Model
+13	Loading the Data
+14	Loading the Data
+15	Reading the Data
+16	Loading the Submission
+17	Calculates the mean of the labels
+18	Andrews Curve
+19	Plotting the autocorrelation
+20	Lag Plot
+21	Loading the Data
+22	Check for missing values
+23	Creating a barplot
+24	Add images to test
+25	Loading the Data
+26	Moving Average
+27	Loading the Data
+28	Distribution of Price
+29	Visualization of Correlation
+30	EarlyStopping Callback
+31	Create my prediction
+32	Loading the Data
+33	Find Peaks
+34	Making Histograms
+35	Loading the predictions
+36	Loading the Data
+37	Train the model
+38	Reading the test image
+39	Resize the image
+40	Import the necessary libraries
+41	Compile the model
+42	Plotting the predictions
+43	Plotting Images and Masks
+44	Data augmentation
+45	Read in libraries
+46	Read in train file
+47	Make sure that the figures are the same
+48	Distribution of Trips
+49	Distribution of Trips
+50	Number of pickup hours
+51	Import the necessary libraries
+52	Training and Validation
+53	Loading the Data
+54	Split data into train and test
+55	Loading the Data
+56	Clean the data
+57	Import the necessary libraries
+58	Setting up the model
+59	Train the LGBMClassifier
+60	Traditional Classfieris Results
+61	Loading the Data
+62	Word Cloud
+63	Volume and Records
+64	WordCloud WordCloud
+65	Import the necessary libraries
+66	List of devices
+67	Revenue and date
+68	Daily Revenue
+69	Analyzing keywords
+70	Split the dataset
+71	Calculate RMSE
+72	Create custom postprocessing
+73	Import the necessary libraries
+74	Loading the Data
+75	Loading the Data
+76	Get Training Info
+77	Run on TPU
+78	Instantiate the model
+79	Import the necessary libraries
+80	Lets look at the test images
+81	Lets look at some images
+82	Lets look at some images
+83	Landmark ID and count
+84	Landmark ID and count
+85	Loading the Libraries
+86	Look at timestamp
+87	Import the necessary libraries
+88	Loading the Dataset
+89	Import the necessary libraries
+90	Merge the Data
+91	Oil Price
+92	Import the necessary libraries
+93	Create a tree digraph
+94	Create a Folium Map
+95	Create LGBM Classifier
+96	Number of Team Members
+97	LG Submission
+98	Import the necessary libraries
+99	Loading the Data
+100	Exploring the Data
+101	Split into train and validation sets
+102	Build the model
+103	Load the model
+104	Extract Prediction
+105	Create Submission File
+106	Submit the predictions
+107	Import the necessary libraries
+108	Loading the Data
+109	Train a CatBoostRegressor
+110	Preparing the forest
+111	Hyperdrology Histogram
+112	Hyperdrology Histogram
+113	Histogram for HD Roadways
+114	Histogram of HD_Roadways
+115	HD Fire Points Histogram
+116	Hillshade at Noon Histogram
+117	Import the necessary libraries
+118	Setting up the model
+119	Plotting the images
+120	Merge the train and test datasets
+121	Look at the first image
+122	Overlay Mask on slide
+123	Import the necessary libraries
+124	Plotting the images
+125	Seed everything
+126	Loading the Data
+127	Save the data
+128	Load the Data
+129	The mean of glove and paragram embeddings
+130	Create a new dataset
+131	Import the necessary libraries
+132	Merge Merchants
+133	Calculate the rating
+134	Most recent sales and purchases
+135	Encode categorical features
+136	Import the necessary libraries
+137	Loading the Data
+138	Get the list of properties
+139	Distribution of Segments
+140	Distribution of E and Eg
+141	Mean Squared Logarithm
+142	Import the necessary libraries
+143	Convert text columns to dictionaries
+144	Split train and test sets
+145	Loading Nifti1Image
+146	PCA and SCORES
+147	Fitting the model
+148	Reading and Rescaling
+149	Pads the image
+150	Import the necessary libraries
+151	Checking for bad training data
+152	Import the necessary libraries
+153	Loading the Data
+154	Train MultinomialNB
+155	Adding Training and Test Text
+156	Import the necessary libraries
+157	Predict for each model
+158	Exploring the Data
+159	Image Data Generator
+160	Train and Test Split
+161	Import the necessary libraries
+162	Loading the Data
+163	Loading Test Data
+164	Random Forest Regression Model
+165	Import the necessary libraries
+166	Train the DeepaREstimator
+167	Submission of forecasts
+168	Import the necessary libraries
+169	Train the DeepaREstimator
+170	Converts the image to grayscale
+171	Now , we will look at the labels
+172	RLE encoding of the mask
+173	Exploring the Data
+174	Split training and validation sets
+175	Transforms the Data
+176	Log Regression Model
+177	Save the vectoriser and sentiment
+178	Import the necessary libraries
+179	Show spectrogram
+180	Plotting the Data
+181	Plotting the pie chart
+182	Quitative and Numerical Columns
+183	Event Count
+184	Type Count
+185	World Count
+186	World Count
+187	Plotting the Scatter
+188	Week of year and type
+189	Now lets look at the title of the game
+190	Look at the event code
+191	Game Time
+192	World and Game Type
+193	World and Type
+194	Number of unique values
+195	Plotting the test data
+196	Loading the Data
+197	WOE encoder
+198	Percentage of feature
+199	Number of noms in train set
+200	Loading the Data
+201	Distribution of X and y
+202	Loading the Data
+203	LightGBM Feature Importance
+204	Loyalty Score
+205	Merging the Data
+206	Wind Direction and wind speed
+207	Plotting Cloud Coverage
+208	Number of Occurrences
+209	Scatter plot of price
+210	Distribution of price
+211	Distribution of Y value
+212	Missing Values
+213	F1 score at threshold
+214	Frequency distribution by days since prior order
+215	Aisle Aisle
+216	Departments Distribution
+217	Look at the data
+218	The total number of games and plays
+219	Quarter Vs Yards
+220	Import the random data
+221	Loading the Data
+222	Floor Count
+223	Median Price
+224	Month of transaction
+225	Distribution of Latitude and Longitude
+226	Set the maximum number of rows
+227	Missing Values
+228	Frequency of Bathroom Count
+229	Bedroom Count
+230	Visualize Year built and logerror
+231	Plotting logerror points
+232	Number of punctuations by author
+233	Tfidf Model
+234	Confusion Matrix of XGB
+235	Instantiate the environment
+236	Number of Duplicate Occurrences
+237	Mean is duplicate Q1 frequency
+238	Leaky variables correlation
+239	Loading the Data
+240	Loading the Data
+241	TfidfVectorizer
+242	Prediction for Identity Hate
+243	Loading the Data
+244	Distribution of Energy
+245	We can see the correlation between sets
+246	Remove punctuation from original text
+247	CountVectorizer and CountVectorizer
+248	Submission of Prediction
+249	Submission of Prediction
+250	Submission of Prediction
+251	Check for missing values
+252	Loading the Data
+253	Plotting the Kaggle
+254	Fill missing values
+255	Some basic details
+256	Preparing the data
+257	Submit the predictions
+258	Loading the Data
+259	Adding missing values
+260	Data preparation
+261	Submit Xgb predictions
+262	Data preparation
+263	Submission of the test
+264	Check if P2SIZE exists
+265	TTA Prediction
+266	Preprocessing and LabelEncoder
+267	Loading the Data
+268	Downsampling and Resampling
+269	Sarima Mod6 Prediction
+270	The Cumulative Total of Confirmed cases
+271	Compile the model
+272	Loading the Data Generator
+273	Predicting the test generator
+274	Check if latex tag is in text
+275	Setting up the model
+276	Cleaning Latex Tags
+277	Loading the Data
+278	Model for ResNet
+279	Train the model
+280	Distribution of TransactionDT
+281	Protonmail Fraud Rate
+282	Visualize the Major OS
+283	Preparing the Data
+284	Submission for Neural Model
+285	Loading the Data
+286	Import the necessary libraries
+287	Preparing the Dataset
+288	Exploring Image Id
+289	Exploration of Exploration
+290	Exploration of Exploration
+291	One hot encoder
+292	Split training and validation sets
+293	SGD with SGD
+294	OneHotEncoder with OneHotEncoder
+295	Preparing the Data
+296	Exploring the Data
+297	Now , we need to create the model
+298	Preparing the Data
+299	Exploring the Data
+300	Now , we need to create the model
+301	Import the necessary libraries
+302	Split training and validation sets
+303	Logistic Regression Model
+304	Augmenting the data
+305	Plotting the pie chart
+306	Images with at least one label
+307	Create the model
+308	Plot with Dots
+309	Promo2SinceWeek and PromoInterval
+310	Resize the images
+311	Target and rate for each species
+312	Convert longitude and latitude
+313	Sample of EBIR Code
+314	Number of categorical features
+315	Preparing the data
+316	Loading the Data
+317	Making a copy of the dataframe
+318	Process the test set
+319	Import the necessary libraries
+320	Loading the Data
+321	Import the necessary libraries
+322	Missing Values
+323	Check if the number of fullVisitorId is equal to the number of rows in submission
+324	Loading the Data
+325	Exploring Data
+326	Masks and Images
+327	Import the necessary libraries
+328	Import the necessary libraries
+329	One hot Representation
+330	Create a Time SeriesSplit
+331	OOF QDA and QDA
+332	Concatenate train and test
+333	Tokenize and Pads
+334	Data preparation
+335	Number of Word Distribution
+336	Relationship between popularity and revenue
+337	Create LGBMRegressor
+338	LGBM Regression Model
+339	Summarize the data
+340	Distribution of Age between Male and Female
+341	Distribution of Age sperated by SmokingStatus
+342	Relationship between Percent and FVC
+343	Import the necessary libraries
+344	Number of Teams by Date
+345	Top LB Scores
+346	Count of Submissions improving LB score
+347	We will now look at the data
+348	Load the Model
+349	Mask Dataset
+350	Prediction
+351	Seed everything
+352	Prediction Prediction
+353	Import the necessary libraries
+354	Pitch Shift
+355	Add GaussianNoise
+356	Create the albumentations
+357	Calculate ROC and AUC
+358	Create the model
+359	Import the necessary libraries
+360	Tokenization for DistilBERT
+361	Linear Model
+362	Initialize the model
+363	Setting up the model
+364	Preprocess the data
+365	Merging the data
+366	Loading the Data
+367	Remove punctuation from text
+368	Extracting Sentiments
+369	Loading the Data
+370	Train the model
+371	Loading the Data
+372	Create a dictionary of plain text
+373	Create the Submission
+374	Imports the necessary libraries
+375	Full Cipher
+376	XGBoost and XGBRegressor
+377	Import the necessary libraries
+378	Dipole moments
+379	Distribution of Potential Energy
+380	Check if points are outlier
+381	Import the necessary libraries
+382	Load test tasks
+383	Create train and test datasets
+384	Distribution of Matrix Mean Values
+385	Flattener for Prediction
+386	Load Test Predictions
+387	Import the necessary libraries
+388	Loading the Data
+389	Aquamarine and Seagreen
+390	Proportion of Proportion
+391	Proportion of Proportion
+392	Distribution of Card4
+393	Proportion of Fraud
+394	Distribution of Card6
+395	Proportion of Fraud
+396	Preparing the data
+397	Now , we will sort the data
+398	Train the lightgbm model
+399	Plotting the Importance
+400	Model Accuracy
+401	Plotting the model loss
+402	Setting up the model
+403	Distribution of Length
+404	Word Count
+405	Average Word Length
+406	Tokenize on Text
+407	Squared Logarithm
+408	Save Word Index
+409	Import the necessary libraries
+410	Loading the Data
+411	Reading Google API Key
+412	Mean Absolute Error
+413	Toxicity Scores
+414	Create a dictionary of the code
+415	Create a BirdNet
+416	Cross Entropy Loss
+417	Prediction of test predictions
+418	Import the necessary libraries
+419	Remove numbers from text
+420	Replace Multi Exclamation Marks
+421	Replace Eongated Word
+422	Create Neural Network
+423	Split training and validation sets
+424	Predictions
+425	Predictions
+426	Import the necessary libraries
+427	Set up the signal
+428	Setting up seismic signals
+429	Masks and Targets
+430	Min max transfer function
+431	Preparing the data
+432	Load the Data
+433	Exploration of Perm Entropies
+434	Exploration of Perm Entropies
+435	Joint Plot of App Entropies
+436	Joint Plot of App Entropies
+437	Higuchi FD
+438	Exploration of Regions
+439	Import the necessary libraries
+440	Setting up seismic signals
+441	Calculate the Maddest
+442	Set up the signal
+443	Setting up seismic signals
+444	Masks and Targets
+445	Min max transfer function
+446	Preparing the data
+447	Load the Data
+448	Spectral Entropies
+449	Spectral Entropies
+450	Joint plot of sample and target
+451	Sample Entropies Time To Failure
+452	Detrended fluctuation and time to failure
+453	We can also plot the trended fluctuations
+454	Loading the Data
+455	Mean and Standardization
+456	Import the necessary libraries
+457	Load Images
+458	Load Label Data
+459	Train Targets
+460	Plotting the images
+461	Set up the model
+462	Loading the Data
+463	Gleason Replace
+464	ResNetDetector
+465	Cross Entropy Loss
+466	Setting up the model
+467	X coordinate and Yards
+468	Visualization of Yards
+469	Visualize X and Y
+470	Proportion Density
+471	Create a list of dictionaries
+472	Convert categorical features to categorical
+473	Get numerical features
+474	Build the graph
+475	Mean and Standard Deviation
+476	Common Word in Comments
+477	Average Comment Length vs Country
+478	Compound sentiment
+479	Compound vs Toxicity
+480	Flesch Reading Accuracy
+481	Flesch Reading Accuracy vs Toxicity
+482	Automated Readability
+483	Automated readability vs Toxicity
+484	pie chart of labels
+485	Setting up the TPU
+486	Tokenization for DistilBERT
+487	Fast Tokenization
+488	Load the Data
+489	Build VNN model
+490	Reduce LR on Plateau
+491	Train the model
+492	Building CNN Model
+493	Train the model
+494	Build LSTM Model
+495	Fitting the model
+496	Build Capsule Model
+497	Fitting the model
+498	Build Distilbert Model
+499	Fitting the model
+500	Setting up the model
+501	Loading the Data
+502	Loading the Image
+503	Distribution of Channel Values
+504	Distribution of Red Channel Values
+505	Distribution of Green Channel Values
+506	Distribution of Blue Channel Values
+507	Initialize the TPU
+508	Create train and validation files
+509	Define the learning rate scheduler
+510	Setting up the model
+511	Cross Entropy Loss
+512	Load the Data
+513	Set up the model
+514	Load Images
+515	BCE with logits loss
+516	Weightage Function
+517	Loading the Data
+518	Create DataLoader
+519	Create XLA Network
+520	Load the bpps
+521	Loading the Data
+522	Import the necessary libraries
+523	Distribution of Yaw
+524	Histogram of Object Frequencies
+525	Render a single scene
+526	Lyft Data Visualization
+527	Look at the first sample
+528	Prepare the test set
+529	Plotting the signal
+530	Import the necessary libraries
+531	LabelEncoder and LabelEncoder
+532	Low pass filter
+533	Import the Libraries
+534	Loading the Data
+535	Gini of ROC curve
+536	Number of Training and Test Transactions
+537	Loading the Data
+538	Summarize the data
+539	Confirmed Cases Over Time
+540	Reading the Data
+541	ConfirmedCases log10
+542	Gini score
+543	Import the necessary libraries
+544	Reading Ease
+545	Readability Consensus
+546	Vectorizer for Sincere
+547	Preparing the LDA
+548	Prepare the LDA
+549	Create Submission File
+550	Benign Image Read
+551	Setting up the model
+552	Look at the overlap
+553	Filter the signal
+554	Import the necessary libraries
+555	The shape of the data
+556	Number of movies released by Year
+557	Distribution of movie Popularity
+558	Number of movies release by Day of Month
+559	Release Day of Week
+560	Sieve Eatosthenes
+561	Build Vocabulary
+562	Add lower case words to embedding
+563	Clean Contractions
+564	Build Vocabulary
+565	Clean Contractions
+566	Create Treated Data
+567	DWT Denoising with Wavelet
+568	Seat and state of the pilot
+569	Plotting the violin
+570	Electrodermal activity measure
+571	rolling Mean and Standard Deviation
+572	Conorde TSP
+573	Tour Data Analysis
+574	XGBoost Classifier
+575	Import the necessary libraries
+576	Pneumonia and Pneumonia
+577	How many cases are there per image
+578	Where is Pneumonia located?
+579	Age distribution by gender and target
+580	The areas of the bounding boxes by gender
+581	How is the pixel spacing distributed
+582	Histogram of Bounding Boxes
+583	Percentage of black pixels
+584	The distribution of bounding aspect ratios
+585	Linear Discriminant Analysis
+586	Plotting the correlations
+587	Import necessary modules
+588	Train the model
+589	Cross Validation
+590	Ranking the ranking
+591	Set up the model
+592	Average AUC and Out offold AUC
+593	Making Submission
+594	Exploring Final Results
+595	Inceptionnet V1
+596	FastMTCNN
+597	FastMTCNN
+598	Detecting the frontal face
+599	Detection with MTCNN
+600	Discriminator and BCELoss
+601	Create a zip of images
+602	Scaled Clusters
+603	Scaled sales item lookup
+604	Load the Data
+605	Now , lets look at the audio files
+606	Spectrogram for log spectrogram
+607	Test audio files
+608	Plotting the test sound
+609	Exploring the spectrogram
+610	Exploring Data
+611	Log Regression
+612	Weeks Percentsize FVC
+613	Load Data
+614	Computation of Gain Score
+615	Importing the Libraries
+616	Plotting the Adjacencies
+617	Plotting the Adjacencies
+618	Loading the Data
+619	Submit the test predictions
+620	Import the necessary libraries
+621	Import the necessary libraries
+622	Detecting NaN values in data
+623	Prepare the test data
+624	Subset of test data
+625	Look at the data
+626	Import the necessary libraries
+627	Import the necessary modules
+628	Look at the data
+629	SmokingStatus
+630	Import the necessary modules
+631	Get size list
+632	Loading the Data
+633	Group by Number of Sample
+634	Look at the quality of the image
+635	Now , we will change the image
+636	Import the necessary libraries
+637	Create the iterator
+638	Setting up the optimizer
+639	Loading the Image
+640	Create Submission
+641	Loading the Data
+642	Mean of total sales per department
+643	Total Sales by Category
+644	Mean Sales by State ID
+645	Mean Sales Per Day
+646	Mean Total Sales Per Day Over Time
+647	Save Submission File
+648	Fill missing values
+649	OneHotEncoder and OneHotEncoder
+650	Now , we will look at the data
+651	Plotting the Entropy
+652	Visualization of Time Series
+653	Import the necessary libraries
+654	Open File dialog
+655	Convert mat file to dictionary
+656	Define Energy Frequencys
+657	petrosian FD
+658	Katz FD
+659	Replace zero values with NaNs
+660	Normalize Features
+661	List of files with extension
+662	Loading the Data
+663	Mean Squared Error
+664	Distribution of Age
+665	Distribution of Age
+666	Evaluate metric
+667	Loading the Submission
+668	Import the necessary libraries
+669	Import the necessary libraries
+670	Plotting the data
+671	Joining the Dataset
+672	Import the necessary libraries
+673	Extracting DICOM data
+674	Pivot Table for DICOM

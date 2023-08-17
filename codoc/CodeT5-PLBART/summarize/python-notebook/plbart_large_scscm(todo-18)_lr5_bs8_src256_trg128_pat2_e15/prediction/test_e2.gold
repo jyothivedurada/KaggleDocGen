@@ -1,0 +1,1821 @@
+756	Plot each poverty level as a separate line
+924	Add vertical line to plot
+1200	Plot box plot of RMSE
+1616	Computes gradient of the Lovasz extension w.r.t sorted errors
+774	Calculate spearman correlation
+1277	identify objects only by color
+1454	Invert scaling for forecast
+402	Data load and process functions
+1064	Generate data for the BERT model
+907	Return size of dataframe in gigabytes
+1339	Final linear layer
+1407	Train Our Linear Regression Model
+521	gets the features for the winning team
+1695	Load my favorite task
+1335	Squeeze and Excitation
+203	For every slice we determine the largest solid structure
+1325	Calculate and round number of filters based on depth multiplier
+37	Maybe if we used the log plot things would be better
+329	for patientId in batch
+148	We can now take a first look at those IP
+502	Rescaling the Image Most image preprocessing functions want the image as grayscale
+273	get lead and lags features
+573	Visuallizing Interest Level Vs Bathroom
+1003	Putting it all Together
+131	Prepare Testing Data
+349	Threshold for removing correlated variables
+518	quick and dirty to see how good a predictor Seed difference is
+1093	Input dictionary for SaltParser
+819	Add components to training data for visualization and modeling
+1068	Print CV scores , as well as score on the test data
+853	We can make the same plot by day of the week
+589	No Of Storeys Vs Log Error
+19	Imputations and Data Transformation
+1376	Importing Library Files
+847	Use More Features
+149	Does bots download the app
+1711	Read data from the CSV file
+460	Here we go
+1061	create the encoder pathway and add to a list
+1081	we use a partial fit approach
+1112	extract different column types
+500	Separate the zone and subject id into a df
+566	loss function definition courtesy
+1000	DFS with custom features
+1294	warm up model
+1536	Check the data
+498	read in header and get dimensions
+763	Put text with appropriate offsets
+21	Check for missing values in training set
+524	Building the pipelines
+1605	Predict null data based on statistical method
+241	Filter Germany , run the Linear Regression workflow
+1693	Give a nice name to the lifted function
+187	Can we get some informations out of the item description
+1815	Thanks to Nanashi
+1613	Split the train dataset into development and valid based on time
+546	Building the pipelines
+1446	Order does not matter since we will be shuffling the data anyway
+1715	Ensure determinism in the results
+50	Group date and time counts by hours
+1351	Fast data loading
+959	DFS with Default Primitives
+134	Create and set up the model
+248	For boosting model
+1784	Compute the STA and the LTA
+1062	encoder pathway , save outputs for merging
+1406	Get just the digits from the seeding
+165	Mask out background and extract connected objects
+360	Apply skin segmentation on all training data and visualize the result
+1461	Make a Baseline model
+41	The Shape of the Data
+511	calculates wins and losses to get winning percentage
+216	Standardization for regression models
+1543	if there is too many zero , just use normal is OK
+929	Learning Rate Domain
+258	Ridge Regression model for basic train
+559	Replace values in the dict
+750	Combinations of TTA
+1702	where the key of each program is its fitness score
+1778	Reading in the data , as usual
+856	Try with All Time Variables
+1330	Encodes a list of BlockArgs to a list of strings
+1477	Compare timing for MixUp
+1411	How it should look
+112	combine out df
+688	Draw bounding box around character , and unicode character next to it
+543	prints classification report and confusion matrix
+1503	of the TPU while the TPU itself is computing gradients
+1202	Load Model into TPU
+51	Determine left , right and bottom coordinates of each bar in the plot
+1051	Create the model
+532	Building the pipelines
+1658	restore original text
+1191	Predict Test Set and Submit Result
+510	process remaining batch
+539	prints classification report and confusion matrix
+1044	Drop the missing columns and return
+1320	downcast back to int
+575	Correlation Between Price and Other Features
+1192	Numeric as float
+610	add filename relative to directory
+1488	Eval data available for a single example
+429	Imputing Missing variable
+517	Convert string to an integer
+637	Lets gets started
+1690	Sort images by how many non zero pixels are contained
+906	Plot the cumulative variance explained
+1053	Record the best score
+576	Main Config Variables
+1425	tokens and its count
+818	Add components to test data
+347	Thanks to Automatic FE The main code for basic FE
+1018	Print some summary information
+996	DFS with seed features
+1556	For data prep
+768	Creating Ordinal Variables
+1727	Shuffling happens when splitting for kfolds
+471	Roc curve by fold
+1510	ROTATE DESTINATION PIXELS ONTO ORIGIN PIXELS
+946	First , we need to put our data into a long format dataframe
+884	Standard imports for data science work
+1298	Creating submission file
+239	Filter Italy , run the Linear Regression workflow
+1304	Clear up the memory first
+1700	For each fitness function
+852	Explore Time Variables
+1664	Import libraries and data , reduce memory usage
+1537	Data transformation and helper functions
+1547	Inplace or Copy
+81	Original Yoon Kim model
+504	The lineplot of the date columns
+417	Variable Description and Identification
+1213	Create strategy from tpu
+1078	Set values for various parameters
+1159	LIST DESTINATION PIXEL INDICES
+1765	That is the size of one test example that we ought to predict
+1633	Age distribution of male and female patients
+207	LIST DESTINATION PIXEL INDICES
+603	Y is the target
+1035	Remove duplicate columns by values
+1413	targets in train.csv
+1271	identify all objects by physical isolation on the given image
+1314	This plot shows summarized information about feature impact against shap output
+263	Set weight of models
+1133	Cut off padded parts of images
+444	Visualition of Map Plot of Chicago city
+386	Decode item length
+595	select running device
+912	Combined Aggregation Function
+217	Comparison of the all feature importance diagrams
+687	Get a sample from the dataset
+1333	Squeeze and Excitation layer , if desired
+1525	Span logits minus the cls logits seems to be close to the best
+1590	Load and preprocess data
+296	Balance the target distribution
+977	First we need to format the data and extract the labels
+910	Remove the columns with all redundant values
+303	Set Up the Generators
+1542	This is to demo the facebook prophet model
+1810	RF for feature selection
+897	Cumulative importance plot
+1266	Load Test dataframe
+1655	Draw the heatmap using seaborn
+1803	call this function before chage the dtype
+1684	If you like the content of this notebook , please consider upvoting it
+1174	and background color definition
+1217	and reduced using summation and other summary stats
+364	For models from Sklearn
+1198	Create temporary dataframe
+1066	First dense layer
+1744	FITTING THE MODEL
+1210	Padding process and resizing with OpenCV
+1802	image coordinate to world coordinate
+1431	saving the numpy arrays
+814	Split into validation set
+336	Set the batch sizes
+643	pip install transformers
+1412	targets in labels.csv
+1356	meter split based
+837	Adjust alpha of legend markers
+867	Extract the boosting type
+528	Building the pipelines
+192	Convert the original image to grayscale
+1807	Load in other files
+583	Or models are blend with simple Mean
+1563	Set Model for prediction
+555	Load data and fit some models
+808	Training and validation data
+1788	An inner plot to show the peak frequency
+1614	Split the train dataset into development and valid based on time
+324	Load the pre processed data
+1219	Adding mode as feature
+563	len of description
+1135	From timestamps set
+1617	remove model activation layer and use losvasz loss
+1102	Prepare submission format and save it
+153	Ratio global analysis
+1022	Only want to remove one in a pair
+1384	Convert to Numpy array
+1207	The data , split between train and test sets
+777	Bottom is density plot
+1255	Load Model into TPU
+1792	Draw a heatmap with the numeric values in each cell
+1643	Conversions by Device
+623	Replacing Mainland china with just China
+1427	feature vector for each word we need to do this
+1134	Perform check on randomly chosen mask and prediction
+196	Convert the original image to grayscale
+36	And it looks like a fairly nice distribution , albeit still fairly asymetrical
+320	Gradient Boosting Regression
+123	Convert to lower case Clean contractions Clean special charactor Convert small caps
+1352	Leak Data loading and concat
+1229	Build datasets objects
+68	if augment then horizontal flip half the time
+773	Use only training data
+301	destination path to image
+1221	Compute best params and its corresponding score
+1444	squared features for some model flexability
+494	analyzing the numerical features disturbion in previous application dataset
+667	a quick check if demand distribution changes week to week
+1006	Remove low information features
+1248	Load and preprocess data
+838	Plot the pickups
+1037	Return size of dataframe in gigabytes
+626	China scenario since first entry
+830	Lets first check the Train Target Distribution
+1104	and batch aggregations examples for the rest of the tables ..
+948	Distribution of Search Values
+243	Filter Albania , run the Linear Regression workflow
+473	Loading the data
+67	split into train and validation filenames
+1660	Write a problem file
+1676	What are Lung Opacities
+1036	Calculate medians for repaid vs not repaid
+1144	Exponential Growth Curves
+888	Now we want to combine the data without creating any duplicate rows
+1734	the same for test
+1509	LIST DESTINATION PIXEL INDICES
+674	define training and validation sets
+6	eliminate bad rows
+276	sort the validation data
+945	Put the iteration and score in the hyperparameter dataframe
+420	Meter Reading and Meter Type
+881	Extract the test ids and train labels
+1800	plot baseline and predictions
+1739	Explore distribution of single variable
+1361	what already is known
+981	Replace all the day outliers
+458	A parameter grid for XGBoost
+1619	Null data check
+499	handle .ahi files
+574	Visualizing Interest Level Vs Bedrooms
+653	function to read training data into pandas dataframe
+1462	Create dataset for training and Validation
+1152	Initialize validation data generator
+13	Loading Train and Test Data
+883	Bayesian Optimization on the Full Dataset
+178	Price by category
+44	Create colors for bars based on bar height
+1663	kick off the animation
+330	Reads images from a folder , converts the images to a numpy array
+1464	Create Inference Dataset
+544	This sets up the data so we can make predictions year by year
+964	Visualize Distribution of Correlated Variables
+1438	Create Image Augmentation Generator
+1322	Split all our input and targets by train and cv indexes
+160	Create a random colormap
+43	Determine left , right and bottom coordinates of each bar in the plot
+1239	Run the graph we just created
+932	Evalute the hyperparameters
+317	Stochastic Gradient Descent
+481	Keras Tokenizer API
+1670	Disable fastai randomness
+938	Write column names
+989	Create time column and drop
+99	declare some parameter
+337	the same batch only once
+135	Counting the metric score
+695	remove layter activation layer and use losvasz loss
+1100	Show best AUC per fold based on GBM training history
+26	No surprises , since this is all presumably artificial data
+1146	load mapping dictionaries
+1420	importing classes helpfull for text processing
+866	boosting type domain
+648	Load and Explore Data
+1143	Add need fields
+55	There is one cluster for noisy examples , labeled as
+1593	fill up the missing values
+406	create a new dataframe to
+121	this methods help to clean up some memory while improve the coverage
+459	Here we go
+84	And finally lets look at the class distribution
+23	Detect and Correct Outliers
+195	inpaint the original image depending on the mask
+1179	compute the new values of the confusion matrix
+379	root mean squared error
+1652	import Dataset to play with it
+435	Display markdown formatted output like bold , italic bold etc
+1758	Relationship between applications and POS cash balance
+1666	Specify parameters for stacked model and begin training
+175	load images data and classes id
+1338	The first block needs to take care of stride and filter size increase
+1393	or maybe I am missing something
+245	Filter Andorra , run the Linear Regression workflow
+513	Lets calculate the number of games a team played in the conference tournament
+660	Computes and stores the average and current value
+1118	Manually adjusted coefficients
+485	Sequence of two convolutional and pooling layers as feature extractors
+1249	Unhide below to see all trials results
+1487	if a checkpoint exists , restore the latest checkpoint
+923	Cumulative importance plot
+1141	Interaction values dependence plot capturing interaction effects
+1367	Ploting the data
+1654	check covariance among importance variables
+714	missing value statistics
+718	LOAD model , preprocess
+889	Match the columns in the dataframes
+654	function to read test data into pandas dataframe
+1303	Predict with mixed language models
+875	Iterate through each set of hyperparameters that were evaluated
+1005	Run and create the features
+136	Saving the model
+836	Rides on Map of NYC
+434	Import basic modules
+312	Determination categorical features
+1743	EXTRACT DEVELOPTMENT TEST
+1270	identify obeject by the color only
+60	Predicting for test data
+1240	Inference on Test Set
+327	Add box if opacity is present
+963	Specify the aggregation primitives
+685	convert unicode to str
+1273	start identifying a new object
+1572	Predictions class distribution
+954	Add identifying column
+1398	Finish implementing this ..
+188	What words do people use
+921	Normalize the feature importances to add up to one
+1465	Define dataset and model
+1381	split the dataset in train and test set
+781	Next we can rename the columns to make it easier to keep track
+635	Defining the deterministic formulation of the problem
+1474	Compare timing for CutMix
+656	combining categorical attributes from training and test datasets
+562	Bounded region of parameter space
+791	Train on the data
+1546	Generate date features
+490	Analysis based Averages values
+519	setup the data
+1710	Keras Libraries for Neural Networks
+1583	Mix region and education
+759	Families without Heads of Household
+335	get the number of train and val images
+132	Create Testing Generator
+1311	Display current run and time used
+1713	We used softmax layer to predict a uniform probabilistic distribution of outcomes
+1632	for some countries , data is spread over several Provinces
+1299	Function for coding language information
+1609	Convert splited data into XGBoost format
+1038	Calculate aggregate statistics for each numeric column
+212	Create mean column
+1014	Free up memory by deleting old objects
+619	Cycle through contours and add area to array
+991	Entities with a unique index
+1293	Load dataset info
+75	create train and validation generators
+1399	Should there be scale transformation
+512	a little housekeeping to make easier to graph correlation matrix
+1313	plot feature importance
+1785	Avoid division by zero by setting zero values to tiny float
+280	Compute cluster centers and predict cluster indices
+169	Inter block part
+1048	Monthly Credit Data
+1209	Save model and weights
+1469	split the binary representation into different bit of digits
+649	Create the embedding layer
+1769	Save some memory
+1628	Predict all country greater than
+1513	Order does not matter since we will be shuffling the data anyway
+376	mean absolute error
+892	Identify missing values above threshold
+1433	Visualize by heatmap
+1362	make hour column from transactionDT
+1224	select proper model parameters
+1538	In this implementation I will skip all the datapoint with actual is null
+1789	Forceasting with decompasable model
+748	Load the trained weights
+1295	creating df with train labels
+1552	Day of year average
+922	Bar plot of n most important features
+117	concat val data and eval data
+1762	NaN imputation will be skipped in this tutorial
+1095	Predict validation and test set masks
+1746	A lot of the continuous days variables have integers as missing value indicators
+1479	ROTATE DESTINATION PIXELS ONTO ORIGIN PIXELS
+749	Demonstration how it works
+1594	Tokenize the sentences
+1750	Create an entity from the previous applications dataframe
+1050	Catch error if label encoding scheme is not valid
+96	Show and save column comparision matrix and save row sets
+1717	LOAD PROCESSED TRAINING DATA FROM DISK
+232	Double check that there are no informed ConfirmedCases and Fatalities after
+1472	size and spacing
+102	grid mask augmentation
+1533	Plot the mean ROC
+1103	Loading the data
+641	Most important or common negative words
+1309	sess.run to get data in numpy array
+1468	calculate the highest numerical value used for numeric encoding
+88	import keras.backend as K
+904	Clean up memory
+400	Converting the Input images to plot using plt
+722	Ordinal features mapping
+414	Seaborn and Matplotlib Visualization
+289	Create a Classification Report
+451	Only the classes that are true for each sample will be filled in
+1017	Sort the table by percentage of missing descending
+1481	Plot distribution among different province
+1516	Detect hardware , return appropriate distribution strategy
+224	Find and mark maximum value of LB score
+1471	Order does not matter since we will be shuffling the data anyway
+957	Relationships between previous apps and cash , installments , and credit
+58	Defining DataBunch for FastAI
+1598	Check the dataset
+1130	Pin memory for quicker GPU processing
+66	load and shuffle filenames
+201	Graph Representation of RNA structure
+767	Redundant Household Variables
+1486	Choose the model to use
+1820	check if the columns are in the index
+1637	CUMMULATIVE COUNTS FEATURES
+1107	Load sentiment file
+1236	Reverse list and print from bottom to top
+1448	Split into train and test sets
+462	Librairies and data
+970	Align dataframes on the columns
+1274	identify objects first by color then by physical isolation
+315	Support Vector Machines
+1757	Relationship between applications and credit card balance
+633	Select the models to run setting bool variables below
+1723	missing entries in the embedding are set using np.random.normal
+410	Fitting Logistic Regression with OneVsRest Classifier
+39	Sample usage to extract batch for training
+849	Extract feature importances
+404	arrays needed for the iteration
+903	Record the best score
+1023	One Hot Encoding
+226	Interactive plot with results of parameters tuning
+919	Aggregate Cash previous loans
+369	split training set to validation set
+167	Only the classes that are true for each sample will be filled in
+56	Importing all Libraries
+18	impute missing values
+1264	Save results as CSV files
+843	Create Training and Validation Set
+1353	iterate through all the columns of a dataframe and modify the data type
+1414	These labels are not in train
+1728	This enables operations which are only applied during training like dropout
+1541	This is to demo the ARIMA model
+1059	predict and show prediction
+1147	Unique IDs from train and test
+634	Calculating the day when the number of infected individuals is max
+1735	You can choose many palettes , which makes the graphs visually nice
+439	Visulization of IntersectionID
+1340	samples with good confidence
+1756	Relationship between applications and previous applications
+1285	list to save all the models we are going to train
+1766	cross validation and metrics
+8	merge with building info
+375	Manager function to call the create features functions in multiple processes
+855	Test Time Features
+1391	left and lower right corners
+754	Plot each poverty level as a separate line
+503	scale pixel values to grayscale
+1321	Set up GPU preferences
+204	Remove other air pockets insided body
+968	Remove Low Importance Features
+882	Random Search on the Full Dataset
+419	Dimension of train and test data
+1755	Relationship between applications and credits bureau
+592	Loading and preprocessing data
+236	Filter Spain , run the Linear Regression workflow
+1349	Leak Data loading and concat
+1476	MAKE CUTMIX LABEL
+1521	ROTATE DESTINATION PIXELS ONTO ORIGIN PIXELS
+469	Data processing , metrics and modeling
+785	Normalize the feature importances to add up to one and calculate cumulative importance
+739	ratio between line distance and curve distance
+297	Train Test Split
+735	Classify an image with different models
+1530	Min payment for all previous loans
+1517	Get labels and their countings
+507	Split the train dataset into development and valid based on time
+421	Weekday and Meter Reading
+234	Filter selected features
+911	Remove duplicate columns by values
+90	fast less accurate
+1237	Create our inference graph
+266	DisplayName remove Outlier
+1523	Check oversampled dataset
+74	cosine learning rate annealing
+1120	Rename columns after grouping for easy merge and access
+628	Iran since first case
+1113	Subset text features
+1561	Choose significant macroeconomical features by their correlation
+411	using direct implementation of Logistic Regression
+443	Visualition of Map Plot of Philadelphia city
+1052	Train the model
+1176	render gif and cleanup
+351	FS with SelectFromModel and RandomForestRegressor
+1070	Continue with the original code
+772	In most cases , the values are very similar
+1020	Track columns to remove and columns already examined
+244	Filter Andorra , run the Linear Regression workflow
+1737	The competition metric relies only on the order of recods ignoring IDs
+686	sample n pictures
+1819	get index column
+736	All Zero Features
+1667	Write predictions to csv
+1761	Label encode categoricals
+1624	You only have two areas to work on
+783	Machine Learning Modeling
+627	Spain since first recorded case
+496	Group signals metadata accroding to target
+1329	Encodes a block to a string
+1117	Compute QWK based on OOF train predictions
+15	Common data processors
+150	We create some categories to plot
+1397	Most of the dates overlap
+85	The data is not balanced
+1178	OSIC training data Example
+251	Stochastic Gradient Descent
+172	serialize model to JSON
+1233	Build datasets objects
+1357	Find Best Weight
+1551	Day of month average
+827	Read the image on which data augmentaion is to be performed
+582	Or models are blend with simple Mean
+1289	Determine proper input shape
+1801	k is camera instrinsic matrix
+1386	These are needed as well by the efficientdet model
+972	Kdeplot of model scores
+151	We can plot it
+1696	The evaluation method
+890	Identify Correlated Variables
+158	Dealing with color
+1370	Encoding the Categorical Variables
+762	Scatter plot sized by percent
+345	How to make a generator run infinitely
+1430	now we make the testing set
+1741	HANDLE MISSING VALUES
+1186	how many actions the player has done
+535	prints classification report and confusion matrix
+971	Read in data and sort
+1508	Iterate over the whole training dataset
+433	Ignore deprecation and future , and user warnings
+1227	Load and process data
+1511	An example usage
+1124	Save predictions for each fold
+1138	SHAP Interaction Values
+569	When Do People Generally Order
+684	convert unicode to str
+352	Load data files
+1154	into this form
+359	Apply skin mask
+205	Import Required Libraries
+618	Cycle through contours and add area to array
+140	Sets the random seeds
+163	Convert each labeled object to Run Line Encoding
+901	Create the model
+597	Let us read the masks
+1760	Label encoding Making it machine readable
+1165	Placeholders for global statistics
+848	Create the random forest
+1722	The mean of the two is used as the final embedding matrix
+259	Parameters and LB score visualization
+537	First loop runs GridSearch and does Cross validation to find the best parameters
+864	Train and make predicions with model
+949	Density plots of the learning rate distributions
+488	Function for find out Numerical and categeical Variables
+1709	Importing sklearn libraries
+933	Sort with best score on top
+515	calculates the Conference RPI
+716	Train model with continuous value
+580	Logmel feature extractor
+1332	Depthwise convolution phase
+1620	checking missing data
+909	Only want the numeric variables
+229	Ensembling the solutions
+1275	identify objects by isolation in this color only
+372	Thanks for the example of ensemling different models from
+706	MODEL AND PREDICT WITH QDA
+1752	Create an entity from the POS Cash balance dataframe
+1232	Load text data into memory
+1470	perform scaling if required i.e
+975	Put the iteration and score in the hyperparameter dataframe
+1188	Generate average accuracy of each assessment
+1585	fill all na as
+885	matplotlit and seaborn for visualizations
+1119	Distribution inspection of original target and predicted train and test
+1445	try moving value up
+1131	Do not shuffle for validation and test
+111	combine out df
+1105	load mapping dictionaries
+1065	Model Hyper Parameters
+1252	Restore previously trained model
+614	Weight of the class is inversely proportional to the population of the class
+1754	Relationship between applications and credits bureau
+708	Use Private as Pseudo Label to see LB
+1317	Set up GPU preferences
+463	Data processing , metrics and modeling
+1151	Initialize training data generator
+869	Create a new file and open a connection
+784	The data has no missing values and is scaled between zero and one
+1267	Infer using trained model
+1742	SCALE target variable
+1034	Remove the columns with all redundant values
+1570	Convert DCM to PNG
+1724	text version of squash , slight different from original one
+789	Filter out warnings from models
+42	Group date and time counts by years , months and days
+527	prints classification report and confusion matrix
+497	Apply reduction on some samples and visualize the results
+655	Imputing missing values
+194	intensify the hair countours in preparation for the inpainting
+1606	For ordinal group
+384	Code from here and below is commented out because the kernel dies
+839	Adjust alpha of legend markers
+1653	distribution of targets
+1435	View Single Image
+620	Cycle through contours and add area to array
+253	split training set to validation set
+1201	TPU Strategy and other configs
+886	Read in data
+293	split into a list
+275	My upgrade of parameters
+92	Loading data etc
+272	configurations and main hyperparammeters
+899	One Hot Encoding
+1203	Create fake filepaths dataframe
+1225	Make a picture format from flat vector
+536	Building the pipelines
+925	Train and make predicions with model
+1636	dummy variable for hour color bands in test
+606	Only the classes that are true for each sample will be filled in
+1403	Two years was too much for the RAM ..
+657	data preparation for modeling and prediction steps
+1641	Explore ip counts
+1030	Need to reverse the index to plot most important on top
+806	Make sure parameters that need to be integers are integers
+200	from sklearn.manifold import TSNE
+577	Extract data from dataframe
+962	DFS with Selected Aggregation Primitives
+30	Read data set
+223	Parameters and LB score visualization
+880	Applied to Full Dataset
+567	A simple Keras implementation that mimics that of
+1164	This images from validation data seem to be really strange labeled ...
+265	Standardization for regression models
+1253	Train model only on data for specific category
+425	Meter Readings over time And Primary Use
+937	Create file and open connection
+1611	label encode the categorical variables and convert the numerical variables to float
+424	Meter Readings over time
+1063	We will use the most basic of all of them
+602	Read necessary files and folders
+72	define iou or jaccard loss function
+371	Extra Trees Regressor
+943	Train and make predictions
+1345	evaluation solved tasks
+1483	Hugging Face pretrained Bert model names
+1604	Extract columns with null data
+1280	Relevant attributes of identified objects are stored
+1046	Merge to get the client id in dataframe
+418	Train and test data at a glance
+790	Comparing Model Performance
+1449	Convert an array of values into a dataset matrix
+396	Confusion Matrix for Test Data Predictions
+1707	Solve the task
+721	High cardinality features
+758	Addressing Wrong Labels
+982	Convert to timedelta in days
+10	merge weather data
+237	Filter Spain , run the Linear Regression workflow
+1168	Outlier Analysis and Feature Scaling
+1012	Make a new column name
+1531	Sum and mean of minimum payments across all previous loans
+585	No Of Storey Over The Years
+1389	to find a better one
+53	Draw one bar for each hour
+1090	Perform mask predictions binarization and RLEncoding
+1243	we have to truncate it
+145	I updated importation for a faster version
+1109	Unique IDs from train and test
+941	Evalute the hyperparameters
+668	Read the csv files from kaggle
+1009	Remove id variables other than grouping variable
+698	Check if valid data looks all right
+436	Variable Description , Identification , and Correction
+57	Seed everything for reproducibility
+142	get the data fields ready for stacking
+632	Getting population for each country
+1092	Define helper functions
+157	We can now print the results
+584	Create final submission DF
+719	Save objects for next step
+191	Is there a correlation between description length and price
+1527	Computes official answer key from raw logits
+609	optionally save augmented images to disk for debugging purposes
+873	Write column names
+325	load the pickled dataframes
+1372	Submitting the results
+551	First loop runs GridSearch and does Cross validation to find the best parameters
+1494	Run on test dataset
+219	Thanks to Automatic FE The main code for basic FE
+202	Determine current pixel spacing
+1627	Predict by Specify Country
+313	Encoding categorical features
+1452	Using all features for model training
+1268	Comparing various kappa scoring
+815	Create model and train
+38	Look at the data types and some basic info about the different columns
+1096	This can be optimized
+1736	select some columns
+590	Gaussian Noise on Target
+1524	Eval data available for a single example
+1272	delete the checked pairs from current object pairs
+387	Check if we can decode
+1072	You can access the actual face itself like this
+746	Creating in Label
+405	evaluate fitness function for these possibilities
+197	Perform the blackHat filtering on the grayscale image to find the hair countours
+1379	Combined rotation matrix
+960	DFS with specified primitives
+1780	The wordcloud of the raven for Edgar Allen Poe
+461	Here we go
+638	Full data Analysis
+712	ADD PSEUDO LABELED DATA
+571	When Do People Generally Reorder
+24	Remove the Outliers if any
+1649	Preparing the data
+1291	squeeze and excite block
+1419	importing the dependencies
+986	Make date columns
+753	Read in data
+467	Precion recall by folds
+181	Prices of the first level of categories
+1033	Only want the numeric variables
+1126	Load mask for training or evaluation
+483	Creating the Model
+725	Predict test set and make submission
+803	Plot the confidence by each target
+693	This will load a stored trained model or the last trained model
+101	load the image file using cv
+613	Any results you write to the current directory are saved as output
+1283	Extract the label from training dataframe and discard the label column
+928	Set subsample depending on boosting type
+1786	Read and Explore
+355	Get the dupplicate clicks with different target values
+1222	This method expands a dictionary of lists into
+71	create numpy batch
+1566	Data preparation for test
+1635	Here is a base model without parameter tuning .
+824	Applies the cutout augmentation on the given image
+1704	Remove previous best candidate and add the new one
+1128	Percent of area covered by mask
+116	Training and score
+79	resize with random interpolation
+1578	Ratio feature can have infinite values
+282	Create a Dataframe containing all images
+1318	Loop through each molecule type
+1772	always call this before training for deterministic results
+482	Activation functions are defined separately from layers
+608	add filename relative to directory
+908	Remove id variables other than grouping variable
+3	Reset Index for Fast Update
+711	ONLY TRAIN WITH DATA WHERE WHEEZY EQUALS I
+1087	because each coverage will occur only once
+77	retrieve x , y , height and width
+505	The KDE of the numeric columns
+83	Data is still small enough for memory so read to memory using pandas
+1599	checking missing data
+1002	DFS with custom feature
+465	cut tr and val
+70	add trailing channel dimension
+600	Now we can read the masks for the specific image
+453	Adds a bounding box to an image
+254	Gradient Boosting Regression
+152	Ok we can make our graph now
+78	save dictionary as csv file
+348	FS with the Pearson correlation
+1242	Run our session
+1097	Helper variable to index oof
+1555	Train a model
+514	Now lets do the same thing for the actual tourney
+130	See how our generator work
+978	Need to reverse the index to plot most important on top
+306	combine the train and test sets for encoding and padding
+33	prophet expects the folllwing label names
+640	most important or common positive words
+281	How many images are in each folder
+1422	making a list of total sentences
+953	matplotlit and seaborn for visualizations
+710	PRINT CV AUC
+1437	Number of Patients and Images in Test Images Folder
+1160	ROTATE DESTINATION PIXELS ONTO ORIGIN PIXELS
+1646	Change the Original CNN extra data MLP
+456	import required dependencies
+1497	Choose the model to use
+100	code takesn from
+1387	Apply some augmentation on the fly
+1091	Submission generation based on encoded model predictions
+478	Document Vectors with HashingVectorizer
+1506	FIND ORIGIN PIXEL VALUES
+894	Make sure to average feature importances
+1573	Get the categorical and numeric columns
+73	create network and compiler
+294	Create a submission file
+353	Set up the folds for cross validation
+474	Writing output to file
+1512	size and spacing
+221	Threshold for removing correlated variables
+1507	Iterate over the whole training dataset
+291	Set up the generator
+1	store the raw image data
+961	DFS with default primitives
+1262	Reducing Image Size
+958	List the primitives in a dataframe
+1137	Distribution of months in train and test
+541	First loop runs GridSearch and does Cross validation to find the best parameters
+1671	Load train and test dataframes and add length columns for Description and Name
+108	Sales volume per year
+1669	gather input and output parts of the pattern
+1656	written by MJ Bahmani
+318	Decision Tree Regression
+1777	plot the heatmap
+357	Basic skin detection
+1307	Dequantize the feature from the byte format to the float format
+1804	Plot ROC curve
+723	Replace a character with its ASCII value
+147	Zoom on this IP
+1569	range of variables
+1791	Feature engineering with the date
+14	Seems like a very wide range of values , relatively spaking
+1519	Define the number of repetitions for each class
+761	Plot of the home ownership variables for home missing rent payments
+980	Record ordinal variables
+801	Find the class and associated probability
+115	Training and score
+399	Confusion Matrix for Test Data Predictions
+1484	Make TF record file for test dataset
+1428	Making Feature Matrices
+1597	checking missing data
+374	Avoid division by zero by setting zero values to tiny float
+395	Confusion Matrix for Train Data Predictions
+1336	Skip connection and drop connect
+1071	You can access the actual face itself like this
+1550	Week of year average
+1169	Just a check of the dimensions
+1300	Function for cutting off the middle part of long texts
+1718	Tokenize the sentences
+1301	Build the original and translated test data
+812	Write column names
+1218	Additional stats on group
+97	show uncertain comparisions
+587	Bathroom Count Vs Log Error
+999	Iterate through the iterable
+995	Plot of client type where contract was refused
+7	declare target , categorical and numeric columns
+1610	Target , prediction process
+242	Filter Albania , run the Linear Regression workflow
+1177	Set the furniture colors
+1747	NOTE Even tough it is automatic , we can incorporate some manual features
+1493	Get metrics for validation dataset
+440	Visulization of Path
+1582	combination using three features
+143	fit the keras model on the dataset
+871	Test the objective function
+1725	The method for training is borrowed from
+95	column indices from set S in row k
+508	Interpreting ROC Plot
+1016	Aggregated Stats of Bureau Balance by Client
+1683	left nearest neighbor
+920	Aggregate Credit previous loans
+979	Properly Representing Variable Types
+408	Word map for most frequent Tags
+817	TSNE has no transform method
+495	Paths to data and metadata
+689	functions to show an image
+1592	some config values
+1364	There is a gap between them
+54	Print some statistics
+144	get the data fields ready for stacking
+1783	Worldcloud for the first topic
+1645	learning rates for corse training
+9	fill test weather data
+1535	Load the data
+171	Final part of the model
+209	FIND ORIGIN PIXEL VALUES
+984	Drop the time offset columns
+1642	temporary table to see ips with their associated count frequencies
+862	Standard deviation of best score
+1607	Onehot encoding for categorical data
+1687	Make sure everybody have the same shape
+1694	Show each image contained in a list
+1056	Split into training and validation groups
+94	value set for row n
+1797	Plot rolling statistics
+442	Visualition of Map Plot of Boston city
+380	Decode item length
+185	What are their top categories
+190	The full distribution
+441	Visualition of Map Plot of Atlanta city
+127	Using embedding in NN we can change dimensionality of categorical features
+734	Classify image and return top matches
+161	Check if the label size is too small
+362	Method to get image data as np.array specifying image id and type
+358	Filter the skin mask
+333	for patientId in batch
+29	Loading Train and Test Data
+1195	Predict on test set based on current fold model
+1480	Compare timing for GridMask
+438	Dimension of train and test data
+1576	Check null data
+1060	Train and validate
+1716	FUNCTIONS TAKEN FROM
+493	Merging the bureau dataset along with application train dataset to do more analysis
+1211	Pad and resize all the images
+1212	Start with negative target
+427	first column only
+604	Read all training files and keep them in memory
+798	Training and validation data
+747	freeze layers only if pretrained backbone is used
+1149	Choose proper preprocessing function for model
+1121	Prepare for training
+1180	update the values in the original confusion matrix
+164	Read in data and convert to grayscale
+104	Training on the complete Dataset now
+1122	LGB model parameters
+1612	Split the train dataset into development and valid based on time
+422	Time of Day and Meter Reading
+233	Create date columns
+672	define list of models and parameters
+916	Merge with the main dataframe
+231	Merge train and test , exclude overlap
+705	ONLY TRAIN WITH DATA WHERE WHEEZY EQUALS I
+182	We can now plot it
+764	sizes for legend
+936	Create , train , test model
+1699	For each sample
+1634	Difference varialbes were created to describe the difference beween maximum and minimum value
+1327	Convolutions like TensorFlow , for a fixed image size
+1175	Add the actors to the renderer , set the background and size
+1571	The model with the lowest validation loss
+1679	get some sessions information
+146	How many different values does our categorial variables take
+213	Apply Logistic Regression
+1677	Opacities That Are Not Related to Pneumonia
+605	Nice helper functions for padding , random sampling L samples
+1496	Hugging Face pretrained Bert model names
+1787	Fetch one signal from xs
+1079	vocaublary , add its feature vector to the total
+665	Interactive booking , click , and percentage of booking trends with Bokeh
+696	Exclude background from the analysis
+726	show one image
+1408	Next , we will make prediction with our LR Model
+1574	Check the dataset
+407	of bayesian block bins
+179	So , some categories are expensive , but most are cheap
+370	Gradient Boosting Regression
+1226	Plotting some random images to check how cleaning works
+579	Calculate logmel spectrogram using pytorch
+61	functions to get new parameters from the column
+1108	Load image file
+1763	Let us split the variables one more time
+413	Importing Data Manipulattion Moduls
+206	CONVERT DEGREES TO RADIANS
+914	Aggregate the categorical variables at the grandparent level
+174	resize the image
+230	Implementing the SIR model
+1775	This enables operations which are only applied during training like dropout
+1738	Lib and Load data
+1478	LIST DESTINATION PIXEL INDICES
+80	Yoon Kim model
+992	Relationships between previous apps and cash , installments , and credit
+1382	Remove Commonly used Words
+1057	eturn img , mask
+1458	checking missing data
+969	Align Train and Test Sets
+1162	Order does not matter since we will be shuffling the data anyway
+1302	Predict with pure text models
+682	convert unicode to str
+1814	Copy predictions to submission file
+133	Split the data into train and validation parts
+1040	Merge in the previous information
+1396	Then transform to a datetime object supposing that it is an ordinal datetime
+124	Daily percentage increase
+891	Drop Correlated Variables
+550	Building the pipelines
+935	Sort with best score on top
+1183	Returns the serializable config of the metric
+310	Define X and y
+1424	tokenising the lowered corpus
+1732	Samples which have unique values are real the others are fake
+284	these must match the folder names
+822	Read the image on which data augmentaion is to be performed
+1475	MAKE MIXUP IMAGE
+863	Now we can evaluate the baseline model on the testing data
+447	Defineing the directions
+1394	Filtering images with at least one mask
+486	Recurrent Neural Network
+542	Generate predictions and probabilities
+673	join all features
+489	Types Of Features
+1350	iterate through all the columns of a dataframe and modify the data type
+299	destination path to image
+1688	Make sure everybody have the same shape
+1279	identify objects by color and isolation
+49	Draw one bar for each month
+1501	Detect hardware , return appropriate distribution strategy
+1548	Add weather info
+1163	Order does not matter since we will be shuffling the data anyway
+780	Feature Engineering through Aggregations
+730	Extracting previous click feature
+1691	Composition of functions
+1115	Check if columns between the two DFs are the same
+1813	Evaluate the Model
+109	raw price data
+390	Set some parameters
+1347	iterate through all the columns of a dataframe and modify the data type
+1082	Parser for Salt Competition
+859	Create the random search model
+671	Join all dataframes
+1021	Keep track of columns already examined
+1482	For local usage
+728	Use Ad Image to Identify Item Category
+733	Detect and compute interest points and their descriptors
+1158	size and spacing
+683	convert unicode to str
+727	Remove Extreme Prices
+1315	use atomic numbers to recode atomic names
+1544	Inplace or Copy
+1354	Fast data loading
+1116	Returns the counts of each type of rating that a rater made
+1257	Create new labels
+561	number of nan values in each column
+1740	We can see above the counts of higher damageDealt smoothly decrease
+1041	Remove variables to free memory
+1418	Loading and Visualization of Data
+1247	to truncate it
+1564	Test data preparation
+1808	number of transactions
+1260	Combine the filename column with the variable column
+1818	update market dataframe to only contain the specific rows with matching indecies
+533	First loop runs GridSearch and does Cross validation to find the best parameters
+1400	Should there be scale transformation
+1324	Change namedtuple defaults
+1426	length of largest sentence , and that of the smallest
+1007	Calculate medians for repaid vs not repaid
+1245	so that it can be used as an input in keras
+565	predicting and saving to output file
+1150	but avoid situations where pet is completely removed from the crop
+740	a little move
+34	Loading Train and Test Data
+1499	if a checkpoint exists , restore the latest checkpoint
+208	ROTATE DESTINATION PIXELS ONTO ORIGIN PIXELS
+1781	Applying it on text
+1282	Other columns are the digital value of pixels of kannada mnist
+1553	Day week average
+1705	For each best candidate , we look if we have an answer
+1557	Creation of the External Marker
+612	Prediction on test set
+1360	Leak Data loading and concat
+1770	missing entries in the embedding are set using np.random.normal
+645	Number of tries for each group of samples
+732	Detect and compute interest points and their descriptors
+1708	Importing standard libraries
+1721	LOAD DATASET FROM DISK
+821	No maximum depth
+771	Per Capita Features
+484	Convolutional Neural Network
+1500	Check saved checkpoints
+1591	loss for noisy test data
+644	and target vector that correspond to the test data size
+63	distribution of continuse variables
+391	Test on the data that is not seen by the network during training
+264	Prepare Training Data
+955	Entities with a unique index
+286	Set Up the Generators
+663	Bookings by year
+1284	Convert dataframe into numpy array
+1182	Calculate Kappa score
+1001	Return the most recent occurence
+1170	del X , y , cols , tscv
+389	Find empty images
+257	Linear Regression model for basic train
+1208	Creating and Training the Model
+1261	Create test generator
+220	FS with the Pearson correlation
+12	This block is SPPED UP
+186	Does shipping depends of price
+1094	for model training
+93	update before matrix
+378	mean absolute error
+850	Check the time
+1073	Granted applications per number of children
+832	Submitting our Predictions
+1344	train solved tasks
+1031	Suppress warnings from pandas
+1206	Load and freeze DenseNet
+1490	Read candidates with real multiple processes
+1136	Create DFs imitating public and private test subsets
+1238	Initialize the Session
+292	Make a prediction on the test images
+795	Using early stopping so do not need number of esimators
+1377	OUTPUT OF AUGMENTATED IMAGES
+1443	we add some squared features for some model flexability
+82	create a submission
+1720	SAVE DATASET TO DISK
+1228	Load text data into memory
+516	Now we assign the Conference Strength back to each team
+701	ONLY TRAIN WITH DATA WHERE WHEEZY EQUALS I
+1374	Drop target , fill in NaNs
+810	Record the validation fold score
+1140	Interaction values dependence plot capturing main effects
+538	Generate predictions and probabilities
+1331	Loads pretrained weights , and downloads if loading for the first time
+1811	Print confusion matrix and plot ROC curve
+1190	unique event code list
+617	reduce amount of data to speed things up
+87	The data is not balanced
+1456	These have their kitchen area larger than the total area of the house
+699	ONLY TRAIN WITH DATA WHERE WHEEZY EQUALS I
+255	Extra Trees Regressor
+290	MAKE A TEST SET PREDICTION
+1342	This function takes a row and return signal to noise
+1745	Getting Prime Cities
+409	Featurization of Training Data
+1581	roof and floor
+198	intensify the hair countours in preparation for the inpainting
+1401	unlog the data , clip the negative part if smaller than
+834	Empirical Cumulative Distribution Function Plot
+825	Set to instance variables to use this later
+917	Aggregate previous loans at Home Credit
+2	Add new Features
+59	Unfreeze all layers and find best learning rate
+332	for patientId in batch
+1661	Plot the obtained tour
+468	Loading the data
+278	Using my notebook
+1518	Get labels and their countings
+331	for patientId in batch
+91	Ability to Detect Face
+1730	Add leak to test
+367	Stochastic Gradient Descent
+246	Set the dataframe where we will update the predictions
+1251	Retrieve desired category
+1369	Adding the name of the districts
+931	Grid Search Implementation
+1187	the previous are scraped
+998	Divide the occurences of mode by the total occurrences
+309	create a weight matrix
+105	Data loading and checking
+1618	average the predictions from different folds
+1355	iterate through all the columns of a dataframe and modify the data type
+1495	For local usage
+578	Calculate spectrogram using pytorch
+840	Calculate distribution by each fare bin
+841	Calculate distribution by each fare bin
+4	Remove Unused Columns
+1085	Resize or pad image and mask
+295	Create Binary Targets
+1088	score will be bad
+168	Exponential moving average of squared gradient values
+1025	Create the model
+373	Compute the STA and the LTA
+415	Display markdown formatted output like bold , italic bold etc
+828	Read the image on which data augmentaion is to be performed
+27	Now there appears to be one feature that is not gaussian
+1343	Plotting errors for one sample
+751	Set a few plotting defaults
+802	Find the class and associated probability
+934	Create , train , test model
+1647	Loop over all Folds
+240	Filter Germany , run the Linear Regression workflow
+1575	load prepared train data and test data
+1650	Use machine learning model
+1086	Output information about training set
+1153	inspect datagen output
+268	Divide features into groups
+1363	At first , I made Europe future
+844	Train with Simple Features
+1074	Income distribution and target value
+1796	Show Rolling mean , Rolling Std and Test for the stationnarity
+323	call the first function
+321	Extra Trees Regressor
+283	Balance the target distribution
+1173	convert to HU
+1045	Merge the numeric and categorical
+942	Sort with best score on top
+1812	Redefine the featuresets for Autoencoder
+183	Brands sorted by number of item
+260	Find and mark maximum value of LB score
+709	STRATIFIED K FOLD
+1099	Predict validation and test data and store them in oof sets
+993	Calculate the features with intereseting values
+1520	LIST DESTINATION PIXEL INDICES
+308	seperate the train and test sets
+1601	checking missing data
+305	Here the best epoch will be used
+1579	wall and roof
+872	Create a file and open a connection
+218	MinMax scale all importances
+842	The test distribution seems to be similar to the training distribution
+388	Idea is to use clustering on images of one type to group data
+1287	Display the dropped images
+1039	Calculate value counts for each categorical column
+857	Visualize Validation Predicted Target
+1296	augmentation settings , for now just normalizing
+1047	Monthly Cash Data
+1231	Create fast tokenizer
+288	What is the AUC Score
+107	Unique value counts
+588	Room Count Vs Log Error
+770	Owns a refrigerator , computer , tablet , and television
+1114	Remove missing target column from test
+1404	check the time frame
+570	At What Day Of The Week People Order
+786	Bar plot of n most important features
+622	Super cool Dataset from
+1101	Train the LGBM model
+423	Primary Use and Meter Reading
+1148	Image size for training
+1216	Group and Reduce
+1250	Save model and best hyperparams
+377	root mean squared error
+125	Predict submission dates
+939	Dataframe for results
+466	Roc curve by folds
+1776	What should good EDA be capable of
+1630	Predict all province greater than
+531	prints classification report and confusion matrix
+509	define a function that accepts a threshold and prints sensitivity and specificity
+1651	create one more submission
+769	Roof ordinal variable
+1125	Sigmoid over final convolution map is needed for Binary Crossentropy loss
+1366	Loading to a geopandas dataframe
+631	A modified SEIRD model in order to take into account quarantine
+951	Testing Results on Full Data
+452	For drawing onto the image
+287	Here the best epoch will be used
+69	add trailing channel dimension
+383	Define some constants for data location
+878	Dataframe of just scores
+1080	Divide the result by the number of words to get the average
+354	Genetic program model , main code loop
+126	Using LabelEncoding we just change string values to numbers
+334	Initialize the generators
+159	Deriving individual masks for each object
+952	Extract the test ids and train labels
+228	Ensembling the solutions and submission
+1054	Clean up memory
+1194	Predict on train using all train for each fold
+558	Create ordered dict to perform and easy sort
+874	Train and make predictions
+341	add column names
+64	distribution of continuse variables after log transformation
+557	Plot Gain importances
+279	fit X and apply the reduction to X
+256	Thanks for the example of ensemling different models from
+98	Find out which set stands before another
+1375	They are very similar to each other
+450	Define search space of hyperparameters
+393	The number of samples in each cluster is the following
+860	Evaluate Best Model from Random Search
+448	Seting X and Y
+267	PlayerCollegeName remove Outlier
+344	This is a simple example of a generator
+1623	Logistic Regression seems to be a good classification algorithm for this dataset
+607	Return a normalized weight vector for the contributions of each class
+1558	Creation of the Watershed Marker
+1504	LIST DESTINATION PIXEL INDICES
+690	get some images
+1019	Calculate Information for Testing Data
+724	Impute numeric features with mean value and normalize afterward
+788	Add vertical line to plot
+741	deform whole image by deform each strokes
+1701	The pool contain a mix of new single instructions programs
+564	int in description
+624	Now a look at Italy
+1451	Make prediction and apply invert scaling
+1640	Loading in the train data
+416	Read the dataset from csv file
+1111	Extract processed data and format them as DFs
+215	split training set to validation set
+437	Train and Test data at a glance
+744	As a Neuroradiologist , this distribution looks pretty true to daily practice
+356	Method to get image data as np.array specifying image id and type
+1265	Training the model
+1297	preparing testing data
+1156	watch out for overfitting
+1463	CNN Model for multiclass classification
+114	combine out df
+902	Train the model
+865	Make sure parameters that need to be integers are integers
+779	For example , we can divide the years of schooling by the age
+11	Compute the STA and the LTA
+704	MODEL AND PREDICT WITH QDA
+1615	show mask class example
+1588	this follows the discussion in
+1256	Will need those folders later for storing our jpegs
+1181	Normalize the confusion matrix and outer product
+930	Dataframes for random and grid search
+184	Brands by price
+956	Entities that do not have a unique index
+1453	Drop rows with NaN values
+118	FVC Progression by Sex
+525	First loop runs GridSearch and does Cross validation to find the best parameters
+1554	Train a model
+526	Generate predictions and probabilities
+1793	Draw a heatmap with the numeric values in each cell
+522	gets the features for the losing team
+966	Label the plots
+1171	render gif and cleanup
+927	results to retun
+1459	checking missing data
+1748	Create an entity from the bureau balance dataframe
+692	Non physical data augmentation
+697	Precision helper function
+1013	Putting the Functions Together
+1312	Split Trian and Valid
+1129	Set data loading parameters
+103	Preparing the training data
+556	Creates a feature dictionary based on the features present in the LGBM model
+1439	Get Tabular Data
+1286	Drop the blurry image
+647	Import Packages and Functions
+328	for patientId in batch
+1714	cross validation and metrics
+679	Check Unique Label
+913	Aggregate the categorical variables at the parent level
+17	Now extract the data from the new transactions
+457	Loading the data
+1450	Create dataset with look back
+222	FS with SelectFromModel and LinearSVR
+1644	check for hourly patterns
+1441	process test images
+1467	we assign frequency of zero to them
+833	Data Exploration and Data Cleaning
+162	Get the object indices , and perform a binary opening procedure
+990	Select one loan and plot
+1545	Use column name
+731	Affected Surface Object
+120	Count occurance of words
+472	Precion recall by folds
+1771	text version of squash , slight different from original one
+1629	All Country Confirmed Greater than
+1346	All train tasks predictions
+846	Create list of the same prediction for every observation
+1567	Pinball loss for multiple quantiles
+1199	Plot validation loss
+1625	Add active column
+1673	Add box if opacity is present
+199	inpaint the original image depending on the mask
+361	Some stats using jpg exif
+1767	Tokenize the sentences , as in introductory example
+534	Generate predictions and probabilities
+1157	numpy and matplotlib defaults
+1621	It seems Goblins are a little similar to Ghouls
+0	Load the DICOM image and convert to pixel array
+477	Document Vectors with TfidfVectorizer
+1622	Print the feature ranking
+271	from pykalman import KalmanFilter
+1390	This is the transforms for the training phase
+1602	Moving average is so simple
+1193	Predict out of fold
+523	reorder column to make it easier to group features together
+1515	For local usage
+757	Bar plot of occurrences of each label
+599	Let us load one image and its masks
+646	Draw means for each group
+776	Create the pairgrid object
+1319	Split all our input and targets by train and cv indexes
+173	set unique int value for each unique classes sring
+1674	Add boxes with random color if present
+851	Add seconds since start of reference
+454	Load the downloaded and resized image and feed into the graph
+1235	Adds a bounding box to an image
+707	PRINT CV AUC
+1083	Initialize processing by loading .csv files
+247	Apply exponential transf
+703	STRATIFIED K FOLD
+1075	Read the data
+1560	Show influence of economical factors on housing prices
+326	Initialize patient entry into parsed
+1473	MAKE CUTMIX LABEL
+1540	This is to demo the median model
+270	Set weight of models
+987	Drop the time offset columns
+593	Preprocessing of features
+154	Attributed time analysis
+616	add some noise to reduce overfitting
+48	Create colors for bars based on bar height
+225	Interactive plot with results of parameters tuning
+1028	Clean up memory
+737	Show Original Image
+976	Plots of Hyperparameters vs Score
+342	Create the submission csv file
+470	MERGE , MISSING VALUE , FILL NA
+1246	Evaluate training history
+1662	same plane as the original data , cut at the Z axis
+45	Draw one bar for each date
+1010	Make a new column name for the variable and stat
+918	Aggregate Installments Data
+1205	Create real file paths dataframe
+368	Decision Tree Regression
+28	MODEL WITH SUPPORT VECTOR MACHINE
+52	Create colors for bars based on bar height
+1106	Load metadata file
+1084	Specify if image should be loaded in grayscale
+302	destination path to image
+76	load and shuffle filenames
+1011	Function to Handle Categorical Variables
+1682	An optimizer for rounding thresholds
+487	Importing The Dataset
+845	Account for y values of
+713	STRATIFIED K FOLD
+1259	Using original generator
+1029	Dataframe of validation scores
+412	Importing Packages and Collecting Data
+794	Convert back to dataframe
+1405	Rolling monthly and yearly store means
+363	For boosting model
+805	Subsample and subsample frequency to top level keys
+1417	Get Model into TPU
+1077	Convert to lower case , split into individual words
+1276	iterate through training examples
+501	show the graphs
+664	Bookings by month
+1421	Making Vocabulary and Text Conversion
+385	Lets validate the test files
+793	Recursive Feature Elimination with Random Forest
+340	Process the Predictions
+520	use Logistic regression with Gridsearch for parameter tuning
+106	load master data
+316	Its also builds on kernel functions but is appropriate for unsupervised learning
+1123	Create Dataset objects for lgb model
+1409	Sampling the train data since too much data
+1489	Read candidates from a single jsonl file
+22	Impute any values will significantly affect the RMSE score for test set
+738	choose a random image
+277	reorder the input data
+1712	Since the labels are textual , so we encode them categorically
+1076	Check the typical length of a comment
+432	Prediction and Submission
+1055	Dataframe of validation scores
+1004	Run and create the features
+670	Transpose the dataframes
+1798	shift train predictions for plotting
+1466	Prediction for test
+792	Make a submission dataframe
+1334	Expansion and Depthwise Convolution
+1532	Random Forest model
+630	SIR model that takes into account the number of deaths
+621	Cycle through contours and add area to array
+1665	fill in mean for floats
+1698	Evaluate the program on the input
+20	Check for missing values in training set
+639	Seperating the data into different data frame based on the labels
+1410	Try other columns to experiment
+1455	Invert scaling for actual
+1434	mode , if unk is set we are doing it for unknown files
+1731	Function which creates final video from list of images
+1817	We can safely store the two types into separate dataframes
+269	concat all features
+1142	Get important features according to SHAP
+1689	Sort pictures by increasing color id
+988	Select on loan and plot
+611	optionally save augmented images to disk for debugging purposes
+1703	Compare the new candidate to the existing best candidates
+62	distribution of categorical variables
+1069	Write the prediction to file for submission
+796	Build the model
+700	MODEL AND PREDICT WITH QDA
+1809	Replace infs and imputing missing values by mean
+381	Check if we can decode
+1764	Separate into train and test
+1795	Model with all data
+662	Bookings per day of week
+594	Text Processing of text data easily
+1779	Generate the Mask for EAP
+119	FVC Progression by SmokingStatus
+1278	identify objects only by isolation
+338	Plot the Loss Curves
+403	CatBoost is RAM expensive so I prefer to utilize GPU
+366	Its also builds on kernel functions but is appropriate for unsupervised learning
+250	Its also builds on kernel functions but is appropriate for unsupervised learning
+1562	Best parameters are searched by GridSearchCV on my Laptop
+1161	FIND ORIGIN PIXEL VALUES
+1371	Creating the model
+1359	Fast data loading
+1799	shift test predictions for plotting
+1447	Submission from mode
+974	Iterate through each set of hyperparameters that were evaluated
+787	Cumulative importance plot
+765	Markers for legend
+529	First loop runs GridSearch and does Cross validation to find the best parameters
+1692	Lift the function
+128	Prepare Traning Data
+170	Head of the model
+1751	Create an entity from the credit card balance dataframe
+86	Apply Underbalancing Techinique
+1373	Model Evaluation and Validation
+1672	Initialize patient entry into parsed
+1223	Refit and Submit
+835	Remove latitude and longtiude outliers
+1155	Create strategy from tpu
+1139	Raw dependence plot
+1442	process submission images
+568	Lets Read In Data Files
+110	Sales volume per year
+40	Getting to Know the Data
+1197	Build new dataframe
+854	Plot each of the fractional times
+1440	process training images
+46	Group date and time counts by months
+804	Retrieve the subsample
+1549	Add weather hourly
+1234	Load model into the TPU
+636	Defining the deterministic formulation of the problem
+1681	the accurace is the all time wins divided by the all time attempts
+1308	Pick some frames to display
+720	Import necessary libraries
+1719	shuffling the data
+1089	They must be resized again to their original size before encoding
+1759	Feature primitives Basically which functions are we going to use to create features
+480	estimate the size of the vocabulary
+189	Can the length of the description give us some informations
+1706	Give some informations by selecting a random candidate
+1305	Ensemble with my historical best
+1580	wall and floor
+304	These weights can be changed later , if needed
+752	Read in Data and Look at Summary Information
+1184	Resets all of the metric state variables
+553	prints classification report and confusion matrix
+25	Loading Train and Test Data
+346	This is how to do that
+343	What is a python generator
+311	create a list of the target columns
+491	Checking the Correlation Between The Features for Application Train Dataset
+1729	Add train leak
+65	save pneumonia location in dictionary
+1586	Remove useless feature to reduce dimension
+227	Interactive plot with results of parameters tuning
+365	Support Vector Machines
+678	using outliers column as labels instead of target column
+831	Filling missing and infinite data by zeroes
+1595	Pad the sentences
+877	Learning Rate Distribution
+743	this method also handles duplicates gracefully
+915	Drop the columns with all duplicated values
+642	Most important or common words in neutral data
+16	To plot pretty figures
+394	Using DecisionTree Classifier
+426	Square feet size is positively Skewed
+319	split training set to validation set
+1589	to truncate it
+876	Put the iteration and score in the hyperparameter dataframe
+350	FS with SelectFromModel and LinearSVR
+238	Filter Italy , run the Linear Regression workflow
+870	Write column names
+1675	What Does a Normal Image Look Like
+879	Iterate through each hyperparameter
+285	these must match the folder names
+659	Feature Agglomeration Results
+745	build a dict to convert surface names into numbers
+1008	Correlations of Aggregated Values with Target
+1310	Get feature importances
+615	An optimizer for rounding thresholds
+31	Text preprosesing source
+1726	for numerical stability in the loss
+1067	split training and validation data
+5	Encode Categorical Data
+475	Create Document Vectors
+545	Lets test out the predictive power of the individual models themselves
+1306	This is a simple modify from
+1348	Fast data loading
+455	see the sample image with bounding boxes
+887	Original features will be in both datasets
+729	Price Variance Within Identified Items
+1773	for numerical stability in the loss
+572	How many orders users generally made
+1423	no hyphens and other special characters , split into words
+1326	Round number of filters based on depth multiplier
+492	most correlated features
+1492	Run on validation dataset
+1098	Create train and validation sets based on KFold indices
+1127	Initialize train and test DataFrames to access IDs and depth information
+1816	Load CSV files
+1565	from tensorflow.keras import layers as L
+816	Convert into predictions
+176	plot randam images
+141	Hist Graph of scores
+800	Feature importances dataframe
+430	Encoding Categorical Variable
+1341	for figure Legend
+983	Create the date columns
+449	Seting X and Y
+1292	warm up model
+893	Need to save the labels because aligning will remove this column
+322	Thanks for the example of ensemling different models from
+829	Read the image on which data augmentaion is to be performed
+715	y的异常值 drop samples which have exception value in y
+680	get unique labels
+1323	Parameters for an individual model block
+137	You can state below link to your copy of this MMDetection repo
+113	combine out df
+1457	checking missing data
+1678	convert text into datetime
+1058	Prediction for one image
+1032	Remove id variables other than grouping variable
+235	Clean Id columns and keep ForecastId as index
+1395	Plotting for only few molecules
+650	Build the Model
+1337	Update block input and output filters based on depth multiplier
+1328	Gets a block through a string notation of arguments
+261	Interactive plot with results of parameters tuning
+782	Rename the columns
+1600	Create color map ranging between two colors
+1368	Function that add the tile background to the map
+760	Select heads of household
+392	Resize train images
+1498	Get variables to apply weight decay in AdamW optimizer
+1269	else use the most frequent pixel color
+651	create a submission
+560	Plot Gain importances
+1774	Shuffling happens when splitting for kfolds
+807	Convert to arrays for indexing
+1491	Construct prediction objects
+274	Code from notebook
+1733	Loading libraries and data
+1254	Make prediction and add to output dataframe
+431	Setting train , test and target for model
+1358	iterate through all the columns of a dataframe and modify the data type
+799	Train with early stopping
+1753	Relationship between applications and credits bureau
+1587	Feature selection using shap
+1385	suppose all instances are not crowd
+811	Create a file and open a connection
+1402	Why does that start
+586	Bedroom Count Vs Log Error
+797	Convert to arrays for indexing
+755	Fill in the values with the correct mapping
+675	run grid search
+1429	first we make the training set
+677	filtering out outliers
+155	Download rate by hour
+1220	Drop target , fill in NaNs
+625	Comparison between Brazil and Italy
+823	Custom Cutout augmentation with handling of bounding boxes
+809	Train with early stopping
+1638	visualize distribution of attributions by minute
+861	Split into training and testing data
+1697	Break if there is no data
+1024	Catch error if label encoding scheme is not valid
+1416	TPU Strategy and other configs
+166	Loop through labels and add each to a DataFrame
+139	Check mmcv installation
+398	Confusion Matrix for Train Data Predictions
+1539	create testing series
+813	Plot the predicted labels
+1316	downcast back to int
+1686	Split horizontally an image
+252	Decision Tree Regression
+1534	Plot the standard deviation around the mean ROC
+1584	Remove feature with only one value
+1749	Create an entity from the installments dataframe
+479	Document Vectors with hashing trick
+985	Select one loan and plot
+1631	check the old format
+214	split training set to validation set
+967	Need to reverse the index to plot most important on top
+940	Sort with best score on top
+1502	Order does not matter since we will be shuffling the data anyway
+1577	Make new features using continuous feature
+156	Importation of a entire day data
+1230	Load model into the TPU
+997	DFS with specified seed feature
+249	Support Vector Machines
+591	Composition of Augmentations
+601	For the same window we superimpose the masks above the image
+1559	do here two charts density distribition
+1794	Modelisation with all product
+1526	Default empty prediction
+1790	For marchine Learning Approach
+1388	Need yxyx format for EfficientDet
+1043	Print some summary information
+598	So a unique operator will give us the unique filenames that contain ships
+548	Generate predictions and probabilities
+820	Visualize Tree with No Maximum Depth
+89	Take a look at predictions
+464	MERGE , MISSING VALUE , FILL NA
+1668	At the scale of stores
+926	Hyperparameter Tuning Implementation
+1258	Pad and resize all the images
+775	Draw a correlation heatmap
+445	Encoding Street Names
+905	Dataframe of validation scores
+896	Need to reverse the index to plot most important on top
+180	Now we can plot it
+1132	Put prediction on CPU , detach it and transform to a numpy array
+210	Determination categorical features
+1685	Usual numpy , panda , matplotlib and python libraries imports
+300	Get a list of train and val images
+778	Redundant Individual Variables
+1241	Load the image string
+973	Distribution of Scores
+1608	Parameter optimization is needed
+540	Building the pipelines
+1392	Save as parquet file
+994	Plot of client type when contract was approved
+193	Perform the blackHat filtering on the grayscale image to find the hair countours
+858	Plot the ecdfs on same plot
+1485	Convert test examples to tf records
+32	Model Validation on train data set
+1626	Predict by Specify Province
+1657	This notebook will deal with positive , negative and neutral samples independently
+1806	Load in train and test
+1042	Sort the table by percentage of missing descending
+177	Size of each category
+1568	Pinball loss for multiple quantiles
+262	Interactive plot with results of parameters tuning
+947	Combine results into one dataframe
+1505	ROTATE DESTINATION PIXELS ONTO ORIGIN PIXELS
+658	Random Forest Regressor
+1110	Extract processed data and format them as DFs
+965	Need to reset index for loc to workBU
+1639	check for hourly patterns
+1522	FIND ORIGIN PIXEL VALUES
+1415	Number of labels for each instance
+1196	Save current fold values
+1015	Read in new copies of all the dataframes
+1263	Using original generator
+446	Encoding Cordinal Direction
+1244	Load and preprocess data
+1145	Gaussian Approximation of Active Cases
+1383	Train and validate Split
+1166	Process test data in parallel
+1026	Train the model
+307	initialize the tokenizer
+1365	Downloading the shapefile of the area
+1167	Load Packages and Data
+676	save the forecast
+1214	Order does not matter since we will be shuffling the data anyway
+629	USA since first case
+681	convert unicode to str
+552	Generate predictions and probabilities
+1782	Calling our overwritten Count vectorizer
+1432	Count game trainsition
+1603	Find Null data
+1215	Only load those columns in order to save space
+1172	vtk reading dicom
+661	Predict on test set
+35	And now we embed each chunk individually
+1436	Number of Patients and Images in Training Images Folder
+1768	shuffling the data
+122	All contraction are known
+1659	For neutral samples , use original texts as they are
+530	Generate predictions and probabilities
+826	Read the image on which data augmentaion is to be performed
+766	Legend and formatting
+717	y hist with defferent timestamps are similar
+549	prints classification report and confusion matrix
+1189	unique title list
+1378	loads images in a mosaic
+314	For boosting model
+944	Iterate through each set of hyperparameters that were evaluated
+1805	Print out the memory usage
+298	destination path to image
+339	Make a Prediction
+1596	Check null data
+950	Iterate through each hyperparameter
+397	Using RandomForest Classifier
+1288	Load dataset info
+868	Example of Sampling from the Domain
+900	Catch error if label encoding scheme is not valid
+742	Start by pivoting the DataFrame to explore the label distribution over slices
+666	expanding the aggregate
+506	One more by all counties
+895	Find the features with zero importance
+691	Computes gradient of the Lovasz extension w.r.t sorted errors
+652	packages for visualiztion and exploratory analysis
+547	First loop runs GridSearch and does Cross validation to find the best parameters
+1049	One Hot Encoding
+138	Make a simple restart of runtime at this point
+1290	squeeze and excite block
+694	remove layter activation layer and use losvasz loss
+1460	checking missing data
+702	ADD PSEUDO LABELED DATA
+1380	create new boxes
+1648	Prepare validation data
+476	encode another document
+1528	Join examples with features and raw results
+1281	Import the modules
+596	if not bird
+1204	First downsize all the images
+428	all other columns
+1027	Record the best score
+401	We iter the batch of images to display
+129	See sample image
+1529	Read candidates with real multiple processes
+382	How many different cars in train dataset
+1185	elif train , needs to be passed throught this clausule
+669	Read the csv files on the Johns Hopkins CSSE database on github
+211	Encoding categorical features
+581	in smaller ones
+1514	size and spacing
+47	Determine left , right and bottom coordinates of each bar in the plot
+554	Add RUC metric to monitor NN
+898	Find the features with zero importance
+1680	the time spent in the app so far

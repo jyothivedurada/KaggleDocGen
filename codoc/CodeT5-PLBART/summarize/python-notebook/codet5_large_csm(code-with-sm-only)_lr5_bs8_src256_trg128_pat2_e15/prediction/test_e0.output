@@ -1,0 +1,594 @@
+451	Plot the augmented images
+119	Load the data
+7	Create the vectorizer
+92	Shuffle the data
+35	Count the words in a series
+85	Applying tourney
+100	Set the binary target
+363	Split the data into public and private
+242	Sum of bookings by year
+17	Transforming the data
+31	Load the data
+16	Set the seed for the model
+354	Run LGBM on the data
+495	Prepare the validation dataset
+474	Process the test set
+152	Distribution of meter reading for each hour
+93	Create train and validation set
+187	Sensitivity and specificity
+117	Using Linear SVR
+14	Checking missing values in the data
+515	Loading the data
+498	Loading the pretrained models
+255	RLE encoding of the image
+66	Top 10 categories of items with price of 0
+554	Preprocessing the data
+477	Split into train and test
+70	Display the number of coms in the dataset
+91	Load the data
+527	Missing Noisy Data Analysis
+47	Train the model
+276	Households without head
+64	Mean price by category distribution
+309	Load the data
+492	Loading the pretrained models
+586	Load the data
+272	Process the results
+571	Loading the data
+204	No of Storeys Vs Log Error
+464	Prepare the training and test set
+542	Split data into train and test
+19	Create submission file
+520	We need to multiply the columns of the data
+72	Render an image using Neato
+5	Histogram of muggy smalt axolotl pembus counts
+341	Bureau balances by loans
+147	Train the classifier
+484	Loading the data
+386	Save the model
+171	Tfidf Vectorizer
+55	Number of click by IP
+78	Using Linear SVR
+508	Exploratory Feature Correlation
+167	Importing necessary libraries
+77	Highlight collinear features
+220	Spain cases by day
+548	Set the selected text in the test set
+27	Loading and saving the data
+581	Look at the missing data
+113	An example of the generator
+144	Fit the model
+312	Importing necessary libraries
+465	Adding PAD to each sentence
+40	Checking the categorical columns
+426	Clean up the model
+283	Compute the range of the data
+41	Load the data
+181	Merge Applicatoin data
+278	Visualizing the walls
+158	Prepare the data
+307	Sample the data
+525	Missing values in train data
+475	Process the sub data
+42	Load a random image
+395	Load the data
+357	Loading the data
+507	Breakdown the topics
+349	Exploratory Data Analysis
+479	Create train and test datasets
+487	Load the data
+46	Split data into train and eval
+482	Plot the mean price of each room
+174	Training the model
+450	Importing necessary libraries
+375	Visualizing Bkg Color
+399	Load the data
+265	Load the data
+417	Linear Weighted Kappa Score
+224	Sir and Sird
+151	Visualization of Weekdays and meter readings
+140	Compute the confusion matrix
+63	RLE Encoding for the current mask
+398	Load the data
+95	Display classification report
+213	Lets look at the masks
+223	Load the data
+393	Load the data
+61	Converting to grayscale
+480	Evaluate the model on the test data
+271	Converting the ID to a file path
+52	Histogram of isFraud
+424	Load the test data
+430	Reducing the data
+248	Loading the data
+192	Day of the week
+418	Analyzing the ARC
+489	Batch Cutmixing
+336	Exploratory Data Analysis
+130	Prepare the data and test
+328	Feature Analysis
+98	Load the model and predict
+176	Loading the data
+544	Count of clicks and proportion of downloads by device
+359	Clean up the data
+358	Checking the column types
+414	Create the Data Generator
+80	Calculate the average of the target columns
+297	Split into train and validation set
+555	Sample Patient 1
+137	Compute the confusion matrix
+79	LB Score
+434	Plot the results of the evaluation
+560	Evaluate the program
+368	Visualization of the curves
+165	Importing required libraries
+406	Save the best model
+402	Load the data
+228	Lets check the sentiment
+471	Create Data Generator
+36	Clean special characters
+531	Missing values in train data
+202	Bathroom Count vs Log Error
+109	Plot the training and validation loss
+24	Lets look at the real and fake paths
+458	Count the number of classes in the dataset
+146	Tfidf Vectorizer
+411	Create test data generator
+553	Set up the random seed
+112	Create submission file
+259	Preprocessing and Classifying
+493	Iterator over the jsonl files
+44	Load test data
+405	Importing the data
+496	Compute F1 scores
+162	Analyzing the direction
+156	Distribution after log transformation
+235	Create the model
+33	Pulmonary Condition Progression by Sex
+299	Train and evaluate the model
+131	Load the data
+438	Loading the data
+37	Clean up text with all processing
+352	RLE encoding of the image
+218	Reorder the data
+103	Create train and validation set
+51	Importing required libraries
+203	Lets plot the room count vs the log error
+99	Create submission file
+360	Load the data
+448	LGBM Classifier
+256	Lets look at the missing values
+120	Importance of each feature
+419	Importing required libraries
+408	Create the necessary directories
+184	Extracting target data
+105	Modeling with Linear SVR
+263	Train the model
+481	Converting to log1p
+215	Looking at the audio files
+89	Visualizing Word Cloud
+446	Change the address
+104	Prepare the data
+154	Distribution of meter reading for each month
+30	Fit the model
+416	Compute test text and questions
+180	Pearson Correlation of Features
+273	Create a list of TTA transforms
+543	Lets look at the counts of each ip
+557	Visualizing the patient class
+552	Bar plot of training sales
+281	Drop columns with correlated values
+241	Sum of bookings by date
+170	Transform text using vectorizer
+71	Description length VS price
+67	Does shipping depend of prices
+461	TPU or GPU detection
+319	Exploratory Data Analysis
+84	LB Score
+74	Prepare the data
+279	Add some features to the model
+589	Converting inf values to nan
+365	Exploratory Data Analysis
+166	Merge the data
+87	Loading the data
+0	Histogram of target values
+342	Load the test data
+345	Split into train and validation sets
+583	Visualization of Quaketime
+326	Boosting Type for Random Search
+453	Distribution of variables in train and test set
+388	Resizing the images
+75	Plot the mean of the features
+111	Create predictions dataframe
+20	Loading the training data
+221	Group iran cases by day
+200	The number of stories in each parcel
+377	Loading the data
+468	Loading the data
+106	Voting Regressor
+502	Create the model
+195	Bathrooms and Interest Level
+143	Loading the data
+275	Check if all households have the same target
+323	Exploratory Data Analysis
+155	Visualizing the meter readings
+216	Replace mainland country with China
+163	Display train and test data
+350	Load the data
+295	NYC Map Zoom
+540	Hospital Deaths
+558	Loading the data
+564	Save the data
+133	Compute the histogram of the image
+142	Converting Tensor to Image
+210	Looking at the masks
+556	Lung Opacity of the patient
+289	Random Forest Classifier
+141	Compute the confusion matrix
+269	Visualizing the image
+58	Download rate evolution over the day
+427	AUC Score of Toxic
+490	Batch Mixup
+504	Number of repetitions for each class
+462	Build the model
+578	Lets look at the results
+300	Fare Amount versus Time since Start of Records
+444	Importing necessary libraries
+26	Lets try to detect the face in this frame
+178	Group by and count
+225	Lets check if we have to plot the peak
+592	Load the data
+251	Converting to categorical features
+407	Building the model
+194	Visualizing the order count
+157	Converting to uint8
+1	Prepare Data Analysis
+443	Leak Data Analysis
+245	Demanda Uni Equil and Venta
+463	Importing necessary libraries
+436	Loading the data
+219	Reorder the data
+347	Splitting the dataset into train and val
+501	Lets look at the directory
+205	Gaussian Target Noise
+321	Loading the credit card data
+244	Sum the bookings by date
+478	Create the data
+534	Importing necessary libraries
+302	Split into train and validation set
+189	Training the model
+524	Looking at the missing values
+177	Lets check the categorical and numerical features
+429	Prepare the data
+86	Lets look at the features
+569	Prepare the test data
+290	Visualization of the surface
+234	Load the data
+585	Importing necessary libraries
+574	Loading the data
+239	Feature Augmentation
+53	Loading the data
+13	Load the data
+576	Distribution of DBNOs
+243	How many bookings have the same date
+447	Change the address
+460	Display attribute names and their counts
+301	Fare Amount by Day of Week
+169	Importing necessary libraries
+356	Feature Aggregator on credit card balance
+148	Importing necessary libraries
+385	Create a Keras model
+298	Fitting the model
+317	Merge Bureau Data
+288	Random Forest Classifier
+150	ELECTRICITY OF METER TYPE
+311	Cross validation on the full dataset
+437	Leak Data Analysis
+260	Importing necessary libraries
+371	Loading the training dataset
+348	Exploratory Data Analysis
+488	Run the model on the data
+423	Prepare the submission file
+173	Hashing the text
+261	Visualizing the nominal features
+545	Calculate extra data
+164	Importing necessary libraries
+485	Importing the required libraries
+136	Create Decision Tree
+43	Create an example generator
+366	Shap importance of each column
+280	Analyzing the data
+497	Predict on test data
+125	Importing the necessary libraries
+445	Converting datetime to hour
+190	Loading the data
+567	An example of the dataset
+396	Building the model
+346	Load the model
+457	Sample the data
+22	We are going to take a random sample of the data
+546	Compute the score of each event
+579	Create the feature matrix
+160	Preview of the data
+264	Categories of items < 10
+565	Loading the data
+222	Let us group the cases by day
+428	Importing the necessary libraries
+404	Load the data
+449	Add missing values to the dataframe
+372	Prepare the test data
+491	Batch Grid Masking
+456	Apply the model to the test set
+316	Aggregate numeric and categorical data
+258	Random Forest
+521	Looking at the columns with only one value
+9	Embedding the data
+533	Logistic Regression
+575	Distribution of winPlacePerc
+83	Voting Regressor
+339	Count the categorical variables
+420	Prepare the data
+431	Scatter plot of the data
+34	Pulmonary Condition Progression by Sex
+469	Lets look at the number of files and folders
+124	Visualizing the training dataset
+442	Loading the data
+580	Label encoding of categorical features
+201	Bedroom Count Vs Log Error
+541	H1 and D1 columns
+570	Create a video file
+294	Exploratory Data Analysis
+383	Load the data
+337	Feature Analysis
+568	Prepare the data
+563	Load the data
+153	Monthly reading of each month
+379	TPU or GPU detection
+114	An example of the generator
+10	Converting target values to log
+509	Split into train and test
+584	Save the data
+238	Random Forest Model
+94	Calculate ROC AUC score
+384	Create Densenet model
+530	Categorize the data
+573	Predicting for each sample
+303	Remove features from the data
+226	Importing the necessary libraries
+11	Log Histogram of all train counts
+422	Display the blurry samples
+250	Mortality and Land Area
+18	Unfreeze the model
+338	Correlations between target and target
+403	Visualizing the training history
+159	Run the model on the test
+549	Importing the data
+50	Clear the output
+88	Random Forecasting the model
+382	Create a fake save directory
+483	Converting categorical features to categorical
+196	Bedrooms and Interest Level
+97	Load the test data
+310	Cross Validation with Random Search
+126	Modeling with Linear SVR
+381	Importing the fake files
+591	Plot the loss of the model
+247	Loading the data
+206	Augmentation with Gaussian target noise
+391	Submit to XGBoost
+212	Visualizing the image
+572	Visualizing the data
+361	Load the data
+401	Predicting the test set
+305	Fit and evaluate the model
+334	Random Search and Bayesian
+325	Loading the altair
+193	Hour of the day
+387	Resizing the image
+293	Distribution of Fare
+333	Random and Optimal Scores
+593	Lidar data extraction
+344	Read the credit card balance
+188	Create the data types
+566	Lets look at the mean of the two
+505	Oversampled training dataset
+343	Reading the data
+284	Remove duplicate columns
+415	Load the test data
+286	Random Forest Classifier
+378	Create submission file
+4	Histogram of target values
+54	Number of different values
+467	Scatter plot of link count
+435	Visualizing the test set
+523	Load the data
+362	Visualization of the validation data
+322	Train the model
+532	Exploratory Data Analysis
+128	Run the build process
+320	Importing the data
+172	Feature extraction using Hashing Vectorizer
+65	Price of the first level of categories
+207	Load the data
+12	Prepare data for training
+249	Transpose the data
+536	Exploratory Data Analysis
+590	Scoring the data
+432	Exploratory Data Analysis
+199	Birds for each row
+73	Importing necessary libraries
+101	Prepare the data
+340	Collecting the data
+327	Load the data
+59	Loading the data
+175	Create Keras model
+2	Looking for numeric columns
+232	Load the data
+149	Preview of Data
+68	Check if there are no descrip items
+421	Preprocessing and blurring
+139	Random Forest Classifier
+229	Lets look at the most common words
+376	How to draw the cylinder
+513	Convert DCM to PNG
+353	Run the model on the test set
+459	Lets see which attributes are not in train set
+389	Compute the game time of each installation
+472	Load the data
+522	Create categorical features
+373	Importing necessary libraries
+82	Modeling with Linear SVR
+318	Load previous application data
+374	We add one to the clean data
+69	Visualizing Word Cloud
+45	Load the test data
+116	Highlight collinear features
+296	Correlation with Fare Amount
+400	Building the model
+454	Computing the rolling mean for each store
+209	Full text of each feature
+217	Group the countries by italy
+49	Save the model
+535	Fill in missing values
+329	Feature matrix and feature names
+197	Exploratory Data Analysis
+90	Number of training and test data
+145	Visualizing the word cloud
+135	Clustering with KMeans
+370	Visualizing the data
+123	Load the data
+122	Duplicate clicks with different target values in train data
+291	Fill in missing values
+306	Fit the baseline model
+355	Load the data
+519	Applying the model to the new columns
+102	Split data into train and validation set
+32	Lets look at the unique values
+537	Time Series Prediction
+587	Lemma Count Vectorizer
+60	We reduce the dataframe size by
+62	Exploratory Data Analysis
+254	Load the model
+367	Growth rate over time
+526	Making the mean of the data
+582	Create train and test data
+440	Loading the data
+547	Looking at the sentiment
+186	Converting to grayscale
+470	How many files and folders are there
+425	Building the model
+511	Prepare the test data
+270	Splitting ID and Subtype
+559	Lifting the function
+211	Checking if there are any images with masks
+257	Exploratory Data Analysis
+516	There are some missing values
+452	Now we will sort the data
+439	Leak Data Analysis
+466	Number of links and nodes in the dataset
+409	Create a new dataframe
+510	Run XGBoost
+292	Lets look at the surface of the model
+331	Remove low information features
+129	Create unique IDs for each image
+364	Number of months in train and test data
+476	Lets take the square of the data
+56	Exploratory Data Analysis
+410	Resizing the images
+539	Province and State
+134	Visualizing test data
+390	Create a function for creating the title mode
+246	Distribution of Demanda and Semana
+441	Compute the mean squared error of the predictions
+25	Visualization of model predictions
+285	Random Forest Classifier
+138	Compute the confusion matrix
+132	Read the test data
+230	Look at the most common words
+48	Fbeta score
+262	Exploratory Data Analysis
+110	Run the model on test data
+185	Reducing the sample data
+3	Add outliers to train set
+274	Loading the data
+308	Bayesian and Random Search
+115	Importing necessary libraries
+313	Prepare the training and testing set
+550	Load the data
+369	Loading the data
+266	Coefficient of variation for prices in different images
+208	Importing the categorical features
+528	Exploratory Features
+315	Dropping columns from train and test
+39	Prepare the data
+161	Road and Drive encoding
+21	Class Distribution Over Entries
+512	FVC for each patient
+304	Distribution of Validation Fares
+517	Create continuous features
+392	Visualizing the subset of images
+287	Model with Random Forest
+168	Merge the data
+394	Load the data
+413	Load the model and predict
+121	Printing the results
+15	Importing necessary libraries
+314	Correlation between train and test set
+324	The number of parameters in the grid
+252	Remove outliers and remove target
+518	Fill in missing values
+179	Distribution of application data
+28	Loading the data
+38	Loading the data
+57	Lets look at the missing data
+486	Load the test data
+267	Scatter plot of sample hits
+237	Check missing values in the data
+214	Masks over image
+330	Load the data
+127	Voting Regressor
+455	Fit Logistic Regression
+433	Plot the test and train data
+562	Set the seed for the model
+397	Create tokenizer and fast tokenizer
+81	Preprocessing functions
+282	Distribution of escolari and age
+233	Importing required libraries
+577	Sieve eratosthenes
+183	Prepare the data
+499	Load the pretrained model
+227	Generate Word Cloud
+268	Number of binary features in train set
+561	Build the model
+240	Preprocessing the data
+503	Prepare the training dataset
+514	Number of data per diagnosis
+6	Loading the data
+96	Remove the base directory
+253	Split the labels into a list of strings
+538	Exploratory Data Analysis
+29	Load the data
+198	Setting up the model
+380	Building the model
+412	Load the image
+182	Distribution of application data
+76	Importing necessary libraries
+23	How many fake samples are in the dataset
+118	Random Forest Regressor
+494	Load the pretrained model
+506	Random Forest Classifier
+236	Create the model
+351	Checking comment length
+8	Confusion matrix and classification report
+529	One hot encode the data
+551	Importing necessary libraries
+588	Load the data
+332	Prepare Training and Testing Data
+500	Layer Normalization and Biasing
+473	Preprocessing the data
+335	Prepare the data
+108	Shape of the data
+231	Lets look at the most common words
+277	Drop columns with high correlation
+107	Loading the data
+191	Hour of the day

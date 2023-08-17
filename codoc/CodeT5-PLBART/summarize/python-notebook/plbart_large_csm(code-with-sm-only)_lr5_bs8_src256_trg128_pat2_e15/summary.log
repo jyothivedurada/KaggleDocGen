@@ -1,0 +1,8 @@
+[0] Best ppl changed into 1.2490
+[0] Best bleu+em changed into 16.12 (bleu: 16.12, em: 0.67)
+[1] Best bleu+em (16.12) does not drop changed for 1 epochs, cur bleu+em: 7.05 (bleu: 7.05, em: 0.00)
+[2] Best bleu+em (16.12) does not drop changed for 2 epochs, cur bleu+em: 4.77 (bleu: 4.77, em: 0.00)
+[3] Best bleu+em (16.12) does not drop changed for 3 epochs, cur bleu+em: 5.72 (bleu: 5.72, em: 0.00)
+[3] Early stop as not_bleu_em_inc_cnt=3, and not_loss_dec_cnt=3
+[best-bleu] bleu-4: 19.58, em: 1.4815, codebleu: 0.0000
+Finish and take 1m

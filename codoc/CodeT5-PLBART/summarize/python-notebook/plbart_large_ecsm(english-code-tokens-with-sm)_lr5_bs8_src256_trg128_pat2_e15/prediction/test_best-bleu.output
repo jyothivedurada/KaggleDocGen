@@ -1,0 +1,988 @@
+0	Load the data
+1	Train the application
+2	Distribution of AUC
+3	Distribution of IncoME
+4	Distribution of Distribution
+5	Exploratory Data Analysis
+6	Exploratory Data Analysis
+7	Exploratory Data Analysis
+8	Distribution of Day of week
+9	Train the model
+10	Bureau and Bureau
+11	Bureau Bureau Bureau
+12	Check if there are no duplicate values
+13	Exploratory Data Analysis
+14	Scaling polynomial features
+15	Train the LightGBM Model
+16	The reverse of the data
+17	Standard Scaling the data
+18	Calculate the mean and standard deviation
+19	Fitting the model
+20	Train with LightGBM
+21	Load the data
+22	Preparing the data
+23	Predicted Weight
+24	Rolling the score matrix
+25	Load the data
+26	Submission Submission File
+27	Calculate the mean number of unique labels
+28	Visualizing the class column
+29	Visualizing the autocorrelation
+30	Lag
+31	Distribution of Categories
+32	Distribution of difference between two categories
+33	Load the data
+34	Calculate the mean and standard deviation
+35	Check for missing values
+36	Distribution of age
+37	Test Images and Images
+38	Load the data
+39	Visualizing diverging palette
+40	Average the mean of the signal over time
+41	Correlation between train and test
+42	Load Train Data
+43	Distribution of Distribution
+44	Remove outliers
+45	Correlation between outliers
+46	Train the model
+47	Train the model
+48	Predictions and Submission
+49	Load the data
+50	Number of peaks
+51	Make histogram of number of images in train set
+52	Inference of Images
+53	Load the data
+54	Create Keras Model
+55	Train the model
+56	Read test images
+57	Resize the image
+58	Function to read the image
+59	Train the model
+60	Train the model
+61	Predict Predictions
+62	Load the data
+63	Plotting the mask
+64	Load the image
+65	Train the data augmentation
+66	Load the required libraries
+67	Load Train Data
+68	Plotting the distribution of the number of images
+69	Distribution of trip duration
+70	Distribution of trip duration
+71	Pickup latitude and longitude
+72	Preparing the data
+73	Pickup hour
+74	Load the data
+75	Train the model
+76	Load test data
+77	Load pneumonia locations
+78	Load the data
+79	Split into training and validation sets
+80	Train the model
+81	Load the data
+82	Split into training and validation sets
+83	Train the model
+84	Clean the words
+85	Load the data
+86	Training the Model
+87	Train the LGB Model
+88	Plotting the results
+89	Load the data
+90	Visualizing the wordcloud
+91	Exploratory Data Analysis
+92	Visualizing the wordcloud
+93	Visualizing wordcloud
+94	Load the data
+95	List of devices in train set
+96	Revolution of revenue
+97	Daily revenue by date
+98	Number of keywords
+99	Train the model
+100	Date Revenue Revenue Visits
+101	Merge train and test data
+102	Train the stratification function
+103	Exploratory Data Analysis
+104	Compute loss function
+105	Load the data
+106	Load the meta data
+107	Load the data
+108	Load the meta data
+109	Preparing the data
+110	Load librosa libraries
+111	Load training data
+112	Show some examples
+113	Show the number of competition data
+114	Train the model
+115	Load TPU into TPU
+116	Train the model
+117	Load the data
+118	Plotting the test data
+119	Visualizing the image
+120	Exploratory Data Analysis
+121	Number of landmarks
+122	Number of landmarks
+123	Load the data
+124	Calculate the Last Modified date
+125	Load the data
+126	Load the data
+127	Load the data
+128	Merge Training Data
+129	Plotting the Oil
+130	Average Unit Sales
+131	Load the required libraries
+132	Train the model
+133	Training the Graph
+134	Visualizing the Folium Map
+135	Train the model
+136	Train the LGBM Model
+137	Distribution of count
+138	Submission File Submission File
+139	Load the data
+140	Load the data
+141	The first column is id
+142	Train the model
+143	Create train and validation directories
+144	Preparing the data
+145	Train the model
+146	Train the model
+147	Plotting the best loss over time
+148	Train the model
+149	Train and Predictions
+150	Create Submission File
+151	Exploratory Model
+152	Train the model
+153	Train the model
+154	Load the data
+155	Load the data
+156	Train the model
+157	Train Cat Boost Model
+158	Forecasting categorical variables
+159	Forecasting the forest
+160	Visualizing the distribution of the target variable
+161	Visualizing the Marginal
+162	Visualizing the Marginal
+163	Visualizing the Marginal
+164	We can see the median of the values
+165	Visualizing the Marginal
+166	Visualizing the Marginal
+167	Load the data
+168	Train the model
+169	Train the model
+170	Visualizing the next image
+171	Generate the output images
+172	Train and Test Submission
+173	Exploration of OpenSlide
+174	Preparing the images
+175	Load the required libraries
+176	Visualizing the next image
+177	Visualizing the reconstructed data
+178	Walk through the data
+179	Train the model
+180	Generate random seed
+181	Load the data
+182	Save the data
+183	Load the data
+184	GloVE Embeddings
+185	Train the dataset
+186	Calculate Thresshold
+187	Load the data
+188	Preparing the merchants
+189	Function to get the rating
+190	Most recent sales and purchases
+191	Label encoder for categorical features
+192	Load the data
+193	Load the data
+194	Get a list of all the properties
+195	Distribution of Segments
+196	Distribution of Distribution
+197	Mean Error
+198	Load keras libraries
+199	Train the LGB model
+200	Train the model
+201	Train the DICOM
+202	Convert text to dictionary
+203	Plotting Glass Brain
+204	Estimates of the ICCN matrix
+205	Train the model
+206	Load the Masker
+207	Correlated PCA
+208	Train and Test
+209	Train the model
+210	Distribution of fracs
+211	FVC FVC FVC
+212	DICOM Exploration
+213	Pad Image Padding
+214	Load the data
+215	Check if image ids are in TRAINDIR
+216	Load the data
+217	Load the data
+218	Train the model
+219	Question Text Text Text Text
+220	Load the data
+221	Predicting the model
+222	Visualizing the image to explore
+223	Fourier Transforming Time Series
+224	Visualizing the correlation between signal values
+225	Fourier Transforming Time Series
+226	Train and Test Data
+227	Load the data
+228	Train the model
+229	Image Data Generator
+230	Train the model
+231	Train the model
+232	Load the data
+233	Load the data
+234	Load Test Data
+235	Train the model
+236	Load the required libraries
+237	Train the Deep AREstimator
+238	Train the model
+239	Plotting the Predictions
+240	Load the required libraries
+241	Train the Deep AREstimator
+242	Plotting the Predictions
+243	RGB to grayscale
+244	Visualizing label masks
+245	A helper function to extract RLE encoding masks
+246	Analyze the images
+247	Load train data
+248	Plotting the spectrogram
+249	Splitting the data into train and validation sets
+250	Visualizing Transformed Data
+251	Evaluating Confusion Matrix
+252	Train the model
+253	Train the model
+254	Train the LR Model
+255	Load the data
+256	Exploratory Data Analysis
+257	Plotting N0 and N1
+258	Show spectral centroids
+259	Visualizing the image
+260	Distribution of the number of players in the game
+261	Show the number of columns
+262	Visualizing the number of events per category
+263	Visualizing the test data
+264	Visualizing the data
+265	Visualizing the test data
+266	Distribution of date and installations
+267	Week of year
+268	Number of title and game time
+269	Show some of the data
+270	Plotting the title of the game
+271	Distribution of World Type
+272	The number of events per type
+273	Number of unique values
+274	Visualizing the test data
+275	Correlated Diverging Correlations
+276	Load the data
+277	Train the model
+278	Number of null values
+279	Number of missing values
+280	Distribution of number of features
+281	Distribution of number of missing values
+282	Train the model
+283	Load the data
+284	Distribution of X and y
+285	Load the data
+286	Visualizing user type
+287	Visualizing the number of words per description
+288	Train the LGB model
+289	Train the LGB Model
+290	Train the LGB model
+291	Visualizing the target variable
+292	First Active Month
+293	Train and Test Data
+294	Distribution of wind speed
+295	Visualizing Cloud Graph
+296	Distribution of the number of bedrooms
+297	Distribution of the number of items in the train set
+298	Distribution of price over time
+299	Exploration of latitude and longitude
+300	Exploratory Data Analysis
+301	Visualizing latitude and longitude
+302	Visualizing Word Cloud
+303	Distribution of Upper Bounding Box
+304	Missing Missing Values
+305	Evaluation of Evaluation Set
+306	Train the model
+307	Train the model
+308	Train the model
+309	Train and Validation
+310	Distribution of the number of days since prior order
+311	Distribution of the number of hits
+312	Distribution of the number of products in each department
+313	Distribution of reordered products
+314	Reducing the AISLE
+315	Check the output of subprocess
+316	Load the data
+317	The total number of unique values
+318	Plotting the graph objects
+319	We can see some of our data
+320	Load the data
+321	Load the data
+322	Exploratory Data Analysis
+323	Floor number and floor number
+324	Average Floor Floor
+325	The number of transactions per month
+326	Missing Missing Values
+327	Distribution of latitude and longitude
+328	Show the number of columns
+329	Missing Missing Values
+330	Distribution of number of bathroom
+331	Distribution of bedroom
+332	Visualizing year built features
+333	Visualizing latitude and longitude
+334	Number of punctuation characters
+335	Train the model
+336	Train the model
+337	Train the model
+338	Confusion Matrix Confusion Matrix
+339	Train the model
+340	Distribution of duplicate values
+341	Mean frequency of duplicate values
+342	Correlation between columns to use
+343	Train the model
+344	Load the data
+345	Train the model
+346	Load the data
+347	The number of viridis
+348	TfidfVectorizer for feature engineering
+349	Predicting Confusion Matrix
+350	AUC of identity hate
+351	Load the data
+352	Distribution of Energy Energy Energy Energy
+353	Correlation between correlated variables
+354	Show the number of columns
+355	Submission of Text
+356	Analysis of English words
+357	Clean the text
+358	Train the model
+359	Calculate Confusion Matrix
+360	Predicting the prediction
+361	Calculate Confusion Matrix
+362	Predicting the prediction
+363	Predicting the prediction
+364	We will try to convert missing values to matrix
+365	Load the data
+366	Check for Missing Values
+367	Missing Missing Missing Values
+368	Basic Data Analysis
+369	Estimate statistical features
+370	Distribution of outliers
+371	Handles categorical variables
+372	Train and Test Data
+373	Evaluating Logistic Regression
+374	Predicting the AUC
+375	Train the model
+376	Load the data
+377	Check for Missing Values
+378	Estimate statistical features
+379	Handles categorical variables
+380	Dropping the Target column
+381	Train the model
+382	Train the model
+383	Compute Gini score
+384	Dropping the Target column
+385	Submission of Submission
+386	Train the model
+387	Load the image
+388	Train the model
+389	Load the Data
+390	Load the submission
+391	Split the data
+392	Cabin Cabin Cabins
+393	Preparing categorical variables
+394	Load the data
+395	Train the Fraud
+396	Train the model
+397	Distribution of feature counts
+398	Visualizing the normal test set
+399	Predicting Forecast
+400	Country and country
+401	Plotting Time Series
+402	Train the model
+403	Preparing the Model
+404	Predicting the test set
+405	Preparing the tagging
+406	The number of Vocabulary Features
+407	Clean the text
+408	Load the data
+409	Visualizing the mean and standard deviation
+410	Train the model
+411	Train the model
+412	Distribution of test and test transactions
+413	Visualizing the number of categories
+414	Proton Fraud Rate
+415	Visualizing Major OS
+416	Train and Test Features
+417	Submissions and Predictions
+418	Load the data
+419	Map labels to labels
+420	Map Atom Info
+421	Train Feature Importance
+422	Load the data
+423	Exploratory Data Analysis
+424	Distribution of number of missing values
+425	Show the number of missing values
+426	Exploratory Data Analysis
+427	OneHotEncoder for OneHotEncoder
+428	Train the model
+429	Train the model
+430	Train the model
+431	Predicting the image
+432	Predict Target Prediction
+433	Unique Number of unique values
+434	Trend by country
+435	Trend by country
+436	Dropping the columns
+437	Categorize categorical variables
+438	Train the model
+439	Number of train and validation sets
+440	Dropping the columns
+441	Categorize categorical variables
+442	Train the model
+443	Number of train and validation sets
+444	Train the TPU
+445	Visualizing categorical variables
+446	Load the data
+447	Train and Test Split
+448	Plotting the number of classes
+449	Logistic Regression for Logistic Regression
+450	Plotting class distribution
+451	Mir Mirrored Transitions
+452	Augmenting the data
+453	Exploratory Data Exploratory
+454	The number of unique values
+455	Train and Test Images
+456	Visualizing random images
+457	Convert RLE string to masks
+458	Visualizing random images and masks
+459	Train the model
+460	Plotting the number of images
+461	Store the data
+462	Resize the images
+463	Distribution of Species
+464	Convert longitude to numeric
+465	A simple sample of the EBird Code
+466	Categorical List of numerical values
+467	Dropping the Target column
+468	Load the data
+469	Mean Fatality Rate by Day of Year
+470	Train and Test Data
+471	Logarithm of logarithmic logarithmic logarithmic logarithm
+472	Convert to TST
+473	Plotting the Predictions
+474	Load the data
+475	Exploratory Data Analysis
+476	Visualizing categorical variables
+477	Categorical by Label
+478	Numbererical by Target
+479	Load the data
+480	Split data into categories
+481	Load the required libraries
+482	Missing Missing Values
+483	Show the number of unique values
+484	Load the data
+485	Evaluation Example
+486	Find Closest Positions
+487	Train the model
+488	Evaluating the environment
+489	Train the model
+490	Image Masking
+491	Load the data
+492	Load the data
+493	Visualizing one hot encoding
+494	Differences between quaketime and quaketime
+495	Distribution of signal distribution
+496	Train Time Series Split
+497	Reshape the data
+498	Visualizing the image
+499	Visualizing the image
+500	Train and Test Data Concatenate
+501	Train the tokenizer
+502	Train and Test
+503	Unused ngrams
+504	Number of words distribution
+505	Train the model
+506	Distribution of population and revenue
+507	Visualizing random data
+508	Train the model
+509	Train the model
+510	Show the number of unique values
+511	Distribution of Probability Distribution
+512	Distribution of the number of patients
+513	Average mean of FVC
+514	Distribution of FVC
+515	Load the data
+516	Load the data
+517	Load the data
+518	All LB Score
+519	Distribution of ffill count
+520	Top LB Scores
+521	Top LB Score
+522	Distribution of number of teams per day
+523	Preparing the variables
+524	Convert float32 to float32
+525	Calculate ROC AUC
+526	Train the Model
+527	Masking the data
+528	Check the number of masks
+529	Image resizing and resizing
+530	Predicting the Predictions
+531	Generate random seed
+532	Load the data
+533	Predicted Predictions
+534	Load libraries and data
+535	Time Shifting Time Shifting
+536	Train the Speed Tuning
+537	Stretch Audio Transform
+538	Preparing the pitch shift
+539	Add Gaussian noise
+540	Load custom noise
+541	Albumentations
+542	Calculate ROC AUC
+543	Train the model
+544	Load the data
+545	Pretrained the tokenizer
+546	Show the masks
+547	Train the model
+548	Train the model
+549	Train the model
+550	Train the model
+551	Load the Melanoma dataset
+552	Custom Tabnet Model
+553	Compute SoftMarginFocalLoss
+554	Train the model
+555	Evaluating the model
+556	UERD Images
+557	We can now look at the data
+558	Preparing the ingredients
+559	Distribution of mean download delay time
+560	Load the data
+561	Remove punctuation and punctuation
+562	Train the train set
+563	Load the data
+564	Train the model
+565	Predicting Enters
+566	Load the data
+567	Show plain dictionary
+568	Submission of Submission
+569	Show some examples
+570	Full Ciphertext Ciphertext
+571	Train the model
+572	Load the data
+573	Distribution of dipole moments
+574	Distribution of dipole moments
+575	Distribution of Potential Energy
+576	Find outliers
+577	Mulliken Charges
+578	Load the required libraries
+579	Load the test data
+580	Train and Test Data
+581	Distribution of mean matrix
+582	Tuning the Predictions
+583	Load the test predictions
+584	Load the required libraries
+585	Load the data
+586	Aquamarine Aquamarine
+587	Visualizing the number of props
+588	Visualizing the number of props
+589	Distribution of number of cards
+590	Distribution of the number of props per card
+591	Distribution of number of cards
+592	Distribution of number of cards
+593	Categorize categorical variables
+594	Preparing categorical variables
+595	Sorting the Data
+596	Train the LightGBM Model
+597	Plotting the number of features
+598	Plotting the Accuracy over time
+599	Plotting loss over time
+600	Load the data
+601	Distribution of lengths
+602	Distribution of number of words in train set
+603	Average Word Length
+604	Train the model
+605	Squared Error
+606	Train the model
+607	Dumps the word index
+608	Load the data
+609	Load the data
+610	Load the Google API Key
+611	The number of toxicity scores
+612	Toxicity Scores
+613	Mean squared error
+614	The number of missing values
+615	Convert to ImageNet ImageNet
+616	Load the data
+617	Train the model
+618	Train the network
+619	Calculate Cross Entropy loss
+620	Calculate Time Series
+621	Predictions for softmax
+622	Evaluating test predictions
+623	Predicting Test Predictions
+624	Load the data
+625	Explanting Text Cleaning Function
+626	Remove numbers from text
+627	Replace Exclamation Mark
+628	Find the number of contraction patterns
+629	Replace negative words with antonyms
+630	Replace elongated words
+631	Load the required libraries
+632	Create Neural Network
+633	Split the data
+634	Train the model
+635	Bar plot of accuracy score
+636	Train the model
+637	Bar plot of accuracy score
+638	Load the data
+639	Signal to signal the signal
+640	Acoustic Data Analysis
+641	Train the acoustic data
+642	Estimates the min and max values
+643	Transform Time Series
+644	Preparing Train Data
+645	Load the data
+646	Plotting permentropies
+647	Plotting perm Entropies
+648	Distribution of App Entropies
+649	Distribution of App Entropies
+650	Plotting the Higuchi FD
+651	Katz distance
+652	Plotting time to failure
+653	Load the required libraries
+654	Acoustic Data Analysis
+655	Madding the mean and standard deviation
+656	Signal to signal the signal
+657	Acoustic Data Analysis
+658	Train the acoustic data
+659	Estimates the min and max values
+660	Transform Time Series
+661	Preparing Train Data
+662	Load the data
+663	Distribution of Spectral Entropies
+664	Plotting Spectral Entropies
+665	Distribution of time to failure
+666	Distribution of Target Entropies
+667	Detrended fluctuations
+668	Trended fluctuation
+669	Load the data
+670	Seagreen Seagreen Seagreen
+671	Seagreen Seagreen Seagreen
+672	Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average Average
+673	Visualizing the average number of items per store
+674	Visualizing the mean of the sales
+675	Visualizing the mean of the sales
+676	Estimates of ARIMA Error
+677	Load the data
+678	Load train images
+679	Load the labels
+680	Train and Validation
+681	Visualizing the number of images
+682	Load the data
+683	Load the data
+684	Gleason replace dictionary for Gleason
+685	Show the number of images
+686	CNN for ResNet
+687	Train the model
+688	Cross Entropy Loss
+689	Train the model
+690	Fold data fold
+691	Load the data
+692	We can see the distribution of the data
+693	Distribution over time
+694	Visualizing the data
+695	Distribution of distribution over time
+696	Categorize categorical variables
+697	Feature engineering Feature Engineering
+698	Numerical Features
+699	Build the build graph
+700	Average the mean and standard deviation
+701	Visualizing the comment text
+702	Distribution of Number of Comments
+703	Plotting the mean number of words per language
+704	Visualizing the country of the country
+705	Plotting the number of competitors
+706	Show some of the data
+707	Distribution of Number of samples
+708	Histogram of Flesch reading Lebets
+709	Plotting Flesch reading legs
+710	Distribution of Number of Deaths
+711	Histogram of Automated Readability
+712	Automated Readability
+713	Distribution of Automated Readability
+714	Visualizing the number of observations in each column
+715	Visualizing the Bar plot
+716	Preparing the data
+717	Save the pretrained tokenizer
+718	Fast encoding of the data
+719	Load the data
+720	Train the model
+721	Train the model
+722	Reducing Roc AUC
+723	Train the model
+724	Build CNN Model
+725	Train the CNN model
+726	Train the model
+727	Build LSTM Model
+728	Train the model
+729	Train the model
+730	Build Capsule Model
+731	Train the Model
+732	Train the model
+733	Build the model
+734	Train the model
+735	Train the model
+736	Train the Incerity Model
+737	Create a Quora Dataset
+738	Load the data
+739	Load image data
+740	Distribution of distribution of distribution
+741	Distribution of red values
+742	Distribution of Green Values
+743	Distribution of distribution of distribution
+744	Visualizing the Diseases
+745	Preparing the data
+746	Train the model
+747	Train the data augmentation
+748	Training the Learning Rate Scheduler
+749	Train the Sentiment Model
+750	Cross Entropy Loss
+751	Load the data
+752	Predict Sentiment
+753	Generate Tqdm Data
+754	Train the model
+755	Tqdm Image Paths
+756	Show the number of images
+757	Image augmentation
+758	BCE with logits loss
+759	Show some examples of the metric
+760	Train the model
+761	Train the SIIM Dataset
+762	Weighted Random Sampler
+763	Train the Cancer Network
+764	Show some predictions
+765	Load the bpp files
+766	Train the model
+767	Load the data
+768	Load the required libraries
+769	Show the number of objects in each sample
+770	Visualizing the distribution of the number of objects
+771	Visualizing the number of objects in each class
+772	Show the first sample token
+773	Show some sample data
+774	Show some sample data
+775	Plotting the distribution of the signal of each batch
+776	Train the test set
+777	Visualizing the signal
+778	Mean and Standard Deviation
+779	Train the model
+780	Differences between time and signal
+781	Load the data
+782	Train the model
+783	Number of batches in train set
+784	Fourier Transforming the Fourier Transform
+785	Fourier Transforming log10
+786	Estimate Open Channels
+787	Estimate Open Channels
+788	Signal Lpf Lowpass Filter
+789	Load the data
+790	Load the data
+791	Load the data
+792	Tourney Compact Results
+793	Train the model
+794	Train the model
+795	Train and Test Transactions
+796	Load the data
+797	Train Time Series Analysis
+798	Tries to convert country names to countries
+799	Visualizing the image
+800	Load the data
+801	Visualizing the number of hits per country
+802	Train the model
+803	Load the data
+804	Load Images
+805	Flesincere Free Sincere Distribution
+806	Convenincere Text Readability
+807	Vectorize the data
+808	Train the LDA Visualization
+809	Train the LDA Visualization
+810	Train the model
+811	Train the model
+812	Missing Missing Values
+813	Benign Malignant Images
+814	Benign Malignant Images
+815	Images augmentation
+816	Visualizing Sic Melanoma
+817	Show images augmentation
+818	Train the model
+819	Overview of overlap
+820	Fourier Functions
+821	Load the data
+822	Train and Validation
+823	Inference of release date
+824	Distribution of release values
+825	Distribution of distribution of popularity
+826	Distribution of Release values
+827	Distribution of the number of releases per day
+828	Find couples in structure
+829	Sieve EOST EOST EDA
+830	Build word embedding
+831	Add words to embeddings
+832	Cleaning the text
+833	Build word embedding
+834	Cleaning the text
+835	Train the model
+836	Denoising Wavelet Denoising
+837	Build the model
+838	Create the dtypes
+839	Seat vs Seat
+840	Differences between time and time
+841	We can see the distribution of the number of events we care about
+842	Train the LGB model
+843	Rolpping Time Series
+844	Plotting the scatter plot
+845	Visualizing the number of cities
+846	Visualizing the number of prime cities
+847	Concorde TSP solver
+848	Train the TSP solver
+849	Train the model
+850	Load the required libraries
+851	Distribution of number of boxes per patient
+852	Distribution of boxes per patient
+853	Distribution of center x and y coordinates
+854	Distribution of age and gender
+855	Distribution of area and gender
+856	Visualizing the number of duplicate pixels
+857	Distribution of number of boxes per patient
+858	Visualizing outliers with Gaussian Mixture
+859	We can look at the mean number of black pixels
+860	Visualizing high black pixels
+861	Visualizing high white pixels
+862	Visualizing high black pixels
+863	Distribution of aspect ratio
+864	Visualizing high aspect ratios
+865	Linear Discriminant Analysis
+866	Correlations of correlations
+867	Load the data
+868	Exploratory Data Analysis
+869	Plotting the distribution of the number of components
+870	Train the model
+871	Distribution of number of rfecv
+872	Ranking the features
+873	Load the data
+874	Train the model
+875	Logloss and AUC
+876	Submission of Submission
+877	Tries to convert XGB to csv
+878	Evaluating the Model
+879	Create MTCNN objects
+880	FastMTCNNNNNN , FastMTCNNNNNNNN
+881	FastMTCNNNNNN , FastMTCNNNNNNNN
+882	Train the DLIB detector
+883	Find MTCNN bounding boxes
+884	Train the model
+885	Visualizing random images
+886	Generate a random image
+887	Clusters of the data
+888	Visualizing the Time Series
+889	Load the data
+890	The number of audio files
+891	Spectrogram of spectrogram
+892	Visualizing the test audio
+893	Visualizing the test data
+894	Spectrogram of test data
+895	Load the data
+896	Load the data
+897	Visualizing the model
+898	Weekly FVC FVC
+899	Sex vs FVC
+900	Load the data
+901	Analysis of importance type
+902	Load the data
+903	Preparing the graph
+904	Number of Adjacencies
+905	Number of Adjacencies
+906	Load the data
+907	Create CNN Model
+908	Submit to Kaggle
+909	Cropping the image
+910	Load the data
+911	Check the training data
+912	Load the data
+913	Check for missing data
+914	Exploratory Data Analysis
+915	Tfidf Feature Splitter
+916	Submission of the test set
+917	Load the data
+918	Train and Test Features
+919	Set the domain of the domain
+920	Load the required libraries
+921	Density of the histogram
+922	Calculate the angles between the atoms
+923	Calculate the dihedral angles
+924	Load the data
+925	Load the data
+926	Visualizing the number of unique values
+927	Load the data
+928	Show the energies
+929	Get image size and shape
+930	Load the data
+931	Distribution of number of samples
+932	Quality of the image
+933	Images with different image quality
+934	Load the data
+935	Preprocess Molecules
+936	Train the Sampler
+937	Train the model
+938	Visualizing multiple polygons
+939	Load the image
+940	Train the model
+941	Load the data
+942	Distribution of Mean and Standard Deviation
+943	Mean of total sales per dept
+944	Cat sum of sales per category
+945	Mean sales by state
+946	Mean sales by store
+947	Distribution of dept sales
+948	Train and Test
+949	Convert to csv
+950	Train and Test Data
+951	Create One Hot Encoder
+952	Load the data
+953	Estimate the mean entropy of the test set
+954	Distribution of time and entropy
+955	Visualizing Time Series
+956	Load the data
+957	Open file dialog
+958	Load the data
+959	Define the categorical variables
+960	Log Error
+961	Preparing the log10 of the data
+962	Calculate the Katz Fourier Transformation
+963	Fitting the Higth Fourier Transform
+964	Replace NaNs with NaNs
+965	Normalization of features
+966	Find the paths of files with the given extension
+967	Load the data
+968	Calculate the height of the FEV
+969	Mean squared error
+970	Age vs SmokingStatus
+971	Plotting the number of trajectories
+972	Visualizing the Data
+973	Load the DICOM
+974	Show some of the test images
+975	Evaluating the FVC
+976	Load the sample submission
+977	Load the data
+978	Estimate the score of the train set
+979	Load the required libraries
+980	Plotting time to failure data
+981	Train and Test Data Merging
+982	Train the model
+983	Load the data
+984	Extract DICOM metadata
+985	This is how many images are in the meta data
+986	Plotting Model History
+987	Number of groups in train set
