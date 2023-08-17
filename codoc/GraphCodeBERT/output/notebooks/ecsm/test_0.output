@@ -1,0 +1,885 @@
+0	Exploring the data
+1	Testing Time Augmentation
+2	Does the model output
+3	Imputations and Data Transformation
+4	Impute any values will significantly affect the RMSE score for test set
+5	Detect and Correct Outliers
+6	Does the model output
+7	Does the notebook
+8	Lets load our data
+9	Age Group Analysis
+10	It simple tokenizer
+11	Evaluate the model
+12	Plot the predictions for each function
+13	Creating the embedding matrix
+14	Build the dataset
+15	Does the output of the dataset
+16	Merge the data
+17	Visualizing the train and test data
+18	Read Train and Test Dataset
+19	checking missing values
+20	Understanding the data
+21	Modeling with Fastai Library
+22	Ensure determinism in the results
+23	Creating a DataBunch
+24	Train the model
+25	Submit to Kaggle
+26	Load pneumonia locations
+27	Set up the submission
+28	Lets create the convolutional Neural Network
+29	Load the data
+30	Is there a distribution
+31	Build the Bounding Boxes
+32	Prepare the data analysis
+33	Create a submission
+34	Check the missing values
+35	Prepare the data
+36	Setting up the submission
+37	Analysing all the background
+38	Load DICOM files
+39	Submit to Kaggle
+40	Training and Validation
+41	Compile and predict
+42	Lets check the datasets
+43	How many items are there in the train set
+44	Exploratory Data Analysis
+45	Random Forest Regression
+46	Estimating the results
+47	Analyzing the general variables of GAME
+48	Analyzing the general variables of GAME
+49	Calculating and calculating coverage
+50	Cleaning and Null values
+51	Cleaning of data
+52	Training and Evaluating the Model
+53	Build the data
+54	Convert categorical features to label
+55	Split data into train and validation set
+56	Identify categorical variables
+57	Building the model
+58	Prepare Traning Data
+59	See sample image
+60	See sample generated images
+61	Prepare Testing Data
+62	Create Testing Generator
+63	See predicted result
+64	Split training data into train and validation set
+65	Code in python
+66	Evaluate the model
+67	Build our model
+68	I read in the files
+69	Set up GPU detection
+70	checking the correlation of features
+71	Load CSV data
+72	Lets look at the unique data
+73	Evaluating the model
+74	Let us now visualizations
+75	Lets see the distances
+76	checking the missing values
+77	For the data
+78	Transaction Time Series Visualizations
+79	Checking for missing values
+80	Evaluating the model
+81	Time series features
+82	Time series features
+83	Load CSV data
+84	About the data
+85	Let us check the memory consumed again
+86	I will read in the image
+87	Generate Training and Validation Sets
+88	Ensemble input features
+89	Load the data
+90	Average of price
+91	Number of categorical features in each category
+92	Sales by price
+93	Top customers with target
+94	Brand name distribution
+95	Number of products by time
+96	Plot the missing values
+97	Understanding the Data
+98	Checking the most important features
+99	Lets see the wordcloud
+100	Look at the seller
+101	Looking at the price data
+102	Exploring the Data
+103	Functions for getting connectivity
+104	Visualizing DICOM files
+105	Loading the files
+106	plotting the scan
+107	Libraries and Configurations
+108	Getting the data
+109	Test the input pipeline
+110	One hot encoding
+111	Display feature aggregations
+112	Importing the libraries
+113	Visualizing the features
+114	Fitting and Model
+115	Splitting the dataset into train and test
+116	Making a submission
+117	Implementing the SIR model
+118	Join data , filter dates and clean missings
+119	Compute lags and trends
+120	Add country details
+121	Linear Regression for one country
+122	Building and training model
+123	Building the model
+124	Splitting the dataset into train and test
+125	Prepare Training Data
+126	Evaluate the model
+127	Create a CNN
+128	Evaluate the model
+129	Loading the data
+130	Setting up the data classifier
+131	How to submit the file
+132	Get the Submission
+133	Word Cloud visualization
+134	Show the Predictions
+135	Lets look at the dataset
+136	Train and test data
+137	Explore images samples
+138	Load the data
+139	Prepare the data analysis
+140	Set up training data and validation sets
+141	Visualize accuracies and losses
+142	Making a function to calculate the evaluation metric
+143	Code for plotting confusion matrix
+144	Evaluation of Prediction
+145	Lets see the shapes
+146	Making a submission
+147	Load test predictions
+148	Make the submission
+149	Setting up the binary features
+150	Filter the data
+151	Spliting training and validation sets
+152	Loading the data
+153	Set up training data and validation sets
+154	Visualize accuracies and losses
+155	Encoding the features
+156	Making the submission
+157	Building and training model
+158	Building the model
+159	Training and Test dataset
+160	Lets look at the data
+161	A Fully connected model
+162	Look at the loss plots
+163	Apply model to test set and output predictions
+164	Make a submission
+165	Submit to Kaggle
+166	Get a generator object
+167	Training the generator
+168	Importing the libraries
+169	Visualizing the features
+170	Fitting and Model
+171	Feature importance via Random Forest
+172	Read the data
+173	Final Predictions and Validation
+174	Visualize the training data
+175	Plot the distribution of input data
+176	Looking at the test images
+177	Quick Check of the Images
+178	Preprocess the data
+179	Get a image from image name
+180	Building and training model
+181	Building the model
+182	Build and train images
+183	Let us now look at each category
+184	Mask to the image
+185	How many labels are in training set
+186	Visualizing the outliers
+187	Visualizing the outliers
+188	Visualizing the images
+189	Load the training data
+190	The input data
+191	Lets validate the test files
+192	Load the data
+193	Show some examples
+194	Histogram plots of image
+195	Preprocess test image
+196	Plot each store
+197	One hot encoding
+198	Cluster the clusters
+199	Decision Tree Classifier
+200	Confusion Matrix
+201	Confusion Matrix
+202	Random Forest Classifier
+203	Confusion Matrix
+204	Confusion Matrix
+205	Create Data Loader
+206	Using image augmentation
+207	This is a simple CNN structure
+208	View data Augmentation
+209	Credits and comments on changes
+210	Split to train , validation and test
+211	Training the model
+212	Trying Bayesian Optimization
+213	ABOUT THE COMPETION
+214	Wordcloud for eyes
+215	Vectorize the Data
+216	Predict on test data
+217	Retrieving the Data
+218	Inference on Each City
+219	Plotting the model
+220	Top LB Scores
+221	What is the distribution of meter reading
+222	Analyze Energy Consumption by Primary Use
+223	Target Variable Analysis
+224	Analyze Energy Consumption by Primary Use
+225	Looking at the distribution of square feet area
+226	Time series features
+227	One hot encoding
+228	Make prediction for test images
+229	Prepare the data analysis
+230	Understanding the data
+231	Smoker status vs Target
+232	Mean FVC values
+233	Extracting informations from street features
+234	Encoding the Regions
+235	Understanding the data
+236	Calculate LB Scores
+237	Loading the data
+238	Load libraries and data
+239	Merging transaction and identity dataset
+240	Loading the data
+241	Merging transaction and identity dataset
+242	Loading the data
+243	Training the model
+244	Clean up Training and Validation
+245	Vectorize the Data
+246	Vectorize the data
+247	Exploring the results
+248	Define a function
+249	Now we can build the submission
+250	Build the model
+251	Visualize Logistic Regression
+252	Visualize the model
+253	Reading all data into respective dataframes
+254	Density plots of features
+255	Check missing values
+256	Biểu đ
+257	Converting are in NN
+258	Treating the target variable
+259	A Fully connected value
+260	A heatmap is a good way to visualize the correlation between variables
+261	Splitting dataset for train and test
+262	Training and Validation
+263	Read annotation data
+264	Set up train and test dataset
+265	Processing the Dataset
+266	Hit Rate Bar Chart
+267	Rescaling the Image Most image preprocessing functions want the image as grayscale
+268	Evaluation of Validation
+269	Lets look at the input files
+270	Training the model
+271	Density plots of features
+272	Table of Contents
+273	Training the model
+274	Data loading and overview
+275	Lets plot the date amount of minute
+276	Days of Orders in a week
+277	Bounding box ratio
+278	Period of Reorders
+279	Do people usually reorder the previous ordered products
+280	Combine product products by their product
+281	Do people usually reorder the previous ordered products
+282	Let us see how the price changes
+283	Price point analysis
+284	Word level aggregation
+285	Handling Bathrooms and bedrooms
+286	Handling Bathrooms and bedrooms
+287	Weekly trend analysis
+288	Handling Bathrooms and bedrooms
+289	Understanding the Data
+290	Setting the MaskRCNN
+291	Training the network
+292	Make a submission
+293	Fitting the model
+294	The above plot looks for the final filtering
+295	Time Series Analysis
+296	Here we average the counting
+297	The largest count of bedrooms
+298	Let us now check if the lengths
+299	Overall distribution of the countries
+300	The Neural Network
+301	Combine data Augmentation
+302	Process to prepare data
+303	Create category features
+304	Analysis of Text
+305	Evaluate LGBM
+306	Read in the masks
+307	Reading in the data
+308	Replace all Bounding Boxes
+309	Selecting the image with skimage
+310	Number of masks per image
+311	Resizing the image
+312	Create the model and training
+313	Train the model with early stopping
+314	Get the test Data
+315	Generating the submission .
+316	Filter Train Data
+317	Correlation coefficient for all features
+318	BCE DICE LOSS
+319	Loss and Learner
+320	Company for the country
+321	It is there
+322	Understanding the variables
+323	About the clusters
+324	About the cases
+325	Merge other cases
+326	Grouping in cases
+327	Analysis of the weather data
+328	Preprocess for test set
+329	Analyzing the general variables of GAME
+330	About the data
+331	Function for generating wordcloud
+332	Example of sentiment
+333	Explore positive values
+334	Lets see the number of negative samples
+335	Lets visualise one of the training data
+336	Reading in the data
+337	The submission stats
+338	Libraries and Configurations
+339	Load and preprocessing data
+340	Building the model
+341	Define the model
+342	Building the model
+343	Check for missing values
+344	Concatenate text columns
+345	 Categories
+346	Preparing the data for train and test
+347	Random Forest Regression
+348	Principal Component Analysis
+349	Training the model
+350	Inference and Submission
+351	Aggregate the data
+352	Average with the sales
+353	Understanding the variables
+354	I will visualize the amount of submission
+355	Merge the products
+356	Calculate the average weights
+357	Plotting the histogram of bedrooms
+358	Read in the data
+359	Understanding the data
+360	Converting to datetime
+361	Importing the Libraries
+362	Loading the data
+363	Create some metrics
+364	Look at the data
+365	Load the data
+366	Lets see there is no missing values
+367	Checking results
+368	filtering out outliers
+369	using outliers column as labels instead of target column
+370	Intro about the Data
+371	We load LB score
+372	Applying CRF seems to have smoothed the model output
+373	Check missing values
+374	Histogram plot for all features
+375	Let us now look at the data
+376	Get the image level
+377	Extract test data
+378	Random Forest Regression
+379	Save model to Data
+380	Load libraries and data
+381	Let us now look into the numerical features
+382	Let us now look into the binary features
+383	Uninal encoding to each column
+384	Calculate ordinal features
+385	Model with Logistic Regression
+386	And plot the relationships between each of these top labels ..
+387	Price point analysis
+388	Lets plot the distribution of log price
+389	Read in the data
+390	We will look at the data
+391	Image metadata analysis
+392	Features by hits
+393	Lets plot for the distribution of signal
+394	Distribution of random sample
+395	Building the model
+396	Numerical features that are binary
+397	Example for training
+398	Inference on test set
+399	The split the Data
+400	Load image and labels
+401	Show some examples
+402	Demonstration how it works
+403	Combinations of TTA
+404	Import Train and Test dataset
+405	Importing the Countries
+406	Check missing values
+407	Investigating the clusters
+408	drop high correlation columns
+409	Plotting the clustering
+410	Add some plots
+411	Plot several examples of input features
+412	drop high correlation columns
+413	Age Group Analysis
+414	Check missing values
+415	Clean up the data
+416	Do they actually improve
+417	Random Forest Regression
+418	Random Forest Classifier
+419	Random Forest Classifier
+420	Training and Validation
+421	Lets start with the target variable , surface
+422	Now our data file sample size is same as target sample size
+423	Lets create the submission
+424	The time of day definitely plays an important role
+425	The code below looks like
+426	Look at some words
+427	and compute the distance
+428	The fluctuation in time
+429	Split data into train and validation set
+430	Code for plotting squared model
+431	Calculate public LB score
+432	The time of day definitely plays an important role
+433	The time of day definitely plays an important role
+434	Split data into train and validation set
+435	Prepare the Data
+436	Predictions on validation set
+437	Train and predict
+438	Tuning and training
+439	Lets plot the distribution of signal
+440	Defining Space for Hyperparameters
+441	Checking out our model
+442	GENERATING the best submission
+443	Random Forest Classifier
+444	Training an estimator
+445	Load train and test data
+446	Calculate some random predictions
+447	Calculate Logistic Regression
+448	Load the data
+449	Cleaning and Data
+450	Adding the columns with pandas dataframe
+451	Fitting the model
+452	Drop unwanted columns
+453	Below a function is written to extract mean feature from various level
+454	Checking for categorical features
+455	Below a function is written to extract mean feature from different cols
+456	Handling Categorical features
+457	Merge External Data
+458	Read in the data
+459	Load the data
+460	Create a submission
+461	The cost function is from
+462	Lets try to optimizer
+463	Convolutional Neural Network
+464	Average of the Columns
+465	Training an imbalanced model
+466	Lets plot the top Words
+467	Here is how our model performs
+468	Exploring the results
+469	Load train and test data
+470	Loading the data
+471	Lets try to optimize the features
+472	Specify the features
+473	Clean the features
+474	One hot encoding
+475	Score and score
+476	Display best score
+477	Removing the hyperopt
+478	One hot encoding
+479	Which best part
+480	Build Train and Test dataset
+481	Load the data
+482	Looking at the data
+483	Overview of data
+484	The cost function is from
+485	Create some features
+486	Lets try to assign our features
+487	Stacking up feature
+488	Checking for correlation features
+489	Below a function is written to extract mean feature from different cols
+490	Checking for categorical features
+491	Creating the data
+492	Merge Building Data
+493	Now for missing values
+494	Merge Building Data
+495	Below a function is written to extract mean feature from various level
+496	Checking for categorical features
+497	Stacking up feature
+498	What is the output
+499	Now for missing values
+500	Creating dummy variables
+501	You can use this
+502	Load the data
+503	Split data into train and validation set
+504	Training and Test
+505	The split from train and test images
+506	Locating a face within an image
+507	Bivariate Analysis for each group
+508	Plotting the distribution of the countries
+509	Import Train and Test dataset
+510	checking the distribution of length
+511	Tokenizing the text
+512	Now we can visualize the features of the first train and test sets
+513	Train and predict
+514	Loading the models and create submission
+515	Applying CRF seems to have smoothed the model output
+516	Predict on test set
+517	Training the Model
+518	Reading in data
+519	Get a Pipeline
+520	load mapping dictionaries
+521	add breed mapping
+522	extract different column types
+523	Split the data into train and test
+524	Random Forest Regression
+525	Read the data into a Pandas DataFrame
+526	Loading the data
+527	Build BERT CNN
+528	Plot a submission
+529	Predicting on Test Set
+530	Convert timestamp to Datasets
+531	Evaluating the model
+532	Trying to group patients
+533	Trying to group patients
+534	Evaluating the model
+535	Feature importance with SHAP
+536	Feature importance
+537	Understanding the variables
+538	Plot the recordings
+539	Evaluating the model
+540	Trying Bayesian Optimization
+541	load mapping dictionaries
+542	See sample image to Clean the data
+543	Display a random image with bounding boxes
+544	Final Model and training
+545	Read in the image
+546	Custom LR scheduler
+547	Check for missing values
+548	Load Model into TPU
+549	Evaluation of Test
+550	Test set predictions
+551	Handle Categorical features
+552	Detect the samples
+553	Preprocess test data
+554	Process and preparing data
+555	Process train test data
+556	Test image augmentation
+557	Libraries and Configurations
+558	Check missing values
+559	Get the feature importance
+560	Most of the data
+561	Categorical in video
+562	What is DICOM
+563	The submission file
+564	Pad to the shape of data
+565	TPU Strategy and other configs
+566	Create Dataset objects
+567	Load Model into TPU
+568	About the data
+569	Prepare the data
+570	Calculate training and validation sets
+571	Build the model
+572	Save model and training
+573	Save model and weights
+574	Let us now look at the data
+575	Exploring the data
+576	Load Model into TPU
+577	Get an average training and validation strategy
+578	Create a video
+579	Predicting with the best parameters
+580	Plotting some random images to check how cleaning works
+581	Lets check the predictions on the test set
+582	Load the data
+583	Load Train , Validation and Test data
+584	Build datasets objects
+585	Load model into the TPU
+586	Instancing the tokenizer from DistilBERT model and then applying WordPeice Tokenizer
+587	Load Train , Validation and Test data
+588	Build datasets objects
+589	Model initialization and fitting on train and valid sets
+590	Create a submission
+591	Apply the model to test
+592	Load the data
+593	Plot the evaluation metrics over epochs
+594	Load and preprocess data
+595	Making a submission
+596	Save the best model
+597	Create Dataset objects
+598	Load Model into TPU
+599	Mapping the Data
+600	Create out the image
+601	for training data
+602	Exploring the images
+603	Define loss function
+604	Create test generator
+605	Inference on test set
+606	Let us visualise the distance based on high correlation
+607	Get image from image name
+608	Load Model into TPU
+609	BCE DICE LOSS
+610	Build train and test set
+611	Making the submission
+612	Getting the data and generate sequences
+613	Load the training data
+614	Quadratic Weighted Kappa
+615	Visualizing the training samples
+616	Plot the evaluation metrics for each fold
+617	Libraries and Configurations
+618	Converting train and test images
+619	Rending with the augmentation
+620	Apply model to predictions
+621	Create numpy data
+622	Show some examples of images
+623	A simple sample
+624	Reading test data
+625	Load model into the TPU
+626	Training the model
+627	Run a submission
+628	Making the submission
+629	Lets import the necessary modules and image
+630	 create a video
+631	Create Validation data
+632	Visualizing the latent variables
+633	Visualizing the training data
+634	The mean line is there
+635	Reading the data
+636	Check the correlation between data
+637	Exploratory Data Analysis
+638	Visualizing the predictions
+639	Show the predictions
+640	Fast data loading
+641	Leak Data loading and concat
+642	FIX Time Zone
+643	Adding some lag feature
+644	Train model by each meter type
+645	Replace to Leak data
+646	Fast data loading
+647	Leak Data loading and concat
+648	FIX Time Zone
+649	Adding some lag feature
+650	Train model by each meter type
+651	Replace to Leak data
+652	Fast data loading
+653	FIX Time Zone
+654	Adding some lag feature
+655	Train model by each meter type
+656	Replace to Leak data
+657	Find Best Weight
+658	Fast data loading
+659	Leak Data loading and concat
+660	Adding some lag feature
+661	Train model by each meter type
+662	Replace to Leak data
+663	Charts and cool stuff
+664	Converting the datetime field to match localized date and time
+665	Creating new features
+666	Creating new features
+667	We can read in the data
+668	Vamining the model
+669	Numeric Feature Engineering
+670	Libraries and Configurations
+671	The loss function
+672	Build and train the model
+673	Create neural network
+674	Show some examples
+675	Edge detection with molecule
+676	Revenue based on month
+677	Understanding the variables
+678	Loading the data
+679	Average of given store
+680	Explore the data
+681	Merge seed for each team
+682	Train the model
+683	Let us make the submission
+684	Explore the stats
+685	Check for Class Imbalance
+686	Label encoding categorical features
+687	Counting the number of labels for each class
+688	Create a folds
+689	TPU Strategy and other configs
+690	Load Model into TPU
+691	We will read in the data
+692	Comment Length Analysis
+693	Looking at the punctuation from
+694	Lets plot for each word count
+695	There is a correlation between train and test set
+696	take a look of .dcm extension
+697	Number of Patients and Images in Training Images Folder
+698	Number of Patients and Images in Training Images Folder
+699	Create image data augmentation
+700	Read in the data
+701	Reading in the data
+702	Getting the test data
+703	Creating a Submission
+704	Converting the columns from train and test set
+705	Check the missing values
+706	Find best variance
+707	Handling the numerical variables
+708	Function for reading and classes
+709	Creating Training and Validation datasets
+710	And predicting the submission
+711	Start to create the submission
+712	Transform the data into a pipeline
+713	Training and test data
+714	Normalize the data
+715	Here we average the number of bedrooms
+716	Make a Baseline model
+717	Create dataset for training and Validation
+718	CNN Model for multiclass classification
+719	Create Inference Dataset
+720	Define dataset and model
+721	Check for output
+722	Training set of model
+723	Setting up some basic model training
+724	Training over time
+725	Convert to data
+726	Age and Scan Result Relations
+727	FVC and Percent for Age
+728	Build the model
+729	Apply the model to test
+730	Training the model
+731	Training the model
+732	Build the model
+733	Make predictions for the validation set
+734	Make the predictions
+735	Build the model
+736	Create NN and Dataset
+737	Training the model
+738	Create Numerical features
+739	Training the model
+740	Reading in the files
+741	Create an image
+742	Training the second model
+743	Number of masks per image
+744	Creating the dataset
+745	Define loading methods
+746	This is also balanced
+747	Custom LR scheduler
+748	Output for Test set
+749	Model fitting with tuned hyper parameters
+750	Creating the tweets
+751	Create a feature engineering
+752	correlation between features
+753	Treating the Data
+754	XGBoost model
+755	Training and Prediction
+756	Train vs Test
+757	Encoding the Data
+758	Merge External Data
+759	Convert to Dataframe
+760	Split into train and validation set
+761	Label class distribution
+762	Concatenating the Data
+763	Predict on Test Set
+764	Read the data
+765	Examine Missing Value
+766	Prepare the data analysis
+767	Create LGBM features
+768	Missing Value Counts
+769	Make the predictions
+770	Create a submission
+771	Create a Feature for Logistic Regression
+772	Run the predictions
+773	Encoding the Variables
+774	Convert dummy to categorical
+775	Check for missing values
+776	Build and train the model
+777	Load the data
+778	Glove word embedding
+779	Check for the Missing Values
+780	Price point analysis
+781	The punctuation in competition
+782	Now lets import the data
+783	Checking for missing data
+784	It turns in each category
+785	No Null Values
+786	Define the data
+787	One hot encoding on the categorical features
+788	Designing the network
+789	Exploring the predictions
+790	the difficuly of training different mask type is different
+791	Show some examples of different mask
+792	Checking for missing data
+793	Exploring the data
+794	Training and Evaluating the model
+795	Read the data
+796	Understanding the data
+797	Prepare the data for analysis
+798	Converting the countries
+799	Understanding the data
+800	Country wise inspection
+801	Converting the countries
+802	Age vs SmokingStatus
+803	Analysis of Age vs
+804	Importing all the features
+805	Splitting data into train and test
+806	Looking at the columns
+807	Mean amount vs
+808	Numeric Features in Train and Test
+809	Exploratory data analysis
+810	Evaluate feature engineering
+811	Exploratory Data Analysis
+812	Plotting feature distribution
+813	Recognize features by day
+814	Add the test data
+815	Train and Test Data
+816	Calculate the mean values
+817	Read annotation data
+818	Adding the sentiment
+819	Setting up the test data
+820	Write out the file
+821	Load the best scores
+822	Plotting global variables
+823	Reading in the data
+824	Some Feature Engineering
+825	Random Forest Classifier
+826	Random Forest Regression
+827	Categorywise sales by different stores
+828	Overview of data
+829	Plotting sales for each event
+830	Finally , we need to create the analysis
+831	Set the Seeds
+832	Data loading and preprocessing
+833	Age of patient
+834	Age of patient
+835	An example of a directed
+836	I have a simple COMPOSITE
+837	Exploring the Data
+838	We will use this
+839	Function to read in the image
+840	Evaluate the model
+841	Build the model
+842	Ensure determinism in the results
+843	LOAD PROCESSED TRAINING DATA FROM DISK
+844	SAVE DATASET TO DISK
+845	LOAD DATASET FROM DISK
+846	The mean of the two is used as the final embedding matrix
+847	The method for training is borrowed from
+848	Find final Thresshold
+849	Add train leak
+850	Add leak to test
+851	Read in the data
+852	create a video
+853	Get the features and target variable
+854	Prediction on validation dataset
+855	Import Train and Test Data
+856	Looking at the distribution of values
+857	Plot several examples of input images
+858	The competition metric relies only on the order of recods ignoring IDs
+859	Charts and cool stuff
+860	Does the number of passengers affect the fare
+861	Lets look at the distribution of data
+862	Lets try to assign them better dates
+863	Exploratory Data Analysis
+864	Creating a DataFrame
+865	Build the model
+866	Create our model for training and validation
+867	Checking for Null values
+868	Encoding the features
+869	LightGBM and Gradient Boosting
+870	Plot the same as percentage
+871	Visualize the Data
+872	SAVE DATASET TO DISK
+873	Upvote if this was helpful
+874	Now lets load our data
+875	Distribution of words in tweets
+876	Word Cloud for tweets
+877	Load raw data
+878	A feature engineering
+879	Now we can calculate the scoring function
+880	Plot the evaluation metrics over epochs
+881	Read in the dataset
+882	Create a CNN
+883	View some random image
+884	Now let us see how the price changes with respect to floors

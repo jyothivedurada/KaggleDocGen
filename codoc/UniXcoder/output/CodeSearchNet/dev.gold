@@ -1,0 +1,1000 @@
+10476	Private method to handle generic mouse button clicking .
+1824	Sets byte if zero .
+409	Batch version of tf_map_coordinates
+12149	analyze every unanalyzed ABF in the folder .
+4506	Scan and report all compatible serial devices on system .
+4012	This function is used with dusty up . It will check all active repos to see if they are exported . If any are missing it will replace current dusty exports with exports that are needed for currently active repos and restart the nfs server
+3657	Removes the specified CTI file from the CTI file list .
+2286	Evaluate a graph taking account of the hardware .
+12066	draw vertical lines at comment points . Defaults to seconds .
+1679	Returns a non - empty error message if the next header is out of order .
+11087	Causes the bot to ignore all messages from the channel .
+12135	Load all the files in a given directory selecting only files with the given extension if specified . The given kwargs are passed through to the normal constructor .
+8935	Factory for the correct SCM provider in workdir .
+1424	Names of all state locations must be unique .
+9674	Calculate how many days the month spans .
+6912	This generates fake flare light curves .
+520	Returns a randomly generated permanence value for a synapses that is to be initialized in a non - connected state .
+488	Check for concurrency violation and add self to _clsOutstandingInstances .
+1535	Initializes a topology protobuf
+3582	Return a list of all bluez DBus objects from the provided list of paths .
+3811	Return request_header for use when constructing requests .
+8279	Append a render function and the parameters to pass an equivilent PathElement or the PathElement itself .
+9863	Return list of Tibber homes .
+434	Display a group of RGB or Greyscale CNN masks .
+9195	Lookup publication state
+3257	Publish a featuretype from data in an existing store
+11731	Compress the log message in order to send less bytes to the wire .
+10647	Create a sub component in the business component .
+11490	Download the requested item to the specified path .
+8928	Prepare for a release .
+6873	This gets the out - of - transit light curve points .
+3611	Asynchronous DELETE request with the process pool .
+7359	Given a dictionary mapping sequence names to amino acid strings and an optional list of peptide lengths returns a BindingPredictionCollection .
+9654	Takes sha1 hash of all dependencies and outputs of all targets
+4557	Return true if this string or integer tuple appears in tables
+13261	Returns a tree of Task instances
+106	Resize an array using average pooling .
+12432	Creates the full project
+13202	Get the document abstract in the specified markup format .
+2615	Cancels the jobs specified by a list of job ids
+11438	Create a record object using the LXML parser .
+6924	This opens a new database connection .
+5574	Return all available output formats .
+4552	Draw solid triangle with points x0 y0 - x1 y1 - x2 y2
+2547	Sets the annotation type . Raises CardinalityError if already set . OrderError if no annotator defined before .
+3527	Piwik tracking template tag .
+12509	Return the header and affine matrix from a Nifti file .
+5514	Decorator . Bring coroutine result up so it can be used as async context
+1674	Parses the command line arguments .
+1519	read config files to get roles
+6224	The standard lookAt method
+1584	Reads yaml config file and returns auto - typed config_dict
+5881	checks the density of links within a node is there not much text and most of it contains linky shit? if so it s no good
+13885	Create a file with the given contents .
+5635	Convert a docstring to a markdown text .
+9891	Returns uptime in seconds or None on AmigaOS .
+4333	Reduce noise in the audio signal by profiling and filtering . This effect is moderately effective at removing consistent background noise such as hiss or hum .
+13223	Say something in the evening
+711	Creates an iterator that returns ModelInfo elements for the given modelIDs
+11955	Return true if the IP address is in dotted decimal notation .
+7527	much faster implementation for aligning chunks
+8785	Update a port .
+2045	Writes a value to a storage slot in specified account
+6201	Compute one timestamps array for a mixture of N populations .
+1291	Constructs the extra Replay memory .
+9044	Listen to parameters change .
+4803	Asserts that val is callable and that when called raises the given error .
+13588	View decorator that enforces that the method was called using POST . This decorator can be called with or without parameters . As it is expected to wrap a view the first argument of the method being wrapped is expected to be a request object .
+10299	Group the errors together for analysis of the most frequent error .
+10133	Parse a Project Haystack scalar in ZINC format .
+5925	Check if templates directories are setup and issue a warning and help .
+9459	REST Send digits to a Call
+3150	Get information about a specific webhook .
+11543	Sets the analog reference to reference
+1139	Wrap a single paragraph of text returning a list of wrapped lines .
+750	Returns reference to the network s Classifier region
+10834	Get count of admins per group .
+3733	Charge of the species as an integer . Computed as a property as most species do not have a charge and so storing it would be a waste of memory .
+12665	Read a Nifti file nii_file and a mask Nifti file . Returns the voxels in nii_file that are within the mask the mask indices and the mask shape .
+4741	Construct dict of paths from environment variables
+1307	Check if desktop is locked . Return bool . Desktop is locked if press Win + L Ctrl + Alt + Del or in remote desktop mode .
+3814	Parse the image upload response to obtain status .
+1654	Check for printf related issues .
+6227	Translate string into character texture positions
+4554	Calculates the coordinates of a point on a circle given the center point radius and angle .
+7428	returns a subsample of unlinked snp sites
+10415	Build a filter function for matching the given BEL function with the given namespace or namespaces .
+13666	Get the number of the shell command .
+5977	Compute an annular masks from an input inner and outer masks radius and regular shape .
+2664	Return status of all blocks .
+6065	Calculate the mass between two circular annuli and compute the density by dividing by the annuli surface area .
+5820	Checks to see if a cache file needs to be refreshed
+3432	Add groups to the model .
+10980	Remove user from a group .
+4374	This will fetch the messages from the Socket s queue and if there are many messes pack multiple messages in one payload and return
+11498	Get a community based on its name .
+11199	The CPython version of fromutc checks that the input is a datetime object and that self is attached as its tzinfo .
+10617	Determine the mass of the specified compound in the package .
+1169	Run length encoding for binhex4 . The CPython implementation does not do run length encoding of \ x90 characters . This implementation does .
+9980	Extract names from a function definition
+10403	Return the numpy structured array data type for sample states
+2803	Convert slice operation .
+8751	Retrieve a list of scaling ips .
+11946	Like the base class method prepares a list of messages for storage but avoid to do this for models . Message instances .
+4010	Ripped off and slightly modified based on docker - py s kwargs_from_env utility function .
+2677	Install all packages listed to the target directory .
+7573	prints a progress bar
+6216	Checks if the bin files referenced exist
+4422	Seeks to a given position in the track .
+10485	Generator which yields matches on AXChildren .
+11274	Check that a process is not running more than once using PIDFILE
+9125	Help store an action .
+3598	Browse reviews for an application
+11216	Is the token valid? This method only checks the timestamps within the token and compares them against the current time if none is provided .
+5313	Translate the given style to an ANSI escape code sequence .
+13809	Read version info from a file without importing it
+12588	Inserts all given nifti files from file_list into one dataset in fname . This will not check if the dimensionality of all files match .
+12713	Connect this body to another one using a joint .
+916	Log msg % args with severity DEBUG .
+3752	This function handles the retrieval of Short - term Exposure Limit on worker exposure to dangerous chemicals .
+13464	Adds a memory to an event .
+525	Perform global inhibition . Performing global inhibition entails picking the top numActive columns with the highest overlap score in the entire region . At most half of the columns in a local neighborhood are allowed to be active . Columns with an overlap score below the stimulusThreshold are always inhibited .
+13189	Upsert the technote resource into the projectmeta MongoDB collection .
+5168	only for mac80211 driver
+6572	Generates a model chooser definition from a model and adds it to the registry .
+4386	Raise a runtime error if on Win32 systems .
+1084	Return the time part with tzinfo None .
+3456	Build the markdown release notes for Hugo .
+9292	Convert binary blob to UUID instance
+11762	Search game to determine best action ; use alpha - beta pruning . This version cuts off search and uses an evaluation function .
+5155	Loops over item and performs type casting according to supplied schema fragment
+3483	Writes cobra model to filename .
+10738	Evaluate function on given grid and return values in grid format Assume X and Y are 2 - dimensional arrays containing x and y coordinates respectively of a two - dimensional grid and f is a function that takes 1 - d arrays with two entries . This function evaluates f on the grid points described by X and Y and returns another 2 - dimensional array of the shape of X and Y that contains the values of f .
+8179	Remove nodes and edges and reset the layout .
+6482	Loads the class from the class_path string
+10532	Create a project .
+7517	Used to count the number of unique bases in a site for snpstring .
+2340	Run an instance of GNN testing causal direction .
+4339	Pitch shift the audio without changing the tempo .
+2287	Parallelize the various runs of CGNN to evaluate a graph .
+4040	Remove keys we added for internal use
+12205	Create a URL for the specified endpoint .
+9197	Gets the value from the key . If the key doesn t exist the default value is returned otherwise None .
+8830	Query for segment allocations .
+4304	Calls SoX help for a lists of audio formats available with the current install of SoX .
+12239	Beale s function
+9577	Read full header tag .
+7019	This merges all TFA text LCs with separate apertures for a single object .
+9560	Apply assert methods on r .
+6543	Execute an x3270 command
+5930	Use . collection as extension unless provided
+3593	Return the default set of request headers which can later be expanded based on the request type
+2266	applies a function to each of the keys in a dictionary
+8348	This method fixes a bug in Python s SGMLParser .
+8085	Stop applying strokes to new paths .
+1489	Save a file
+12382	Processes a LINK request .
+771	Creates the required metrics modules
+1796	Exchanges and adds .
+2504	Return an a license identifier from an ExtractedLicense or None .
+10280	Perform a number of runs
+2621	Create and configure a new security group .
+12977	deleteOne - Delete one object
+11149	Renames an item in this collection as a transaction .
+6916	This adds variability and noise to all fake LCs in simbasedir .
+9771	Stop job .
+1040	Returns the line number of the beginning of this range .
+6304	Find an effect class by class name or full python path to class
+6252	Creates a normal matrix from modelview matrix
+9763	Upload code of the current directory while respecting the . polyaxonignore file .
+7668	Trim every annotation contained in the annotation array using Annotation . trim and return as a new AnnotationArray .
+8669	Unlock a key to allow it to be modified deleted or purged
+4119	Convert a one - sided PSD to a twosided PSD
+9064	Maximise the marginal likelihood .
+188	Clip off all parts of the line strings that are outside of the image .
+11145	Get a list representation of repository state along with useful information . List state is ordered relativeley to directories level
+11808	Build up a random sample of text nwords words long using the conditional probability given the n - 1 preceding words .
+1876	Move quadword .
+11169	Append a positional argument to the user interface .
+8797	Writes a series of security group rules to a redis server .
+12302	Validate the content of the files for consistency . Validators can look as deeply as needed into the files . dgit treats them all as black boxes .
+4371	Spawn a new process attached to this Namespace .
+12592	Query existing reliable dictionary .
+10501	Convenience method to wait for a window with the given name to disappear .
+5573	Read data from process output .
+1827	Procedure call .
+4808	Generate CSV file for training and testing data
+7123	Write configuration to the applicaiton directory .
+2591	Transport the file from the local filesystem to the remote Globus endpoint .
+7433	Read in sample names from a plain text file . This is a convenience function for branching so if you have tons of sample names you can pass in a file rather than having to set all the names at the command line .
+53	Draw all keypoints onto a given image .
+11830	Fig . 3 . 10
+11791	Minimum - remaining - values heuristic .
+4315	Input file list validation function . Checks that object is a list and contains valid filepaths that can be processed by SoX .
+8201	Pass a load of settings into the canvas
+12483	Filters the lst using pattern . If pattern starts with ( it will be considered a re regular expression otherwise it will use fnmatch filter .
+2927	Writes a local file in to the zip file and adds it to the manifest dictionary
+8317	Corrects Wikipedia image markup .
+1743	Save a given Tensor into an image file .
+10244	Create a citation timeline counter from the graph .
+4889	Update course metadata of the given course and return updated course .
+13789	Manage a Marv site
+10468	Launch the application with the specified bundle ID
+9977	Remove the last redundant token from lambda expression
+3258	Resources include feature stores coverage stores and WMS stores however does not include layer groups . names stores and workspaces can be provided as a comma delimited strings or as arrays and are used for filtering . Will always return an array .
+6126	Normalise and check a backend path .
+12492	Make arrays indexable for cross - validation .
+2646	Decorator function for making python apps .
+8837	Implements the merge operator for merging lists .
+12757	Add torques for each degree of freedom in the skeleton .
+8689	Return a dictionary representing a key from a list of columns and a tuple of values
+9	Encode input in the way that is appropriate to the observation space
+9813	Prints the notebook url for this project .
+5310	Translate the given RGB color into the appropriate ANSI escape code for the given color mode . The offset is used for the base color which is used .
+8005	Initialize Delay object from an XML node .
+319	Calculate various summary statistics of data .
+1832	Jumps short if carry .
+5947	Unlink path but do not complain if file does not exist .
+13626	Parse a value as a delimited list .
+13218	Provides a connection string for database as a sqlalchemy compatible URL .
+5038	Enroll a single user in any number of courses using a particular course mode .
+3923	Update this conversation s tab title .
+949	Creates and returns a list of activites for this TaskRunner instance
+3946	Decode repeated field .
+9295	Disconnect from all databases
+1290	Creates the TensorFlow operations for performing an optimization step on the given variables including actually changing the values of the variables .
+1403	Returns the JSON representation of a topology by its name cluster environ and an optional role parameter . Raises exception if no such topology is found .
+11991	Decodes a limited set of HTML entities .
+7962	Same as _close but expects lock acquired .
+13369	Returns True if path is in CPENV_HOME
+1133	Get the lines for a file from the cache . Update the cache if it doesn t contain an entry for this file already .
+12461	r Run pip command in given or activated virtual environment .
+8727	Schedule a command to run at a specific time each day .
+12547	Return an image with the binarised version of the data of img .
+2060	Add a constraint to the set
+2103	Returns a callable which becomes the associate or disassociate method for the related field . Method can be overridden to add additional functionality but _produce_method may also need to be subclassed to decorate it appropriately .
+10809	Update group .
+7787	Check if a backup item is available in cache and call the item handler if it is .
+9007	Transfer this instruction to a new row .
+2705	iterator for collecting the noun phrases
+4342	Reverse the audio completely
+8645	Gets a specific track
+9938	Looks for files in the app directories .
+6932	This makes color - mag diagrams for all checkplot pickles in the provided list .
+3470	Return the stoichiometric coefficient of a metabolite .
+8835	Implements the < = operator with JS - style type coertion .
+12374	Take a snapshot of a droplet
+11959	Function internally used to check if the given netmask is of the specified notation .
+11302	Find the right provider for a URL
+3295	Set application location for this resource provider .
+11680	Disconnect from the server
+5107	Fetches data from the queue .
+6537	A context manager that will append the specified paths to Python s sys . path during the execution of the block .
+11004	Calculates a pinhole psf
+6118	Setup a mask where unmasked pixels are within an annulus of input inner and outer arc second radii and \ centre .
+7177	Retype src finding types in pyi_dir . Save in targets .
+8479	Setter for potential property
+7397	Renders some basic TeX math to HTML .
+1982	Synchronization decorator .
+4061	Create attachments accepts a list of one or more attachment template dicts and an optional parent Item ID . If this is specified attachments are created under this ID
+3681	r This function handles the retrieval of a chemical s Global Warming Potential relative to CO2 . Lookup is based on CASRNs . Will automatically select a data source to use if no Method is provided ; returns None if the data is not available .
+1049	Print exception up to limit stack trace entries from tb to file .
+5539	Read existing output data from a previous run .
+344	A helper function that shows how to train and validate a model at the same time .
+9638	Publish record to redis logging channel
+9075	a helper method that composes and sends an email with attachments requires a pre - configured smtplib . SMTP instance
+3770	r Simple function calculates a property based on weighted averages of properties . Weights could be mole fractions volume fractions mass fractions or anything else .
+9641	Given a dictionary of variable attribute data from get_details display the data in the terminal .
+3608	Asynchronous PUT request with the process pool .
+117	Augment batches from a generator .
+1163	Block until the internal flag is true .
+11597	Returns the number of keys in the current database
+10339	Export a SPIA data dictionary into an Excel sheet at the given path .
+964	Exports a network as a networkx MultiDiGraph intermediate representation suitable for visualization .
+3750	r Method to calculate viscosity of a gas mixture at temperature T pressure P mole fractions zs and weight fractions ws with a given method .
+1104	Set the first sequence to be compared .
+514	The average number of columns per input taking into account the topology of the inputs and columns . This value is used to calculate the inhibition radius . This function supports an arbitrary number of dimensions . If the number of column dimensions does not match the number of input dimensions we treat the missing or phantom dimensions as ones .
+5413	Return a list of operations . See base . py for additional detail .
+1160	Wake up one or more threads waiting on this condition if any .
+8423	Get a set of evenly spaced colors in HLS hue space .
+3899	Parse arguments and print generated documentation to stdout .
+4562	Depth first recursion through a dictionary containing type constructors
+10960	randomly deletes particles and adds 1 - px noise for a realistic initial featuring guess
+7953	Handle the channel writable state . E . g . send buffered data via a socket .
+3510	r Add constraints and objective for ROOM .
+8834	Implements the < operator with JS - style type coertion .
+2167	Returns a list of multi - commands for each resource type .
+11851	Put walls around the entire perimeter of the grid .
+9355	Return a str of decimal with two digits after a decimal mark .
+9440	sends a request and gets a response from the Plivo REST API
+7744	Call the timeout handler due .
+3981	This function removes any unnecessary bundles apps libs and services that aren t needed by the activated_bundles . It also expands inside specs . apps . depends . libs all libs that are needed indirectly by each app
+12855	selects sub - tree events
+7749	Process IQ stanza received .
+13230	r Get all macro definitions from TeX source supporting multiple declaration patterns .
+6669	Decorator declaring the wrapped function to be a new - style task .
+3119	Overrides models . Field method . This is used to convert the value from an instances of this class to bytes that can be inserted into the database .
+1545	Synced API call to get topology information
+1588	Returns the topology config
+10796	Translate an image in fourier - space with plane waves
+7062	This pushes a dict serialized to JSON to the specified SQS queue .
+5804	Determines if a CertificateRequest message is sent from the server asking the client for a certificate
+6939	This gets the required keys from the requested file .
+6735	Writes the given content to a local temporary file .
+7651	Pop a prefix from a query string .
+11945	persistent messages are already in the database inside the archive so we can say they re already stored . Here we put them in the inbox or remove from the inbox in case the messages were iterated .
+887	Create a segment on the connections enforcing the maxSegmentsPerCell parameter .
+11032	Get a JSON field from the response JSON .
+10706	Pull the accounts vacations .
+10587	Retrieves an account s descendants from the general ledger structure given the account name .
+1612	Updates the list of global error suppressions .
+993	Return the bit offset of the first bit to be set in the encoder output . For periodic encoders this can be a negative number when the encoded output wraps around .
+6596	Return a pair of a run id and a result .
+11931	Temporarily update the context to use the BlockContext for the given alias .
+5559	Reverse tree flattening .
+13116	Creates a connection based upon the given configuration object .
+1790	Signed divide .
+4073	Evaluate environment markers .
+3139	Add new promo rule to a store
+3116	View that handles the user s return from OAuth2 provider .
+8786	Diagnose a port .
+7350	Return netChop predictions for each position in each sequence .
+2296	Projects the causal pair to the RKHS using the sampled kernel approximation .
+3006	Gets a Credentials storage object provided by the Django OAuth2 Helper object .
+4563	Tries to convert a value to a type constructor .
+7579	returns a list of files that have finished structure
+4092	Add more transformed MIBs repositories .
+1235	Creates an agent from a specification dict .
+7260	Find and return the S3 data location given a catalog_id .
+13238	Returns an iterator of Period tuples for every day this event is in effect between range_start and range_end .
+9016	Parse an instruction .
+1604	run metrics subcommand
+828	Return the offset and length of a given field within the encoded output .
+10684	Calculate the phase s magnetic contribution to entropy at the specified temperature .
+8856	Update action states when the current tab changed .
+13697	If s is a file name read the file and return it s content . Otherwise return the original string . Returns None if the file was opened but errored during reading .
+241	Generates a report detailing portfolio size constraints set by least liquid tickers . Plots a capacity sweep a curve describing projected sharpe ratio given the slippage penalties that are applied at various capital bases .
+1528	Pick an unused port . There is a slight chance that this wont work .
+12346	Lossless compress all images in experiment to PNG . If folder is omitted images will not be moved .
+13905	Raise an exception if string doesn t match a part s regex
+3872	Get all the conversations .
+2724	Change the kernel to a new one
+6658	Helper function that performs the core computation
+7956	Initiate starttls handshake over the socket .
+7886	Serialize a stanza .
+3502	Assesses whether the model has the capacity to absorb the products of a reaction at a given flux rate .
+6570	Allows a function to be used as either a decorator with args or called as a normal function .
+960	Validate a python object against an OPF json schema file
+2697	construct the TextRank graph from parsed paragraphs
+6209	Print the HDF5 attributes for node_name .
+35	Set CUDA_VISIBLE_DEVICES to MPI rank if not already set
+6396	Return normalized Minkowski similarity of two strings .
+4345	Display time domain statistical information about the audio channels . Audio is passed unmodified through the SoX processing chain . Statistics are calculated and displayed for each audio channel
+12846	Create a new DataItem .
+12863	Parses as much as possible until it encounters a matching closing quote . By default matches any_token but can be provided with a more specific parser if required . Returns a string
+7454	Estimate a reasonable optim value by grabbing a chunk of sequences decompressing and counting them to estimate the full file size .
+4673	Add a private key to the wallet database
+6930	This xmatches external catalogs to a collection of checkplots .
+11412	Return the the matching field .
+11968	Decimal to binary conversion .
+12834	Sequentially update the actors the world and the messaging system . The theater terminates once all of the actors indicate that they are done .
+9105	expects the id of an existing dropbox and returns its instance
+10844	Returns an array of updates that have been sent from the buffer for an individual social media profile .
+11770	Try to find some reasonable name for the object .
+7973	Start the threads .
+2536	Sets the external document reference s check sum if not already set . chk_sum - The checksum value in the form of a string .
+3111	Retrieve the credentials from the dictionary if they exist .
+4861	Verify that the username has a matching user and that the user has an associated EnterpriseCustomerUser .
+3566	Read the value of this descriptor .
+958	Return the number of months and seconds from an aggregation dict that represents a date and time .
+9489	Generates a bytecode from an object .
+12054	May be given an ABF object or filename .
+8883	Predict inside or outside AD for X .
+998	Print a floating point array that is the same shape as activeState .
+12254	Return an iterable of keys from MimicDB .
+5138	Process a file object .
+936	Save the state maintained by the Model base class
+821	Routine for computing a moving average .
+9571	Use the new message to search for a registered view according to its pattern .
+7811	Load data from a ASN . 1 subject .
+8238	Returns colors that are next to each other on the wheel .
+8701	restores the nodemcu to default baudrate and then closes the port
+2579	DataFlowKernel cleanup .
+931	Return the next aggregated record if any
+8320	Returns a list of categories the page belongs to .
+1312	Create Win32 struct HARDWAREINPUT for SendInput .
+3044	Generate the body that will be used in the refresh request .
+1122	A decorator returning a function that first runs inner_rule and then if its return value is not None maps that value using mapper .
+9749	Extract a name to index dictionary from 6dof settings xml
+1113	Builds list of text lines by splitting text lines at wrap point
+11062	Sends a message to a user as an IM
+3853	Return a readable name for a conversation .
+6615	return a list of pairs of IDs and results of all tasks .
+1964	An implementation of chroot that does perform some basic error checking but does not actually chroot .
+9333	Create a shared memory array with the same shape and type as a given array filled with value .
+4033	Regular expression parser
+9485	Validate the given litezip as struct . Returns a list of validation messages .
+9740	Get 2D linearized markers .
+651	Given two TM instances see if any parameters are different .
+10147	Store a parameter schema and return a reference to it .
+1343	Creates an array like a with all values set to 0 except one .
+6868	Finds gaps in the provided time - series and indexes them into groups .
+10770	Shapely _ style contour formatter .
+9562	Apply skip functions on r .
+9260	Include issues with labels specified in self . options . include_labels .
+8565	Updates a load balancer
+5183	Gets a single node from PuppetDB .
+4272	Create output directories for thumbnails and original images .
+3346	Use the mimetypes module to lookup the type for an extension .
+10972	List all pending memberships listed only for group admins .
+11734	Obtiene los dataframes de los datos de PVPC con resampling diario y mensual .
+5147	Returns a BytesIO instance representing an in - memory tar . gz archive containing the native router configuration .
+3910	Rename conversation and call callback .
+4351	Lets a user join a room on a specific Namespace .
+6484	Create separate dictionary of supported filter values provided
+2144	Return the appropriate URL prefix to prepend to requests based on the host provided in settings .
+10575	Load songs from local playlist .
+4915	Returns the list of enterprise customers the user has a specified group permission access to .
+7491	compute stats for stats file and NHX tree features
+5180	A base_url that will be used to construct the final URL we re going to query against .
+12318	Cleanup the repo
+1188	Round or extend the fraction to size digs .
+152	Return a list of unordered intersection points .
+7508	write final tree files
+10177	Calculate statistics aggregations .
+9224	Convergent rounding .
+1638	Checks for the correctness of various spacing issues in the code .
+1200	Creates a baseline from a specification dict .
+8808	Retrieve a mac_address_range .
+3492	String representation of SBMLError .
+8288	Iterate through a gtk container parent and return the widget with the name name .
+2170	Mark this method as a CLI command .
+5718	Pull Data Package from storage .
+1127	A rule that accepts a sequence of tokens satisfying rules and returns a tuple containing their return values or None if the first rule was not satisfied .
+4002	This dark magic is used to make yaml . safe_load encode all strings as utf - 8 where otherwise python unicode strings would be returned for non - ascii chars
+6054	Using the mapping between the regular - grid and unmasked pixelization grid compute the mapping between each regular pixel and the masked pixelization grid .
+4669	BIP0038 non - ec - multiply decryption . Returns WIF privkey .
+2584	Obtains a batch of tasks from the internal pending_task_queue
+7179	Given a lib2to3 node return its string representation .
+13660	See txspinneret . route . subroute .
+8900	SQLite has a limit on the max number of variables allowed for parameter substitution . This limit is usually 999 but can be compiled to a different number . This function calculates what the max is for the sqlite version running on the device . We use the calculated value to chunk our SQL bulk insert statements when deserializing from the store to the app layer .
+11526	Create a 100x100 small thumbnail for the given item . It is used for preview purpose and displayed in the preview and thumbnails sidebar sections .
+4956	Get object for the statement .
+10021	Returns the environments
+10714	Set RTS and DTR to the requested state .
+8666	r Init a stash
+128	Project the polygon onto an image with different shape .
+10942	Updates the opt_obj returns new error .
+13387	Return request object for calling the upstream
+9086	Returns a sorted version of a list of concepts . Will leave the original list unsorted .
+4905	Send a completion status payload to the Degreed Completion Status endpoint
+10868	A fast j2 defined in terms of other special functions
+1697	Return a new Streamlet in which each element of this Streamlet are collected over a window defined by window_config and then reduced using the reduce_function reduce_function takes two element at one time and reduces them to one element that is used in the subsequent operations .
+2200	Calls get_app_data_dir but ensures the directory exists .
+1891	If we fail to parse the version we assume z3 s output has changed meaning it s a newer version than what s used now and therefore ok .
+1753	Extract arguments for model from the environment and return as a tuple that is ready to be passed to the model .
+12163	Check if the listener limit is hit and warn if needed .
+2546	Sets the annotation comment . Raises CardinalityError if already set . OrderError if no annotator defined before .
+4462	Transpose a chord label by some number of semitones
+4616	Refresh the data from the API server
+9909	Set this email address as the user s primary email .
+3450	Determine the minimum and maximum possible flux value for each reaction .
+11757	Return True if the propositional logic expression is true in the model and False if it is false . If the model does not specify the value for every proposition this may return None to indicate not obvious ; this may happen even when the expression is tautological .
+5617	Return geometry of a specific type if possible .
+3335	Convert bytes into human - readable representation .
+11263	wildcard pipe greps data passed from previous generator according to given regular expression .
+10391	Get the average score over multiple runs .
+4325	Apply a DC shift to the audio .
+8280	Use a closure so that draw attributes can be saved
+8004	Make Register object for submitting the registration form .
+4114	Convert reflection coefficients to log area ratios .
+13862	Return a date time or datetime converted to a datetime in the given timezone . If when is a datetime and has no timezone it is assumed to be local time . Date and time objects are also assumed to be UTC . The tz value defaults to UTC . Raise TypeError if when cannot be converted to a datetime .
+832	The similarity of two patterns in the bit - encoding space is displayed alongside their similarity in the sp - coinc space .
+1512	distribute Heron packages to all nodes
+10392	Run the heat diffusion workflow and get runners for every possible candidate mechanism
+4533	Set the internal colors starting at an optional offset .
+722	Returns the next n values for the distribution as a list .
+58	Extend the size of the bounding box along its sides .
+5464	Return the operation s array of actions .
+12634	Check the field values in self . dcmf1 and self . dcmf2 and returns True if all the field values are the same False otherwise .
+2143	Expand PyYAML s built - in dumper to support parsing OrderedDict . Return a string as parse result of the original data structure which includes OrderedDict .
+10438	Start memory and CPU monitoring with the time interval between each process scan
+4291	Asks user for removal of project directory and eventually removes it
+2647	Decorator function for making bash apps .
+12144	Create a plot of one area of interest of a single sweep .
+7239	Return a subsetted window of a given size centered on a geometry object
+9038	The minimum and maximum bounds of this layout .
+11561	This method will call the Tone library for the selected pin . If the tone command is set to TONE_TONE then the specified tone will be played . Else if the tone command is TONE_NO_TONE then any currently playing tone will be disabled . It is intended for a future release of Arduino Firmata
+7007	This returns a summed Fourier cosine series .
+9189	Return the list of API keys .
+158	Convert images to another colorspace .
+1232	Stores experiences .
+11321	041 Language .
+2442	Sets the annotation comment . Raises CardinalityError if already set . OrderError if no annotator defined before . Raises SPDXValueError if comment is not free form text .
+8938	Build Sphinx docs and publish to Confluence .
+590	Allocate the spatial pooler instance .
+13674	Add directory or directories list to bundle
+6049	Load a default value for redshift from config and set it as the redshift for source or lens galaxies that have falsey redshifts
+9543	Add a record length check i . e . check whether the length of a record is consistent with the number of expected fields .
+9052	r Covariance of the prior .
+2426	Sets the document SPDX Identifier . Raises value error if malformed value CardinalityError if already defined .
+7041	This lists all light curve collections made available on the LCC - Server .
+2088	Remove the given object .
+685	Returns the cumulative w for all the fields in the dataset
+5050	Build a ProxyDataSharingConsent using the details of the received consent records .
+5974	Primitive queuing system detection ; only looks at suffix at the moment .
+13043	Creates the workers based on the given configfile to provide named pipes in the directory .
+653	Function that compares two spatial pooler instances . Compares the static variables between the two poolers to make sure that they are equivalent .
+5862	Runs the template against the validation endpoint returns a message indicating status of the templte
+3441	renames genes in a model from the rename_dict
+11174	Return a summary of program options their values and origins . width is maximum allowed page width use self . width if 0 .
+4088	Make a Qt async slot run on asyncio loop .
+10927	workhorse for do_run_1
+1684	Start analyzing function body .
+5794	Extracts the last OS error message into a python unicode string
+12781	Set the room name .
+9173	Returns a list of includes to be given to cnxepub . collation . collate .
+10168	Return a dict of components in the line .
+12279	Add files to the repository by explicitly specifying them or by specifying a pattern over files accessed during execution of an executable .
+2532	Parses the External Document ID SPDX Document URI and Checksum .
+3878	Receive Conversation delta and create or update the conversation .
+2662	Sends hold command to all managers which are in a specific block
+13105	Bases the comparison of the datastores on URI alone .
+13283	r Attempt to parse a single token on the first line of this source .
+2900	Returns a list of Task objects with the given state .
+6755	Returns a version of env filtered to only include the variables in our namespace .
+406	Return tensor for sequence length if input is tf . string .
+2938	Reads a list of assignments from the given node .
+12067	stamp the bottom with file info .
+5442	Find the file provider for a URI .
+12818	Build headers for each field .
+6745	Iterates over sites safely setting environment variables for each site .
+13143	Transform triple index into a 1 - D numpy array .
+10975	Manage your group .
+12043	mono - exponential curve .
+4065	Retrieve item fields or creator types
+2608	Return byte - size of a memoryview or buffer .
+12900	Get the equaliser modes supported by this device .
+11489	Download a folder to the specified path along with any children .
+1771	Given a Manticore workspace or trace file highlight the basic blocks .
+6267	Set the current time . This can be used to jump in the timeline .
+634	Destroys a synapse .
+7711	Handle successful response to the roster request .
+3644	Remove cards from watchlist .
+3269	Extract metadata JDBC Virtual Tables from an xml node
+13378	Preprocess a dict to be used as environment variables .
+7541	applies read depths filter
+5728	Get responses on unix - like system . Use select to wait for output .
+5000	Ensure at least one of the specified query parameters are included in the request .
+13443	Return nodes in the path between a and b going from parent to child NOT including a
+13030	Create server instance with an optional WebSocket handler
+3728	r This function handles the retrieval of a chemical s critical compressibility . Lookup is based on CASRNs . Will automatically select a data source to use if no Method is provided ; returns None if the data is not available .
+3652	Runs its worker method .
+387	Resize an image and compute the new bounding box coordinates .
+10813	Modify query as so include only specific group names .
+3164	Get information about an Automation email queue .
+6528	Retrieves the TidyPy issue reports that are available in the current Python environment .
+5378	Return a multi - line string of the full pipeline docker command .
+4564	Fill a portion of a strip from start to stop by step with a given item . If stop is not given it defaults to the length of the strip .
+1137	Given a list of pathnames returns the longest common leading component
+12670	Create a client for Service Fabric APIs .
+4573	Generates RGB values from HSV values in line with a typical light spectrum .
+5753	Helper function to return a valid URL string given the template tag parameters
+10510	Captures screenshot of the whole desktop or given window
+8346	Extracts a list of Tag objects that match the given criteria . You can specify the name of the Tag and any attributes you want the Tag to have .
+6548	move the cursor to the given co - ordinates . Co - ordinates are 1 based as listed in the status area of the terminal .
+11133	Tears down all temp files and directories .
+13822	Update config options with the provided dictionary of options .
+5425	A list with for each job its dominant task .
+452	Get a list of layers output in a network by a given name scope .
+1889	Iteratively finds the minimum value for a symbol within given constraints .
+4279	Returns an image with reduced opacity .
+2925	Return True on success False otherwise .
+9512	Finds the positions of all gaps in the sequence that are at least min_length long . Returns a list of Intervals . Coords are zero - based
+4349	Voice Activity Detector . Attempts to trim silence and quiet background sounds from the ends of recordings of speech . The algorithm currently uses a simple cepstral power measurement to detect voice so may be fooled by other things especially music .
+626	Returns the top W coordinates by order .
+1776	Logical AND .
+9774	Get job resources .
+7119	Return a subset of a dictionary using the specified keys .
+5663	Get all scheduled stops on a particular route_id .
+11936	When dealing with optgroups ensure that the value is properly force_text d .
+12884	Return database field type .
+5139	Process a single token .
+7149	Convert hexadecimal string to mnemonic word representation with checksum .
+9932	Return the dict key or attribute name of obj which refers to referent .
+8379	Returns a copy of the event handler remembering the last node clicked .
+1894	Send a string to the solver .
+6311	Initialize a single glsl string containing all shaders
+9446	REST Transfer Live Call Helper
+3114	Converts our stored JSON string back to the desired type .
+4173	A Window visualisation tool
+727	Return the set of pattern numbers that match a bit .
+11612	Exports expected read counts
+7144	Sends a transfer . Returns a list of resulting transactions .
+27	Creates a simple neural network
+8518	Create a Config object from config dict directly .
+13213	Renames an existing database .
+8821	This is a helper method for testing .
+11253	attr pipe can extract attribute value of object .
+11787	Add an observation o to the distribution .
+12156	if the value is in the list move it to the back and return it .
+12075	given a filename or ABF object try to analyze it .
+10987	If state_name or im_name is None picks them interactively through Tk and then sets with or without the full path .
+3228	General aggregated list function for the GCE service .
+5967	Put protein into box add water add counter - ions .
+7066	This deletes a spot - fleet cluster .
+1146	Shallow copy operation on arbitrary Python objects .
+10882	Convert an integer or iterable list to numpy array of length dim . This func is used to allow other methods to take both scalars non - numpy arrays with flexibility .
+5409	Rounds ram up to the nearest multiple of _MEMORY_MULTIPLE .
+10209	Check if we can write to the given file
+5143	Find the comment block just before the given line number .
+13893	Replaces eol on each line by the given eol_style .
+2041	Halt execution and register account for later deletion
+11792	Least - constraining - values heuristic .
+4920	Return the metadata for the specified program .
+8308	If ctx is a cairocffi Context convert it to a PyCairo Context otherwise return the original context
+5067	Get MD5 encoded cache key for given arguments .
+10926	LM run evaluating 1 step at a time .
+6691	Uploads media to an Amazon S3 bucket using s3sync .
+5344	Compose projects . json for gerrit but using the git lists
+6592	return pairs of package indices and results of finished tasks
+11423	Print a list of records .
+4844	Determine if the given course or course run ID is contained in the catalog with the given ID .
+9083	Get a concept or collection by its uri .
+2085	Monkey - patch click s format_options method to support option categorization .
+3143	Get information about a specific file in the File Manager .
+6888	This applies EPD in parallel to all LCs in a directory .
+10894	Returns a filtered image after applying the Fourier - space filters
+6211	Train model on given training examples and return the list of costs after each minibatch is processed .
+11097	Select file path by text pattern in absolute path .
+12257	Applies a smoothing operator along one dimension
+2851	Synchronize buffers with MPSSE by sending bad opcode and reading expected error response . Should be called once after enabling MPSSE .
+10084	Discard deposit changes .
+9324	Update the list of Collections contained by this API Root .
+4930	Return the title of the courserun content item .
+6653	Launch the specified program . Uses the start script if specified by the target attempts to run it natively if that script is not defined .
+8977	Dump the content to a file .
+13659	See txspinneret . route . route .
+6	Demmel p 312
+4978	Return a dict having course or program specific keys for data sharing consent page .
+4700	Get sizeof DescriptorTable
+3443	Write the cobra model to a file in JSON format .
+7043	This calculates the weighted mean stdev median MAD percentiles skew kurtosis fraction of LC beyond 1 - stdev and IQR .
+12873	Returns the current token if it is not found in the collection provided . The negative of one_of .
+9502	Returns intersection of two lists . Assumes the lists are sorted by start positions
+9939	Find a requested media file in an app s media fixtures locations .
+10726	Generate the correct function for a variant signature .
+5279	Translates a regular Scikit - Learn estimator or pipeline to a PMML pipeline .
+7618	r Beat tracking evaluation
+7238	Iterate over random windows of an image
+7244	Finds supported geometry types parses them and returns the bbox
+11069	Run the mongod process .
+3501	Assesses the ability of the model to provide sufficient precursors for a reaction operating at or beyond the specified cutoff .
+8375	var was added in the bot
+7752	Process presence stanza .
+13004	This functions gives the user a way to change the data that is given as input .
+13042	Creates a search query based on the section of the config file .
+12057	Only scott should do this . Upload new version to site .
+2780	Class method that will return a Record object by ID and the domain .
+10794	Take a platonic image and position and create a state which we can use to sample the error for peri . Also return the blurred platonic image so we can vary the noise on it later
+1389	Get all the machines that this topology is running on . These are the hosts of all the stmgrs .
+4649	Show the transaction as plain json
+8445	List packages created with temple . Enter a github user or organization to list all templates under the user or org . Using a template path as the second argument will list all projects that have been started with that template .
+10876	Calculates the illumination PSF for a line - scanning confocal with the confocal line oriented along the x direction .
+10370	Build a filter that keeps edges whose data dictionaries are super - dictionaries to the given dictionary .
+10145	Creates a list of Swagger params from a colander request schema .
+5491	Create a new config file at the default location .
+1530	Monitor the rootpath and call the callback corresponding to the change . This monitoring happens periodically . This function is called in a seperate thread from the main thread because it sleeps for the intervals between each poll .
+13409	Display menus and connect even signals .
+12306	Find max 5 executables that are responsible for this repo .
+3848	Return authorization headers for API request .
+11023	Given a string key it returns a long value this long value represents a place on the hash ring .
+5085	Check that if request user has implicit access to ENTERPRISE_DASHBOARD_ADMIN_ROLE feature role .
+3680	r Converts the a temperature reading made in any of the scales ITS - 90 ITS - 68 ITS - 48 ITS - 76 or ITS - 27 to any of the other scales . Not all temperature ranges can be converted to other ranges ; for instance ITS - 76 is purely for low temperatures and 5 K on it has no conversion to ITS - 90 or any other scale . Both a conversion to ITS - 90 and to the desired scale must be possible for the conversion to occur . The conversion uses cubic spline interpolation .
+13214	Returns True if database server is running False otherwise .
+3262	Returns a list of workspaces in the catalog . If names is specified will only return workspaces that match . names can either be a comma delimited string or an array . Will return an empty list if no workspaces are found .
+2414	Write the creation info to out .
+400	Return the TensorFlow expression of normalized mean - square - error of two distributions .
+757	A decorator that maintains the attribute lock state of an object
+4011	Get a list of containers associated with the list of services . If no services are provided attempts to return all containers associated with Dusty .
+7784	Handle a successfull retrieval and call apriopriate handler .
+10015	Adds configuration files to an existing archive
+12590	List existing reliable dictionaries .
+1193	Indicate that a formerly enqueued task is complete .
+7461	Save assembly and samples as json
+6790	Runs the Django createsuperuser management command .
+10318	r Compute the average number of runs that have a spanning cluster
+9431	Convert a RAR archive member DOS time to a Python time tuple .
+3185	Get information about a specific product image .
+11769	Format args with the first argument as format string and write . Return the last arg or format itself if there are no args .
+11409	Add the fields into the record at the required position .
+6291	Hack in texture directory
+8099	Returns a copy of all styles and a copy of the styleguide .
+6547	Wait until the screen is ready the cursor has been positioned on a modifiable field and the keyboard is unlocked .
+3997	Copy a file from the source container to an intermediate staging area on the local filesystem then from that staging area to the destination container .
+2417	Write a file fields to out .
+10748	Validate bands parameter .
+11266	sh pipe execute shell command specified by args . If previous pipe exists read data from it and write it to stdin of shell process . The stdout of shell process will be passed to next pipe object line by line .
+90	Creates a copy of a random state .
+12303	Check if a URL exists
+12616	Check for get_data and get_affine method in an object
+1746	Check if there is enough permissions for access
+12753	Get a list of the indices for a specific body .
+6965	This handles GET requests for the current checkplot - list . json file .
+3585	Retrieve a list of metadata objects associated with the specified list of CoreBluetooth objects . If an object cannot be found then an exception is thrown .
+2881	Parse the messageEventDefinition node and return an instance of MessageEventDefinition
+13174	Returns the next sibling of this node .
+11401	Return a field created with the provided elements .
+8486	Return a setting value .
+7611	Get a list of top clans by trophy
+822	Instance method wrapper around compute .
+9132	Count all actions .
+4082	Set LanguageTool directory .
+13899	A context manager to replace and restore a value using a getter and setter .
+1988	Load a state from storage .
+7478	sort seeds from cluster results
+2184	Removes the saved cache and metadata from disk
+13130	Parse the entry into a computer object .
+7612	Get the clan badge image URL
+10937	Execute a Broyden update of J
+8702	This uploads the protocol functions nessecary to do binary chunked transfer
+9157	set to stroke linejoin .
+9755	Delete experiment .
+5198	Return the application - controlled IIN field .
+7251	Checks GBDX batch workflow status .
+10037	Lists solution stacks
+13353	Decorator that invokes add_status_job .
+11784	Raise ValueError if example has any invalid values .
+8270	Returns the color information as XML .
+6991	This is just a shortened form of the function above for convenience .
+13608	Decompress and unpickle .
+8976	Saves the dump in a file - like object in text mode .
+7305	As long as the form is set on the view this method will validate the form and save the submitted data . Only call this if you are posting data . The given success_message will be used with the djanog messages framework if the posted data sucessfully submits .
+2607	Updates the memoization lookup table with the result from a task .
+12184	Extend XPath evaluation with Parsley extensions namespace
+7777	Initialize the mandatory self . fn from self . n .
+7373	return the error if there is a corresponding exception
+4246	Returns the database ID for specified hostname . The id might be useful as array index . 0 is unknown .
+12317	Delete files from the repo
+4050	Get the last modified version
+13760	Makes sure we have proper ISO 8601 time .
+10447	Activate window .
+4543	Compose a sequence of events into one event .
+12741	Parse persons from given datafield .
+8540	Read the user configuration
+7939	Start resolving the SRV record .
+10268	Output the HBP knowledge graph to the desktop
+3919	Load more events for this conversation .
+4499	Extract JSON from response if status_code matches .
+7206	Generate workflow json for launching the workflow against the gbdx api
+1269	Handles the behaviour of visible bolts flying toward the player .
+11690	Read the first feature from the geojson and return it as a Polygon object .
+4681	Obtain the first account name from public key
+3841	List all events occurring at or after a timestamp .
+4451	Search the index for a given query and return a result of documents
+5502	Retrieve your personal timeline .
+5238	Shift start time by mins
+8849	Connects slots to signals
+1320	Get the top level control which current control lays . If current control is top level return self . If current control is root control return None . Return PaneControl or WindowControl or None .
+2267	r Swaps the keys and values in a dictionary .
+2471	Sets a file name uri or home artificat . Raises OrderError if no package or file defined .
+3788	r Method to set the T P and composition dependent property methods desired for consideration by the user . Can be used to exclude certain methods which might have unacceptable accuracy .
+6275	Attempts to assign a loader class to a resource description
+11369	Convert a date - value to the ISO date standard .
+2503	Return a License from a lics license resource .
+11573	Set all led s to off .
+3505	Convert an existing solution to a loopless one .
+1052	Print a stack trace from its invocation point .
+6797	Retrieves the most recent timestamp of the media in the static root .
+6678	Get the lines of a remote file ignoring empty or commented ones
+5421	Allow provider to extract job - specific metadata from command - line args .
+8890	All concrete fields of the SyncableModel subclass except for those specifically blacklisted are returned in a dict .
+7633	Get the dtype associated with a jsonschema type definition
+6812	Applies routine typically application - level changes to the service .
+1020	Create training sequences that share some elements in the middle .
+3388	Get the lower and upper bound distances . Negative is bad .
+13646	Convert Hump style to underscore
+6883	This reads a HAT data server or LCC - Server produced CSV light curve into an lcdict .
+6381	Return the Jaro or Jaro - Winkler distance between two strings .
+12612	Search in table an item with the value of the unique_fields in the data sample . Check if the the obtained result is unique . If nothing is found will return an empty list if there is more than one item found will raise an IndexError .
+9569	Return a Message instance according to the data received from Facebook Messenger API .
+11395	dynamically load a class given a string of the format package . Class
+320	Determines peak valley and recovery dates given an underwater DataFrame .
+12543	Concatenate images in the direction determined in axis .
+9432	Wrap c function setting prototype .
+6232	Calculate scene bbox
+7814	Load certificate from a file .
+96	Returns example keypoints on the standard example quokke image .
+5763	Order packages topologically .
+4892	Generate a learner data transmission audit with fields properly filled in .
+12344	Get list of paths to images in specified well .
+6389	Return True iff term is a short word .
+13692	broadcasts a transaction to the peerslist using ark - js library
+6865	Reads TESS Ames - format FITS light curve files .
+8818	Retrieve a list of networks .
+12247	Add the bucket to MimicDB after successful creation .
+12036	Given a list of list of dicts return just the dicts .
+8947	Run a command or just echo it depending on commit .
+9883	Maps to fortran CDF_Inquire .
+3613	Returns filtered results followed by excluded results below .
+7999	Authentication properties of the stream .
+3595	Get app details from a package name .
+4471	Apply the transformation to audio and annotations .
+7140	Sends a transfer from the default account . Returns a list of resulting transactions .
+475	Convert a string to list of integers representing token - ids .
+6371	r Return fall - out .
+5507	Create a nice image name from the url .
+10958	Update various internal variables from a model update from oldmodel to newmodel for the tile tile
+11127	Update the value and the utc timestamp of a file that is already in the Repository . \ n If file is not registered in repository and error will be thrown . \ n If file is missing in the system it will be regenerated as dump method is called .
+13076	Create a view
+6624	return a list of Version objects each with a tarball URL set
+11864	Add a node to the net . Its parents must already be in the net and its variable must not .
+2704	iterator for collecting the named - entities
+13770	Render all includes in asset by names
+7657	Append an observation to the data field
+2091	Copy an object .
+10195	Register elasticsearch templates for events .
+441	Returns the number of parameters in the network .
+6455	Return the MLIPNS distance between two strings .
+9697	Checks nonce of request and return True if valid .
+9246	Main function to start change log generation
+10862	Get radius of one or more particles
+444	returns a tensorflow operation for computing the Region of Interest Pooling
+1375	Parse the command line for overriding the defaults
+10530	Return a PYBOSSA Project for the project_id .
+7022	Adds catalog info to objectinfo key of all pklcs in lcdir .
+2223	r Extracts the sequence of bytes that would be hashed by hash_data
+7564	Creates a client to view ipcluster engines for a given profile and returns it with at least one engine spun up and ready to go . If no engines are found after nwait amount of time then an error is raised . If engines == MPI it waits a bit longer to find engines . If the number of engines is set then it waits even longer to try to find that number of engines .
+2977	Kill some or all containers
+823	Compute and store metric value
+4262	Stores the exif data of all images in the gallery
+5363	Converts stdout string to a list .
+3467	All required enzymes for reaction are functional .
+7449	Joins first and second read file names
+5355	Convert from eclipse projects format to grimoire projects json format
+5529	Determine zoom levels .
+12471	Returns the absolute path of folderpath . If the path does not exist will raise IOError .
+4558	Return a list of Segments that evenly split the strip .
+12320	Add files to the repo
+13630	Render a given resource .
+6906	This calculates the total proper motion of an object .
+4133	Return reStructuredText code block from code string
+13679	Register the contents as JSON
+1341	Returns an example image and its imagenet class label .
+7705	Remove item from the roster .
+317	Calculates various bootstrapped performance metrics of a strategy .
+12272	Calculates a checksum for a Finnish national reference number
+853	Saves the record in the underlying csv file .
+5733	Get notify message and payload dict
+3673	r Interface for drawing a 2D image of the molecule . Requires an HTML5 browser and the libraries RDKit and IPython . An exception is raised if either of these libraries is absent .
+10651	Retrieve an activity given its name .
+1124	A rule that accepts a token of kind kind and returns its location or returns None .
+12799	Build destination URL .
+10678	Calculate the portion of enthalpy of the compound phase covered by this Cp record .
+659	Returns the stability for the population averaged over multiple time steps
+12357	Open SSH connection to droplet
+508	Returns True if the record matches any of the provided filters
+4051	Get the file from an specific item
+3266	GeoServer s REST API uses ZIP archives as containers for file formats such as Shapefile and WorldImage which include several boxcar files alongside the main data . In such archives GeoServer assumes that all of the relevant files will have the same base name and appropriate extensions and live in the root of the ZIP archive . This method produces a zip file that matches these expectations based on a basename and a dict of extensions to paths or file - like objects . The client code is responsible for deleting the zip archive when it s done .
+13749	Use an event to build a many - to - one relationship on a class .
+333	Generate plot for stochastic volatility model .
+10179	Delete aggregation documents .
+2496	Return a Node representing the package . Files must have been added to the graph before this method is called .
+3908	Put a coroutine in the queue to be executed .
+2068	Load the cars dataset split it into X and y and then call the label encoder to get an integer y column .
+7758	Send a stanza somwhere .
+10968	Inherit some functions from the components that we own . In particular let s grab all functions that begin with param_ so the super class knows how to get parameter groups . Also take anything that is listed under Component . exports and rename with the category type i . e . SphereCollection . add_particle - > Component . obj_add_particle
+1874	Moves high packed double - precision floating - point value .
+9240	Fetch event for issues and pull requests
+3571	Called when a device is disconnected .
+7619	r Chord evaluation
+11460	Add 035 number from 001 recid with given source .
+4198	Get the shortest possible module name
+12564	Extracts the values in datavol that are in the ROI with value roivalue in roivol . The ROI can be masked by maskvol .
+6043	The 1D index mappings between the regular - grid and masked sparse - grid .
+2749	Return a Droplet by its ID .
+9926	Handle execution of the command .
+9949	Create a new child space .
+12743	Content of field 856u42 . Typically URL pointing to producers homepage .
+13423	Returns list of strings split by input delimeter
+2683	Check whether a function exists or not and return its config
+5096	Get information about persistent maps of the robots .
+9481	Complex code ahead . Comments have been added in as needed .
+420	Saves the validation log timestamp will be added automatically .
+5111	Used to specify edge indices from different types of arguments .
+9433	Load and validate the header of a pcap file .
+6149	Design a windowed FIR bandpass filter in terms of passband critical frequencies f1 < f2 in Hz relative to sampling rate fs in Hz . The number of taps must be provided . Mark Wickert October 2016
+6498	Implements call to remove the documents from the index
+11714	Schedule a pipeline run
+3249	Fetch the base Managed Policy .
+1245	Imports experiences .
+9700	This is an asynchronous sender callable that uses the Django ORM to store webhooks . Redis is used to handle the message queue .
+11315	Remove INSPIRE specific notes .
+10276	Preprocess the graph stratify by the given annotation then run the NeuroMMSig algorithm on each .
+3978	Returns all libs that are referenced in specs . apps . depends . libs
+1669	Flag those C ++ 14 features that we restrict .
+11422	Print a record .
+12656	Transform a named tuple into a dictionary
+4941	Unlink user email from Enterprise Customer .
+11210	Set the time zone data of this object from a _tzfile object
+9837	Level - 1 parser for objects .
+13197	Convert an Open511 document between formats . input_doc - either an lxml open511 Element or a deserialized JSON dict output_format - short string name of a valid output format as listed above
+1983	Save an arbitrary serializable value under key .
+13045	Replace isocode by its language equivalent
+9272	Filter tags according due_tag option .
+12822	Generates a root component for a path .
+672	Get prediction results for all prediction steps .
+5688	Obtain a list of events that take place during a time interval . Each event needs to be only partially overlap the given time interval . Does not include walking events .
+8728	A class to replace the strftime in datetime package or time module . Identical to strftime behavior in those modules except supports any year . Also supports datetime . datetime times . Also supports milliseconds using %s Also supports microseconds using %u
+7018	This concatenates all text LCs for the given objectidlist .
+10838	Returns the detailed information on individual interactions with the social media update such as favorites retweets and likes .
+6071	Compute the total luminosity of the galaxy s light profiles within a circle of specified radius .
+1129	A rule that accepts token of kind newline and returns an empty list .
+8289	Find shoebot executable
+10609	Create a MaterialStream based on the specified parameters .
+5590	Return BufferedTile object of this BufferedTilePyramid .
+207	Render the heatmaps as RGB images .
+6882	This describes the LCC CSV format light curve file .
+13473	When entering the context spawns a greenlet that sleeps for interval seconds between callback executions . When leaving the context stops the greenlet . The yielded object is the GeventLoop object so the loop can be stopped from within the context .
+8031	Group a list of file handles based on equality of the next chunk of data read from them .
+1729	returns none if not found other functions that begin with do_ raise also this do_ type function passes white space
+7102	Learn the vocabulary dictionary and return term - document matrix . This is equivalent to fit followed by transform but more efficiently implemented .
+5934	Return view of the recarray with all int32 cast to int64 .
+10413	Build a filter that only passes on nodes in the given list .
+13577	Sends the selected exercise to the TMC pastebin .
+7532	Blocks and prints progress for just the func being requested from a list of submitted engine jobs . Returns whether any of the jobs failed .
+11588	Pop a value off the tail of src push it on the head of dst and then return it .
+2506	Return the license name from an ExtractedLicense or None
+7135	Return a new dict with specified keys excluded from the origional dict
+2885	Returns the number of connected subscribers .
+12022	checks whether child features are within the coordinate boundaries of parent features
+8548	Removes a firewall rule from the NIC .
+10657	Calculate the amounts from the specified compound masses .
+4425	Removes a player from the current players .
+10091	Hook the directives when Sphinx ask for it .
+13241	Returns an iterator of Period tuples for every day this schedule is in effect between range_start and range_end .
+8817	Retrieve a network .
+12691	A helper function to write lammps pair potentials to string . Assumes that functions are vectorized .
+7921	Prepare domainpart of the JID .
+7616	Decorator that converts arguments via annotations .
+7136	Redirect the stdout
+13528	print paver options .
+11977	Return the bits notation of the netmask .
+9707	Pass the submitted value through the sanitizer before returning it .
+4397	Add a device notification .
+5280	Converts a fitted Scikit - Learn pipeline to PMML .
+4022	Using VBoxManage is 0 . 5 seconds or so faster than Machine .
+13610	try use gitconfig info . author email etc .
+1419	get scheduler location
+4569	Dumps data as nicely formatted JSON string to a file or file handle
+7385	Computes the theta along which a group s nodes are aligned .
+3995	Will check the mac_username config value ; if it is present will load that user s SSH_AUTH_SOCK environment variable to the current environment . This allows git clones to behave the same for the daemon as they do for the user
+12295	Collect information from the dependent repo s
+7613	Get the arena image URL
+9336	Protected get . Get an item from Q . Will block . but if the process group has errors raise an StopProcessGroup exception .
+9999	Convert a CellImpl into a Series .
+10947	Resets the initial radii used for updating the particles . Call if any of the particle radii or positions have been changed external to the augmented state .
+5511	Register an approximation of memory used by FTP server process and all of its children .
+470	Read list format context from a file .
+8098	Creates a new style which inherits from the default style or any other style which name is supplied to the optional template parameter .
+5325	Recursively finds size of objects
+2979	Restore full networking between containers
+7988	Set up stream element handlers .
+3475	lists compartments the metabolites are in
+5813	Looks at the server handshake bytes to try and detect a different protocol
+13071	Provides a redirect to the first passage of given objectId
+4232	Scan for devices and print results .
+5576	Return output class of driver .
+4581	Try to coerce the argument into a color - a 3 - tuple of numbers -
+9767	Commands for jobs .
+11488	Get a folder id from a path on the server .
+4526	Wait for the event run the task trigger the next task .
+9106	this factory also requires the editor token
+166	Project the line string onto a differently shaped image .
+8464	Deploys the package and documentation .
+3130	Function that verifies that the string passed is a valid url .
+1402	Extracts info from the stored proto states and convert it into representation that is exposed using the API . This method is called on any change for the topology . For example when a container moves and its host or some port changes . All the information is parsed all over again and cache is updated .
+3954	Removed all dusty containers with Exited in their status
+11797	Return the number of conflicts var = val has with other variables .
+9096	Upload the namespace to the PyBEL database .
+12421	Dump an object in req format to the fp given .
+3937	Populate and submit a form on the current page .
+11314	Remove hidden notes and tag a CERN if detected .
+7800	Base64 - encode the data contained in the reply when appropriate .
+10582	Set the parent path and the path from the new parent path .
+11662	Checks whether the array is either integral or boolean .
+8041	Return True iff this class should be considered public .
+7342	activates error messages useful during development
+12991	Create an OrderedDict
+282	Plots total amount of stocks with an active position either short or long . Displays daily total daily average per month and all - time daily average .
+1524	Resolve all symbolic references that src points to . Note that this is different than os . path . realpath as path components leading up to the final location may still be symbolic links .
+4820	Use this method decorator to ensure the JWT token is refreshed when needed .
+3630	Add dividers and padding to a row of cells and return a string .
+6625	return a list of GithubComponentVersion objects for all tags
+11334	format columned data so we can easily print it out on a console this just takes columns of data and it will format it into properly aligned columns it s not fancy but it works for most type of strings that I need it for like server name lists .
+3986	Given a port spec update the hosts file specified at constants . HOST_PATH to contain the port mappings specified in the spec . Any existing Dusty configurations are replaced .
+5016	Send a completion status call to the integrated channel using the client .
+10878	Calculates the point spread function of a line - scanning confocal with polydisperse dye emission .
+9528	Implements PBKDF2 with the same API as Django s existing implementation using cryptography .
+6046	Map a padded 1D array of values to its original 2D array trimming all edge values .

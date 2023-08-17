@@ -1,0 +1,988 @@
+0	Importing necessary libraries and packages and reading files
+1	Aligning Training and Testing Data
+2	Distribution of income
+3	People with high income tend to not default
+4	Distribution of credit
+5	Distribution of loan types
+6	Who accompanied the person while taking the loan
+7	Effect of marital status on ability to pay back loans
+8	Distribution of AGE
+9	Feature Engineering of Application data
+10	Using Bureau Data
+11	Feature Engineering of Bureau Data
+12	Using Previous Application Data
+13	Using Credit card balance data
+14	Quadratic linear stacking
+15	LightGBM with ranks and PCA
+16	The list of columns that have to be reversed
+17	Scale and flip
+18	Below are functions to calcuate various statistical things
+19	Estimators Ridge regression
+20	the best of the batch , fast and convenient to use
+21	All three datasets needed because we need to calculate sales in USD
+22	Calculate sales is USD
+23	Comparison to the Original weights
+24	Functions for WRMSSE calculations
+25	Load wieghts for WRMSSE calculations
+26	Create fake predictions
+27	Clustering with DBSCAN
+28	andrews curves for six random Items
+29	autocorrelation plot for a single random item
+30	lag plot for a single random item
+31	A conspiracy theory
+32	The shapes look familiar
+33	Load our data
+34	Below are functions to calcuate various statistical things
+35	Now as sex has two unique values , male and female
+36	The risk of melanoma increases as people age
+37	Evaluation on test dataset
+38	Loading the data .
+39	Let style it
+40	What happens if we see moving average
+41	Let see correlation between Moving Averages
+42	Importing the Dataset
+43	The distribution is right skewed
+44	View Correlation Heatmap after removing outliers
+45	View Final Correlation Heatmap before Training
+46	Early stopping callback
+47	Simple ConfidenceValue Creation Function from Prediction Values
+48	For Final Submission
+49	Import training data
+50	Define peak finding function on histogram of a series
+51	Make histogram for Numeric Varaiable
+52	Select image and Run inference
+53	Running Inference on all test images
+54	Create a basic CNN
+55	Finally fit the model
+56	Seeing a sample image
+57	Resizing the photos
+58	Prep train and test images
+59	Choosing a model
+60	Compile the model
+61	Let us visualize some of the predictions the model made
+62	PyTorch Dataset definition
+63	Let us visualize a few samples from the dataset
+64	functions to image preprocessing
+65	Preparing train and validation sets
+66	Read in Libraries
+67	Read and Clean Data
+68	Exploratory data analysis
+69	Now it looks better
+70	It looks like a right skewed distribution
+71	Just another way to visualize in Maps .
+72	So we can see that there are lot of points which represent water
+73	Visualize distribution of pick up hour
+74	Build an Initial Linear Classification Model
+75	Then split the data into training and validation sets
+76	Submitting a Kaggle Entry
+77	Load pneumonia locations
+78	Read in the data and clean it up
+79	Split the data
+80	Fit a voting classifier
+81	Read in the data and clean it up
+82	Split the data
+83	Fit a voting classifier
+84	Clean Data This is to extract the pure words from the texts
+85	Imports and problem constants
+86	Config and hyperparameters
+87	Train the LightGBM model
+88	CONCLUSION ON TRADITIONAL METHODS
+89	Reading the data and understanding the data
+90	WordCloud can represnets more detailed information
+91	Our assumption has been approved
+92	Drawing wordcloud .
+93	Another userful visualization for this feature can be wordcloud
+94	DATA ANALYSIS A
+95	Using json library to deserializing json values
+96	Extracting all the revenues can bring us an overview about the total revenue
+97	Aggregation on days and plotting daily revenue
+98	Combination of this feature with revenue and visits may have important result
+99	By generalizing the above solution we have
+100	Concatenate these two dataframe and compound visualization
+101	Merge all training data in one tables
+102	And last method which stratify dataset which as for me suits much better
+103	Build vw train and validation files
+104	Function for calculation rmse without loading to memory
+105	Loading first stage submissions
+106	Loading first stage metadata
+107	Loading second stage data
+108	Loading metadata for second stage
+109	Apply postproc procedure to second stage data
+110	Utils and imports
+111	Read and validate the data
+112	Using BigQuery Dataset
+113	Create BigQueryML Model
+114	Check models in bigquery console
+115	TPU Strategy and other configs
+116	Load Model into TPU
+117	Exploration of the Dataset
+118	Test Images Display
+119	Index Images Display
+120	Train Images Display
+121	Most frequent landmark ID
+122	Least frequent landmark ID
+123	Read all the files available in this kernel
+124	If you want to know when the files were last modified
+125	this piece of code is taken from
+126	Fetch brain development functional datasets
+127	Importing all the libraries that we will need
+128	Join Train and item data
+129	Plotting Oil Price
+130	Plotting Sales with date
+131	Loading Library and Dataset
+132	Here is my optimal parameter for LightGBM
+133	We can also plot a tree from the model and see each tree
+134	The heatmap shows the zones of high concentration of popular drinking establishments
+135	Define Hyperparameters for LightGBMClassifier
+136	Early Stopping with Cross Validation
+137	Number of Team Members
+138	create submission file
+139	Getting to know the data
+140	Create a DataFrame of all Train Image Labels
+141	See the distribution of Train Labels
+142	Split into Train and Validation Sets
+143	Creating Directory Structure
+144	Transfer the respective images into their respective folders
+145	Specify optimizer and loss function
+146	Define LR Scheduler and Save Model Checkpoint on Maximum Validation Accuracy
+147	We can determine our epochs based on the convergence of below graphs
+148	Load the saved weights
+149	Extract ID field from Test Image file names
+150	Make Submission File
+151	Feature Importance Ranking
+152	Some functions to make life easier
+153	Preparing data for Neural Network
+154	Imports and utils
+155	Load train data
+156	Permutation importance implementation
+157	Fit model on all generated features
+158	We replace the foresteric values back to their original values for better analysis
+159	The below histogram plot tells us types of soil in each wild area
+160	We can use the below table for better understanding
+161	Horizontal Distance to Hydrology
+162	Vertical Distance to Hydrology
+163	Horizontal Distance to Roadways
+164	And by looking at the below barplot , we justify the above statement
+165	Horizontal distance to fire points .
+166	Hillshade at Noon
+167	Why it works so good
+168	Parameters of GAN
+169	First step is once download data
+170	Examples of dogs
+171	Make predictions and submit
+172	Choose one of datasets and reduce amount of columns
+173	Displaying few images
+174	Exploring images with pen markers
+175	Time to plunge into the code
+176	Examples of data
+177	Check how well VAE reconstruct images
+178	Walk in latent space from one dog to another
+179	Generate random noise and run decoder on this
+180	Ensure determinism in the results
+181	LOAD PROCESSED TRAINING DATA FROM DISK
+182	SAVE DATASET TO DISK
+183	LOAD DATASET FROM DISK
+184	The mean of the two is used as the final embedding matrix
+185	The method for training is borrowed from
+186	Find final Thresshold
+187	In this notebook
+188	Create a Merchant Address variable
+189	How to use Sales and Purchase Lags
+190	Rating for Merchants
+191	Prep categorical variables
+192	Simple Linear Regression Model
+193	Loading the data
+194	Retrieve list of elemental Properties
+195	Using Catigorical Features
+196	Correcting the distribution of the target variables
+197	The performance metric for this competition
+198	Standard Dense Nerual Network Implimentation
+199	The following access function will use this function
+200	Catboost has another great feature in built in validation
+201	Define a function to read all CT scans of a patient
+202	Json Format Columns to Dictionary Format
+203	Average SM Feature Maps
+204	Back to FNC data
+205	Not great , but could be sufficient
+206	To extract the data , we can use a masker function from nilearn
+207	The correlation game
+208	Extract features from training dataset
+209	Estimate parameters of Cox proportional model
+210	Cardiovascular diseases are also a potential factor behind development of pulmonary fibrosis
+211	Data distribution by FVC
+212	Rescaling to Hounsfield Units
+213	Bring images back to equal spacing
+214	Lets first import some modules ....
+215	Data input routines
+216	First we import the packages
+217	Next we read in the data
+218	It takes about a second and is just a few lines of code
+219	Basic Logistic Regression
+220	Train data import and processing
+221	Make predictions and create submission file
+222	Now we have all ingridients
+223	Extracting and analysing noise
+224	Simulating unknown test group
+225	But what happened with the noise
+226	The output files of this kernel are two .csv with augmented dataset
+227	Load Training Data
+228	Define and Train Model
+229	I found only slight data augmentation most helpful
+230	Train model on each fold
+231	Random Forest Modeling
+232	Libraries to import
+233	Load the datasets
+234	Test Set Adaptation
+235	Test our RF on the validation set
+236	First we import standard data manipulation libraries
+237	Define the estimator
+238	We then reshape the forecasts into the correct data shape for submission ..
+239	Plotting sample predictions
+240	First we import standard data manipulation libraries
+241	Define the estimator
+242	Plotting sample predictions
+243	Dealing with color
+244	Deriving individual masks for each object
+245	Convert each labeled object to Run Line Encoding
+246	Combine it into a single function
+247	Introduction to physiological data
+248	Analysing EEG data
+249	Splitting the Data
+250	Tranforming the dataset
+251	Evaluate Model Function
+252	Logistic Regression Model
+253	Saving the Models
+254	Using the Model
+255	Vote early and vote often
+256	Amplitude vs Time
+257	Zero Crossing Rate
+258	It indicates where the center of mass of the spectrum is located
+259	Processing with SimpleITK
+260	of kids achieved in the first attempt itself
+261	Looks like Chest Sorter is toughest and Bird Measurer is tougher
+262	Looks like super intesting games with mostly animals , especially dinosaur
+263	kids mostly interested in interactive things like Game and Activity
+264	Both Training and Test dataset has similiar range of game types
+265	kids are interested in playing games related to hills
+266	definitly there should be an offer or an event must happend
+267	September last week
+268	High number of first attempt winners are belonged to this Title
+269	two event codes having highest count
+270	Highest game time took by TREETOPCITY
+271	Good number of games and activities in each world
+272	It depends on how many sub categories inside game and activity
+273	In terms of assessment , each world is having its own Title
+274	Almost similar trend in type from Train and Test
+275	Correlation between choice
+276	read csv and doing some preprocessing
+277	Weight of Evidence Encoder
+278	You can see that about half are empty
+279	From nominal data , we need to look more closely at the distribution
+280	you can also use Facetgrid too
+281	It maybe some encoding about hexadecimal
+282	Let us build xgboost model using these variables and check the score
+283	Reading the dataset into pandas dataframe and looking at the top few rows
+284	without Outlier , it seams very normal or uniform distribution
+285	Category of Ads Now let us look at the category of ads
+286	User Type Now let us look at the user type
+287	Description Let us first check the number of words in the description column
+288	Now let us create a custom function to build the LightGBM model
+289	Feature Importance Now let us look at the top features from the model
+290	Now let us build a Light GBM model to get the feature importance
+291	Target Column Exploration
+292	First Active Month
+293	Value of Historical Transactions
+294	Wind Direction and Wind Speed
+295	Cloud and Pressure
+296	Looks like evenly distributed across the interest levels
+297	Price Now let us look at the price variable distribution
+298	Looks like there are some outliers in this feature
+299	Now let us look at the latitude and longitude variables
+300	Now let us look at the longitude values
+301	So the data corresponds to the New York City
+302	Word Clouds Next we shall look into some for the text features
+303	Seems like a single data point is well above the rest
+304	Missing values Let us now check for the missing values
+305	There seems to be a slight decreasing trend with respect to ID variable
+306	Seems like a random split of ID variable between train and test samples
+307	Let us also build a Random Forest model and check the important variables
+308	Let us build the model now
+309	Getting the best threshold based on validation sample
+310	Seems Satuday evenings and Sunday mornings are the prime time for orders
+311	Now let us look at the important aisles
+312	The top two aisles are fresh fruits and fresh vegetables
+313	Now let us check the reordered percentage of each department
+314	Personal care has lowest reorder ratio and dairy eggs have highest reorder ratio
+315	Let us list the files present in the input folder
+316	Let us first read the files as pandas dataframes
+317	Let us first get to understand some basic information about the data
+318	Target Variable Analysis
+319	Quarter Vs Yards
+320	Animation Let us try to have some animation on the available images
+321	Let us first start with getting the count of different data types
+322	Living area in square meters
+323	Floor We will see the count plot of floor variable
+324	Now let us see how the price changes with respect to floors
+325	Transaction Date Now let us explore the date field
+326	There are so many NaN values in the dataset
+327	Let us explore the latitude and longitude variable to begin with
+328	Now let us check the dtypes of different types of variable
+329	Now let us check the number of Nulls in this new merged dataset
+330	No wonder the correlation between the two variables are also high
+331	is the mean value with which we replaced the Null values
+332	YearBuilt Let us explore how the error varies with the yearbuilt variable
+333	There is a minor incremental trend seen with respect to built year
+334	EAP seems slightly lesser number of words than MWS and HPL
+335	Naive Bayes on Word Tfidf Vectorizer
+336	Naive Bayes on Word Count Vectorizer
+337	Now let us build Multinomial NB model using count vectorizer based features .
+338	Naive bayes features are the top features as expected
+339	Read the train file from Kaggle gym
+340	Target Variable Exploration First let us look at the target variable distribution
+341	Now let us check the target variable distribution
+342	Let us also check the correlation between the three fields
+343	Now let us write a custom function to run the xgboost model
+344	Let us read the train and test files and store it
+345	Now let us do some cross validation to check the scores
+346	Read data set
+347	Target varaible distribution
+348	source Term Frequency Inverse Document Frequency Vectorizer
+349	Model Validation on train data set
+350	Roc AUC curve
+351	Read data set
+352	Dependant variable distribution
+353	Co relation plot
+354	One Hot encoding
+355	Remove unwanted punctuation mark
+356	Split sentence into word
+357	Function for text cleaning
+358	Bag of words
+359	Naive Bayes classifier
+360	Submit prediction for unseen dataset
+361	Naive Bayes classifier
+362	Submit prediction for unseen dataset
+363	Submit prediction for unseen dataset
+364	The best way to block outlier is to remove them
+365	Read data set
+366	Missing value is data set
+367	Replace missing value with mode
+368	Convert variables into category type
+369	Descrictive Statistic Features
+370	Determine outliers in dataset
+371	One Hot Encoding
+372	Split data set
+373	Logistic Regression model
+374	Reciever Operating Charactaristics
+375	Predict for unseen data set
+376	Read data set
+377	Check and fill missing value is data set
+378	Descrictive Statistic Features
+379	One Hot Encoding
+380	Split data set
+381	Predict for unsen data set
+382	Multi Layer Perceptron
+383	Define Gini Metric
+384	Define X and y
+385	Create a submission file
+386	Train and predict
+387	Duplicate image identification
+388	Choosing a threshold
+389	Finally , our submission
+390	Finally , our submission
+391	를 통해 두 가지 이상의 코드가 기재되어있는
+392	Cabin Initial 이 확보된 전체 데이터의 양이 크지 않다는점을 고려해야 함
+393	Categorical Data 를 다듬고 Label encoding 하기
+394	Reading and Merging Identity and Transaction Datasets
+395	Me and my teammate decided to use undersampling the majority class
+396	Creating unique IDs by combining two columns
+397	Count Encoding for Training and Test Set
+398	Analyze the result
+399	Make prediction and evaluation
+400	And moreover , we need to adjust namings , e.g
+401	Visualization of time series data
+402	Compile Our Transfer Learning Model
+403	Prepare Keras Data Generators
+404	Observe Prediction Time With Different Batch Size
+405	Check LaTeX tags
+406	Simple math tag cleaning
+407	simple cleaning the math tags
+408	Load dataset and Embeddings
+409	Visualize a few images
+410	Finetuning the pretrained model
+411	Extract Test Image Features
+412	Replacement or drop the missings
+413	Examine Product Code
+414	Protonmail returns an exemely high fraud rate
+415	We can aggregate the operating system into a few major OSs
+416	reference this kernel
+417	Create submit file
+418	Load train data
+419	Set map dictionary
+420	Merge the train set and structure set
+421	Plot feature important
+422	Load segmentation file
+423	Tranfer EncodedPixels to target
+424	We found there are some duplicate image in training data
+425	Balance have chip and no chip data
+426	Set Training set count
+427	Doing One hot on target
+428	Split Training data to training data and validate data to detect overfit
+429	Add fully connect layer
+430	Set Hyperparameter and Start training
+431	Load predict data
+432	Do one hot for predict target
+433	Check the data feature
+434	Plot ConfirmedCase Trends
+435	Plot Fatalities Trends
+436	Crazy feature engineering
+437	Map cat vals which are not in both sets to single values
+438	Thermometer encode some ordinal columns
+439	Combine sparse matrices
+440	Crazy feature engineering
+441	Map cat vals which are not in both sets to single values
+442	Thermometer encode some ordinal columns
+443	Combine sparse matrices
+444	Distributed tf training and test function
+445	Show fraud cases
+446	Ensemble techniques based on scipy.optimize package
+447	Parameters can be changed to explore different types of synthetic data
+448	Plotting the weights of each ensemble
+449	Comparing our ensemble results with sklearn LogisticRegression based stacking of classifiers
+450	Plotting the results
+451	Increasing dataset size
+452	If looks correct , apply it on all samples
+453	Plot the pie chart for the train and test datasets
+454	now that we have our modified csv , we shall explore some more
+455	Explore image sizes
+456	lets look at some images now
+457	Visualize with segmentation
+458	create a function to plot sample images with segmentation
+459	Defining a model
+460	Visualizing train and val PR AUC
+461	Missing values treatment
+462	viewing the images
+463	Rate of each specie
+464	Create a heat map to present of records
+465	Comparing wave curve for different birds
+466	Impute missing values
+467	Feature matrix and target
+468	Load input data
+469	Add external features to input dataframes
+470	Add temporal features
+471	Preparing training set
+472	Processed test set
+473	Example predictions on our validation set
+474	Get the data
+475	This file contains descriptions for the columns in the various data files
+476	Explore the data
+477	Categorical features by label
+478	Numerical features by label
+479	A further exploration on application table
+480	split categorical , discrete and numerical features
+481	Get the Data
+482	Check missing values
+483	Explore the Data
+484	Getting the data
+485	Results on the evaluation set
+486	We also initialize the geometry
+487	Now all we need is some global state
+488	Here we go
+489	Visualization of masks
+490	Only need instances
+491	Make mask predictions
+492	Import necessary libraries for data preprocessing
+493	One Hot representation
+494	Then it takes some time with smaller oscillations and the earthquake occurs
+495	The train signal distribution
+496	Setting up a validation strategy
+497	Logistic Regression Stacking
+498	Applying the janky function from above
+499	Not sure if information loss is worth it , but will experiment
+500	The extra features in the training set must be for analysing the bias
+501	Tokenize the text
+502	Then we concatenate both frames and shuffle the examples
+503	Comparison of each sentiment
+504	Histogram of the word count
+505	Define metrics and loss function
+506	What about the relation between popularity and revenue
+507	Well we see clearly that Revenue depends on the popularity and the budget
+508	MODEls testing NVM
+509	Using Light GBM , generally I prefer XGBoost but they provide similar accuracy
+510	Summary of given data
+511	Distribution of Sex and Age
+512	We are going to explore further with Smoking Status feature involved
+513	Included age range
+514	Relationship between FVC and Percent
+515	Reading data and Basic EDA
+516	About this notebook
+517	Lets track the Public LB Standings
+518	All competitors LB Position over Time
+519	Number of teams by Date
+520	Top LB Scores
+521	Count of LB Submissions that improved score
+522	Distribution of Scores over time
+523	There seems to be some relationship between these features ..
+524	The number of Feature has not changed
+525	QuantileTransfExpected value of GaussianNB by cross validationrmer
+526	Training Attribute Classification Models
+527	the trained model was saved to a file for later use
+528	Next , train the mask image
+529	Predict Mask Image
+530	Make Submission File
+531	Seeding Everything for Reproducible Results
+532	Reading data and Basic EDA
+533	We put it into a minibatch as that is what our model expects
+534	About this Notebook
+535	Time Shifting Transform
+536	Incease or decrease the speed of the audio under consideration
+537	Stretch the audio file under consideration
+538	Shift the pitch of any audio file by number of semitones
+539	Add Gaussian Noise to the audio
+540	Add Custom Noise
+541	Getting It Together
+542	Writing a function for getting auc score for validation
+543	In Depth Explanation Code Implementation
+544	BERT and Its Implementation on this Competition
+545	For understanding please refer to hugging face documentation again
+546	The Masks for Train are in RGB format right as said by organizers
+547	Sending a model On TPU
+548	Training on a Single TPU Core
+549	Functions that will change
+550	We define all the configuration needed elsewhere in the notebook here
+551	Data Preparation and Feature Engineering
+552	Here we built our Custom Tabnet model
+553	Defining SoftMarginFocal Loss which is to be used as a criterion
+554	Our Custom Training loop
+555	Custom Evaluation loop
+556	Visualizing Cover and Encoded side by side
+557	Exploring how many different ingredients can be found in each
+558	Information about unidecode can be read from here
+559	Does long download delay time afftect download rate
+560	Reading the Data
+561	Cleaning the Corpus
+562	Most common words Sentiments Wise
+563	Modelling the Problem as NER
+564	Training models for Positive and Negative tweets
+565	Predicting with the trained Model
+566	Read the train , test and sub files
+567	Make a dictionary for fast lookup of plaintext
+568	It makes sense now
+569	Frequency analysis on Level
+570	Frequency analysis on Level
+571	Also try XGBoost
+572	Import necessary libraries
+573	Visualize the distribution of dipole moments in X , Y and Z directions
+574	Visualize the distribution of dipole moments in all directions for each molecule type
+575	Visualize the distribution of potential energy for each molecule type
+576	Define helper function to remove outliers
+577	Visualize distribution of mulliken charge for each atom index
+578	Import libraries and define hyperparameters
+579	Get testing tasks
+580	Extract training and testing data
+581	Matrix mean values
+582	Define function to flatten submission matrices
+583	Prepare submission dataframe
+584	Import necessary libraries
+585	Define the paths for the train and test data
+586	Frequencies of the different product categories
+587	Fraudulence Proportion Plot
+588	Fraudulence Proportion Plot
+589	Frequencies of the different card brands
+590	Fraudulence Proportion Plot
+591	Frequencies of the different card types
+592	Fraudulence Proportion Plot
+593	Define the categorical columns
+594	Convert categorical string data into numerical format
+595	Create final train and validation arrays
+596	Build and train LightGBM model
+597	Visualize feature importances
+598	Visualize change in accuracy
+599	Visualize change in loss
+600	Initialize constants for data extraction and training
+601	Number of characters in the sentence
+602	Number of words in the sentence
+603	Average Word Length
+604	Tokenize and pad the sentences
+605	The squash activation function to use with the Capsule layer
+606	Create a model that
+607	Save model weights and architecture
+608	Import necessary libraries
+609	Download training data and extract necessary data
+610	Create Perspective API Client with Google Cloud API key
+611	Binary Classification Accuracy
+612	Mean Absolute Error
+613	Mean Squared Error
+614	Prepare the label dictionary
+615	Define functions to calculate melspectrogram features
+616	Define PyTorch dataset
+617	Define ResNet model
+618	Declare model and optimizer
+619	Define categorical cross entropy and accuracy
+620	Define PyTorch test dataset
+621	Define functions for decision making
+622	Run the inference loop
+623	Convert model predictions to bird species
+624	Import necessary libraries
+625	Create function for visualizing the effect of text cleaning function
+626	Remove the numbers
+627	Remove the exclamation , question and full stop marks
+628	Remove the exclamation , question and full stop marks
+629	Replace the negations with antonyms
+630	Replace elongated words with the basic form
+631	Import libraries and prepare the data
+632	Build neural network
+633	Split the data into training and validation sets
+634	Make predictions on training and validation data from the models
+635	Visualize training and validation accuracy for both the models
+636	Make predictions on training and validation data from the models
+637	Visualize the training and validation accuracy for both the models
+638	Import necessary libraries for data manipulation , tokenization and PoS Tagging
+639	Initialize necessay constants
+640	Extract the acoustic data and targets from the dataframe
+641	Break the data down into parts
+642	Scaling the signals
+643	Extracting features from each part of the segment
+644	Prepare the final signal features
+645	Implement the feature generation process
+646	Bivariate KDE distribution plot
+647	Scatterplot with line of best fit
+648	Bivariate KDE distribution plot
+649	Scatterplot with line of best fit
+650	Bivariate KDE distribution plot
+651	Katz Fractal Dimension
+652	The hexplot also has highest density around an almost vertical line
+653	Import necessary libraries
+654	Extract seismic data and targets and delete the original dataframe
+655	The mean absolute deviation
+656	Initialize necessay constants
+657	Extract the acoustic data and targets from the dataframe
+658	Break the data down into parts
+659	Scaling the signals
+660	Extracting features from each part of the segment
+661	Prepare the final signal features
+662	Implement the feature generation process
+663	Bivariate KDE distribution plot
+664	Scatterplot with line of best fit
+665	Bivariate KDE distribution plot
+666	Scatterplot with line of best fit
+667	Bivariate KDE distribution plot
+668	Scatterplot with line of best fit
+669	Load the data
+670	Red graphs represent original sales and green graphs represent denoised sales
+671	Red graphs represent original sales and green graphs represent denoised sales
+672	Rolling Average Price vs
+673	Rolling Average Price vs
+674	Rolling Average Price vs
+675	Rolling Average Price vs
+676	Loss for each model
+677	Import necessary libraries
+678	Load images from the selected rows
+679	Create dictionary for cultures and tags
+680	Structure the labels into a list of lists
+681	Visualize some images from the data
+682	Set hyperparamerters and paths
+683	Load .csv data
+684	Convert Gleason scores to list format
+685	Display few images
+686	Build ResNet model
+687	Visualize ResNet architecture
+688	Define cross entropy and accuracy
+689	Define custom PANDA loss for multitask model
+690	Define helper function for training logs
+691	Declare the necessary constants
+692	X coordinate vs
+693	Y coordinate vs
+694	X coordinate vs
+695	S is the speed of the player in yards per second
+696	Get categorical value sets
+697	Define helper functions to generate categorical features
+698	Define helper functions to generate numerical features
+699	Visualize neural network architecture
+700	Calculate the data mean and standard deviation for normalization
+701	Wordcloud of all comments
+702	Distribution of comment words
+703	Average comment words vs
+704	Average comment length vs
+705	Compoundness sentiment refers to the total level of sentiment in the sentence
+706	Average compound sentiment vs
+707	Compound sentiment vs
+708	Distribution of Flesch reading ease
+709	Flesch reading ease vs
+710	Flesch reading ease vs
+711	Distribution of automated readability
+712	Automated readability vs
+713	Automated readability vs
+714	Pie chart of targets
+715	Bar chart of targets
+716	Setup TPU configuration
+717	Load BERT tokenizer
+718	Encode comments and get targets
+719	Define training , validation , and testing datasets
+720	Define VNN model
+721	Build model and check summary
+722	Define ReduceLROnPlateau callback
+723	Train the model
+724	Define CNN model
+725	Build model and check summary
+726	Train the model
+727	Define the LSTM model
+728	Build the model and check summary
+729	Train the model
+730	Define the model
+731	Build the model and check summary
+732	Train the model
+733	Define the model
+734	Build the model and check summary
+735	Train the model
+736	Define hyperparameters and load data
+737	Define PyTorch Dataset
+738	Load the data and define hyperparameters
+739	Load sample images
+740	All channel values
+741	Red channel values
+742	Green channel values
+743	Blue channel values
+744	Multiple diseases distribution
+745	Setup TPU Config
+746	Load labels and paths
+747	Create Dataset objects
+748	Define hyperparameters and callbacks
+749	Define hyperparameters and load data
+750	Define cross entropy and accuracy
+751	Visualize loss and accuracy over time
+752	Sample sentiment prediction
+753	Generate train path list
+754	Define hyperparameters and paths
+755	Get image path dictionary
+756	Display sample images
+757	Define PyTorch dataset
+758	Define binary cross entropy and accuracy
+759	Define helper function for training logs
+760	Define sampling weights
+761	Define PyTorch datasets
+762	Define sampling procedure and DataLoader
+763	Define model and optimizer
+764	Visualize sample test predictions
+765	Read Numpy File
+766	Stochastic Gradient Descent and Random Search
+767	Equal number of train and test samples
+768	Importing the useful functions , packages and others
+769	Group data by object category
+770	Distribution of yaw
+771	Frequency of object classes
+772	Create a function to render scences in the dataset
+773	Images from the back camera
+774	LiDAR data from the top sensor
+775	Just checking the distribution to seek for
+776	Test Data Analisys
+777	Remove Drift from Training Data
+778	Checking if this changes the data distribution
+779	Removing Drift from Batch
+780	Remove Drift from Test Data
+781	Import Packages and Define Encoder Methods
+782	For the nominal features , we will use a simple Label Encoder
+783	This is a good visualization of the training data signal and open channels
+784	Frequency Domain Analysis
+785	Low Pass Filtering By Batch
+786	We may have lost some signal when filtering on this batch
+787	Unclear whether filtering helped or hurt
+788	Unclear whether filtering helped or hurt
+789	Import Necessary Packages
+790	Import Data and Generate Features
+791	Load all the data as pandas Dataframes
+792	Merge all the tables
+793	Visual Data Exploration
+794	Evaluation Criteria for Predictions
+795	How about plotting the TransactionDT day wise
+796	Data Loading and Cleaning
+797	Time Series Plots Per Continent and Country
+798	Time Series Bar Chart of Cases per Continent
+799	Time Series Bar Chart of Cases per Country
+800	Interactive Time Series Map
+801	Relationship betwen Google search queries and Confirmed Cases
+802	Wrappers for different algorithms
+803	Understanding the dataset
+804	Visualizing the dataset
+805	The Flesch Reading Ease formula
+806	Readability Consensus based upon all the above tests
+807	Count Vectorizers for the data
+808	Visualizing LDA results of sincere questions with pyLDAvis
+809	Visualizing LDA results of insincere questions
+810	Define the Neural Network Model
+811	prediction on test set
+812	Now for missing values
+813	Benign image viewing
+814	Malignant image viewing
+815	Another thing you can do is background subtraction
+816	We have much more augmentations we can try like
+817	Combination of erosion and dilation
+818	The basic structure of model
+819	Here are there order counts
+820	Fast Fourier Transform denoising
+821	Import required libraries
+822	Lets have some statastics of data
+823	Create new Column for release day , date , month and year
+824	In which year most movies were released
+825	Lets create popularity distribution plot
+826	On which date of month most movies are released
+827	On which day of week most movies are released
+828	Converting structures to matrices
+829	Getting Prime Cities
+830	Vocabulary and Coverage functions
+831	Better , but we lost a bit of information on the other embeddings
+832	FastText does not understand contractions
+833	Vocabulary and Coverage functions
+834	Not a lot of contractions are known
+835	Same thing , but with no filters
+836	Which wavelet to use
+837	The model is the following
+838	Loading the Data
+839	left seat right seat
+840	Time of the experiment
+841	Galvanic Skin Response
+842	Note that I did not bother tweaking the parameters yet
+843	Seasonality and Outliers
+844	Let us plot the new features to see if any clustering appear obvious
+845	Visualizing the World
+846	The prime cities seem to be randomly spread around as well
+847	Concorde TSP Solver
+848	Concorde Solver for only Prime Cities
+849	Instantiate regressor , fit model , bada boom , bada bing
+850	Load and Prepare data
+851	Are the classes imbalanced
+852	How many cases are there per image
+853	Where is Pneumonia located
+854	What is the age distribution by gender and target
+855	What are the areas of the bounding boxes by gender
+856	How is the pixel spacing distributed
+857	How are the bounding box areas distributed by the number of boxes
+858	Where are the outliers
+859	Are there images with mostly black pixels
+860	What does the mostly black pixels look like
+861	What does the mostly white pixel images look like
+862	Can tradiational image processing find a bounding box around the cropped images
+863	How are the bounding box aspect ratios distributed
+864	What does the images with a high aspect ratio look like
+865	Notice that this is where the data leakage occurs
+866	Pretty impressive , but still not useful without a proper visualization
+867	Import libs and Load data
+868	This portions gives the summary and creates a CSV file with results
+869	Repeating PCA and making another plot of the first two principal components
+870	We estimate the feature importance and time the whole process
+871	Plot number of features vs
+872	Save sorted feature rankings
+873	This is a simple timer function that I use in most scripts
+874	Note that you can use fewer parameters and fewer options for each parameter
+875	Here we average all the predictions and provide the final summary
+876	Save the final prediction
+877	Here we print the summary and create a CSV file with grid results
+878	Create MTCNN and Inception Resnet models
+879	The FastMTCNN class
+880	Full resolution detection
+881	Half resolution detection
+882	The dlib package
+883	The mtcnn package
+884	We are training the discriminator ahead of generator here
+885	Discriminator recall from memory
+886	Creat , zip and submit the images
+887	Plot samples of series from clusters
+888	We can repeat this for another cluster
+889	Set your file path
+890	Pull an audio sample from each word
+891	Preview of Spectograms across different words
+892	Waveforms across different Words
+893	Waveforms within the Same Word
+894	Save Figures as images
+895	ZIP the Image Files
+896	Deploying Machine Learning Model over Resampled Dataset
+897	Random Forest Classifier
+898	FVC and Percent Trend For All Patients
+899	FVC And Percent Trend Of Random Patients Of All Categories
+900	Visualising Dicom Files
+901	It only updated gain and cover values
+902	Load the packages
+903	preparation for the graph
+904	Set the threshold as
+905	change the threshold to
+906	First grab the data
+907	Neural Network definition
+908	Prepare results for Submission
+909	Normalizing images and performing data augmentation
+910	forked from ref
+911	codes below are my job
+912	Library imports and settings
+913	Again , we check for missing values
+914	Save and load the data
+915	Building the pipeline
+916	Run grid search
+917	Importing Libraries and Reading the Dataset
+918	Add New Features
+919	Handle P Email Domain and R Email Domain
+920	Reading geometry files
+921	Radiral distribution function
+922	Histogram of angles
+923	Histogram of dihedral angles
+924	Please see the SchNetPack API document
+925	Importing Libraries and Reading the Dataset
+926	From the output results , we can see that we are overwhelmingly male
+927	Shielding Parameter Prediction
+928	The following code is a derivative work from
+929	Make function to get image shapes
+930	Get image shape for each train image
+931	Group by shape and summerize
+932	JPEG compression with quality factor
+933	JPEG compression with quality factor
+934	Next , I import main packages
+935	Convert into graph object
+936	Make iterators , oprimizer
+937	Adam is used as an optimizer
+938	Plot all images
+939	Reading tif Files
+940	Predict for test data and submit
+941	Read in the data for analysis
+942	Plotting Helper Functions
+943	Do total sales correlate with the number of items in a department
+944	Do Sales Differ by Category
+945	How do stores differ by State
+946	How do sales differ by store
+947	Is there seasonality to the sales
+948	Sarima helper function
+949	Visualize sample rows of the submission predictions
+950	Handling missing values
+951	One Hot Encoding
+952	The following features are taken from this kernel
+953	Calculate the entropy on each part and take the mean to reduce noise
+954	Plot the entropy
+955	View the feature and TTF together
+956	Import the necessary Python libraries
+957	Identify which MATLAB data file you want to analyze
+958	Load the MATLAB data file
+959	Important EEG frequency bands
+960	Hjorth Fractal Dimension
+961	Petrosian fractal dimension
+962	Katz fractal dimension
+963	Higuchi Fractal Dimension
+964	Preprocessing the features
+965	Normalize the features
+966	Loading the datafiles
+967	loading data sets
+968	Patient height and FEV
+969	MAE and MSE
+970	Distribution of images for each patient
+971	distribution of age
+972	here we can see that no of ex smoker is way higher
+973	Now lets create two helper functions
+974	we need to know what exactly is Housnfield unit
+975	osic laplace function
+976	data wrangling and processing for tabular data
+977	Preparing the data for the Neural Network
+978	make Confidence labels
+979	libararies required for qunatile regression
+980	Analyzing the failure regions
+981	Creating a feature dataset Putting together all the training information we have
+982	All The Above
+983	FastAI Medical Imaging
+984	Get DICOM Metadata
+985	For Next Time
+986	Learning Curves and Evaluation
+987	The following signal processing parts are taken from the following Khoi Nguyen kernel

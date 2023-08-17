@@ -1,0 +1,675 @@
+0	Retrieving the Data
+1	Target Variable Analysis
+2	Distribution of Amount Credit
+3	Distribution of Game Title
+4	Distribution of Amount Credit
+5	Contract was approved or not the previous application
+6	Exploring the data
+7	Distribution of Age vs Revenue
+8	Plotting the other variables
+9	Most correlated features
+10	Processing the data
+11	Scale and flip
+12	Fitting Ridge model on training data
+13	Read the data
+14	Load the Data
+15	Prepare the data
+16	Prepare the submission
+17	Validate the clustering
+18	Plotting the distribution of target
+19	Distribution of Data
+20	The values of the other models
+21	Load Train and Test Data
+22	Handling Missing Values
+23	Distribution of data
+24	Prepare the test data
+25	Read the feature
+26	Is the other correlation
+27	Load raw data
+28	have a look at the distribution of log price
+29	Look at importance
+30	Early stopping to prevent overfitting
+31	Predict Potential Energy
+32	Loading the data
+33	Distribution of Genres
+34	Number of unique values
+35	Load the image
+36	Read the data
+37	Fitting the model
+38	Read the test images
+39	Normalize Bounding Box
+40	Turning the model
+41	Compile the model
+42	Plotting some random predictions
+43	Plotting a few images
+44	Creating tf.data objects
+45	All stolen from
+46	Load the data
+47	Interconnection between magics
+48	Distribution of target Variable
+49	Distribution of target Variable
+50	The most difficult part of the fare
+51	Setting up Training Pipeline
+52	Prepare the data
+53	Load the data
+54	Splitting the Dataset
+55	Load the data
+56	Split the data into train and validation set
+57	Setting up the model
+58	Setting up some basic model specs
+59	LightGBM Classifier Algorithm
+60	Plotting a graph between Train and Test Set
+61	Loading the data
+62	Word Cloud for negatively classified movie reviews
+63	Overall Distribution of the price
+64	Wordcloud for all the tweet
+65	Load Modelling the data
+66	Add all features ..
+67	Time Series Analysis
+68	Time Series Analysis
+69	Distribution of word counts
+70	Train the model
+71	Load the data
+72	Processing the data
+73	Load the data
+74	Introduction to BigQuery ML
+75	Generate the training data
+76	Get training and validation
+77	TPU Strategy and other configs
+78	Load Model into TPU
+79	The most difficult part of this Problem ..
+80	Show some examples
+81	Here is some of the test images
+82	Here we can see the distribution of the training images
+83	We can see there is no missing data
+84	Lets see least frequent landmarks
+85	What Makes LIME excellent
+86	Extracting date files
+87	Load the necessary libraries
+88	Brain Development Functional Datasets
+89	I first load the packages
+90	Combine all the dataframes
+91	Price point analysis
+92	Prepare for data analysis
+93	Load the data
+94	Exploratory Data Analysis
+95	Fit the Model
+96	Count by Date
+97	Make a submission
+98	Importing the libraries
+99	Load the data
+100	Selecting and associated masks
+101	Split the data into train and validation set
+102	Build the model
+103	Run the model
+104	Creating the predictions to the test dataframe
+105	Make the submission
+106	Making the Submission
+107	Training and Validation
+108	Load the data
+109	Running the model
+110	Feature importance by type
+111	Fitting by Type
+112	FVC vs Percent
+113	Shows positive skewness
+114	Speed Vs Yards
+115	Time Series Analysis
+116	Heatmap based on distribution
+117	Load Modelling Tools
+118	Define some model and training
+119	View the Images
+120	Getting Basic Features
+121	Bone Scan for Diagnosis of Metastatic Disease
+122	Dropping with all buildings
+123	Import libraries and data
+124	Visualizing the training images
+125	Ensure determinism in the results
+126	LOAD PROCESSED TRAINING DATA FROM DISK
+127	SAVE DATASET TO DISK
+128	LOAD DATASET FROM DISK
+129	The mean of the two is used as the final embedding matrix
+130	The method for training is borrowed from
+131	More To Come
+132	Missing Value Detection
+133	Processing the model
+134	Plotting sales ditribution for each feature
+135	Label Encoding with categorical features
+136	Reading the data
+137	Reading the train and test data
+138	I would like this link
+139	Exploring the columns
+140	Evaluating the Model
+141	Define RMSL Error Function
+142	B keras를 사용한 NN 모델 개발
+143	Data loading and overview
+144	Split train and test
+145	Reading the Dataset
+146	Categorical and plotting
+147	Building a Submission
+148	Function to load data
+149	Cropping the image
+150	Importing necessary libraries
+151	Here are all the sizes of train and test images
+152	All stolen from
+153	Process to prepare the data
+154	Processing the target variable
+155	Tokenize Training Text
+156	Import all the required libraries
+157	Plotting the model
+158	Processing the Dataset
+159	Apply data augmentation
+160	Split the data into a train and a validation set
+161	Load the data
+162	Load the data
+163	Load the test data
+164	Fit the Random Forest Model
+165	Load the Dataset
+166	Training the model
+167	Make a submission
+168	Load the Dataset
+169	Training the model
+170	Resizing the image
+171	Target Variable Analysis
+172	Run the results
+173	Read the data
+174	Splitting the dataset into train and test
+175	Scale the data
+176	Train the model
+177	Save the Model
+178	Based on Thanks
+179	We can also display a spectrogram using librosa.display.specshow
+180	Zero Crossing Rate
+181	Distribution of Game Title
+182	Checking all numerical columns
+183	We can see the distribution of event code to event count
+184	Type of the data
+185	How many data are there
+186	Calculating the target variable
+187	What about the date features
+188	Day of week Distribution
+189	What is the distribution of year
+190	Checking the data
+191	Distribution of Game Title
+192	What by World
+193	What is the distribution of time
+194	The number of train images
+195	We can see the distribution of dataframe
+196	Read the data
+197	Create the final Encoder
+198	This shows that there is similar distribution for both train and test set
+199	Distribution of number of tags
+200	Load the data
+201	Histogram for each feature
+202	Load the data
+203	XGB Feature Importance
+204	Target Variable Analysis
+205	Exploring the data
+206	Dew Temperature looks like
+207	Exploring the Data
+208	Distribution of Target Variable
+209	Understanding the distribution of target variable
+210	Price point analysis
+211	Visualizing the data
+212	Train Set Missing Values
+213	Calculate optimal probability threshold for classification
+214	Distribution of Date Features
+215	Distribution of Target Variable
+216	Distribution of Department
+217	Please upvote this kernel which motivates me to do more
+218	Number of unique game patients
+219	Does the compass
+220	Random Forest Model
+221	Load the Data
+222	Floor We will see the count plot of floor variable
+223	Now let us see how the price changes with respect to floors
+224	Are there seasonal patterns to the number of transactions
+225	Distribution of word counts
+226	Datatypes of columns
+227	Train Set Missing Values
+228	Additional variables from bedrooms
+229	Heatmap of the training data
+230	Plotting the distribution of year
+231	Sea Level Plot
+232	Distribution of word counts
+233	Collect the annotated data
+234	Confussion matrix of the Kaggle
+235	Kagglegym import ..
+236	Target Variable Exploration
+237	Distribution of Number of Weeks
+238	Linear Discriminant Analysis
+239	Load the data
+240	Load the data
+241	Vectorize the data
+242	Evaluate the model
+243	Load the data
+244	Distribution of Standard Deviation
+245	Heatmap for train.csv
+246	Fitting and punctuation
+247	Insincere Questions Topic Modeling
+248	Submit to Kaggle
+249	Submit to Kaggle
+250	Submit to Kaggle
+251	Preparing the Data
+252	Load the data
+253	checking missing values for each feature
+254	Modelling with Missing Values
+255	The missing data
+256	Prepare the target variable
+257	Submit to Kaggle
+258	Load the data
+259	checking missing values for each feature
+260	Prepare the target variable
+261	Predicting with the best submission
+262	Prepare the target variable
+263	Prepare the submission
+264	Duplicate image identification
+265	Make a prediction
+266	Encoding the categorical columns
+267	Loading the data
+268	Handle Missing Values
+269	Transformting the data
+270	Is there a look at the date Cases
+271	Training and Evaluating the model
+272	Define the model
+273	Apply model to test set and output predictions
+274	Fitting the punctuation in question
+275	Building Keras LSTM model
+276	Building Meta Function
+277	Load the data
+278	Prepare the model
+279	Build the model
+280	Understanding the Data
+281	Calculate Merchant Feature
+282	Compute the number of packages
+283	Prepare the features
+284	Prepare the submission file
+285	Load the data
+286	Upvote if this was helpful
+287	Read in the images
+288	The number of images in each image
+289	Fitting to test data
+290	Lets explore sample data
+291	Output class encoding
+292	Split train data into a training and a validation set
+293	Compile and visualize model
+294	Output class encoding
+295	Sort ordinal features
+296	Evaluating the model
+297	Prepare the Data
+298	Sort ordinal features
+299	Evaluating the model
+300	Prepare the Data
+301	All stolen from
+302	Splitting the dataset into train and test
+303	Fit the Model
+304	A very simple memory and outputs
+305	Plot the pie chart for the train and test datasets
+306	The number of images of each class
+307	Build the model
+308	Plotting the random numbers
+309	Distribution of Bigrams
+310	Load the images
+311	We will now plot some of the target variable
+312	Lets use the distribuitions of the data
+313	Plotting some random audio
+314	Processing all the categorical features
+315	Features generated by feature
+316	Load the data
+317	Calculate public LB score
+318	Processing the test data
+319	Loading the data
+320	Loading the data
+321	Load the data
+322	Handling Missing Values
+323	Checking the unique questions
+324	Loading the dataset
+325	Show some plots
+326	The below visualizes the categorical variables
+327	TurnOff You can not use the internet in this competition
+328	Preparing the Data
+329	One hot encoding the lables
+330	Setting up a validation strategy
+331	Prepare the data
+332	Join the data into one
+333	Tokenize Texts
+334	Prepare the data for train and test data
+335	Distribution of word counts
+336	Region and revenue
+337	Building a LightGBM RandomForest Classifier
+338	Light GBM Classifier
+339	Examine the submission file
+340	Distribution of Age vs Gender In Patient Dataframe
+341	Smoking Status Viz
+342	Fitting vs Percent
+343	Reading the data
+344	Number of teams by Date
+345	Top LB Scores
+346	Count of LB Submissions with Improved Score
+347	Preparing the data
+348	Training the model
+349	The method for training is borrowed from
+350	Extract target variable
+351	Ensure determinism in the results
+352	Quick check of the model
+353	Load the data
+354	This augmentation is a wrapper of librosa function
+355	The class distribution
+356	Define all functions
+357	Making user metric for objective
+358	Load the model
+359	Importing all the necessory Libraries
+360	Instancing the tokenizer from DistilBERT model and then applying WordPeice Tokenizer
+361	The neural network
+362	Load the model
+363	Setting the Hyperparameters for the model
+364	Compute filter points
+365	Merge the FVC vs
+366	Reading the Data
+367	Performing some cleaning in the commnet text using regular expression
+368	Example of sentiment
+369	Reading the Data
+370	Training for Positive and Negative tweets
+371	Read the train , test and sub files
+372	Make a dictionary for fast lookup of plaintext
+373	Find a random image
+374	Import the necessary modules
+375	Doing final result
+376	Test XGBRegressor
+377	Processing the data
+378	Note that I sampled data to reduce the computational burden
+379	What is the distribution of year
+380	Function to calculate the outliers
+381	Importing the necessary libraries
+382	Load the test files
+383	Prepare the dataset
+384	Blend by Mean
+385	Creating a Submission
+386	Prepare the submission file
+387	Importing all the basic model specs
+388	Loading the data
+389	Cooling the target variable
+390	Plotting sales by Date
+391	Relationship between Percent and revenue
+392	Visualizing Target values
+393	Distribution of transaction vs
+394	Visualizing the model
+395	Plotting sales ditribution for each state
+396	Normalize the data
+397	Seting X and y
+398	Train the Model
+399	Show a Model
+400	Plot the evaluation metrics over epochs
+401	Plot the evaluation metrics over epochs
+402	Load the model
+403	Text Length Distribution
+404	Text Length of the text
+405	Average Word Length
+406	Selecting the tokenizer
+407	Handling the imbalanced dataset
+408	Modeling with the full label
+409	Load Modelling Tools
+410	Preparing the Data
+411	Loading the data
+412	Plotting the graph
+413	Plotting the graph
+414	We can take a few the audio files
+415	Training the Model
+416	Evaluate the model
+417	Load the predictions
+418	Preparing the Data
+419	Function to return the number of words
+420	Replace Repetitions of Punctuation
+421	Evaluating the tokenizer
+422	Build the model
+423	Splitting the data
+424	Plotting the model
+425	Plotting the model
+426	Processing the data
+427	The Masking
+428	Split the data into one
+429	Filter the signal
+430	Load the data
+431	Process the data
+432	Load the data
+433	Distribution of wall counts
+434	Distribution of target and month
+435	Distribution of target vs
+436	Distribution of target vs
+437	Plotting the target variable
+438	Plotting the data
+439	Load the data
+440	Split the data into one
+441	Function to calculate the best weights
+442	The Masking
+443	Split the data into one
+444	Filter the signal
+445	Load the data
+446	Process the data
+447	Load the data
+448	Distribution of target variable
+449	Distribution of target variable
+450	Distribution of target vs
+451	Distribution of target vs
+452	Correlation in the target variable
+453	Correlation in the target variable
+454	Loading the data and overview
+455	Fitting the model
+456	Load the data
+457	Load the images
+458	Loading the data
+459	Processing the target variable
+460	Show some examples
+461	Running the model
+462	Load the data
+463	Replace all submission
+464	Build the model
+465	Does the gap
+466	Load the dataset
+467	Moving on the data
+468	Moving on the data
+469	Features in the data
+470	Distribution of Values
+471	Table of all columns
+472	Process to prepare the data
+473	Prepare all numerical features
+474	Building Logistic regression
+475	Function to scale
+476	Wordcloud of all comments
+477	Sales by country
+478	Distribution of meter reading
+479	Distribution of Transactions
+480	Distribution of meter reading
+481	Distribution of Months
+482	Public LB Score
+483	Class Imbalance Analysis
+484	Exploratory Data Analysis
+485	TPU or GPU detection
+486	Create fast tokenizer
+487	Create fast tokenizer
+488	Build datasets objects
+489	Model initialization and fitting on train and valid sets
+490	Prepare the data analysis
+491	Fitting on valid set
+492	Initialize the model
+493	Train the model
+494	LSTM for Time Series Forecasting
+495	Training the model
+496	Load model into memory
+497	Train the model
+498	Initialize the model
+499	Train the model
+500	Set global parameters
+501	Read the data
+502	Load the image
+503	The uniform Distribution is more evident in Blue channel than other channels
+504	Red Channel Values
+505	Green Channel Values
+506	The uniform Distribution is more evident in Blue channel than other channels
+507	TPU or GPU detection
+508	Load the data
+509	Define the learning rate
+510	Set global parameters
+511	Running the model
+512	Preprocess the training data
+513	Setting up some basic model specs
+514	Validate the images
+515	Train the model
+516	Calculate the target variable
+517	Creating new features
+518	Define train and validation sets
+519	Run the model
+520	Look at Numpy Data
+521	Load the data
+522	Exploratory Data Analysis
+523	Ploting the distribuitions of the data
+524	Frequency of each class
+525	View the audio file
+526	Kick off the training data
+527	Pick a sample submission
+528	Test Data Analisys
+529	Remove Drift from Training Data
+530	Load the data
+531	Distribution of LabelEncoder
+532	Filter the Signal
+533	Quick Data Overview
+534	Load all the data as pandas Dataframes
+535	Linear Discriminant Analysis
+536	Understanding the Data
+537	Loading the data
+538	A couple of Date and Fatalities
+539	Line plot with Date and ConfirmedCases
+540	Loading the data
+541	Distribution of test set
+542	Linear Discriminant Analysis
+543	Load the packages
+544	Distribution of word count
+545	Lets take a look at the question
+546	Sentiment Extraction and Lemmatization
+547	Comparison of the Model
+548	Distribution of the interaction
+549	Load the predictions
+550	Benign image viewing
+551	The basic structure of model
+552	Understanding the data
+553	The Melanoma
+554	What Makes LIME excellent
+555	Number of the data
+556	Year when the movie released and revenue
+557	More To Come
+558	Month when the movie released and revenue
+559	Day of week Distribution
+560	How do they look like
+561	Building Vocabulary and calculating coverage
+562	Adding lower case words to embeddings if missing
+563	Building the model
+564	Building Vocabulary and calculating coverage
+565	Building the model
+566	Tokenizing the sentences to words
+567	Plotting the Open Channels
+568	left seat right seat
+569	Time of the experiment
+570	Galvanic Skin Response
+571	Is the Standard Deviation
+572	Load the best weights
+573	Let us now look at the same as well
+574	Training the XGBRegressor Algorithm
+575	Load the data
+576	How does this work
+577	How many images do the training set
+578	Exploratory Data Analysis
+579	Explore the distribution of target
+580	Age distribution of the target variable
+581	Distribution of data
+582	Bounding Boxes per Image
+583	Sea lion patches
+584	Distribution of meter reading
+585	Linear Discriminant Analysis
+586	Training the model
+587	Loading the required libraries
+588	Train the model
+589	Plotting a Pipeline
+590	Plotting a Random Forest
+591	Checking for Final Model
+592	Here we average all the predictions and provide the final summary
+593	Save the final prediction
+594	Training the best model
+595	Create MTCNN and Inception Resnet models
+596	Add the Model
+597	Create a Pipeline
+598	Overview of augmentations
+599	Extract target variable
+600	What is the network
+601	Visualizing the images
+602	Clusters of correlation
+603	Plotting sales ditribution across departments
+604	Loading the data
+605	Reading all the files
+606	Comparing Spectrograms for different birds
+607	Loading the test data
+608	Loading the test data
+609	Processing the test images
+610	Understanding the Data
+611	Splitting the dataset into Logistic Regression
+612	FVC vs Weeks
+613	Listing the available files
+614	Feature Importance by Duo
+615	Importing the necessary Packages
+616	Lets look at the edges
+617	Lets look at the edges
+618	load the additional data as well
+619	Write a submission file
+620	The most difficult part of this Problem ..
+621	Load the data
+622	Checking for Null values
+623	Build the text data
+624	Evaluating the test set
+625	Reading the data
+626	Dealing with player tracking data
+627	About the data
+628	Reading the data
+629	Smoking Status Viz
+630	About the data
+631	Reading the data
+632	Shape of the data
+633	of the data
+634	Load the Image
+635	Resize High Resolution Image
+636	All stolen from
+637	Merge the data
+638	Training the model
+639	Read the dataset
+640	Load the submission
+641	Lets plot the datasets
+642	Plotting sales ditribution across departments
+643	Sales by Category
+644	Visualizing Sales by State
+645	Average Sales by Store and Department
+646	Sales by Store
+647	Save the submission file
+648	Selecting the missing values
+649	Training and Test set
+650	Preparing the training data
+651	We can see the distribution of energy aspect
+652	Understanding the Distribution of parameters
+653	I need a few more libraries
+654	Lets see the sample files
+655	Function to load data
+656	Some data augmentation
+657	Functions are defined
+658	The optimizer
+659	Preprocessing with missing values
+660	Resize Images Resizing
+661	The input files
+662	Read in the data
+663	Plotting the mean
+664	Age distribution of target
+665	Age vs SmokingStatus
+666	Evaluate the model
+667	Read the submission file
+668	This is the important part
+669	Importing all the requires libraries
+670	Extract target variable
+671	Load the data
+672	Loading all required libraries
+673	DICOM meta data
+674	Image of the predictions

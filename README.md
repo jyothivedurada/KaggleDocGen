@@ -8,103 +8,45 @@ KGTorrent Repository: https://github.com/collab-uniba/KGTorrent
 <br/>KGTorrent Documentation: https://collab-uniba.github.io/KGTorrent/docs_build/html/index.html
 <br/>KGTorrent Corpus: https://zenodo.org/record/4468523#.Y2LYG3ZBy3A
 
+### NOTE 1: Please run all the scripts from the root folder.
+### NOTE 2: Raw notebooks, processed data and model-checkpoints are avaiable in Zenodo: COMING SOON
+### NOTE 3: We have used Python 3.10 for all the experiments, please refer requirements.txt for env specs.
+
 ## Notebooks Dataset
 
-Raw notebooks, processed data with the pre-processing scripts are avaiable in this location: /home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset
+Scripts are available at: ./notebooks-dataset
 
 "notebooks_to_dataset"(v3 is the latest) converts raw notebooks to code-documentation pairs and stores in "processed_data" folder. "split_notebook_dataset" script divides the processed data in train/test/validation split.
 
 Depending on the preprocessing logic, "notebooks_to_dataset" and "split_notebook_dataset" scripts needs to be modified.
 
-## Code Documentation Model(CDM)
+## Code Documentation Model(CoDoc)
 
-CDM can ideally be any model that can perform code documnetation. For our study, we have tested with CodeBERT(https://aclanthology.org/2020.findings-emnlp.139/), GraphCodeBERT(https://openreview.net/pdf?id=jLoC4ez43PZ) and UnixCoder(https://aclanthology.org/2022.acl-long.499.pdf).
+CoDoc can ideally be any model that can perform code documnetation. For our study, we have tested with CodeBERT(https://aclanthology.org/2020.findings-emnlp.139/), GraphCodeBERT(https://openreview.net/pdf?id=jLoC4ez43PZ), UnixCoder(https://aclanthology.org/2022.acl-long.499.pdf), CodeT5 (https://aclanthology.org/2021.emnlp-main.685/), PLBART (https://arxiv.org/abs/2103.06333) and BLOOMZ (https://arxiv.org/abs/2211.01786).
 
-All the models are implemented and tested in similar fashion. "fine_tuning_script.sh" is reponsible for fine-tuning, please change the dataset file(train and validation split) and output folder locations in the script before running. Like that, "testing_script.sh" is responsible for testing the fine-tuned models.
+All the models are implemented and tested in similar fashion. "fine_tuning_script.sh" is reponsible for fine-tuning, please change the dataset file(train and validation split) and output folder locations in the script before running. Like that, "testing_script.sh" is responsible for testing the fine-tuned models. The finetuned check-points for all models and all four input representations (CM, CSM, ECSM and SCSCM) are available in Zenodo.
 
-CodeBERT Implementation: /home/cs19btech11056/cs21mtech12001-Tamal/CodeXGLUE/repository/Code-Text/code-to-text/code
-
-GraphCodeBERT Implementation: /raid/cs21mtech12001/Research/CodeBERT/Repository/GraphCodeBERT/code-summarization
-
-UnixCoder Implementation: /raid/cs21mtech12001/Research/CodeBERT/Repository/UniXcoder/downstream-tasks/code-summarization
-
-## Different Input Representations for CDM and Their Testing
-
-We use the follwing 5 different input representations which are tested using CodeBERT, GraphCodeBERT and UnixCoder. Here the only difference is in the dataset creations; trainining and testing of the model remains same(ECSM in GraphCodeBERT and Code + Comment setup need small changes in training/testing script).
-
-To apply the dataset related changes, use "notebooks_to_dataset" and "split_notebook_dataset" scripts.
-
-Processed Data Folder: /home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset/processed_data/
-<br/>Splitted Data Folder: /home/cs19btech11056/cs21mtech12001-Tamal/Notebooks_Dataset/splitted_data/
-<br/>CodeBERT Output Folder: /home/cs19btech11056/cs21mtech12001-Tamal/CodeXGLUE/output/
-
-### Code - Markdown(CM)
-
-Here the code is cleaned as usual. The basic cleaning is done for markdown texts and those are not summarized. The restrictions like only taking first sentence, no punctuation etc. that can reduce the length, we haven't applied to show th effect of raw markdown text.
-
-Processed Data: <processed data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/without_summarization/code-with-usm-only
-<br/>Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/without_summarization/code-with-usm-only-2
-<br/>CodeBERT Results: <CodeXglue folder>/output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/without_summarization/code-with-usm-only-2
-
-### Code - Summarized Markdown(CSM)
-
-Here the code is cleaned as usual. All the cleaning steps are applied for markdown texts which are also summarized.
-
-Processed Data: <processed data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/code-with-sm-only
-<br/>Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/code-with-sm-only
-<br/>CodeBERT Results: <CodeXglue folder>output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/code-with-sm-only
-
-### English Code tokens - Summarized Markdown(ECSM)
-
-Similar to CSM where in place of complete code, only english like code tokens are used as input to the model.
-
-Processed Data: Can use the data from "code-with-sm-only" folder, from which english code tokens are extracted using "split_notebook_dataset" script
-<br/>Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/english-code-tokens-with-sm
-<br/>CodeBERT Results: <CodeXglue folder>/output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/english-code-tokens-with-sm
-
-### Split Code - Summarized Comment and Markdown(SCSCM)
-
-Here summarized comment and markdowns are considered as seperate datapoints and so each code-markdown pair can produce more than one datapoints. For code-comment pairs, the immediate code after comment(till next comment) is considered.
-
-Processed Data: <processed data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/todo-18
-<br/>Splitted Data: <splitted data folder>/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/all_constraints/todo-18
-<br/>CodeBERT Results: <CodeXglue folder>/output/notebooks_output/competition_notebooks_with_atleast_1_medal_and_10_votes/with_spacy_summarization/all_constraints/todo-18
-
-NOTE 1: Check in similar file paths for the results using GraphCodeBERT and UnixCoder. 
-<br/>NOTE 2: For more details, check "Different Models" sheet in "results_and_analysis_on_notebooks_dataset.xlsx"
+CoDoc models and scripts are available at: ./codoc
 
 ## Code Segmenation Dataset
   
 Code segmentation dataset is mined from the same notebook corpus that is used for documentation. We consider that control structures in AST and comments in the code define the boundary of logical contexts. So we create +ve and -ve examples on the basis of these two constraints. The script "prepare_dataset.py" is responsible for creating the dataset and "split_dataset.py" is responsible to get the train/test/validation splits.
 
-Dataset folder: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/dataset
-<br/>Processed Data: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/dataset/processed_data/by-ast-and-comments/positives-first
-<br/>Splitted Data: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/dataset/splitted_data/by-ast-and-comments/positives-first
+The scripts are available at: ./coseg/dataset
 
-## Code Segmentation Model(CSM)
-  
-Code Segmentation Model(CSM) is a binary classification model which is a finetuned on CodeBERT using the code segmentation dataset. In terms of finetuning and testing the CSM, it is similar to CDM.
-  
-Model folder: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/model
-<br/>Saved checkpoint: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/saved_models/by-ast-and-comments/positives-first
+## Code Segmentation Model(CoSeg)
 
-## Combining CSM and CDM
+Code Segmentation Model(CoSeg) is a binary classification model which is a finetuned on CodeBERT using the code segmentation dataset. In terms of finetuning and testing the CoSeg, it is similar to CoDoc.
   
-"inference.py" script is reponsible to combine CSM and CDM to generate documentation for single code-snippet. It first uses CSM to get the individual code contexts and then generate documentation for each context using CDM (CodeBERT, UnixCoder or GraphCodeBERT).
-  
-### To use CodeBERT and UnixCoder in CDM
-  
-Inference folder: /home/cs19btech11056/cs21mtech12001-Tamal/Scripts/split_model/inference
-  
-### To use GraphCodeBERT in CDM
-  
-Inference folder: /raid/cs21mtech12001/Research/Scripts/split_model/inference
+The scripts are available at: ./coseg/model
 
-## Other Scripts (under "Scripts" folder)
+## Cell2Doc Pipeline (Combining CoSeg and CoDoc)
   
-CalculateBleuRougeBertBleurtScore.py - It is used to get different metrics(BLEU, ROUGE, BertScore and BLEURT) results for common datapoints for different experiments/models.
-<br/>Compare5Models.py - Calculate and report scores for all models together.
-<br/>Compare5ModelsByDataset.py - For a given dataset, this script test all the models and report the scores.
-<br/>ResultsOf5Models.py - This script collect generated documentations for all models and common datapoints and save those to a CSV file to compare.
-<br/>table_creation_scripts - These scripts are used to generate tables used in Cell2Doc paper.
+"inference.py" script is reponsible to combine CoSeg and CoDoc to generate documentation for single code-snippet. It first uses CoSeg to get the individual code contexts and then generate documentation for each context using CoSeg (CodeBERT, UnixCoder, GraphCodeBERT, CodeT5 and PLBART).
+
+The scripts are available at: ./coseg/inference
+
+## Contact
+
+Please feel free to contact Tamal Mondal (cs21mtech12001@iith.ac.in or tamalmondal495@gmail.com) if you have any further questions.
 

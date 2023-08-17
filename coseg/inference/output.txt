@@ -1,0 +1,31 @@
+Original Code: 
+
+['parameters = {', "    'application': 'binary',", "    'objective': 'binary',", "    'metric': 'auc',", "    'is_unbalance': 'true',", "    'boosting': 'gbdt',", "    'num_leaves': 31,", "    'feature_fraction': 0.5,", "    'bagging_fraction': 0.5,", "    'bagging_freq': 20,", "    'learning_rate': 0.05,", "    'verbose': 0", '}', 'train_data = lightgbm.Dataset(X_train, label=y_train, categorical_feature=cat_cols)', 'val_data = lightgbm.Dataset(X_val, label=y_val)', 'model = lightgbm.train(parameters,', '                       train_data,', '                       valid_sets=val_data,', '                       num_boost_round=5000,', '                       early_stopping_rounds=100)']
+
+Originally splitted Code : 
+
+[['parameters = {', "    'application': 'binary',", "    'objective': 'binary',", "    'metric': 'auc',", "    'is_unbalance': 'true',", "    'boosting': 'gbdt',", "    'num_leaves': 31,", "    'feature_fraction': 0.5,", "    'bagging_fraction': 0.5,", "    'bagging_freq': 20,", "    'learning_rate': 0.05,", "    'verbose': 0", '}'], ['train_data = lightgbm.Dataset(X_train, label=y_train, categorical_feature=cat_cols)', 'val_data = lightgbm.Dataset(X_val, label=y_val)'], ['model = lightgbm.train(parameters,', '                       train_data,', '                       valid_sets=val_data,', '                       num_boost_round=5000,', '                       early_stopping_rounds=100)']]
+
+Adjusted splits : 
+
+[['parameters = {', "    'application': 'binary',", "    'objective': 'binary',", "    'metric': 'auc',", "    'is_unbalance': 'true',", "    'boosting': 'gbdt',", "    'num_leaves': 31,", "    'feature_fraction': 0.5,", "    'bagging_fraction': 0.5,", "    'bagging_freq': 20,", "    'learning_rate': 0.05,", "    'verbose': 0", '}'], ['train_data = lightgbm.Dataset(X_train, label=y_train, categorical_feature=cat_cols)', 'val_data = lightgbm.Dataset(X_val, label=y_val)'], ['model = lightgbm.train(parameters,', '                       train_data,', '                       valid_sets=val_data,', '                       num_boost_round=5000,', '                       early_stopping_rounds=100)']]
+
+CodeBERT Documentation : 
+
+['STEP 1: Get parameters for the BBD model .', 'STEP 2: Create dataset .', 'STEP 3: Train a lightgbm model .']
+
+UnixCoder Documentation : 
+
+['STEP 1: parameters for LGBM model', 'STEP 2: Light GBM data generator', 'STEP 3: Train the model']
+
+GraphCodeBERT Documentation : 
+
+['STEP 1: define the parameters', 'STEP 2: Training the Light GBM Dataset', 'STEP 3: Train the model']
+
+CodeT5 Documentation : 
+
+['STEP 1: Create the parameters for LGBM', 'STEP 2: Create the training and validation data containers', 'STEP 3: Train the model']
+
+PLBART Documentation : 
+
+['STEP 1: First we try to identify Defect type', 'STEP 2: Create the training and validation sets', 'STEP 3: Train the model']
