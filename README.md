@@ -1,7 +1,7 @@
 # Cell2Doc - Machine Learning Pipeline for Generating Documentation in Computational Notebooks
 
 #### NOTE 1: Please run all the scripts from the root folder.
-#### NOTE 2: Raw notebooks, processed data, and model checkpoints are available in Zenodo: COMING SOON
+#### NOTE 2: Raw notebooks, processed data, and model checkpoints are available in Zenodo: https://doi.org/10.5281/zenodo.8265137
 #### NOTE 3: We have used Python 3.10 for all the experiments, please refer to requirements.txt for env specs.
 
 ## Data Collection
@@ -22,7 +22,7 @@ Depending on the preprocessing logic, "notebooks_to_dataset" and "split_notebook
 Scripts are available at: ./notebooks-dataset
 ```
 
-## Code Documentation Model(CoDoc)
+## Code Documentation Model (CoDoc)
 
 CoDoc can ideally be any model that can perform code documentation. For our study, we have tested with CodeBERT(https://aclanthology.org/2020.findings-emnlp.139/), GraphCodeBERT(https://openreview.net/pdf?id=jLoC4ez43PZ), UnixCoder(https://aclanthology.org/2022.acl-long.499.pdf), CodeT5 (https://aclanthology.org/2021.emnlp-main.685/), PLBART (https://arxiv.org/abs/2103.06333) and BLOOMZ (https://arxiv.org/abs/2211.01786).
 
@@ -40,7 +40,7 @@ The code segmentation dataset is mined from the same notebook corpus that is use
 The scripts are available at: ./coseg/dataset
 ```
 
-## Code Segmentation Model(CoSeg)
+## Code Segmentation Model (CoSeg)
 
 Code Segmentation Model(CoSeg) is a binary classification model which is finetuned on CodeBERT using the code segmentation dataset. In terms of finetuning and testing the CoSeg, it is similar to CoDoc.
 
